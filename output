@@ -8,7 +8,7 @@ t/ban-contributors.t ...... ok
 t/ban-quick-editors.t ..... ok
 t/ban.t ................... ok
 t/bbcode.t ................ ok
-# Waiting for 48s
+# Waiting for 23s
 t/big-brother.t ........... ok
 t/cache.t ................. ok
 t/calendar.t .............. ok
@@ -28,32 +28,32 @@ t/crumbs.t ................ ok
 t/css.t ................... ok
 
 #   Failed test '...=":"]/following-sibling::span[@class="page"][text()="Link_Pattern"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>URL abbreviation: <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?Link_Pattern"><span class="site">Oddmuse</span><span class="separator">:</span><span class="interpage">Link_Pattern</span></a></div>
 
 #   Failed test '...=":"]/following-sibling::span[@class="page"][text()="Link+Pattern"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>URL abbreviation with meta characters: <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?Link+Pattern"><span class="site">Oddmuse</span><span class="separator">:</span><span class="interpage">Link+Pattern</span></a></div>
 
 #   Failed test '...=":"]/following-sibling::span[@class="page"][text()="Link Pattern"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>free URL abbreviation: <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?Link%20Pattern"><span class="site">Oddmuse</span><span class="separator">:</span><span class="interpage">Link Pattern</span></a></div>
 
 #   Failed test '...=":"]/following-sibling::span[@class="page"][text()="Link+Pattern"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>free URL abbreviation with meta characters: <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?Link%2bPattern"><span class="site">Oddmuse</span><span class="separator">:</span><span class="interpage">Link+Pattern</span></a></div>
 
 #   Failed test '...=":"]/following-sibling::span[@class="page"][text()="Link_Pattern"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>URL abbreviation: <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?Link_Pattern"><span class="site">Oddmuse</span><span class="separator">:</span><span class="interpage">Link_Pattern</span></a></div>
 
 #   Failed test '...=":"]/following-sibling::span[@class="page"][text()="Link Pattern"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>free URL abbreviation: <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?Link%20Pattern"><span class="site">Oddmuse</span><span class="separator">:</span><span class="interpage">Link Pattern</span></a></div>
 # Looks like you failed 6 tests of 63.
@@ -62,22 +62,22 @@ Dubious, test returned 6 (wstat 1536, 0x600)
 Failed 6/63 subtests 
 
 #   Failed test '...][text()=":"]/following-sibling::span[@class="page"][text()="test"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div><a class="inter OddMuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?test"><span class="site">OddMuse</span><span class="separator">:</span><span class="interpage">test</span></a></div>
 
 #   Failed test '...][text()=":"]/following-sibling::span[@class="page"][text()="test"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div><a class="inter OddMuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?test"><span class="site">OddMuse</span><span class="separator">:</span><span class="interpage">test</span></a>: or not</div>
 
 #   Failed test '...][text()=":"]/following-sibling::span[@class="page"][text()="test"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div><a class="inter OddMuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?test"><span class="site">OddMuse</span><span class="separator">:</span><span class="interpage">test</span></a>, and foo</div>
 
 #   Failed test '...xt()=":"]/following-sibling::span[@class="page"][text()="ZipfsLaw"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div><a class="inter PlanetMath" href="http://planetmath.org/encyclopedia/ZipfsLaw.html"><span class="site">PlanetMath</span><span class="separator">:</span><span class="interpage">ZipfsLaw</span></a>, and foo</div>
 # Looks like you failed 4 tests of 60.
@@ -95,57 +95,14 @@ t/edit-paragraphs.t ....... ok
 t/edit.t .................. ok
 t/emailquote.t ............ ok
 t/enclosure.t ............. ok
-
-#   Failed test 'Русский'
-#   at t/test.pl line 157.
-#                   'Etag: 1439720701
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Russian</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=Russian" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Russian" href="http://localhost/wiki.pl?action=rss;rcidonly=Russian" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22Russian%22">Russian</a></h1></div><div class="wrapper"><div class="content browse"><p>Ð ÑÑÑÐºÐ¸Ð¹ Hello again</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Russian">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=Russian">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=Russian">Administration</a></div><div class="time">Last edited 2015-08-16 10:25 UTC by  <a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=Russian">(diff)</a></div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:Русский)'
-
-#   Failed test 'Русский'
-#   at t/test.pl line 157.
-#                   'Etag: 1439720701
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: All</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=All" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: All" href="http://localhost/wiki.pl?action=rss;rcidonly=All" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22All%22">All</a></h1></div><div class="wrapper"><div class="content browse"><div class="include Russian"><p>Ð ÑÑÑÐºÐ¸Ð¹ Hello again</p></div></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=All">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=All">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=All">Administration</a></div><div class="time">Last edited 2015-08-16 10:25 UTC by </div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:Русский)'
-
-#   Failed test 'Русский'
-#   at t/test.pl line 157.
-#                   'Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: All</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=All" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: All" href="http://localhost/wiki.pl?action=rss;rcidonly=All" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22All%22">All</a></h1></div><div class="wrapper"><div class="content browse"><div class="include Russian"><p>Ð ÑÑÑÐºÐ¸Ð¹ Hello again</p></div></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=All">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=All">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=All">Administration</a></div><div class="time">Last edited 2015-08-16 10:25 UTC by </div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:Русский)'
-# Looks like you failed 3 tests of 41.
-t/encoding.t .............. 
-Dubious, test returned 3 (wstat 768, 0x300)
-Failed 3/41 subtests 
+t/encoding.t .............. ok
 t/fieldlist.t ............. ok
 t/find.t .................. ok
 t/fix-encoding.t .......... ok
 t/footer.t ................ ok
 t/git.t ................... ok
 t/google-custom-search.t .. ok
+t/google-plus-one.t ....... ok
 t/google-search.t ......... ok
 t/gotobar.t ............... ok
 t/gravatar.t .............. ok
@@ -155,31 +112,31 @@ t/hr.t .................... ok
 t/htmlcomment.t ........... ok
 t/image.t ................. ok
 t/include.t ............... ok
-t/indexed-search.t ........ ok
 t/irc.t ................... ok
 t/journal-rss.t ........... ok
 t/journal.t ............... ok
 t/journal2.t .............. ok
 t/journal3.t .............. ok
 t/languages.t ............. ok
+t/like.t .................. ok
 t/link-all.t .............. ok
 
 #   Failed test '..."][text()=":"]/following-sibling::span[@class="page"][text()="foo"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Full Link List</title><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="NOINDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Full Link List</title><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="NOINDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
 # <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1>Full Link List</h1></div><div class="wrapper"><p><a class="local" href="http://localhost/wiki.pl/a">a</a>: <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?bar"><span class="site">Oddmuse</span><span class="separator">:</span><span class="interpage">bar</span></a> <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?baz"><span class="site">Oddmuse</span><span class="separator">:</span><span class="interpage">baz</span></a> <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?baz">text</a> <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?foo (baz)"><span class="site">Oddmuse</span><span class="separator">:</span><span class="interpage">foo (baz)</span></a> <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?foo (quux)">text</a> <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?foo"><span class="site">Oddmuse</span><span class="separator">:</span><span class="interpage">foo</span></a> <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?foo_(bar)"><span class="site">Oddmuse</span><span class="separator">:</span><span class="interpage">foo_(bar)</span></a></p><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin">Administration</a></div></div>
 # </body>
 # </html>
 
 #   Failed test '..."][text()=":"]/following-sibling::span[@class="page"][text()="bar"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 
 #   Failed test '..."][text()=":"]/following-sibling::span[@class="page"][text()="baz"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 
 #   Failed test '...t()=":"]/following-sibling::span[@class="page"][text()="foo_(bar)"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # Looks like you failed 4 tests of 55.
 t/links.t ................. 
 Dubious, test returned 4 (wstat 1024, 0x400)
@@ -203,24 +160,25 @@ t/moin.t .................. ok
 t/multi-url-spam-block.t .. ok
 
 #   Failed test '...text()="Ford"]/following-sibling::span[@class="page"][text()="Goo"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki Muu: Mu</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl/Muu?action=edit;id=Mu" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu" href="http://localhost/wiki.pl/Muu?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu: Mu" href="http://localhost/wiki.pl/Muu?action=rss;rcidonly=Mu" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl/Muu"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/Muu/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/Muu/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl/Muu" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>Too many redirections</p><p>(redirected from <a class="edit" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Mu">Main:Mu</a>)</p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?search=%22Mu%22">Mu</a></h1></div><div class="wrapper"><div class="content browse"><p>#REDIRECT <a class="inter Ford" href="http://localhost/wiki.pl/Ford/Goo"><span class="site">Ford</span><span class="separator">:</span><span class="interpage">Goo</span></a></p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=edit;id=Mu">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=history;id=Mu">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=admin;id=Mu">Administration</a></div><div class="time">Last edited 2015-08-16 10:28 UTC by </div></div>
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki Muu: Mu</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl/Muu?action=edit;id=Mu" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu" href="http://localhost/wiki.pl/Muu?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu: Mu" href="http://localhost/wiki.pl/Muu?action=rss;rcidonly=Mu" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/Muu/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/Muu/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl/Muu" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>Too many redirections</p><p>(redirected from <a class="edit" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Mu">Main:Mu</a>)</p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?search=%22Mu%22">Mu</a></h1></div><div class="wrapper"><div class="content browse"><p>#REDIRECT <a class="inter Ford" href="http://localhost/wiki.pl/Ford/Goo"><span class="site">Ford</span><span class="separator">:</span><span class="interpage">Goo</span></a></p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=edit;id=Mu">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=history;id=Mu">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=admin;id=Mu">Administration</a></div><div class="time">Last edited 2015-08-16 10:35 UTC by </div></div>
 # </body>
 # </html>
 # Looks like you failed 1 test of 77.
 t/namespaces.t ............ 
 Dubious, test returned 1 (wstat 256, 0x100)
 Failed 1/77 subtests 
-t/near.t .................. ok
+t/near-links.t ............ ok
 t/org-mode.t .............. ok
 t/page-trail.t ............ ok
 t/pagenames.t ............. ok
 t/password.t .............. ok
 t/permanent-anchors.t ..... ok
-t/portrait.t .............. ok
+t/portrait-support.t ...... ok
 t/private-pages.t ......... ok
+t/private-wiki.t .......... ok
 t/questionasker.t ......... ok
 t/questionmark.t .......... ok
 t/raw.t ................... ok
@@ -243,7 +201,7 @@ t/simple-rules.t .......... ok
 t/sitemap.t ............... ok
 t/static-copy.t ........... ok
 t/strange-spam.t .......... ok
-t/subscribe.t ............. ok
+t/subscriberc.t ........... ok
 t/summary.t ............... ok
 t/surge-protection.t ...... ok
 t/tables-long.t ........... ok
@@ -268,15 +226,12 @@ t/default-links.t       (Wstat: 1536 Tests: 63 Failed: 6)
 t/default-markup.t      (Wstat: 1024 Tests: 60 Failed: 4)
   Failed tests:  30-33
   Non-zero exit status: 4
-t/encoding.t            (Wstat: 768 Tests: 41 Failed: 3)
-  Failed tests:  36-37, 39
-  Non-zero exit status: 3
 t/links.t               (Wstat: 1024 Tests: 55 Failed: 4)
   Failed tests:  19-22
   Non-zero exit status: 4
 t/namespaces.t          (Wstat: 256 Tests: 77 Failed: 1)
   Failed test:  29
   Non-zero exit status: 1
-Files=125, Tests=2805, 444 wallclock secs ( 0.91 usr  0.26 sys + 184.33 cusr 20.21 csys = 205.71 CPU)
+Files=127, Tests=2749, 407 wallclock secs ( 0.93 usr  0.24 sys + 188.95 cusr 20.55 csys = 210.67 CPU)
 Result: FAIL
 make: *** [test] Error 1
