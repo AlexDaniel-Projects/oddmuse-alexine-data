@@ -5,51 +5,7 @@ t/ampersand.t ............. ok
 t/anchors.t ............... ok
 t/atom.t .................. ok
 t/ban-contributors.t ...... ok
-[Sun Aug 16 22:09:55 2015] ban-quick-editors.t: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
-[Sun Aug 16 22:09:55 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
-[Sun Aug 16 22:09:55 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
-[Sun Aug 16 22:09:55 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
-
-#   Failed test 'This page does not exist'
-#   at t/test.pl line 169.
-#                   'Etag: 1439755795
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Test</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=Test" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Test" href="http://localhost/wiki.pl?action=rss;rcidonly=Test" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>test-data/modules/ban-quick-editors.pl: Global symbol "$q" requires explicit package name at test-data/modules/ban-quick-editors.pl line 32.
-# </p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22Test%22">Test</a></h1></div><div class="wrapper"><div class="content browse"><p>cannot edit</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Test">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=Test">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=Test">Administration</a></div><div class="time">Last edited 2015-08-16 20:09 UTC by 127.0.0.1</div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:This page does not exist)'
-
-#   Failed test 'Editing not allowed'
-#   at t/test.pl line 169.
-#                   'Status: 302 Found
-# Set-Cookie: Wiki=pwd%251ewrong; path=/; expires=Tue, 15-Aug-2017 20:09:55 GMT
-# Date: Sun, 16 Aug 2015 20:09:55 GMT
-# Location: http://localhost/wiki.pl/Test
-# 
-# '
-#     doesn't match '(?-xism:Editing not allowed)'
-
-#   Failed test 'fast editing spam bot'
-#   at t/test.pl line 169.
-#                   'Status: 302 Found
-# Set-Cookie: Wiki=pwd%251ewrong; path=/; expires=Tue, 15-Aug-2017 20:09:55 GMT
-# Date: Sun, 16 Aug 2015 20:09:55 GMT
-# Location: http://localhost/wiki.pl/Test
-# 
-# '
-#     doesn't match '(?-xism:fast editing spam bot)'
-[Sun Aug 16 22:10:00 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
-[Sun Aug 16 22:10:00 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
-# Looks like you failed 3 tests of 4.
-t/ban-quick-editors.t ..... 
-Dubious, test returned 3 (wstat 768, 0x300)
-Failed 3/4 subtests 
+t/ban-quick-editors.t ..... ok
 t/ban.t ................... ok
 t/bbcode.t ................ ok
 # Waiting for 23s
@@ -114,8 +70,6 @@ t/localnames.t ............ ok
 t/lock-expiration.t ....... ok
 t/lock-on-creation.t ...... ok
 t/lock.t .................. ok
-[Sun Aug 16 22:14:37 2015] logbannedcontent.t: Variable "$q" is not imported at test-data/modules/logbannedcontent.pl line 50.
-[Sun Aug 16 22:14:38 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/logbannedcontent.pl line 50.
 t/logbannedcontent.t ...... ok
 t/macros.t ................ ok
 t/mail.t .................. ok
@@ -126,7 +80,7 @@ t/markup-and-creole.t ..... ok
 t/markup.t ................ ok
 t/merge.t ................. ok
 t/meta-data.t ............. ok
-[Sun Aug 16 22:14:53 2015] meta.t: Cannot decode string with wide characters at /usr/lib64/perl5/Encode.pm line 174.
+[Sun Aug 16 22:21:42 2015] meta.t: Cannot decode string with wide characters at /usr/lib64/perl5/Encode.pm line 174.
 # Looks like you planned 11 tests but ran 3.
 # Looks like your test exited with 255 just after 3.
 t/meta.t .................. 
@@ -187,12 +141,9 @@ t/weblog-3.t .............. ok
 
 Test Summary Report
 -------------------
-t/ban-quick-editors.t   (Wstat: 768 Tests: 4 Failed: 3)
-  Failed tests:  1-3
-  Non-zero exit status: 3
 t/meta.t                (Wstat: 65280 Tests: 3 Failed: 0)
   Non-zero exit status: 255
   Parse errors: Bad plan.  You planned 11 tests but ran 3.
-Files=129, Tests=2778, 408 wallclock secs ( 0.94 usr  0.24 sys + 190.15 cusr 20.65 csys = 211.98 CPU)
+Files=129, Tests=2778, 409 wallclock secs ( 0.93 usr  0.26 sys + 190.25 cusr 20.86 csys = 212.30 CPU)
 Result: FAIL
 make: *** [test] Error 1
