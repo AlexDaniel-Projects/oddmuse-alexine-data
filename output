@@ -8,7 +8,7 @@ t/ban-contributors.t ...... ok
 t/ban-quick-editors.t ..... ok
 t/ban.t ................... ok
 t/bbcode.t ................ ok
-# Waiting for 23s
+# Waiting for 22s
 t/big-brother.t ........... ok
 t/cache.t ................. ok
 t/calendar.t .............. ok
@@ -42,15 +42,39 @@ t/enclosure.t ............. ok
 
 #   Failed test 'Русский'
 #   at t/test.pl line 169.
-#                   'Etag: 1439755081
+#                   'Etag: 1439755489
 # Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
+# Content-Type: application/xml; charset=utf-8
 # 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: All</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=All" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: All" href="http://localhost/wiki.pl?action=rss;rcidonly=All" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22All%22">All</a></h1></div><div class="wrapper"><div class="content browse"><div class="include Russian"><p>Ð ÑÑÑÐºÐ¸Ð¹ Hello again</p></div></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=All">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=All">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=All">Administration</a></div><div class="time">Last edited 2015-08-16 19:58 UTC by </div></div>
-# </body>
-# </html>
+# <?xml version="1.0" encoding="UTF-8"?>
+# <rss version="2.0"
+#     xmlns:wiki="http://purl.org/rss/1.0/modules/wiki/"
+#     xmlns:dc="http://purl.org/dc/elements/1.1/"
+#     xmlns:cc="http://web.resource.org/cc/"
+#     xmlns:atom="http://www.w3.org/2005/Atom">
+# <channel>
+# <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+# <title>Wiki: HomePage</title>
+# <link>http://localhost/wiki.pl/HomePage</link>
+# <atom:link href="http://localhost/wiki.pl?action=rss;match=Russian;full=1" rel="self" type="application/rss+xml" />
+# <pubDate>Sun, 16 Aug 2015 20:04:49 GMT</pubDate>
+# <lastBuildDate>Sun, 16 Aug 2015 20:04:49 GMT</lastBuildDate>
+# <generator>Oddmuse</generator>
+# 
+# <item>
+# <title>Russian</title>
+# <link>http://localhost/wiki.pl/Russian</link>
+# <guid>http://localhost/wiki.pl/Russian</guid>
+# <description>&lt;p&gt;Ð ÑÑÑÐºÐ¸Ð¹ Hello&lt;/p&gt;</description>
+# <pubDate>Sun, 16 Aug 2015 20:04:49 GMT</pubDate>
+# <wiki:status>new</wiki:status>
+# <wiki:importance>major</wiki:importance>
+# <wiki:version>1</wiki:version>
+# <wiki:history>http://localhost/wiki.pl?action=history;id=Russian</wiki:history>
+# <wiki:diff>http://localhost/wiki.pl?action=browse;diff=1;id=Russian</wiki:diff>
+# </item>
+# </channel>
+# </rss>
 # '
 #     doesn't match '(?-xism:Русский)'
 # Looks like you failed 1 test of 41.
@@ -97,7 +121,7 @@ t/markup-and-creole.t ..... ok
 t/markup.t ................ ok
 t/merge.t ................. ok
 t/meta-data.t ............. ok
-[Sun Aug 16 22:01:15 2015] meta.t: Cannot decode string with wide characters at /usr/lib64/perl5/Encode.pm line 174.
+[Sun Aug 16 22:08:04 2015] meta.t: Cannot decode string with wide characters at /usr/lib64/perl5/Encode.pm line 174.
 # Looks like you planned 11 tests but ran 3.
 # Looks like your test exited with 255 just after 3.
 t/meta.t .................. 
@@ -159,11 +183,11 @@ t/weblog-3.t .............. ok
 Test Summary Report
 -------------------
 t/encoding.t            (Wstat: 256 Tests: 41 Failed: 1)
-  Failed test:  37
+  Failed test:  35
   Non-zero exit status: 1
 t/meta.t                (Wstat: 65280 Tests: 3 Failed: 0)
   Non-zero exit status: 255
   Parse errors: Bad plan.  You planned 11 tests but ran 3.
-Files=129, Tests=2778, 409 wallclock secs ( 0.93 usr  0.27 sys + 190.28 cusr 20.86 csys = 212.34 CPU)
+Files=129, Tests=2778, 407 wallclock secs ( 0.92 usr  0.28 sys + 189.92 cusr 20.88 csys = 212.00 CPU)
 Result: FAIL
 make: *** [test] Error 1
