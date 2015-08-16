@@ -8,7 +8,7 @@ t/ban-contributors.t ...... ok
 t/ban-quick-editors.t ..... ok
 t/ban.t ................... ok
 t/bbcode.t ................ ok
-# Waiting for 23s
+# Waiting for 22s
 t/big-brother.t ........... ok
 t/cache.t ................. ok
 t/calendar.t .............. ok
@@ -80,7 +80,7 @@ t/markup-and-creole.t ..... ok
 t/markup.t ................ ok
 t/merge.t ................. ok
 t/meta-data.t ............. ok
-[Sun Aug 16 22:21:42 2015] meta.t: Cannot decode string with wide characters at /usr/lib64/perl5/Encode.pm line 174.
+[Sun Aug 16 22:28:31 2015] meta.t: Cannot decode string with wide characters at /usr/lib64/perl5/Encode.pm line 174.
 # Looks like you planned 11 tests but ran 3.
 # Looks like your test exited with 255 just after 3.
 t/meta.t .................. 
@@ -144,6 +144,6 @@ Test Summary Report
 t/meta.t                (Wstat: 65280 Tests: 3 Failed: 0)
   Non-zero exit status: 255
   Parse errors: Bad plan.  You planned 11 tests but ran 3.
-Files=129, Tests=2778, 409 wallclock secs ( 0.93 usr  0.26 sys + 190.25 cusr 20.86 csys = 212.30 CPU)
+Files=129, Tests=2778, 408 wallclock secs ( 0.94 usr  0.25 sys + 190.31 cusr 20.84 csys = 212.34 CPU)
 Result: FAIL
 make: *** [test] Error 1
