@@ -5,21 +5,21 @@ t/ampersand.t ............. ok
 t/anchors.t ............... ok
 t/atom.t .................. ok
 t/ban-contributors.t ...... ok
-[Sun Aug 16 23:45:31 2015] ban-quick-editors.t: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
-[Sun Aug 16 23:45:31 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
-[Sun Aug 16 23:45:31 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
-[Sun Aug 16 23:45:31 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
+[Sun Aug 16 23:52:21 2015] ban-quick-editors.t: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
+[Sun Aug 16 23:52:21 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
+[Sun Aug 16 23:52:21 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
+[Sun Aug 16 23:52:21 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
 
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
-#                   'Etag: 1439761531
+#                   'Etag: 1439761941
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
 # <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 # <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Test</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=Test" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Test" href="http://localhost/wiki.pl?action=rss;rcidonly=Test" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
 # <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>test-data/modules/ban-quick-editors.pl: Global symbol "$q" requires explicit package name at test-data/modules/ban-quick-editors.pl line 32.
-# </p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22Test%22">Test</a></h1></div><div class="wrapper"><div class="content browse"><p>cannot edit</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Test">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=Test">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=Test">Administration</a></div><div class="time">Last edited 2015-08-16 21:45 UTC by 127.0.0.1</div></div>
+# </p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22Test%22">Test</a></h1></div><div class="wrapper"><div class="content browse"><p>cannot edit</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Test">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=Test">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=Test">Administration</a></div><div class="time">Last edited 2015-08-16 21:52 UTC by 127.0.0.1</div></div>
 # </body>
 # </html>
 # '
@@ -28,8 +28,8 @@ t/ban-contributors.t ...... ok
 #   Failed test 'Editing not allowed'
 #   at t/test.pl line 169.
 #                   'Status: 302 Found
-# Set-Cookie: Wiki=pwd%251ewrong; path=/; expires=Tue, 15-Aug-2017 21:45:31 GMT; HttpOnly
-# Date: Sun, 16 Aug 2015 21:45:31 GMT
+# Set-Cookie: Wiki=pwd%251ewrong; path=/; expires=Tue, 15-Aug-2017 21:52:21 GMT; HttpOnly
+# Date: Sun, 16 Aug 2015 21:52:21 GMT
 # Location: http://localhost/wiki.pl/Test
 # 
 # '
@@ -38,14 +38,14 @@ t/ban-contributors.t ...... ok
 #   Failed test 'fast editing spam bot'
 #   at t/test.pl line 169.
 #                   'Status: 302 Found
-# Set-Cookie: Wiki=pwd%251ewrong; path=/; expires=Tue, 15-Aug-2017 21:45:31 GMT; HttpOnly
-# Date: Sun, 16 Aug 2015 21:45:31 GMT
+# Set-Cookie: Wiki=pwd%251ewrong; path=/; expires=Tue, 15-Aug-2017 21:52:21 GMT; HttpOnly
+# Date: Sun, 16 Aug 2015 21:52:21 GMT
 # Location: http://localhost/wiki.pl/Test
 # 
 # '
 #     doesn't match '(?-xism:fast editing spam bot)'
-[Sun Aug 16 23:45:37 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
-[Sun Aug 16 23:45:37 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
+[Sun Aug 16 23:52:26 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
+[Sun Aug 16 23:52:27 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
 # Looks like you failed 3 tests of 4.
 t/ban-quick-editors.t ..... 
 Dubious, test returned 3 (wstat 768, 0x300)
@@ -114,8 +114,8 @@ t/localnames.t ............ ok
 t/lock-expiration.t ....... ok
 t/lock-on-creation.t ...... ok
 t/lock.t .................. ok
-[Sun Aug 16 23:50:14 2015] logbannedcontent.t: Variable "$q" is not imported at test-data/modules/logbannedcontent.pl line 50.
-[Sun Aug 16 23:50:14 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/logbannedcontent.pl line 50.
+[Sun Aug 16 23:57:03 2015] logbannedcontent.t: Variable "$q" is not imported at test-data/modules/logbannedcontent.pl line 50.
+[Sun Aug 16 23:57:03 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/logbannedcontent.pl line 50.
 t/logbannedcontent.t ...... ok
 t/macros.t ................ ok
 t/mail.t .................. ok
@@ -126,7 +126,7 @@ t/markup-and-creole.t ..... ok
 t/markup.t ................ ok
 t/merge.t ................. ok
 t/meta-data.t ............. ok
-[Sun Aug 16 23:50:29 2015] meta.t: Cannot decode string with wide characters at /usr/lib64/perl5/Encode.pm line 174.
+[Sun Aug 16 23:57:19 2015] meta.t: Cannot decode string with wide characters at /usr/lib64/perl5/Encode.pm line 174.
 # Looks like you planned 11 tests but ran 3.
 # Looks like your test exited with 255 just after 3.
 t/meta.t .................. 
@@ -160,7 +160,7 @@ t/rollback.t .............. ok
 
 #   Failed test '<description>&lt;mu&gt;</description>'
 #   at t/test.pl line 169.
-#                   'Etag: 1439761882
+#                   'Etag: 1439762291
 # Cache-control: max-age=10
 # Content-Type: application/xml; charset=utf-8
 # 
@@ -175,8 +175,8 @@ t/rollback.t .............. ok
 # <title>Wiki: HomePage</title>
 # <link>http://localhost/wiki.pl/HomePage</link>
 # <atom:link href="http://localhost/wiki.pl?action=rss" rel="self" type="application/rss+xml" />
-# <pubDate>Sun, 16 Aug 2015 21:51:22 GMT</pubDate>
-# <lastBuildDate>Sun, 16 Aug 2015 21:51:22 GMT</lastBuildDate>
+# <pubDate>Sun, 16 Aug 2015 21:58:11 GMT</pubDate>
+# <lastBuildDate>Sun, 16 Aug 2015 21:58:11 GMT</lastBuildDate>
 # <generator>Oddmuse</generator>
 # 
 # <item>
@@ -184,7 +184,7 @@ t/rollback.t .............. ok
 # <link>http://localhost/wiki.pl/big</link>
 # <guid>http://localhost/wiki.pl/big</guid>
 # <description>&amp;lt;mu&amp;gt;</description>
-# <pubDate>Sun, 16 Aug 2015 21:51:22 GMT</pubDate>
+# <pubDate>Sun, 16 Aug 2015 21:58:11 GMT</pubDate>
 # <comments>http://localhost/wiki.pl/Comments_on_big</comments>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>updated</wiki:status>
@@ -199,7 +199,7 @@ t/rollback.t .............. ok
 # <link>http://localhost/wiki.pl/Comments_on_2008-08-07_New_Hope</link>
 # <guid>http://localhost/wiki.pl/Comments_on_2008-08-07_New_Hope</guid>
 # <description>testing</description>
-# <pubDate>Sun, 16 Aug 2015 21:51:22 GMT</pubDate>
+# <pubDate>Sun, 16 Aug 2015 21:58:11 GMT</pubDate>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
 # <wiki:importance>major</wiki:importance>
@@ -213,7 +213,7 @@ t/rollback.t .............. ok
 # <link>http://localhost/wiki.pl/2008-08-07_12h50_Forget_It</link>
 # <guid>http://localhost/wiki.pl/2008-08-07_12h50_Forget_It</guid>
 # <description>testing</description>
-# <pubDate>Sun, 16 Aug 2015 21:51:21 GMT</pubDate>
+# <pubDate>Sun, 16 Aug 2015 21:58:11 GMT</pubDate>
 # <comments>http://localhost/wiki.pl/Comments_on_2008-08-07_12h50_Forget_It</comments>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
@@ -228,7 +228,7 @@ t/rollback.t .............. ok
 # <link>http://localhost/wiki.pl/2008-08-08</link>
 # <guid>http://localhost/wiki.pl/2008-08-08</guid>
 # <description>testing</description>
-# <pubDate>Sun, 16 Aug 2015 21:51:21 GMT</pubDate>
+# <pubDate>Sun, 16 Aug 2015 21:58:10 GMT</pubDate>
 # <comments>http://localhost/wiki.pl/Comments_on_2008-08-08</comments>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
@@ -243,7 +243,7 @@ t/rollback.t .............. ok
 # <link>http://localhost/wiki.pl/2008-08-07_New_Hope</link>
 # <guid>http://localhost/wiki.pl/2008-08-07_New_Hope</guid>
 # <description>testing</description>
-# <pubDate>Sun, 16 Aug 2015 21:51:21 GMT</pubDate>
+# <pubDate>Sun, 16 Aug 2015 21:58:10 GMT</pubDate>
 # <comments>http://localhost/wiki.pl/Comments_on_2008-08-07_New_Hope</comments>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
@@ -275,7 +275,7 @@ t/subscriberc.t ........... ok
 
 #   Failed test 'is &gt;&gt;free&lt;&lt; software'
 #   at t/test.pl line 169.
-#                   'Etag: 1439761903
+#                   'Etag: 1439762313
 # Cache-control: max-age=10
 # Content-Type: application/xml; charset=utf-8
 # 
@@ -290,8 +290,8 @@ t/subscriberc.t ........... ok
 # <title>Wiki: HomePage</title>
 # <link>http://localhost/wiki.pl/HomePage</link>
 # <atom:link href="http://localhost/wiki.pl?action=rss" rel="self" type="application/rss+xml" />
-# <pubDate>Sun, 16 Aug 2015 21:51:43 GMT</pubDate>
-# <lastBuildDate>Sun, 16 Aug 2015 21:51:43 GMT</lastBuildDate>
+# <pubDate>Sun, 16 Aug 2015 21:58:33 GMT</pubDate>
+# <lastBuildDate>Sun, 16 Aug 2015 21:58:33 GMT</lastBuildDate>
 # <generator>Oddmuse</generator>
 # 
 # <item>
@@ -299,7 +299,7 @@ t/subscriberc.t ........... ok
 # <link>http://localhost/wiki.pl/long</link>
 # <guid>http://localhost/wiki.pl/long</guid>
 # <description>This program is &amp;gt;&amp;gt;free&amp;lt;&amp;lt; software; you can redistribute it and/or modify it under the terms of the GNU General Public License as . . .</description>
-# <pubDate>Sun, 16 Aug 2015 21:51:43 GMT</pubDate>
+# <pubDate>Sun, 16 Aug 2015 21:58:33 GMT</pubDate>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
 # <wiki:importance>major</wiki:importance>
@@ -313,7 +313,7 @@ t/subscriberc.t ........... ok
 # <link>http://localhost/wiki.pl/link</link>
 # <guid>http://localhost/wiki.pl/link</guid>
 # <description>some content</description>
-# <pubDate>Sun, 16 Aug 2015 21:51:43 GMT</pubDate>
+# <pubDate>Sun, 16 Aug 2015 21:58:32 GMT</pubDate>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
 # <wiki:importance>major</wiki:importance>
@@ -332,7 +332,100 @@ Failed 1/11 subtests
 t/surge-protection.t ...... ok
 t/tables-long.t ........... ok
 t/tables.t ................ ok
-t/tags.t .................. ok
+
+#   Failed test 'not Brilliant'
+#   at t/test.pl line 189.
+#                   'Etag: 1439762321
+# Cache-control: max-age=10
+# Content-Type: text/plain; charset=utf-8
+# 
+# title: Search for: -tag:mag
+# date: 2015-08-16 21:58 UTC
+# link: http://localhost?search=-tag%3Amag;raw=1;action=search
+# 
+# title: Alex
+# description: not a podcast . . .
+# size: 1K
+# last-modified: 2015-08-16 21:58 UTC
+# generator: 127.0.0.1
+# host: 127.0.0.1
+# link: http://localhost/wiki.pl?Alex
+# 
+# title: Brilliant
+# description: Gameologists [[tag:podcast]] [[tag:mag]] . . .
+# size: 1K
+# last-modified: 2015-08-16 21:58 UTC
+# generator: 127.0.0.1
+# host: 127.0.0.1
+# link: http://localhost/wiki.pl?Brilliant
+# 
+# title: Jeff
+# description: a blog [[tag:Old School]] . . .
+# size: 1K
+# last-modified: 2015-08-16 21:58 UTC
+# generator: 127.0.0.1
+# host: 127.0.0.1
+# link: http://localhost/wiki.pl?Jeff
+# 
+# title: Pödgecäst´s
+# description: Another [[tag:podcast]] . . .
+# size: 1K
+# last-modified: 2015-08-16 21:58 UTC
+# generator: 127.0.0.1
+# host: 127.0.0.1
+# link: http://localhost/wiki.pl?Pödgecäst´s
+# 
+# title: Sons
+# description: of Kryos [[tag:Podcast]] . . .
+# size: 1K
+# last-modified: 2015-08-16 21:58 UTC
+# generator: 127.0.0.1
+# host: 127.0.0.1
+# link: http://localhost/wiki.pl?Sons
+# 
+# '
+#           matches '(?-xism:Brilliant)'
+
+#   Failed test 'not Brilliant'
+#   at t/test.pl line 189.
+#                   'Etag: 1439762321
+# Cache-control: max-age=10
+# Content-Type: text/plain; charset=utf-8
+# 
+# title: Search for: tag:podcast -tag:mag
+# date: 2015-08-16 21:58 UTC
+# link: http://localhost?search=tag%3Apodcast%20-tag%3Amag;raw=1;action=search
+# 
+# title: Brilliant
+# description: Gameologists [[tag:podcast]] [[tag:mag]] . . .
+# size: 1K
+# last-modified: 2015-08-16 21:58 UTC
+# generator: 127.0.0.1
+# host: 127.0.0.1
+# link: http://localhost/wiki.pl?Brilliant
+# 
+# title: Pödgecäst´s
+# description: Another [[tag:podcast]] . . .
+# size: 1K
+# last-modified: 2015-08-16 21:58 UTC
+# generator: 127.0.0.1
+# host: 127.0.0.1
+# link: http://localhost/wiki.pl?Pödgecäst´s
+# 
+# title: Sons
+# description: of Kryos [[tag:Podcast]] . . .
+# size: 1K
+# last-modified: 2015-08-16 21:58 UTC
+# generator: 127.0.0.1
+# host: 127.0.0.1
+# link: http://localhost/wiki.pl?Sons
+# 
+# '
+#           matches '(?-xism:Brilliant)'
+# Looks like you failed 2 tests of 70.
+t/tags.t .................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 2/70 subtests 
 t/tex.t ................... ok
 t/toc.t ................... ok
 t/translation-links.t ..... ok
@@ -359,6 +452,9 @@ t/rss.t                 (Wstat: 256 Tests: 126 Failed: 1)
 t/summary.t             (Wstat: 256 Tests: 11 Failed: 1)
   Failed test:  6
   Non-zero exit status: 1
-Files=130, Tests=2781, 409 wallclock secs ( 0.93 usr  0.26 sys + 190.80 cusr 20.57 csys = 212.56 CPU)
+t/tags.t                (Wstat: 512 Tests: 70 Failed: 2)
+  Failed tests:  34, 37
+  Non-zero exit status: 2
+Files=130, Tests=2782, 410 wallclock secs ( 0.96 usr  0.26 sys + 190.16 cusr 20.80 csys = 212.18 CPU)
 Result: FAIL
 make: *** [test] Error 1
