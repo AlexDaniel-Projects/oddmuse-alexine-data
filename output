@@ -9,7 +9,7 @@ t/ban-contributors.t ...... ok
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439743891
+# Etag: 1439744300
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -28,7 +28,7 @@ Failed 1/4 subtests
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439743896
+# Etag: 1439744305
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -43,7 +43,7 @@ Failed 1/4 subtests
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439743897
+# Etag: 1439744305
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -58,7 +58,7 @@ Failed 1/4 subtests
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439743898
+# Etag: 1439744306
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -73,7 +73,7 @@ Failed 1/4 subtests
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439743900
+# Etag: 1439744309
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -89,7 +89,7 @@ t/ban.t ...................
 Dubious, test returned 4 (wstat 1024, 0x400)
 Failed 4/27 subtests 
 t/bbcode.t ................ ok
-# Waiting for 22s
+# Waiting for 23s
 t/big-brother.t ........... ok
 t/cache.t ................. ok
 t/calendar.t .............. ok
@@ -108,8 +108,8 @@ t/creoleaddition.t ........ ok
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439743966
-# Last-modified: Sun, 16 Aug 2015 16:52:46 GMT
+# Etag: 1439744375
+# Last-modified: Sun, 16 Aug 2015 16:59:36 GMT
 # Cache-control: max-age=10
 # Content-Type: text/plain; charset=utf-8
 # 
@@ -130,7 +130,7 @@ t/dotfiles.t .............. ok
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439743979
+# Etag: 1439744389
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -152,24 +152,7 @@ t/edit-paragraphs.t ....... ok
 t/edit.t .................. ok
 t/emailquote.t ............ ok
 t/enclosure.t ............. ok
-
-#   Failed test 'Русский'
-#   at t/test.pl line 169.
-#                   'Etag: 1439743993
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: All</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=All" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: All" href="http://localhost/wiki.pl?action=rss;rcidonly=All" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22All%22">All</a></h1></div><div class="wrapper"><div class="content browse"><div class="include Russian"><p>Ð ÑÑÑÐºÐ¸Ð¹ Hello again</p></div></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=All">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=All">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=All">Administration</a></div><div class="time">Last edited 2015-08-16 16:53 UTC by </div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:Русский)'
-# Looks like you failed 1 test of 41.
-t/encoding.t .............. 
-Dubious, test returned 1 (wstat 256, 0x100)
-Failed 1/41 subtests 
+t/encoding.t .............. ok
 t/fieldlist.t ............. ok
 t/find.t .................. ok
 t/fix-encoding.t .......... ok
@@ -196,7 +179,7 @@ t/languages.t ............. ok
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744029
+# Etag: 1439744438
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -211,7 +194,7 @@ t/languages.t ............. ok
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744029
+# Etag: 1439744439
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -235,7 +218,7 @@ t/lock-expiration.t ....... ok
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744110
+# Etag: 1439744520
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -254,7 +237,7 @@ Failed 1/18 subtests
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744112
+# Etag: 1439744522
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -269,7 +252,7 @@ Failed 1/18 subtests
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744142
+# Etag: 1439744552
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -344,7 +327,7 @@ t/static-copy.t ........... ok
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744260
+# Etag: 1439744670
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -375,7 +358,7 @@ t/upgrade.t ............... ok
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744283
+# Etag: 1439744693
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -390,7 +373,7 @@ t/upgrade.t ............... ok
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744283
+# Etag: 1439744693
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -405,7 +388,7 @@ t/upgrade.t ............... ok
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744284
+# Etag: 1439744693
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -449,9 +432,6 @@ t/crossbar.t            (Wstat: 256 Tests: 22 Failed: 1)
 t/download.t            (Wstat: 256 Tests: 13 Failed: 1)
   Failed test:  7
   Non-zero exit status: 1
-t/encoding.t            (Wstat: 256 Tests: 41 Failed: 1)
-  Failed test:  37
-  Non-zero exit status: 1
 t/like.t                (Wstat: 512 Tests: 17 Failed: 2)
   Failed tests:  1, 3
   Non-zero exit status: 2
@@ -473,6 +453,6 @@ t/upload.t              (Wstat: 768 Tests: 12 Failed: 3)
 t/weblog-3.t            (Wstat: 256 Tests: 45 Failed: 1)
   Failed test:  43
   Non-zero exit status: 1
-Files=128, Tests=2775, 408 wallclock secs ( 0.93 usr  0.27 sys + 190.27 cusr 20.88 csys = 212.35 CPU)
+Files=128, Tests=2775, 409 wallclock secs ( 0.95 usr  0.24 sys + 190.28 cusr 20.92 csys = 212.39 CPU)
 Result: FAIL
 make: *** [test] Error 1
