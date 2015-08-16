@@ -9,7 +9,7 @@ t/ban-contributors.t ...... ok
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744300
+# Etag: 1439744709
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -28,7 +28,7 @@ Failed 1/4 subtests
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744305
+# Etag: 1439744715
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -43,7 +43,7 @@ Failed 1/4 subtests
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744305
+# Etag: 1439744715
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -58,7 +58,7 @@ Failed 1/4 subtests
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744306
+# Etag: 1439744716
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -73,7 +73,7 @@ Failed 1/4 subtests
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744309
+# Etag: 1439744719
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -108,8 +108,8 @@ t/creoleaddition.t ........ ok
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744375
-# Last-modified: Sun, 16 Aug 2015 16:59:36 GMT
+# Etag: 1439744785
+# Last-modified: Sun, 16 Aug 2015 17:06:25 GMT
 # Cache-control: max-age=10
 # Content-Type: text/plain; charset=utf-8
 # 
@@ -130,7 +130,7 @@ t/dotfiles.t .............. ok
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744389
+# Etag: 1439744799
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -179,7 +179,7 @@ t/languages.t ............. ok
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744438
+# Etag: 1439744848
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -194,7 +194,7 @@ t/languages.t ............. ok
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744439
+# Etag: 1439744848
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -218,7 +218,7 @@ t/lock-expiration.t ....... ok
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744520
+# Etag: 1439744929
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -237,7 +237,7 @@ Failed 1/18 subtests
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744522
+# Etag: 1439744932
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -252,7 +252,7 @@ Failed 1/18 subtests
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744552
+# Etag: 1439744962
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -327,7 +327,7 @@ t/static-copy.t ........... ok
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744670
+# Etag: 1439745080
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -358,7 +358,7 @@ t/upgrade.t ............... ok
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744693
+# Etag: 1439745103
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -373,7 +373,7 @@ t/upgrade.t ............... ok
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744693
+# Etag: 1439745103
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -388,7 +388,7 @@ t/upgrade.t ............... ok
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Etag: 1439744693
+# Etag: 1439745103
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -453,6 +453,6 @@ t/upload.t              (Wstat: 768 Tests: 12 Failed: 3)
 t/weblog-3.t            (Wstat: 256 Tests: 45 Failed: 1)
   Failed test:  43
   Non-zero exit status: 1
-Files=128, Tests=2775, 409 wallclock secs ( 0.95 usr  0.24 sys + 190.28 cusr 20.92 csys = 212.39 CPU)
+Files=128, Tests=2775, 409 wallclock secs ( 0.93 usr  0.26 sys + 190.35 cusr 20.94 csys = 212.48 CPU)
 Result: FAIL
 make: *** [test] Error 1
