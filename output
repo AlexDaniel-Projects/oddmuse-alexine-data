@@ -83,17 +83,41 @@ t/meta-data.t ............. ok
 
 #   Failed test '"use utf8;" in modules'
 #   at t/meta.t line 53.
+# modules/anchors.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
 # modules/banned-regexps.pl has no "use utf8;" but contains non-ASCII characters, eg. "порно"
 # modules/bbcode.pl has no "use utf8;" but contains non-ASCII characters, eg. "😊"
+# modules/duckduckgo-search.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
+# modules/edit-cluster.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
 # modules/emoji.pl has no "use utf8;" but contains non-ASCII characters, eg. "ø"
 # modules/flashbox.pl has no "use utf8;" but contains non-ASCII characters, eg. "’"
+# modules/footnotes.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
+# modules/google-plus-one.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
 # modules/hibernal.pl has no "use utf8;" but contains non-ASCII characters, eg. "—"
+# modules/journal-rss.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
+# modules/latex.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
+# modules/link-all.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
+# modules/list-banned-content.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
 # modules/localnames.pl has no "use utf8;" but contains non-ASCII characters, eg. "’"
-# modules/mac.pl has no "use utf8;" but contains non-ASCII characters, eg. "ö"
-# modules/markup.pl has no "use utf8;" but contains non-ASCII characters, eg. "‘"
+# modules/logbannedcontent.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
+# modules/mac.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
+# modules/mail.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
+# modules/markup.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
+# modules/multi-url-spam-block.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
+# modules/near-links.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
 # modules/permanent-anchors.pl has no "use utf8;" but contains non-ASCII characters, eg. "“"
+# modules/private-pages.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
+# modules/questionasker.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
+# modules/sistersites.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
 # modules/smiles.pl has no "use utf8;" but contains non-ASCII characters, eg. "ø"
+# modules/strange-spam.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
+# modules/tables-long.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
+# modules/tags.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
 # modules/toc-js.pl has no "use utf8;" but contains non-ASCII characters, eg. "✎"
+# modules/vcard.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
+# modules/webdav.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
+# modules/weblog-2.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
+# modules/weblog-3.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
+# modules/weblog-4.pl has no "use utf8;" but contains non-ASCII characters, eg. "–"
 
 #   Failed test 'modules are syntatically correct'
 #   at t/meta.t line 102.
@@ -161,6 +185,6 @@ Test Summary Report
 t/meta.t                (Wstat: 512 Tests: 11 Failed: 2)
   Failed tests:  4, 11
   Non-zero exit status: 2
-Files=129, Tests=2786, 409 wallclock secs ( 0.95 usr  0.24 sys + 191.35 cusr 21.11 csys = 213.65 CPU)
+Files=129, Tests=2786, 409 wallclock secs ( 0.95 usr  0.26 sys + 191.24 cusr 21.22 csys = 213.67 CPU)
 Result: FAIL
 make: *** [test] Error 1
