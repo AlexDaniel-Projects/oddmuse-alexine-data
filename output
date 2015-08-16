@@ -1,111 +1,107 @@
 prove t
-t/aggregate.t .................. ok
-t/all.t ........................ ok
-t/ampersand.t .................. ok
-t/anchors.t .................... ok
-t/atom.t ....................... ok
-t/balanced-page-directories.t .. ok
-t/ban-contributors.t ........... ok
-t/ban-quick-editors.t .......... ok
-t/ban.t ........................ ok
-t/bbcode.t ..................... ok
-# Waiting for 47s
-# Looks like you planned 18 tests but ran 28.
-t/big-brother.t ................ 
-Dubious, test returned 255 (wstat 65280, 0xff00)
-All 18 subtests passed 
-t/cache.t ...................... ok
-t/calendar.t ................... ok
+t/aggregate.t ............. ok
+t/all.t ................... ok
+t/ampersand.t ............. ok
+t/anchors.t ............... ok
+t/atom.t .................. ok
+t/ban-contributors.t ...... ok
+t/ban-quick-editors.t ..... ok
+t/ban.t ................... ok
+t/bbcode.t ................ ok
+# Waiting for 22s
+t/big-brother.t ........... ok
+t/cache.t ................. ok
+t/calendar.t .............. ok
 
 #   Failed test '...ocalhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: RecentChanges</title><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="NOINDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1>RecentChanges</h1></div><div class="wrapper"><div class="rc"><h2>Updates in the last 30 days</h2><p><a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=1;all=0;showedit=0">1 day</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=3;all=0;showedit=0">3 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=7;all=0;showedit=0">7 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;showedit=0">30 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=90;all=0;showedit=0">90 days</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=1;showedit=0">List all changes</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;rollback=1;showedit=0">Include rollbacks</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;showedit=1">Include minor changes</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1439721494;all=0;showedit=0">List later changes</a> <a class="rss nopages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=0">RSS</a> <a class="rss pages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=0;full=1">RSS with pages</a> <a class="rss pages diff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=0;full=1;diff=1">RSS with pages and diff</a></p><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="rc">
-# <p><strong>2015-08-16</strong></p><ul><li><span class="time">10:38 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=1;id=ClusterIdea">diff</a>) (<a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=ClusterIdea">history</a>)  <a class="local" href="http://localhost/wiki.pl/ClusterIdea">ClusterIdea</a>  . . . .   <span class="dash"> &#8211; </span><strong>four</strong>  </li></ul><p class="more"><a class="more" rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1434537493;upto=1437129493">More...</a></p></form><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="filter">
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: RecentChanges</title><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="NOINDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1>RecentChanges</h1></div><div class="wrapper"><div class="rc"><h2>Updates in the last 30 days</h2><p><a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=1;all=0;showedit=0">1</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=3;all=0;showedit=0">3</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=7;all=0;showedit=0">7</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;showedit=0">30</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=90;all=0;showedit=0">90</a> days <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=1;showedit=0">List all changes</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;rollback=1;showedit=0">Include rollbacks</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;showedit=1">Include minor changes</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1439721904;all=0;showedit=0">List later changes</a> <a class="rss nopages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=0">RSS</a> <a class="rss pages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=0;full=1">RSS with pages</a> <a class="rss pages diff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=0;full=1;diff=1">RSS with pages and diff</a></p><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="rc">
+# <p><strong>2015-08-16</strong></p><ul><li><span class="time">10:45 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=1;id=ClusterIdea">diff</a>) (<a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=ClusterIdea">history</a>)  <a class="local" href="http://localhost/wiki.pl/ClusterIdea">ClusterIdea</a>  . . . .   <span class="dash"> &#8211; </span><strong>four</strong>  </li></ul><p class="more"><a class="more" rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1434537903;upto=1437129903">More...</a></p></form><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="filter">
 # <p><strong>Filters</strong><input name="action" type="hidden" value="rc" /></p><table><tr><td><label for="match">Title:</label></td> <td><input type="text" name="match"  size="20" id="match" /></td></tr><tr><td><label for="rcfilteronly">Title and Body:</label></td> <td><input type="text" name="rcfilteronly"  size="20" id="rcfilteronly" /></td></tr><tr><td><label for="rcuseronly">Username:</label></td> <td><input type="text" name="rcuseronly"  size="20" id="rcuseronly" /></td></tr><tr><td><label for="rchostonly">Host:</label></td> <td><input type="text" name="rchostonly"  size="20" id="rchostonly" /></td></tr><tr><td><label for="followup">Follow up to:</label></td> <td><input type="text" name="followup"  size="20" id="followup" /></td></tr></table><p><input type="submit" name="dofilter" value="Go!" /></p></form></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=RecentChanges">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=RecentChanges">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=RecentChanges">Administration</a></div></div>
 # </body>
 # </html>
 
 #   Failed test '...)="MainPage"]/following-sibling::strong[text()="ClusterIdea: four"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: RecentChanges</title><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="NOINDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1>RecentChanges</h1></div><div class="wrapper"><div class="rc"><h2>Updates in the last 30 days</h2><p><a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=1;all=1;showedit=0">1 day</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=3;all=1;showedit=0">3 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=7;all=1;showedit=0">7 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=1;showedit=0">30 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=90;all=1;showedit=0">90 days</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;showedit=0">List latest change per page only</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=1;showedit=1">Include minor changes</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1439721494;all=1;showedit=0">List later changes</a> <a class="rss nopages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=1;showedit=0">RSS</a> <a class="rss pages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=1;showedit=0;full=1">RSS with pages</a> <a class="rss pages diff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=1;showedit=0;full=1;diff=1">RSS with pages and diff</a></p><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="rc">
-# <p><strong>2015-08-16</strong></p><ul><li><span class="time">10:38 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=ClusterIdea">diff</a>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=ClusterIdea">ClusterIdea</a>  . . . .   <span class="dash"> &#8211; </span><strong>four</strong>  </li><li><span class="time">10:38 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=ClusterIdea;diffrevision=2">diff</a>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=ClusterIdea;revision=2">ClusterIdea</a>  . . . .   <span class="dash"> &#8211; </span><strong>two</strong>  </li><li><span class="time">10:38 UTC</span> (<span class="new">new</span>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=ClusterIdea;revision=1">ClusterIdea</a>  . . . .   <span class="dash"> &#8211; </span><strong>one</strong>  </li></ul><p class="more"><a class="more" rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1434537493;upto=1437129493;all=1">More...</a></p></form><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="filter">
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: RecentChanges</title><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="NOINDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1>RecentChanges</h1></div><div class="wrapper"><div class="rc"><h2>Updates in the last 30 days</h2><p><a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=1;all=1;showedit=0">1</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=3;all=1;showedit=0">3</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=7;all=1;showedit=0">7</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=1;showedit=0">30</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=90;all=1;showedit=0">90</a> days <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;showedit=0">List latest change per page only</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=1;showedit=1">Include minor changes</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1439721904;all=1;showedit=0">List later changes</a> <a class="rss nopages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=1;showedit=0">RSS</a> <a class="rss pages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=1;showedit=0;full=1">RSS with pages</a> <a class="rss pages diff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=1;showedit=0;full=1;diff=1">RSS with pages and diff</a></p><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="rc">
+# <p><strong>2015-08-16</strong></p><ul><li><span class="time">10:45 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=ClusterIdea">diff</a>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=ClusterIdea">ClusterIdea</a>  . . . .   <span class="dash"> &#8211; </span><strong>four</strong>  </li><li><span class="time">10:45 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=ClusterIdea;diffrevision=2">diff</a>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=ClusterIdea;revision=2">ClusterIdea</a>  . . . .   <span class="dash"> &#8211; </span><strong>two</strong>  </li><li><span class="time">10:45 UTC</span> (<span class="new">new</span>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=ClusterIdea;revision=1">ClusterIdea</a>  . . . .   <span class="dash"> &#8211; </span><strong>one</strong>  </li></ul><p class="more"><a class="more" rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1434537903;upto=1437129903;all=1">More...</a></p></form><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="filter">
 # <p><strong>Filters</strong><input name="action" type="hidden" value="rc" /><input name="all" type="hidden" value="1" /></p><table><tr><td><label for="match">Title:</label></td> <td><input type="text" name="match"  size="20" id="match" /></td></tr><tr><td><label for="rcfilteronly">Title and Body:</label></td> <td><input type="text" name="rcfilteronly"  size="20" id="rcfilteronly" /></td></tr><tr><td><label for="rcuseronly">Username:</label></td> <td><input type="text" name="rcuseronly"  size="20" id="rcuseronly" /></td></tr><tr><td><label for="rchostonly">Host:</label></td> <td><input type="text" name="rchostonly"  size="20" id="rchostonly" /></td></tr><tr><td><label for="followup">Follow up to:</label></td> <td><input type="text" name="followup"  size="20" id="followup" /></td></tr></table><p><input type="submit" name="dofilter" value="Go!" /></p></form></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=RecentChanges">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=RecentChanges">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=RecentChanges">Administration</a></div></div>
 # </body>
 # </html>
 
 #   Failed test '...)="MainPage"]/following-sibling::strong[text()="ClusterIdea: four"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: RecentChanges</title><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="NOINDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1>RecentChanges</h1></div><div class="wrapper"><div class="rc"><h2>Updates in the last 30 days</h2><p><a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=1;all=1;showedit=1">1 day</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=3;all=1;showedit=1">3 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=7;all=1;showedit=1">7 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=1;showedit=1">30 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=90;all=1;showedit=1">90 days</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;showedit=1">List latest change per page only</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=1;showedit=0">List only major changes</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1439721494;all=1;showedit=1">List later changes</a> <a class="rss nopages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=1;showedit=1">RSS</a> <a class="rss pages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=1;showedit=1;full=1">RSS with pages</a> <a class="rss pages diff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=1;showedit=1;full=1;diff=1">RSS with pages and diff</a></p><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="rc">
-# <p><strong>2015-08-16</strong></p><ul><li><span class="time">10:38 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=ClusterIdea">diff</a>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=ClusterIdea">ClusterIdea</a>  . . . .   <span class="dash"> &#8211; </span><strong>four</strong>  </li><li><span class="time">10:38 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=ClusterIdea;diffrevision=3">diff</a>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=ClusterIdea;revision=3">ClusterIdea</a>  . . . .   <span class="dash"> &#8211; </span><strong>three</strong>  <em class="type">(minor)</em></li><li><span class="time">10:38 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=ClusterIdea;diffrevision=2">diff</a>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=ClusterIdea;revision=2">ClusterIdea</a>  . . . .   <span class="dash"> &#8211; </span><strong>two</strong>  </li><li><span class="time">10:38 UTC</span> (<span class="new">new</span>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=ClusterIdea;revision=1">ClusterIdea</a>  . . . .   <span class="dash"> &#8211; </span><strong>one</strong>  </li></ul><p class="more"><a class="more" rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1434537493;upto=1437129493;all=1;showedit=1">More...</a></p></form><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="filter">
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: RecentChanges</title><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="NOINDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1>RecentChanges</h1></div><div class="wrapper"><div class="rc"><h2>Updates in the last 30 days</h2><p><a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=1;all=1;showedit=1">1</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=3;all=1;showedit=1">3</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=7;all=1;showedit=1">7</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=1;showedit=1">30</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=90;all=1;showedit=1">90</a> days <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;showedit=1">List latest change per page only</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=1;showedit=0">List only major changes</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1439721904;all=1;showedit=1">List later changes</a> <a class="rss nopages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=1;showedit=1">RSS</a> <a class="rss pages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=1;showedit=1;full=1">RSS with pages</a> <a class="rss pages diff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=1;showedit=1;full=1;diff=1">RSS with pages and diff</a></p><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="rc">
+# <p><strong>2015-08-16</strong></p><ul><li><span class="time">10:45 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=ClusterIdea">diff</a>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=ClusterIdea">ClusterIdea</a>  . . . .   <span class="dash"> &#8211; </span><strong>four</strong>  </li><li><span class="time">10:45 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=ClusterIdea;diffrevision=3">diff</a>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=ClusterIdea;revision=3">ClusterIdea</a>  . . . .   <span class="dash"> &#8211; </span><strong>three</strong>  <em class="type">(minor)</em></li><li><span class="time">10:45 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=ClusterIdea;diffrevision=2">diff</a>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=ClusterIdea;revision=2">ClusterIdea</a>  . . . .   <span class="dash"> &#8211; </span><strong>two</strong>  </li><li><span class="time">10:45 UTC</span> (<span class="new">new</span>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=ClusterIdea;revision=1">ClusterIdea</a>  . . . .   <span class="dash"> &#8211; </span><strong>one</strong>  </li></ul><p class="more"><a class="more" rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1434537904;upto=1437129904;all=1;showedit=1">More...</a></p></form><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="filter">
 # <p><strong>Filters</strong><input name="action" type="hidden" value="rc" /><input name="all" type="hidden" value="1" /><input name="showedit" type="hidden" value="1" /></p><table><tr><td><label for="match">Title:</label></td> <td><input type="text" name="match"  size="20" id="match" /></td></tr><tr><td><label for="rcfilteronly">Title and Body:</label></td> <td><input type="text" name="rcfilteronly"  size="20" id="rcfilteronly" /></td></tr><tr><td><label for="rcuseronly">Username:</label></td> <td><input type="text" name="rcuseronly"  size="20" id="rcuseronly" /></td></tr><tr><td><label for="rchostonly">Host:</label></td> <td><input type="text" name="rchostonly"  size="20" id="rchostonly" /></td></tr><tr><td><label for="followup">Follow up to:</label></td> <td><input type="text" name="followup"  size="20" id="followup" /></td></tr></table><p><input type="submit" name="dofilter" value="Go!" /></p></form></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=RecentChanges">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=RecentChanges">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=RecentChanges">Administration</a></div></div>
 # </body>
 # </html>
 
 #   Failed test '//a[text()="ClusterIdea"]/following-sibling::strong[text()="two"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: RecentChanges</title><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="NOINDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1>RecentChanges</h1></div><div class="wrapper"><div class="rc"><h2>Updates in the last 30 days</h2><p><a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=1;all=0;showedit=0">1 day</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=3;all=0;showedit=0">3 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=7;all=0;showedit=0">7 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;showedit=0">30 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=90;all=0;showedit=0">90 days</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=1;showedit=0">List all changes</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;rollback=1;showedit=0">Include rollbacks</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;showedit=1">Include minor changes</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1439721494;all=0;showedit=0">List later changes</a> <a class="rss nopages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=0">RSS</a> <a class="rss pages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=0;full=1">RSS with pages</a> <a class="rss pages diff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=0;full=1;diff=1">RSS with pages and diff</a></p><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="rc">
-# <p><strong>2015-08-16</strong></p><ul><li><span class="time">10:38 UTC</span> (<span class="new">new</span>) (<a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=MainPage">history</a>)  <a class="local" href="http://localhost/wiki.pl/MainPage">MainPage</a>  . . . .   <span class="dash"> &#8211; </span><strong>main summary</strong>  </li><li><span class="time">10:38 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=1;id=ClusterIdea">diff</a>) (<a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=ClusterIdea">history</a>)  <a class="local" href="http://localhost/wiki.pl/ClusterIdea">ClusterIdea</a>  . . . .   <span class="dash"> &#8211; </span><strong>four</strong>  </li></ul><p class="more"><a class="more" rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1434537494;upto=1437129494">More...</a></p></form><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="filter">
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: RecentChanges</title><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="NOINDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1>RecentChanges</h1></div><div class="wrapper"><div class="rc"><h2>Updates in the last 30 days</h2><p><a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=1;all=0;showedit=0">1</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=3;all=0;showedit=0">3</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=7;all=0;showedit=0">7</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;showedit=0">30</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=90;all=0;showedit=0">90</a> days <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=1;showedit=0">List all changes</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;rollback=1;showedit=0">Include rollbacks</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;showedit=1">Include minor changes</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1439721905;all=0;showedit=0">List later changes</a> <a class="rss nopages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=0">RSS</a> <a class="rss pages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=0;full=1">RSS with pages</a> <a class="rss pages diff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=0;full=1;diff=1">RSS with pages and diff</a></p><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="rc">
+# <p><strong>2015-08-16</strong></p><ul><li><span class="time">10:45 UTC</span> (<span class="new">new</span>) (<a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=MainPage">history</a>)  <a class="local" href="http://localhost/wiki.pl/MainPage">MainPage</a>  . . . .   <span class="dash"> &#8211; </span><strong>main summary</strong>  </li><li><span class="time">10:45 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=1;id=ClusterIdea">diff</a>) (<a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=ClusterIdea">history</a>)  <a class="local" href="http://localhost/wiki.pl/ClusterIdea">ClusterIdea</a>  . . . .   <span class="dash"> &#8211; </span><strong>four</strong>  </li></ul><p class="more"><a class="more" rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1434537904;upto=1437129904">More...</a></p></form><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="filter">
 # <p><strong>Filters</strong><input name="action" type="hidden" value="rc" /></p><table><tr><td><label for="match">Title:</label></td> <td><input type="text" name="match"  size="20" id="match" /></td></tr><tr><td><label for="rcfilteronly">Title and Body:</label></td> <td><input type="text" name="rcfilteronly"  size="20" id="rcfilteronly" /></td></tr><tr><td><label for="rcuseronly">Username:</label></td> <td><input type="text" name="rcuseronly"  size="20" id="rcuseronly" /></td></tr><tr><td><label for="rchostonly">Host:</label></td> <td><input type="text" name="rchostonly"  size="20" id="rchostonly" /></td></tr><tr><td><label for="followup">Follow up to:</label></td> <td><input type="text" name="followup"  size="20" id="followup" /></td></tr></table><p><input type="submit" name="dofilter" value="Go!" /></p></form></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=RecentChanges">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=RecentChanges">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=RecentChanges">Administration</a></div></div>
 # </body>
 # </html>
 
 #   Failed test '//li/a[text()="ClusterIdea"]/following-sibling::strong[text()="four"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: MainPage</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=MainPage" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: MainPage" href="http://localhost/wiki.pl?action=rss;rcidonly=MainPage" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22MainPage%22">MainPage</a></h1></div><div class="wrapper"><div class="content browse"><p>Finally the main page.</p></div><div class="rc"><hr /><h2>Updates in the last 30 days</h2><p><b>(for MainPage only)</b></p><p><a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=1;all=0;showedit=0">1 day</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=3;all=0;showedit=0">3 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=7;all=0;showedit=0">7 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=30;all=0;showedit=0">30 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=90;all=0;showedit=0">90 days</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=30;all=1;showedit=0">List all changes</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=30;all=0;rollback=1;showedit=0">Include rollbacks</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=30;all=0;showedit=1">Include minor changes</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;from=1439721494;all=0;showedit=0">List later changes</a> <a class="rss nopages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;rcclusteronly=MainPage;days=30;all=0;showedit=0">RSS</a> <a class="rss pages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;rcclusteronly=MainPage;days=30;all=0;showedit=0;full=1">RSS with pages</a> <a class="rss pages diff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;rcclusteronly=MainPage;days=30;all=0;showedit=0;full=1;diff=1">RSS with pages and diff</a></p><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="rc">
-# <p class="more"><a class="more" rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1434537494;upto=1437129494;rcclusteronly=MainPage">More...</a></p></form><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="filter">
-# <p><strong>Filters</strong><input name="action" type="hidden" value="rc" /></p><table><tr><td><label for="match">Title:</label></td> <td><input type="text" name="match"  size="20" id="match" /></td></tr><tr><td><label for="rcfilteronly">Title and Body:</label></td> <td><input type="text" name="rcfilteronly"  size="20" id="rcfilteronly" /></td></tr><tr><td><label for="rcuseronly">Username:</label></td> <td><input type="text" name="rcuseronly"  size="20" id="rcuseronly" /></td></tr><tr><td><label for="rchostonly">Host:</label></td> <td><input type="text" name="rchostonly"  size="20" id="rchostonly" /></td></tr><tr><td><label for="followup">Follow up to:</label></td> <td><input type="text" name="followup"  size="20" id="followup" /></td></tr></table><p><input type="submit" name="dofilter" value="Go!" /></p></form></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=MainPage">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=MainPage">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=MainPage">Administration</a></div><div class="time">Last edited 2015-08-16 10:38 UTC by </div></div>
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: MainPage</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=MainPage" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: MainPage" href="http://localhost/wiki.pl?action=rss;rcidonly=MainPage" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22MainPage%22">MainPage</a></h1></div><div class="wrapper"><div class="content browse"><p>Finally the main page.</p></div><div class="rc"><hr /><h2>Updates in the last 30 days</h2><p><b>(for MainPage only)</b></p><p><a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=1;all=0;showedit=0">1</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=3;all=0;showedit=0">3</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=7;all=0;showedit=0">7</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=30;all=0;showedit=0">30</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=90;all=0;showedit=0">90</a> days <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=30;all=1;showedit=0">List all changes</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=30;all=0;rollback=1;showedit=0">Include rollbacks</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=30;all=0;showedit=1">Include minor changes</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;from=1439721905;all=0;showedit=0">List later changes</a> <a class="rss nopages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;rcclusteronly=MainPage;days=30;all=0;showedit=0">RSS</a> <a class="rss pages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;rcclusteronly=MainPage;days=30;all=0;showedit=0;full=1">RSS with pages</a> <a class="rss pages diff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;rcclusteronly=MainPage;days=30;all=0;showedit=0;full=1;diff=1">RSS with pages and diff</a></p><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="rc">
+# <p class="more"><a class="more" rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1434537904;upto=1437129904;rcclusteronly=MainPage">More...</a></p></form><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="filter">
+# <p><strong>Filters</strong><input name="action" type="hidden" value="rc" /></p><table><tr><td><label for="match">Title:</label></td> <td><input type="text" name="match"  size="20" id="match" /></td></tr><tr><td><label for="rcfilteronly">Title and Body:</label></td> <td><input type="text" name="rcfilteronly"  size="20" id="rcfilteronly" /></td></tr><tr><td><label for="rcuseronly">Username:</label></td> <td><input type="text" name="rcuseronly"  size="20" id="rcuseronly" /></td></tr><tr><td><label for="rchostonly">Host:</label></td> <td><input type="text" name="rchostonly"  size="20" id="rchostonly" /></td></tr><tr><td><label for="followup">Follow up to:</label></td> <td><input type="text" name="followup"  size="20" id="followup" /></td></tr></table><p><input type="submit" name="dofilter" value="Go!" /></p></form></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=MainPage">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=MainPage">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=MainPage">Administration</a></div><div class="time">Last edited 2015-08-16 10:45 UTC by </div></div>
 # </body>
 # </html>
 
 #   Failed test '//a[text()="ClusterIdea"]/following-sibling::strong[text()="two"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: RecentChanges</title><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="NOINDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1>RecentChanges</h1></div><div class="wrapper"><div class="rc"><h2>Updates in the last 30 days</h2><p><a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=1;all=0;showedit=0">1 day</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=3;all=0;showedit=0">3 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=7;all=0;showedit=0">7 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;showedit=0">30 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=90;all=0;showedit=0">90 days</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=1;showedit=0">List all changes</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;rollback=1;showedit=0">Include rollbacks</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;showedit=1">Include minor changes</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1439721495;all=0;showedit=0">List later changes</a> <a class="rss nopages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=0">RSS</a> <a class="rss pages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=0;full=1">RSS with pages</a> <a class="rss pages diff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=0;full=1;diff=1">RSS with pages and diff</a></p><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="rc">
-# <p><strong>2015-08-16</strong></p><ul><li><span class="time">10:38 UTC</span> (<span class="new">new</span>) (<a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=MainPage">history</a>)  <a class="local" href="http://localhost/wiki.pl/MainPage">MainPage</a>  . . . .   <span class="dash"> &#8211; </span><strong>main summary</strong>  </li><li><span class="time">10:38 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=1;id=ClusterIdea">diff</a>) (<a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=ClusterIdea">history</a>)  <a class="local" href="http://localhost/wiki.pl/ClusterIdea">ClusterIdea</a>  . . . .   <span class="dash"> &#8211; </span><strong>four</strong>  </li></ul><p class="more"><a class="more" rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1434537494;upto=1437129494">More...</a></p></form><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="filter">
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: RecentChanges</title><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="NOINDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1>RecentChanges</h1></div><div class="wrapper"><div class="rc"><h2>Updates in the last 30 days</h2><p><a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=1;all=0;showedit=0">1</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=3;all=0;showedit=0">3</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=7;all=0;showedit=0">7</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;showedit=0">30</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=90;all=0;showedit=0">90</a> days <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=1;showedit=0">List all changes</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;rollback=1;showedit=0">Include rollbacks</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;showedit=1">Include minor changes</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1439721905;all=0;showedit=0">List later changes</a> <a class="rss nopages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=0">RSS</a> <a class="rss pages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=0;full=1">RSS with pages</a> <a class="rss pages diff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=0;full=1;diff=1">RSS with pages and diff</a></p><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="rc">
+# <p><strong>2015-08-16</strong></p><ul><li><span class="time">10:45 UTC</span> (<span class="new">new</span>) (<a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=MainPage">history</a>)  <a class="local" href="http://localhost/wiki.pl/MainPage">MainPage</a>  . . . .   <span class="dash"> &#8211; </span><strong>main summary</strong>  </li><li><span class="time">10:45 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=1;id=ClusterIdea">diff</a>) (<a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=ClusterIdea">history</a>)  <a class="local" href="http://localhost/wiki.pl/ClusterIdea">ClusterIdea</a>  . . . .   <span class="dash"> &#8211; </span><strong>four</strong>  </li></ul><p class="more"><a class="more" rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1434537904;upto=1437129904">More...</a></p></form><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="filter">
 # <p><strong>Filters</strong><input name="action" type="hidden" value="rc" /></p><table><tr><td><label for="match">Title:</label></td> <td><input type="text" name="match"  size="20" id="match" /></td></tr><tr><td><label for="rcfilteronly">Title and Body:</label></td> <td><input type="text" name="rcfilteronly"  size="20" id="rcfilteronly" /></td></tr><tr><td><label for="rcuseronly">Username:</label></td> <td><input type="text" name="rcuseronly"  size="20" id="rcuseronly" /></td></tr><tr><td><label for="rchostonly">Host:</label></td> <td><input type="text" name="rchostonly"  size="20" id="rchostonly" /></td></tr><tr><td><label for="followup">Follow up to:</label></td> <td><input type="text" name="followup"  size="20" id="followup" /></td></tr></table><p><input type="submit" name="dofilter" value="Go!" /></p></form></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=RecentChanges">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=RecentChanges">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=RecentChanges">Administration</a></div></div>
 # </body>
 # </html>
 
 #   Failed test '...ly=MainPage"]/following-sibling::strong[text()="ClusterIdea: five"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: RecentChanges</title><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="NOINDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1>RecentChanges</h1></div><div class="wrapper"><div class="rc"><h2>Updates in the last 30 days</h2><p><a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=1;all=0;showedit=1">1 day</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=3;all=0;showedit=1">3 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=7;all=0;showedit=1">7 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;showedit=1">30 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=90;all=0;showedit=1">90 days</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=1;showedit=1">List all changes</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;rollback=1;showedit=1">Include rollbacks</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;showedit=0">List only major changes</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1439721495;all=0;showedit=1">List later changes</a> <a class="rss nopages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=1">RSS</a> <a class="rss pages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=1;full=1">RSS with pages</a> <a class="rss pages diff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=1;full=1;diff=1">RSS with pages and diff</a></p><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="rc">
-# <p><strong>2015-08-16</strong></p><ul><li><span class="time">10:38 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=ClusterIdea">diff</a>) (<a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=ClusterIdea">history</a>)  <a class="local" href="http://localhost/wiki.pl/ClusterIdea">ClusterIdea</a>  . . . .   <span class="dash"> &#8211; </span><strong>five</strong>  <em class="type">(minor)</em></li><li><span class="time">10:38 UTC</span> (<span class="new">new</span>) (<a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=MainPage">history</a>)  <a class="local" href="http://localhost/wiki.pl/MainPage">MainPage</a>  . . . .   <span class="dash"> &#8211; </span><strong>main summary</strong>  </li></ul><p class="more"><a class="more" rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1434537494;upto=1437129494;showedit=1">More...</a></p></form><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="filter">
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: RecentChanges</title><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="NOINDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1>RecentChanges</h1></div><div class="wrapper"><div class="rc"><h2>Updates in the last 30 days</h2><p><a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=1;all=0;showedit=1">1</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=3;all=0;showedit=1">3</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=7;all=0;showedit=1">7</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;showedit=1">30</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=90;all=0;showedit=1">90</a> days <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=1;showedit=1">List all changes</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;rollback=1;showedit=1">Include rollbacks</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;showedit=0">List only major changes</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1439721905;all=0;showedit=1">List later changes</a> <a class="rss nopages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=1">RSS</a> <a class="rss pages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=1;full=1">RSS with pages</a> <a class="rss pages diff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=0;showedit=1;full=1;diff=1">RSS with pages and diff</a></p><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="rc">
+# <p><strong>2015-08-16</strong></p><ul><li><span class="time">10:45 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=ClusterIdea">diff</a>) (<a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=ClusterIdea">history</a>)  <a class="local" href="http://localhost/wiki.pl/ClusterIdea">ClusterIdea</a>  . . . .   <span class="dash"> &#8211; </span><strong>five</strong>  <em class="type">(minor)</em></li><li><span class="time">10:45 UTC</span> (<span class="new">new</span>) (<a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=MainPage">history</a>)  <a class="local" href="http://localhost/wiki.pl/MainPage">MainPage</a>  . . . .   <span class="dash"> &#8211; </span><strong>main summary</strong>  </li></ul><p class="more"><a class="more" rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1434537904;upto=1437129904;showedit=1">More...</a></p></form><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="filter">
 # <p><strong>Filters</strong><input name="action" type="hidden" value="rc" /><input name="showedit" type="hidden" value="1" /></p><table><tr><td><label for="match">Title:</label></td> <td><input type="text" name="match"  size="20" id="match" /></td></tr><tr><td><label for="rcfilteronly">Title and Body:</label></td> <td><input type="text" name="rcfilteronly"  size="20" id="rcfilteronly" /></td></tr><tr><td><label for="rcuseronly">Username:</label></td> <td><input type="text" name="rcuseronly"  size="20" id="rcuseronly" /></td></tr><tr><td><label for="rchostonly">Host:</label></td> <td><input type="text" name="rchostonly"  size="20" id="rchostonly" /></td></tr><tr><td><label for="followup">Follow up to:</label></td> <td><input type="text" name="followup"  size="20" id="followup" /></td></tr></table><p><input type="submit" name="dofilter" value="Go!" /></p></form></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=RecentChanges">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=RecentChanges">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=RecentChanges">Administration</a></div></div>
 # </body>
 # </html>
 
 #   Failed test '//a[text()="ClusterIdea"]/following-sibling::strong[text()="three"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 
 #   Failed test '//a[text()="ClusterIdea"]/following-sibling::strong[text()="five"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: MainPage</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=MainPage" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: MainPage" href="http://localhost/wiki.pl?action=rss;rcidonly=MainPage" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22MainPage%22">MainPage</a></h1></div><div class="wrapper"><div class="content browse"><p>Finally the main page.</p></div><div class="rc"><hr /><h2>Updates in the last 30 days</h2><p><b>(for MainPage only)</b></p><p><a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=1;all=1;showedit=1">1 day</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=3;all=1;showedit=1">3 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=7;all=1;showedit=1">7 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=30;all=1;showedit=1">30 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=90;all=1;showedit=1">90 days</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=30;all=0;showedit=1">List latest change per page only</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=30;all=1;showedit=0">List only major changes</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;from=1439721495;all=1;showedit=1">List later changes</a> <a class="rss nopages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;rcclusteronly=MainPage;days=30;all=1;showedit=1">RSS</a> <a class="rss pages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;rcclusteronly=MainPage;days=30;all=1;showedit=1;full=1">RSS with pages</a> <a class="rss pages diff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;rcclusteronly=MainPage;days=30;all=1;showedit=1;full=1;diff=1">RSS with pages and diff</a></p><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="rc">
-# <p class="more"><a class="more" rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1434537494;upto=1437129494;all=1;showedit=1;rcclusteronly=MainPage">More...</a></p></form><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="filter">
-# <p><strong>Filters</strong><input name="action" type="hidden" value="rc" /><input name="all" type="hidden" value="1" /><input name="showedit" type="hidden" value="1" /></p><table><tr><td><label for="match">Title:</label></td> <td><input type="text" name="match"  size="20" id="match" /></td></tr><tr><td><label for="rcfilteronly">Title and Body:</label></td> <td><input type="text" name="rcfilteronly"  size="20" id="rcfilteronly" /></td></tr><tr><td><label for="rcuseronly">Username:</label></td> <td><input type="text" name="rcuseronly"  size="20" id="rcuseronly" /></td></tr><tr><td><label for="rchostonly">Host:</label></td> <td><input type="text" name="rchostonly"  size="20" id="rchostonly" /></td></tr><tr><td><label for="followup">Follow up to:</label></td> <td><input type="text" name="followup"  size="20" id="followup" /></td></tr></table><p><input type="submit" name="dofilter" value="Go!" /></p></form></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=MainPage">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=MainPage">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=MainPage">Administration</a></div><div class="time">Last edited 2015-08-16 10:38 UTC by </div></div>
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: MainPage</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=MainPage" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: MainPage" href="http://localhost/wiki.pl?action=rss;rcidonly=MainPage" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22MainPage%22">MainPage</a></h1></div><div class="wrapper"><div class="content browse"><p>Finally the main page.</p></div><div class="rc"><hr /><h2>Updates in the last 30 days</h2><p><b>(for MainPage only)</b></p><p><a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=1;all=1;showedit=1">1</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=3;all=1;showedit=1">3</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=7;all=1;showedit=1">7</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=30;all=1;showedit=1">30</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=90;all=1;showedit=1">90</a> days <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=30;all=0;showedit=1">List latest change per page only</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;days=30;all=1;showedit=0">List only major changes</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MainPage;rcclusteronly=MainPage;from=1439721905;all=1;showedit=1">List later changes</a> <a class="rss nopages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;rcclusteronly=MainPage;days=30;all=1;showedit=1">RSS</a> <a class="rss pages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;rcclusteronly=MainPage;days=30;all=1;showedit=1;full=1">RSS with pages</a> <a class="rss pages diff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;rcclusteronly=MainPage;days=30;all=1;showedit=1;full=1;diff=1">RSS with pages and diff</a></p><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="rc">
+# <p class="more"><a class="more" rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1434537905;upto=1437129905;all=1;showedit=1;rcclusteronly=MainPage">More...</a></p></form><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="filter">
+# <p><strong>Filters</strong><input name="action" type="hidden" value="rc" /><input name="all" type="hidden" value="1" /><input name="showedit" type="hidden" value="1" /></p><table><tr><td><label for="match">Title:</label></td> <td><input type="text" name="match"  size="20" id="match" /></td></tr><tr><td><label for="rcfilteronly">Title and Body:</label></td> <td><input type="text" name="rcfilteronly"  size="20" id="rcfilteronly" /></td></tr><tr><td><label for="rcuseronly">Username:</label></td> <td><input type="text" name="rcuseronly"  size="20" id="rcuseronly" /></td></tr><tr><td><label for="rchostonly">Host:</label></td> <td><input type="text" name="rchostonly"  size="20" id="rchostonly" /></td></tr><tr><td><label for="followup">Follow up to:</label></td> <td><input type="text" name="followup"  size="20" id="followup" /></td></tr></table><p><input type="submit" name="dofilter" value="Go!" /></p></form></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=MainPage">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=MainPage">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=MainPage">Administration</a></div><div class="time">Last edited 2015-08-16 10:45 UTC by </div></div>
 # </body>
 # </html>
 
 #   Failed test '//a[text()="ClusterIdea"]/following-sibling::strong[text()="four"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 
 #   Failed test '...st/wiki.pl\?action=browse;id=MainPage;rcclusteronly=MainPage</link>'
-#   at t/test.pl line 157.
-#                   'Etag: 1439721494
+#   at t/test.pl line 158.
+#                   'Etag: 1439721904
 # Cache-control: max-age=10
 # Content-Type: application/xml; charset=utf-8
 # 
@@ -120,8 +116,8 @@ t/calendar.t ................... ok
 # <title>Wiki: HomePage</title>
 # <link>http://localhost/wiki.pl/HomePage</link>
 # <atom:link href="http://localhost/wiki.pl?action=rss;showedit=1" rel="self" type="application/rss+xml" />
-# <pubDate>Sun, 16 Aug 2015 10:38:14 GMT</pubDate>
-# <lastBuildDate>Sun, 16 Aug 2015 10:38:14 GMT</lastBuildDate>
+# <pubDate>Sun, 16 Aug 2015 10:45:04 GMT</pubDate>
+# <lastBuildDate>Sun, 16 Aug 2015 10:45:04 GMT</lastBuildDate>
 # <generator>Oddmuse</generator>
 # 
 # <item>
@@ -129,7 +125,7 @@ t/calendar.t ................... ok
 # <link>http://localhost/wiki.pl/ClusterIdea</link>
 # <guid>http://localhost/wiki.pl/ClusterIdea</guid>
 # <description>five</description>
-# <pubDate>Sun, 16 Aug 2015 10:38:14 GMT</pubDate>
+# <pubDate>Sun, 16 Aug 2015 10:45:04 GMT</pubDate>
 # <wiki:status>updated</wiki:status>
 # <wiki:importance>minor</wiki:importance>
 # <wiki:version>5</wiki:version>
@@ -142,7 +138,7 @@ t/calendar.t ................... ok
 # <link>http://localhost/wiki.pl/MainPage</link>
 # <guid>http://localhost/wiki.pl/MainPage</guid>
 # <description>main summary</description>
-# <pubDate>Sun, 16 Aug 2015 10:38:13 GMT</pubDate>
+# <pubDate>Sun, 16 Aug 2015 10:45:04 GMT</pubDate>
 # <wiki:status>new</wiki:status>
 # <wiki:importance>major</wiki:importance>
 # <wiki:version>1</wiki:version>
@@ -155,8 +151,8 @@ t/calendar.t ................... ok
 #     doesn't match '(?-xism:<link>http://localhost/wiki.pl\?action=browse;id=MainPage;rcclusteronly=MainPage</link>)'
 
 #   Failed test 'description: OtherIdea: new page in cluster'
-#   at t/test.pl line 157.
-#                   'Etag: 1439721495
+#   at t/test.pl line 158.
+#                   'Etag: 1439721905
 # Cache-control: max-age=10
 # Content-Type: text/plain; charset=utf-8
 # 
@@ -167,26 +163,26 @@ t/calendar.t ................... ok
 # title: OtherIdea
 # description: new page in cluster
 # link: http://localhost/wiki.pl/OtherIdea
-# last-modified: 2015-08-16T10:38Z
+# last-modified: 2015-08-16T10:45Z
 # revision: 1
 # 
 # title: MainPage
 # description: main summary
 # link: http://localhost/wiki.pl/MainPage
-# last-modified: 2015-08-16T10:38Z
+# last-modified: 2015-08-16T10:45Z
 # revision: 1
 # 
 # title: ClusterIdea
 # description: four
 # link: http://localhost/wiki.pl/ClusterIdea
-# last-modified: 2015-08-16T10:38Z
+# last-modified: 2015-08-16T10:45Z
 # revision: 4
 # '
 #     doesn't match '(?-xism:description: OtherIdea: new page in cluster)'
 
 #   Failed test 'description: two'
-#   at t/test.pl line 157.
-#                   'Etag: 1439721495
+#   at t/test.pl line 158.
+#                   'Etag: 1439721905
 # Cache-control: max-age=10
 # Content-Type: text/plain; charset=utf-8
 # 
@@ -197,26 +193,26 @@ t/calendar.t ................... ok
 # title: OtherIdea
 # description: new page in cluster
 # link: http://localhost/wiki.pl/OtherIdea
-# last-modified: 2015-08-16T10:38Z
+# last-modified: 2015-08-16T10:45Z
 # revision: 1
 # 
 # title: MainPage
 # description: main summary
 # link: http://localhost/wiki.pl/MainPage
-# last-modified: 2015-08-16T10:38Z
+# last-modified: 2015-08-16T10:45Z
 # revision: 1
 # 
 # title: ClusterIdea
 # description: four
 # link: http://localhost/wiki.pl/ClusterIdea
-# last-modified: 2015-08-16T10:38Z
+# last-modified: 2015-08-16T10:45Z
 # revision: 4
 # '
 #     doesn't match '(?-xism:description: two)'
 
 #   Failed test 'not main summary'
-#   at t/test.pl line 177.
-#                   'Etag: 1439721495
+#   at t/test.pl line 178.
+#                   'Etag: 1439721905
 # Cache-control: max-age=10
 # Content-Type: text/plain; charset=utf-8
 # 
@@ -227,236 +223,285 @@ t/calendar.t ................... ok
 # title: OtherIdea
 # description: new page in cluster
 # link: http://localhost/wiki.pl/OtherIdea
-# last-modified: 2015-08-16T10:38Z
+# last-modified: 2015-08-16T10:45Z
 # revision: 1
 # 
 # title: MainPage
 # description: main summary
 # link: http://localhost/wiki.pl/MainPage
-# last-modified: 2015-08-16T10:38Z
+# last-modified: 2015-08-16T10:45Z
 # revision: 1
 # 
 # title: ClusterIdea
 # description: four
 # link: http://localhost/wiki.pl/ClusterIdea
-# last-modified: 2015-08-16T10:38Z
+# last-modified: 2015-08-16T10:45Z
 # revision: 4
 # '
 #           matches '(?-xism:main summary)'
 # Looks like you failed 14 tests of 33.
-t/clusters.t ................... 
+t/clusters.t .............. 
 Dubious, test returned 14 (wstat 3584, 0xe00)
 Failed 14/33 subtests 
-t/comments.t ................... ok
-t/config-page.t ................ ok
-sh: diff: No such file or directory
-sh: diff: No such file or directory
-# An error saying that diff3 was not found is expected because PATH has been unset.
+t/comments.t .............. ok
+t/config-page.t ........... ok
+# Warnings saying that diff and diff3 cannot be found is expected because PATH has been unset.
 sh: diff3: No such file or directory
 sh: diff: No such file or directory
-t/conflict.t ................... ok
-t/contributors.t ............... ok
+t/conflict.t .............. ok
+t/contributors.t .......... ok
 
 #   Failed test 'Invalid UserName Alex Schroeder: not saved'
-#   at t/test.pl line 157.
+#   at t/test.pl line 158.
 #                   'Status: 404 NOT FOUND
-# Set-Cookie: Wiki=username%251eAlex%20Schroeder; path=/; expires=Tue, 15-Aug-2017 10:38:42 GMT
-# Date: Sun, 16 Aug 2015 10:38:42 GMT
-# Etag: 1439721521%1eAlex%20Schroeder
+# Set-Cookie: Wiki=username%251eAlex%20Schroeder; path=/; expires=Tue, 15-Aug-2017 10:45:35 GMT
+# Date: Sun, 16 Aug 2015 10:45:35 GMT
+# Etag: 1439721935%1eAlex%20Schroeder
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
 # <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: HomePage</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=HomePage" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: HomePage" href="http://localhost/wiki.pl?action=rss;rcidonly=HomePage" /><link rel="alternate" type="application/rss+xml" title="Follow-ups for Alex Schroeder" href="http://localhost/wiki.pl?action=rss;followup=Alex%20Schroeder" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>Cookie: Wiki, username=Alex Schroeder</p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22HomePage%22">HomePage</a></h1></div><div class="wrapper"><div class="content browse"><p>This page is empty.</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=HomePage">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=HomePage">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=HomePage">Administration</a></div></div>
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: HomePage</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=HomePage" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: HomePage" href="http://localhost/wiki.pl?action=rss;rcidonly=HomePage" /><link rel="alternate" type="application/rss+xml" title="Follow-ups for Alex Schroeder" href="http://localhost/wiki.pl?action=rss;followup=Alex%20Schroeder" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>Cookie: Wiki, username=Alex Schroeder</p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22HomePage%22">HomePage</a></h1></div><div class="wrapper"><div class="content browse"><p>This page does not exist, but you can <a class="url http outside" href="http://localhost/wiki.pl?action=edit;id=HomePage">create it now</a>.</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=HomePage">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=HomePage">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=HomePage">Administration</a></div></div>
 # </body>
 # </html>
 # '
 #     doesn't match '(?-xism:Invalid UserName Alex Schroeder: not saved)'
 
 #   Failed test 'Invalid UserName Alex: not saved'
-#   at t/test.pl line 157.
+#   at t/test.pl line 158.
 #                   'Status: 404 NOT FOUND
-# Set-Cookie: Wiki=username%251eAlex; path=/; expires=Tue, 15-Aug-2017 10:38:42 GMT
-# Date: Sun, 16 Aug 2015 10:38:42 GMT
-# Etag: 1439721521%1eAlex
+# Set-Cookie: Wiki=username%251eAlex; path=/; expires=Tue, 15-Aug-2017 10:45:35 GMT
+# Date: Sun, 16 Aug 2015 10:45:35 GMT
+# Etag: 1439721935%1eAlex
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
 # <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: HomePage</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=HomePage" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: HomePage" href="http://localhost/wiki.pl?action=rss;rcidonly=HomePage" /><link rel="alternate" type="application/rss+xml" title="Follow-ups for Alex" href="http://localhost/wiki.pl?action=rss;followup=Alex" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>Cookie: Wiki, username=Alex</p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22HomePage%22">HomePage</a></h1></div><div class="wrapper"><div class="content browse"><p>This page is empty.</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=HomePage">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=HomePage">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=HomePage">Administration</a></div></div>
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: HomePage</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=HomePage" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: HomePage" href="http://localhost/wiki.pl?action=rss;rcidonly=HomePage" /><link rel="alternate" type="application/rss+xml" title="Follow-ups for Alex" href="http://localhost/wiki.pl?action=rss;followup=Alex" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>Cookie: Wiki, username=Alex</p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22HomePage%22">HomePage</a></h1></div><div class="wrapper"><div class="content browse"><p>This page does not exist, but you can <a class="url http outside" href="http://localhost/wiki.pl?action=edit;id=HomePage">create it now</a>.</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=HomePage">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=HomePage">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=HomePage">Administration</a></div></div>
 # </body>
 # </html>
 # '
 #     doesn't match '(?-xism:Invalid UserName Alex: not saved)'
 # Looks like you failed 2 tests of 18.
-t/cookie.t ..................... 
+t/cookie.t ................ 
 Dubious, test returned 2 (wstat 512, 0x200)
 Failed 2/18 subtests 
 	(less 7 skipped subtests: 9 okay)
 
 #   Failed test '...cal"][@href="http://localhost/test.pl/InterMap"][text()="InterMap"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>InterMap</div>
 # Looks like you failed 1 test of 111.
-t/creole.t ..................... 
+t/creole.t ................ 
 Dubious, test returned 1 (wstat 256, 0x100)
 Failed 1/111 subtests 
-t/creoleaddition.t ............. ok
-t/crossbar.t ................... ok
-t/crumbs.t ..................... ok
-t/css.t ........................ ok
+t/creoleaddition.t ........ ok
+t/crossbar.t .............. ok
+t/crumbs.t ................ ok
+t/css.t ................... ok
 
 #   Failed test '...cal"][@href="http://localhost/test.pl/HomePage"][text()="HomePage"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>traditional local link: HomePage</div>
 
 #   Failed test '...ef="http://localhost/test.pl?action=edit;id=OtherPage"][text()="?"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>traditional local link: OtherPage</div>
 
 #   Failed test '...string()="1"]/following-sibling::span[@class="bracket"][text()="]"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>traditional local link with extra brackets: [HomePage]</div>
 
 #   Failed test '...ef="http://localhost/test.pl?action=edit;id=OtherPage"][text()="?"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>traditional local link with extra brackets: [OtherPage]</div>
 
 #   Failed test '...cal"][@href="http://localhost/test.pl/HomePage"][text()="HomePage"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>traditional local link with other text: [HomePage homepage]</div>
 
 #   Failed test '...ef="http://localhost/test.pl?action=edit;id=OtherPage"][text()="?"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>traditional local link with other text: [OtherPage other page]</div>
 
+#   Failed test '...=":"]/following-sibling::span[@class="page"][text()="Link_Pattern"]'
+#   at t/test.pl line 205.
+# No Matches
+# <div>URL abbreviation: <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?Link_Pattern"><span class="site">Oddmuse</span><span class="separator">:</span><span class="interpage">Link_Pattern</span></a></div>
+
+#   Failed test '...=":"]/following-sibling::span[@class="page"][text()="Link+Pattern"]'
+#   at t/test.pl line 205.
+# No Matches
+# <div>URL abbreviation with meta characters: <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?Link+Pattern"><span class="site">Oddmuse</span><span class="separator">:</span><span class="interpage">Link+Pattern</span></a></div>
+
+#   Failed test '...=":"]/following-sibling::span[@class="page"][text()="Link Pattern"]'
+#   at t/test.pl line 205.
+# No Matches
+# <div>free URL abbreviation: <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?Link%20Pattern"><span class="site">Oddmuse</span><span class="separator">:</span><span class="interpage">Link Pattern</span></a></div>
+
+#   Failed test '...=":"]/following-sibling::span[@class="page"][text()="Link+Pattern"]'
+#   at t/test.pl line 205.
+# No Matches
+# <div>free URL abbreviation with meta characters: <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?Link%2bPattern"><span class="site">Oddmuse</span><span class="separator">:</span><span class="interpage">Link+Pattern</span></a></div>
+
 #   Failed test '...cal"][@href="http://localhost/test.pl/HomePage"][text()="HomePage"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>traditional local link: HomePage</div>
 
 #   Failed test '...ef="http://localhost/test.pl?action=edit;id=OtherPage"][text()="?"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>traditional local link: OtherPage</div>
 
 #   Failed test '...string()="1"]/following-sibling::span[@class="bracket"][text()="]"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>traditional local link with extra brackets: [HomePage]</div>
 
 #   Failed test '...ef="http://localhost/test.pl?action=edit;id=OtherPage"][text()="?"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>traditional local link with extra brackets: [OtherPage]</div>
 
 #   Failed test '...cal"][@href="http://localhost/test.pl/HomePage"][text()="homepage"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>traditional local link with other text: [HomePage homepage]</div>
 
 #   Failed test '...ef="http://localhost/test.pl?action=edit;id=OtherPage"][text()="?"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>traditional local link with other text: [OtherPage other page]</div>
-# Looks like you failed 12 tests of 63.
-t/default-links.t .............. 
-Dubious, test returned 12 (wstat 3072, 0xc00)
-Failed 12/63 subtests 
+
+#   Failed test '...=":"]/following-sibling::span[@class="page"][text()="Link_Pattern"]'
+#   at t/test.pl line 205.
+# No Matches
+# <div>URL abbreviation: <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?Link_Pattern"><span class="site">Oddmuse</span><span class="separator">:</span><span class="interpage">Link_Pattern</span></a></div>
+
+#   Failed test '...=":"]/following-sibling::span[@class="page"][text()="Link Pattern"]'
+#   at t/test.pl line 205.
+# No Matches
+# <div>free URL abbreviation: <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?Link%20Pattern"><span class="site">Oddmuse</span><span class="separator">:</span><span class="interpage">Link Pattern</span></a></div>
+# Looks like you failed 18 tests of 63.
+t/default-links.t ......... 
+Dubious, test returned 18 (wstat 4608, 0x1200)
+Failed 18/63 subtests 
 
 #   Failed test '!WikiLink'
-#   at t/test.pl line 127.
+#   at t/test.pl line 128.
 #          got: '!WikiLink'
 #     expected: 'WikiLink'
 
 #   Failed test '...ref="http://localhost/test.pl?action=edit;id=WikiWord"][text()="?"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>WikiWord</div>
 
 #   Failed test '...t;id=WikiWord"][text()="?"]/following-sibling::text()[string()=":"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>WikiWord:</div>
 
 #   Failed test '...href="http://localhost/test.pl?action=edit;id=OddMuse"][text()="?"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>OddMuse</div>
 
 #   Failed test '...it;id=OddMuse"][text()="?"]/following-sibling::text()[string()=":"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>OddMuse:</div>
-# Looks like you failed 5 tests of 60.
-t/default-markup.t ............. 
-Dubious, test returned 5 (wstat 1280, 0x500)
-Failed 5/60 subtests 
-t/despam.t ..................... ok
-t/diff.t ....................... ok
-t/dotfiles.t ................... ok
-t/download.t ................... ok
-t/drafts.t ..................... ok
-t/duckduckgo-search.t .......... ok
-t/dynamic-comments.t ........... ok
-t/edit-paragraphs.t ............ ok
-t/edit.t ....................... ok
-t/emailquote.t ................. ok
-t/enclosure.t .................. ok
 
-#   Failed test 'Русский'
-#   at t/test.pl line 157.
-#                   'Etag: 1439721550
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Russian</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=Russian" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Russian" href="http://localhost/wiki.pl?action=rss;rcidonly=Russian" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22Russian%22">Russian</a></h1></div><div class="wrapper"><div class="content browse"><p>Ð ÑÑÑÐºÐ¸Ð¹ Hello again</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Russian">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=Russian">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=Russian">Administration</a></div><div class="time">Last edited 2015-08-16 10:39 UTC by  <a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=Russian">(diff)</a></div></div>
+#   Failed test '...][text()=":"]/following-sibling::span[@class="page"][text()="test"]'
+#   at t/test.pl line 205.
+# No Matches
+# <div><a class="inter OddMuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?test"><span class="site">OddMuse</span><span class="separator">:</span><span class="interpage">test</span></a></div>
+
+#   Failed test '...][text()=":"]/following-sibling::span[@class="page"][text()="test"]'
+#   at t/test.pl line 205.
+# No Matches
+# <div><a class="inter OddMuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?test"><span class="site">OddMuse</span><span class="separator">:</span><span class="interpage">test</span></a>: or not</div>
+
+#   Failed test '...][text()=":"]/following-sibling::span[@class="page"][text()="test"]'
+#   at t/test.pl line 205.
+# No Matches
+# <div><a class="inter OddMuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?test"><span class="site">OddMuse</span><span class="separator">:</span><span class="interpage">test</span></a>, and foo</div>
+
+#   Failed test '...xt()=":"]/following-sibling::span[@class="page"][text()="ZipfsLaw"]'
+#   at t/test.pl line 205.
+# No Matches
+# <div><a class="inter PlanetMath" href="http://planetmath.org/encyclopedia/ZipfsLaw.html"><span class="site">PlanetMath</span><span class="separator">:</span><span class="interpage">ZipfsLaw</span></a>, and foo</div>
+# Looks like you failed 9 tests of 60.
+t/default-markup.t ........ 
+Dubious, test returned 9 (wstat 2304, 0x900)
+Failed 9/60 subtests 
+t/despam.t ................ ok
+t/diff.t .................. ok
+t/dotfiles.t .............. ok
+t/download.t .............. ok
+t/drafts.t ................ ok
+t/duckduckgo-search.t ..... ok
+t/dynamic-comments.t ...... ok
+t/edit-paragraphs.t ....... ok
+t/edit.t .................. ok
+t/emailquote.t ............ ok
+t/enclosure.t ............. ok
+t/encoding.t .............. ok
+t/fieldlist.t ............. ok
+t/find.t .................. ok
+t/fix-encoding.t .......... ok
+t/footer.t ................ ok
+t/git.t ................... ok
+t/google-custom-search.t .. ok
+t/google-plus-one.t ....... ok
+t/google-search.t ......... ok
+t/gotobar.t ............... ok
+t/gravatar.t .............. ok
+t/headers.t ............... ok
+t/history.t ............... ok
+t/hr.t .................... ok
+t/htmlcomment.t ........... ok
+t/image.t ................. ok
+t/include.t ............... ok
+t/irc.t ................... ok
+t/journal-rss.t ........... ok
+t/journal.t ............... ok
+t/journal2.t .............. ok
+t/journal3.t .............. ok
+t/languages.t ............. ok
+t/like.t .................. ok
+t/link-all.t .............. ok
+
+#   Failed test '..."][text()=":"]/following-sibling::span[@class="page"][text()="foo"]'
+#   at t/test.pl line 205.
+# No Matches
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Full Link List</title><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="NOINDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1>Full Link List</h1></div><div class="wrapper"><p><a class="local" href="http://localhost/wiki.pl/a">a</a>: <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?bar"><span class="site">Oddmuse</span><span class="separator">:</span><span class="interpage">bar</span></a> <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?baz"><span class="site">Oddmuse</span><span class="separator">:</span><span class="interpage">baz</span></a> <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?baz">text</a> <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?foo (baz)"><span class="site">Oddmuse</span><span class="separator">:</span><span class="interpage">foo (baz)</span></a> <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?foo (quux)">text</a> <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?foo"><span class="site">Oddmuse</span><span class="separator">:</span><span class="interpage">foo</span></a> <a class="inter Oddmuse" href="http://www.emacswiki.org/cgi-bin/oddmuse.pl?foo_(bar)"><span class="site">Oddmuse</span><span class="separator">:</span><span class="interpage">foo_(bar)</span></a></p><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin">Administration</a></div></div>
 # </body>
 # </html>
-# '
-#     doesn't match '(?-xism:Русский)'
-# Looks like you failed 1 test of 41.
-t/encoding.t ................... 
-Dubious, test returned 1 (wstat 256, 0x100)
-Failed 1/41 subtests 
-t/fieldlist.t .................. ok
-t/find.t ....................... ok
-t/fix-encoding.t ............... ok
-t/footer.t ..................... ok
-t/git.t ........................ ok
-t/google-custom-search.t ....... ok
-t/google-search.t .............. ok
-t/gotobar.t .................... ok
-t/gravatar.t ................... ok
-t/headers.t .................... ok
-t/history.t .................... ok
-t/hr.t ......................... ok
-t/htmlcomment.t ................ ok
-t/image.t ...................... ok
-t/include.t .................... ok
-t/indexed-search.t ............. ok
-t/irc.t ........................ ok
-t/journal-rss.t ................ ok
-t/journal.t .................... ok
-t/journal2.t ................... ok
-t/journal3.t ................... ok
-t/languages.t .................. ok
-t/link-all.t ................... ok
+
+#   Failed test '..."][text()=":"]/following-sibling::span[@class="page"][text()="bar"]'
+#   at t/test.pl line 205.
+
+#   Failed test '..."][text()=":"]/following-sibling::span[@class="page"][text()="baz"]'
+#   at t/test.pl line 205.
+
+#   Failed test '...t()=":"]/following-sibling::span[@class="page"][text()="foo_(bar)"]'
+#   at t/test.pl line 205.
 
 #   Failed test '"a" -> "FooBar"'
-#   at t/test.pl line 157.
-#                   'Etag: 1439721585
+#   at t/test.pl line 158.
+#                   'Etag: 1439722005
 # Cache-control: max-age=10
 # Content-Type: text/plain; charset=utf-8
 # 
@@ -466,8 +511,8 @@ t/link-all.t ................... ok
 #     doesn't match '(?-xism:"a" -> "FooBar")'
 
 #   Failed test '"a" -> "FooBaz"'
-#   at t/test.pl line 157.
-#                   'Etag: 1439721585
+#   at t/test.pl line 158.
+#                   'Etag: 1439722005
 # Cache-control: max-age=10
 # Content-Type: text/plain; charset=utf-8
 # 
@@ -477,8 +522,8 @@ t/link-all.t ................... ok
 #     doesn't match '(?-xism:"a" -> "FooBaz")'
 
 #   Failed test '"a" -> "FooQuux"'
-#   at t/test.pl line 157.
-#                   'Etag: 1439721585
+#   at t/test.pl line 158.
+#                   'Etag: 1439722005
 # Cache-control: max-age=10
 # Content-Type: text/plain; charset=utf-8
 # 
@@ -488,8 +533,8 @@ t/link-all.t ................... ok
 #     doesn't match '(?-xism:"a" -> "FooQuux")'
 
 #   Failed test '"a" -> "FooBar"'
-#   at t/test.pl line 157.
-#                   'Etag: 1439721586
+#   at t/test.pl line 158.
+#                   'Etag: 1439722006
 # Cache-control: max-age=10
 # Content-Type: text/plain; charset=utf-8
 # 
@@ -500,8 +545,8 @@ t/link-all.t ................... ok
 #     doesn't match '(?-xism:"a" -> "FooBar")'
 
 #   Failed test '"a" -> "FooBaz"'
-#   at t/test.pl line 157.
-#                   'Etag: 1439721586
+#   at t/test.pl line 158.
+#                   'Etag: 1439722006
 # Cache-control: max-age=10
 # Content-Type: text/plain; charset=utf-8
 # 
@@ -512,8 +557,8 @@ t/link-all.t ................... ok
 #     doesn't match '(?-xism:"a" -> "FooBaz")'
 
 #   Failed test '"a" -> "FooQuux"'
-#   at t/test.pl line 157.
-#                   'Etag: 1439721586
+#   at t/test.pl line 158.
+#                   'Etag: 1439722006
 # Cache-control: max-age=10
 # Content-Type: text/plain; charset=utf-8
 # 
@@ -524,8 +569,8 @@ t/link-all.t ................... ok
 #     doesn't match '(?-xism:"a" -> "FooQuux")'
 
 #   Failed test '"a" -> "FooBar"'
-#   at t/test.pl line 157.
-#                   'Etag: 1439721586
+#   at t/test.pl line 158.
+#                   'Etag: 1439722006
 # Cache-control: max-age=10
 # Content-Type: text/plain; charset=utf-8
 # 
@@ -540,8 +585,8 @@ t/link-all.t ................... ok
 #     doesn't match '(?-xism:"a" -> "FooBar")'
 
 #   Failed test '"a" -> "FooBaz"'
-#   at t/test.pl line 157.
-#                   'Etag: 1439721586
+#   at t/test.pl line 158.
+#                   'Etag: 1439722006
 # Cache-control: max-age=10
 # Content-Type: text/plain; charset=utf-8
 # 
@@ -556,8 +601,8 @@ t/link-all.t ................... ok
 #     doesn't match '(?-xism:"a" -> "FooBaz")'
 
 #   Failed test '"a" -> "FooQuux"'
-#   at t/test.pl line 157.
-#                   'Etag: 1439721586
+#   at t/test.pl line 158.
+#                   'Etag: 1439722006
 # Cache-control: max-age=10
 # Content-Type: text/plain; charset=utf-8
 # 
@@ -570,527 +615,235 @@ t/link-all.t ................... ok
 # "a" -> "http://www.oddmuse.org/"
 # '
 #     doesn't match '(?-xism:"a" -> "FooQuux")'
-# Looks like you failed 9 tests of 55.
-t/links.t ...................... 
-Dubious, test returned 9 (wstat 2304, 0x900)
-Failed 9/55 subtests 
-t/listlocked.t ................. ok
+# Looks like you failed 13 tests of 55.
+t/links.t ................. 
+Dubious, test returned 13 (wstat 3328, 0xd00)
+Failed 13/55 subtests 
+t/listlocked.t ............ ok
 
 #   Failed test '...le="LocalNames"][@href="http://www.oddmuse.org/"][text()="OddMuse"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>OddMuse</div>
 
 #   Failed test '...le="LocalNames"][@href="http://www.oddmuse.org/"][text()="OddMuse"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: LocalNamesTest</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=LocalNamesTest" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: LocalNamesTest" href="http://localhost/wiki.pl?action=rss;rcidonly=LocalNamesTest" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22LocalNamesTest%22">LocalNamesTest</a></h1></div><div class="wrapper"><div class="content browse"><p>OddMuse <a class="near" title="LocalNames" href="http://lion.taoriver.net/">my blog</a></p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=LocalNamesTest">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=LocalNamesTest">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=LocalNamesTest">Administration</a></div><div class="time">Last edited 2015-08-16 10:39 UTC by </div></div>
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: LocalNamesTest</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=LocalNamesTest" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: LocalNamesTest" href="http://localhost/wiki.pl?action=rss;rcidonly=LocalNamesTest" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22LocalNamesTest%22">LocalNamesTest</a></h1></div><div class="wrapper"><div class="content browse"><p>OddMuse <a class="near" title="LocalNames" href="http://lion.taoriver.net/">my blog</a></p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=LocalNamesTest">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=LocalNamesTest">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=LocalNamesTest">Administration</a></div><div class="time">Last edited 2015-08-16 10:46 UTC by </div></div>
 # </body>
 # </html>
 
 #   Failed test '...le="LocalNames"][@href="http://www.oddmuse.org/"][text()="OddMuse"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
 # <div>OddMuse</div>
 # Looks like you failed 3 tests of 19.
-t/localnames.t ................. 
+t/localnames.t ............ 
 Dubious, test returned 3 (wstat 768, 0x300)
 Failed 3/19 subtests 
-t/lock-expiration.t ............ ok
-t/lock-on-creation.t ........... ok
-t/lock.t ....................... ok
-t/logbannedcontent.t ........... ok
-t/macros.t ..................... ok
-t/mail.t ....................... ok
-t/maintain.t ................... ok
-t/major.t ...................... ok
-t/markdown-rule.t .............. ok
-t/markup-and-creole.t .......... ok
-t/markup.t ..................... ok
-t/merge.t ...................... ok
-t/meta-data.t .................. ok
-t/moin.t ....................... ok
-t/multi-url-spam-block.t ....... ok
+t/lock-expiration.t ....... ok
+t/lock-on-creation.t ...... ok
+t/lock.t .................. ok
+t/logbannedcontent.t ...... ok
+t/macros.t ................ ok
+t/mail.t .................. ok
+t/maintain.t .............. ok
+t/major.t ................. ok
+t/markdown-rule.t ......... ok
+t/markup-and-creole.t ..... ok
+t/markup.t ................ ok
+t/merge.t ................. ok
+t/meta-data.t ............. ok
+t/moin.t .................. ok
+t/multi-url-spam-block.t .. ok
 
 #   Failed test 'Status: 302'
-#   at t/test.pl line 157.
-#                   'Etag: 1439721743
+#   at t/test.pl line 158.
+#                   'Etag: 1439722164
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
 # <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Mu</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=Mu" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Mu" href="http://localhost/wiki.pl?action=rss;rcidonly=Mu" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>Invalid link pattern for #REDIRECT</p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22Mu%22">Mu</a></h1></div><div class="wrapper"><div class="content browse"><p>#REDIRECT <a class="inter Muu" href="http://localhost/wiki.pl/Muu/Mu"><span class="site">Muu</span><span class="separator">:</span><span class="page">Mu</span></a></p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Mu">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=Mu">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=Mu">Administration</a></div><div class="time">Last edited 2015-08-16 10:42 UTC by </div></div>
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Mu</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=Mu" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Mu" href="http://localhost/wiki.pl?action=rss;rcidonly=Mu" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>Invalid link pattern for #REDIRECT</p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22Mu%22">Mu</a></h1></div><div class="wrapper"><div class="content browse"><p>#REDIRECT <a class="inter Muu" href="http://localhost/wiki.pl/Muu/Mu"><span class="site">Muu</span><span class="separator">:</span><span class="interpage">Mu</span></a></p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Mu">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=Mu">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=Mu">Administration</a></div><div class="time">Last edited 2015-08-16 10:49 UTC by </div></div>
 # </body>
 # </html>
 # '
 #     doesn't match '(?-xism:Status: 302)'
 
 #   Failed test '... http://localhost/wiki.pl\?action=browse;ns=Muu;oldid=Main:Mu;id=Mu'
-#   at t/test.pl line 157.
-#                   'Etag: 1439721743
+#   at t/test.pl line 158.
+#                   'Etag: 1439722164
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
 # <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Mu</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=Mu" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Mu" href="http://localhost/wiki.pl?action=rss;rcidonly=Mu" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>Invalid link pattern for #REDIRECT</p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22Mu%22">Mu</a></h1></div><div class="wrapper"><div class="content browse"><p>#REDIRECT <a class="inter Muu" href="http://localhost/wiki.pl/Muu/Mu"><span class="site">Muu</span><span class="separator">:</span><span class="page">Mu</span></a></p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Mu">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=Mu">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=Mu">Administration</a></div><div class="time">Last edited 2015-08-16 10:42 UTC by </div></div>
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Mu</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=Mu" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Mu" href="http://localhost/wiki.pl?action=rss;rcidonly=Mu" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>Invalid link pattern for #REDIRECT</p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22Mu%22">Mu</a></h1></div><div class="wrapper"><div class="content browse"><p>#REDIRECT <a class="inter Muu" href="http://localhost/wiki.pl/Muu/Mu"><span class="site">Muu</span><span class="separator">:</span><span class="interpage">Mu</span></a></p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Mu">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=Mu">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=Mu">Administration</a></div><div class="time">Last edited 2015-08-16 10:49 UTC by </div></div>
 # </body>
 # </html>
 # '
 #     doesn't match '(?-xism:Location: http://localhost/wiki.pl\?action=browse;ns=Muu;oldid=Main:Mu;id=Mu)'
 
 #   Failed test 'Status: 302'
-#   at t/test.pl line 157.
-#                   'Etag: 1439721743
+#   at t/test.pl line 158.
+#                   'Etag: 1439722164
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
 # <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki Muu: Mu</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl/Muu?action=edit;id=Mu" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu" href="http://localhost/wiki.pl/Muu?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu: Mu" href="http://localhost/wiki.pl/Muu?action=rss;rcidonly=Mu" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl/Muu"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/Muu/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/Muu/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl/Muu" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>Invalid link pattern for #REDIRECT</p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?search=%22Mu%22">Mu</a></h1></div><div class="wrapper"><div class="content browse"><p>#REDIRECT Ford:Goo</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=edit;id=Mu">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=history;id=Mu">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=admin;id=Mu">Administration</a></div><div class="time">Last edited 2015-08-16 10:42 UTC by </div></div>
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki Muu: Mu</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl/Muu?action=edit;id=Mu" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu" href="http://localhost/wiki.pl/Muu?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu: Mu" href="http://localhost/wiki.pl/Muu?action=rss;rcidonly=Mu" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/Muu/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/Muu/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl/Muu" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>Invalid link pattern for #REDIRECT</p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?search=%22Mu%22">Mu</a></h1></div><div class="wrapper"><div class="content browse"><p>#REDIRECT Ford:Goo</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=edit;id=Mu">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=history;id=Mu">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=admin;id=Mu">Administration</a></div><div class="time">Last edited 2015-08-16 10:49 UTC by </div></div>
 # </body>
 # </html>
 # '
 #     doesn't match '(?-xism:Status: 302)'
 
 #   Failed test '...http://localhost/wiki.pl\?action=browse;ns=Ford;oldid=Muu:Mu;id=Goo'
-#   at t/test.pl line 157.
-#                   'Etag: 1439721743
+#   at t/test.pl line 158.
+#                   'Etag: 1439722164
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
 # <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki Muu: Mu</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl/Muu?action=edit;id=Mu" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu" href="http://localhost/wiki.pl/Muu?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu: Mu" href="http://localhost/wiki.pl/Muu?action=rss;rcidonly=Mu" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl/Muu"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/Muu/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/Muu/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl/Muu" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>Invalid link pattern for #REDIRECT</p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?search=%22Mu%22">Mu</a></h1></div><div class="wrapper"><div class="content browse"><p>#REDIRECT Ford:Goo</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=edit;id=Mu">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=history;id=Mu">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=admin;id=Mu">Administration</a></div><div class="time">Last edited 2015-08-16 10:42 UTC by </div></div>
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki Muu: Mu</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl/Muu?action=edit;id=Mu" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu" href="http://localhost/wiki.pl/Muu?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu: Mu" href="http://localhost/wiki.pl/Muu?action=rss;rcidonly=Mu" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/Muu/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/Muu/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl/Muu" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>Invalid link pattern for #REDIRECT</p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?search=%22Mu%22">Mu</a></h1></div><div class="wrapper"><div class="content browse"><p>#REDIRECT Ford:Goo</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=edit;id=Mu">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=history;id=Mu">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=admin;id=Mu">Administration</a></div><div class="time">Last edited 2015-08-16 10:49 UTC by </div></div>
 # </body>
 # </html>
 # '
 #     doesn't match '(?-xism:Location: http://localhost/wiki.pl\?action=browse;ns=Ford;oldid=Muu:Mu;id=Goo)'
 
 #   Failed test '...text()="Ford"]/following-sibling::span[@class="page"][text()="Goo"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki Muu: Mu</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl/Muu?action=edit;id=Mu" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu" href="http://localhost/wiki.pl/Muu?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu: Mu" href="http://localhost/wiki.pl/Muu?action=rss;rcidonly=Mu" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl/Muu"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/Muu/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/Muu/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl/Muu" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>Too many redirections</p><p>(redirected from <a class="edit" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Mu">Main:Mu</a>)</p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?search=%22Mu%22">Mu</a></h1></div><div class="wrapper"><div class="content browse"><p>#REDIRECT Ford:Goo</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=edit;id=Mu">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=history;id=Mu">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=admin;id=Mu">Administration</a></div><div class="time">Last edited 2015-08-16 10:42 UTC by </div></div>
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki Muu: Mu</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl/Muu?action=edit;id=Mu" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu" href="http://localhost/wiki.pl/Muu?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu: Mu" href="http://localhost/wiki.pl/Muu?action=rss;rcidonly=Mu" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/Muu/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/Muu/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl/Muu" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>Too many redirections</p><p>(redirected from <a class="edit" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Mu">Main:Mu</a>)</p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?search=%22Mu%22">Mu</a></h1></div><div class="wrapper"><div class="content browse"><p>#REDIRECT Ford:Goo</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=edit;id=Mu">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=history;id=Mu">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=admin;id=Mu">Administration</a></div><div class="time">Last edited 2015-08-16 10:49 UTC by </div></div>
 # </body>
 # </html>
 
 #   Failed test 'Status: 302'
-#   at t/test.pl line 157.
-#                   'Etag: 1439721744
+#   at t/test.pl line 158.
+#                   'Etag: 1439722165
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
 # <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki Muu: BackHome</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl/Muu?action=edit;id=BackHome" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu" href="http://localhost/wiki.pl/Muu?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu: BackHome" href="http://localhost/wiki.pl/Muu?action=rss;rcidonly=BackHome" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl/Muu"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/Muu/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/Muu/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl/Muu" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>Invalid link pattern for #REDIRECT</p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?search=%22BackHome%22">BackHome</a></h1></div><div class="wrapper"><div class="content browse"><p>#REDIRECT <a class="inter Main" href="http://localhost/wiki.pl/HomePage"><span class="site">Main</span><span class="separator">:</span><span class="page">HomePage</span></a></p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=edit;id=BackHome">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=history;id=BackHome">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=admin;id=BackHome">Administration</a></div><div class="time">Last edited 2015-08-16 10:42 UTC by </div></div>
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki Muu: BackHome</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl/Muu?action=edit;id=BackHome" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu" href="http://localhost/wiki.pl/Muu?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu: BackHome" href="http://localhost/wiki.pl/Muu?action=rss;rcidonly=BackHome" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/Muu/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/Muu/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl/Muu" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>Invalid link pattern for #REDIRECT</p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?search=%22BackHome%22">BackHome</a></h1></div><div class="wrapper"><div class="content browse"><p>#REDIRECT <a class="inter Main" href="http://localhost/wiki.pl/HomePage"><span class="site">Main</span><span class="separator">:</span><span class="interpage">HomePage</span></a></p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=edit;id=BackHome">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=history;id=BackHome">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=admin;id=BackHome">Administration</a></div><div class="time">Last edited 2015-08-16 10:49 UTC by </div></div>
 # </body>
 # </html>
 # '
 #     doesn't match '(?-xism:Status: 302)'
 
 #   Failed test '...lhost/wiki.pl\?action=browse;ns=Main;oldid=Muu:BackHome;id=HomePage'
-#   at t/test.pl line 157.
-#                   'Etag: 1439721744
+#   at t/test.pl line 158.
+#                   'Etag: 1439722165
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
 # <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki Muu: BackHome</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl/Muu?action=edit;id=BackHome" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu" href="http://localhost/wiki.pl/Muu?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu: BackHome" href="http://localhost/wiki.pl/Muu?action=rss;rcidonly=BackHome" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl/Muu"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/Muu/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/Muu/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl/Muu" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>Invalid link pattern for #REDIRECT</p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?search=%22BackHome%22">BackHome</a></h1></div><div class="wrapper"><div class="content browse"><p>#REDIRECT <a class="inter Main" href="http://localhost/wiki.pl/HomePage"><span class="site">Main</span><span class="separator">:</span><span class="page">HomePage</span></a></p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=edit;id=BackHome">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=history;id=BackHome">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=admin;id=BackHome">Administration</a></div><div class="time">Last edited 2015-08-16 10:42 UTC by </div></div>
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki Muu: BackHome</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl/Muu?action=edit;id=BackHome" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu" href="http://localhost/wiki.pl/Muu?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu: BackHome" href="http://localhost/wiki.pl/Muu?action=rss;rcidonly=BackHome" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/Muu/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/Muu/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl/Muu" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>Invalid link pattern for #REDIRECT</p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?search=%22BackHome%22">BackHome</a></h1></div><div class="wrapper"><div class="content browse"><p>#REDIRECT <a class="inter Main" href="http://localhost/wiki.pl/HomePage"><span class="site">Main</span><span class="separator">:</span><span class="interpage">HomePage</span></a></p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=edit;id=BackHome">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=history;id=BackHome">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=admin;id=BackHome">Administration</a></div><div class="time">Last edited 2015-08-16 10:49 UTC by </div></div>
 # </body>
 # </html>
 # '
 #     doesn't match '(?-xism:Location: http://localhost/wiki.pl\?action=browse;ns=Main;oldid=Muu:BackHome;id=HomePage)'
 # Looks like you failed 7 tests of 77.
-t/namespaces.t ................. 
+t/namespaces.t ............ 
 Dubious, test returned 7 (wstat 1792, 0x700)
 Failed 7/77 subtests 
 
 #   Failed test '...ef="http://www.emacswiki.org/cgi-bin/wiki/FooBar"][text()="FooBar"]'
-#   at t/test.pl line 204.
+#   at t/test.pl line 205.
 # No Matches
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: FooBaz</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=FooBaz" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: FooBaz" href="http://localhost/wiki.pl?action=rss;rcidonly=FooBaz" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="http://localhost/wiki.pl"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22FooBaz%22">FooBaz</a></h1></div><div class="wrapper"><div class="content browse"><p>Try FooBar instead!</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=FooBaz">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=FooBaz">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=FooBaz">Administration</a></div><div class="time">Last edited 2015-08-16 10:42 UTC by </div></div>
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: FooBaz</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=FooBaz" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: FooBaz" href="http://localhost/wiki.pl?action=rss;rcidonly=FooBaz" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22FooBaz%22">FooBaz</a></h1></div><div class="wrapper"><div class="content browse"><p>Try FooBar instead!</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=FooBaz">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=FooBaz">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=FooBaz">Administration</a></div><div class="time">Last edited 2015-08-16 10:49 UTC by </div></div>
 # </body>
 # </html>
 
 #   Failed test '...="http://localhost/wiki.pl?action=edit;id=FooBar"][text()="FooBar"]'
-#   at t/test.pl line 204.
-# Looks like you failed 2 tests of 13.
-t/near.t ....................... 
+#   at t/test.pl line 205.
+# Looks like you failed 2 tests of 16.
+t/near-links.t ............ 
 Dubious, test returned 2 (wstat 512, 0x200)
-Failed 2/13 subtests 
-t/org-mode.t ................... ok
-t/page-trail.t ................. ok
-t/pagenames.t .................. ok
-t/password.t ................... ok
-t/permanent-anchors.t .......... ok
-t/portrait.t ................... ok
-t/private-pages.t .............. ok
-t/questionasker.t .............. ok
-t/questionmark.t ............... ok
-t/raw.t ........................ ok
-t/rc-pagination.t .............. ok
-t/rc.t ......................... ok
-t/recaptcha.t .................. ok
-t/redirection.t ................ ok
-t/referrer-tracking.t .......... ok
-t/revisions.t .................. ok
-t/rollback-extras.t ............ ok
-t/rollback.t ................... ok
-t/rss.t ........................ ok
-t/search-tag.t ................. ok
-t/search.t ..................... ok
-t/searchtags.t ................. ok
-t/security.t ................... ok
-t/setext.t ..................... ok
-t/sidebar.t .................... ok
-t/simple-rules.t ............... ok
-t/sitemap.t .................... ok
-
-#   Failed test 'body { background-color:\#FFF; color:\#000; margin:1em 2em; }'
-#   at t/test.pl line 157.
-#                   '/* This is the default CSS file for Oddmuse wikis. It is dedicated to
-#    the public domain. You can copy, modify, distribute and use the
-#    work, even for commercial purposes, all without asking permission.
-#    https://creativecommons.org/publicdomain/zero/1.0/ */
-# 
-# body {
-#     background: #fff;
-#     padding: 2% 5%;
-#     margin: 0;
-#     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-#     font-size: 15pt;
-# }
-# 
-# div.header h1 {
-#     margin-top: 2ex;
-# }
-# 
-# a {
-#     text-decoration: none;
-#     color: #a00;
-# }
-# 
-# a:visited {
-#     color: #d88;
-# }
-# 
-# div.header h1 a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover,
-# a:hover, span.caption a.image:hover {
-#      background: #fee;
-# }
-# 
-# img.logo {
-#     float: right;
-#     clear: right;
-#     border-style: none;
-#     background-color: #fff;
-# }
-# 
-# img {
-#     padding: 0.5em;
-#     margin: 0 1em;
-#     max-width: 95%;
-# }
-# 
-# a.image:hover {
-#     background: inherit;
-# }
-# 
-# a.image:hover img {
-#     background: #fee;
-# }
-# 
-# /* a.definition soll aussehen wie h2 */
-# h2, p a.definition {
-#     display: block;
-#     clear: both;
-# }
-# 
-# /* Such Link im h1 soll nicht auffallen. */
-# h1, h2, h3, h4, h1 a, h1 a:visited, p a.definition {
-#     color: #666;
-#     font-size: 30pt;
-#     font-weight: normal;
-#     margin: 4ex 0 1ex 0;
-#     padding: 0;
-#     border-bottom: 1px solid #000;
-# }
-# 
-# h3, h4 {
-#     font-size: inherit;
-# }
-# 
-# div.diff {
-#     padding: 1em 3em;
-# }
-# div.old {
-#     background-color: #FFFFAF;
-# }
-# div.new {
-#     background-color: #CFFFCF;
-# }
-# div.old p, div.new p {
-#     padding: 0.5em 0;
-# }
-# div.refer { padding-left: 5%; padding-right: 5%; font-size: smaller; }
-# div[class="content refer"] p { margin-top: 2em; }
-# div.content div.refer hr { display: none; }
-# div.content div.refer { padding: 0; font-size: medium; }
-# div.content div.refer p { margin: 0; }
-# div.refer a { display: block; }
-# table.history { border-style: none; }
-# td.history { border-style: none; }
-# 
-# table.user {
-#     border-style: none;
-#     margin-left: 3em;
-# }
-# table.user tr td {
-#     border-style: none;
-#     padding: 0.5ex 1ex;
-# }
-# 
-# dt {
-#     font-weight: bold;
-# }
-# dd {
-#     margin-bottom: 1ex;
-# }
-# 
-# textarea {
-#     width: 100%;
-#     height: 80%;
-#     font-size: 12pt;
-# }
-# textarea#summary { height: 3em; }
-# input {
-#     font-size: 12pt;
-# }
-# div.image span.caption {
-#     margin: 0 1em;
-# }
-# li img, img.smiley, .noborder img {
-#     border: none;
-#     padding: 0;
-#     margin: 0;
-#     background: #fff;
-#     color: #000;
-# }
-# /* Google +1 */
-# a#plus1 img {
-#     background-color: #fff;
-#     padding: 0;
-#     margin: 0;
-#     border: none;
-# }
-# 
-# div.header img, div.footer img { border: 0; padding: 0; margin: 0; }
-# /* No goto bar at the bottom. */
-# .footer .gotobar, .footer .edit br { display: none; }
-# 
-# .left { float: left; }
-# .right { float: right; }
-# div.left .left, div.right .right {
-#     float: none;
-# }
-# .center { text-align: center; }
-# 
-# span.author {
-#     color: #501;
-# }
-# 
-# span.bar a:first-child {
-#     margin-left: -0.5ex;
-# }
-# 
-# span.bar a {
-#     padding-right: 0.5ex;
-#     padding-left: 0.5ex;
-# }
-# 
-# .rc .author {
-#     color: #655;
-# }
-# 
-# .rc strong {
-#     font-weight: normal;
-#     color: inherit;
-# }
-# 
-# .rc li {
-#     position: relative;
-#     padding: 1ex 0;
-# }
-# 
-# hr {
-#     border: none;
-#     color: black;
-#     background-color: #000;
-#     height: 2px;
-#     margin-top: 2ex;
-# }
-# 
-# div.footer hr {
-#     height: 4px;
-#     margin: 2em 0 1ex 0;
-#     clear: both;
-# }
-# 
-# div.content > div.comment {
-#     border-top: none;
-#     padding-top: 0;
-#     border-left: 1ex solid #bbb;
-#     padding-left: 1ex;
-# }
-# 
-# div.wrapper > div.comment {
-#     border-top: 2px solid #000;
-#     padding-top: 2em;
-# }
-# 
-# pre {
-#     padding: 0.5em;
-#     margin-left: 1em;
-#     margin-right: 2em;
-#     white-space: pre;
-#     overflow: hidden;
-#     white-space: pre-wrap;      /* CSS 3 */
-#     white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
-#     white-space: -pre-wrap;     /* Opera 4-6 */
-#     white-space: -o-pre-wrap;   /* Opera 7 */
-#     word-wrap: break-word;      /* Internet Explorer 5.5+ */
-# }
-# 
-# tt, pre, code {
-#     font-size: 80%;
-# }
-# 
-# code {
-#     background: #eee;
-#     white-space: pre-wrap;
-# }
-# 
-# @font-face {
-#   font-family: 'Gentium Basic';
-#   font-style: normal;
-#   font-weight: 700;
-#   src: local('Gentium Basic Bold'), local('GentiumBasic-Bold'), url(/fonts/GenBasB.woff) format('woff');
-# }
-# 
-# @font-face {
-#   font-family: 'Gentium Basic';
-#   font-style: italic;
-#   font-weight: 400;
-#   src: local('Gentium Basic Italic'), local('GentiumBasic-Italic'), url(/fonts/GenBasI.woff) format('woff');
-# }
-# 
-# @font-face {
-#   font-family: 'Gentium Basic';
-#   font-style: italic;
-#   font-weight: 700;
-#   src: local('Gentium Basic Bold Italic'), local('GentiumBasic-BoldItalic'), url(/fonts/GenBasBI.woff) format('woff');
-# }
-# 
-# @font-face {
-#   font-family: 'Gentium Basic';
-#   font-style: normal;
-#   font-weight: 400;
-#   src: local('Gentium Basic'), local('GentiumBasic'), url(/fonts/GenBasR.woff) format('woff');
-# }
-# 
-# @font-face {
-#   font-family: 'Gentium Plus';
-#   font-style: normal;
-#   font-weight: 400;
-#   src: local('Gentium Plus'), local('GentiumPlus'), url(/fonts/GentiumPlus-R.woff) format('woff');
-# }
-# 
-# @font-face {
-#   font-family: 'Gentium Plus';
-#   font-style: italic;
-#   font-weight: 400;
-#   src: local('Gentium Plus Italic'), local('GentiumPlus-Italic'), url(/fonts/GentiumPlus-I.woff) format('woff');
-# }
-# 
-# @font-face {
-#   font-family: 'Symbola';
-#   src: local('Symbola'), url('/fonts/Symbola.woff') format('woff') url('/fonts/Symbola.ttf') format('truetype');
-# }
-# '
-#     doesn't match '(?-xism:body { background-color:#FFF; color:#000; margin:1em 2em; })'
-# Looks like you failed 1 test of 36.
-t/static-copy.t ................ 
-Dubious, test returned 1 (wstat 256, 0x100)
-Failed 1/36 subtests 
-t/strange-spam.t ............... ok
-t/subscribe.t .................. ok
-t/summary.t .................... ok
-# Looks like you planned 14 tests but ran 24.
-t/surge-protection.t ........... 
-Dubious, test returned 255 (wstat 65280, 0xff00)
-All 14 subtests passed 
-t/tables-long.t ................ ok
-t/tables.t ..................... ok
-t/tags.t ....................... ok
-t/tex.t ........................ ok
-t/toc.t ........................ ok
-t/translation-links.t .......... ok
-t/translations.t ............... ok
-t/upgrade-files.t .............. ok
-t/upgrade.t .................... ok
-t/upload.t ..................... ok
-t/usemod-options.t ............. ok
-t/usemod.t ..................... ok
-t/weblog-3.t ................... ok
+Failed 2/16 subtests 
+t/org-mode.t .............. ok
+t/page-trail.t ............ ok
+t/pagenames.t ............. ok
+t/password.t .............. ok
+t/permanent-anchors.t ..... ok
+t/portrait-support.t ...... ok
+t/private-pages.t ......... ok
+t/private-wiki.t .......... ok
+t/questionasker.t ......... ok
+t/questionmark.t .......... ok
+t/raw.t ................... ok
+t/rc-pagination.t ......... ok
+t/rc.t .................... ok
+t/recaptcha.t ............. ok
+t/redirection.t ........... ok
+t/referrer-tracking.t ..... ok
+t/revisions.t ............. ok
+t/rollback-extras.t ....... ok
+t/rollback.t .............. ok
+t/rss.t ................... ok
+t/search-tag.t ............ ok
+t/search.t ................ ok
+t/searchtags.t ............ ok
+t/security.t .............. ok
+t/setext.t ................ ok
+t/sidebar.t ............... ok
+t/simple-rules.t .......... ok
+t/sitemap.t ............... ok
+t/static-copy.t ........... ok
+t/strange-spam.t .......... ok
+t/subscriberc.t ........... ok
+t/summary.t ............... ok
+t/surge-protection.t ...... ok
+t/tables-long.t ........... ok
+t/tables.t ................ ok
+t/tags.t .................. ok
+t/tex.t ................... ok
+t/toc.t ................... ok
+t/translation-links.t ..... ok
+t/translations.t .......... ok
+t/upgrade-files.t ......... ok
+t/upgrade.t ............... ok
+t/upload.t ................ ok
+t/usemod-options.t ........ ok
+t/usemod.t ................ ok
+t/weblog-3.t .............. ok
 
 Test Summary Report
 -------------------
-t/big-brother.t              (Wstat: 65280 Tests: 28 Failed: 10)
-  Failed tests:  19-28
-  Non-zero exit status: 255
-  Parse errors: Bad plan.  You planned 18 tests but ran 28.
-t/clusters.t                 (Wstat: 3584 Tests: 33 Failed: 14)
+t/clusters.t            (Wstat: 3584 Tests: 33 Failed: 14)
   Failed tests:  1, 3, 7, 12, 15, 18-22, 28, 31-33
   Non-zero exit status: 14
-t/cookie.t                   (Wstat: 512 Tests: 18 Failed: 2)
+t/cookie.t              (Wstat: 512 Tests: 18 Failed: 2)
   Failed tests:  8, 10
   Non-zero exit status: 2
-t/creole.t                   (Wstat: 256 Tests: 111 Failed: 1)
+t/creole.t              (Wstat: 256 Tests: 111 Failed: 1)
   Failed test:  106
   Non-zero exit status: 1
-t/default-links.t            (Wstat: 3072 Tests: 63 Failed: 12)
-  Failed tests:  10-15, 43-48
-  Non-zero exit status: 12
-t/default-markup.t           (Wstat: 1280 Tests: 60 Failed: 5)
-  Failed tests:  12, 26-29
-  Non-zero exit status: 5
-t/encoding.t                 (Wstat: 256 Tests: 41 Failed: 1)
-  Failed test:  36
-  Non-zero exit status: 1
-t/links.t                    (Wstat: 2304 Tests: 55 Failed: 9)
-  Failed tests:  25-27, 32-34, 41-43
+t/default-links.t       (Wstat: 4608 Tests: 63 Failed: 18)
+  Failed tests:  10-15, 31, 34, 37, 40, 43-48, 58, 61
+  Non-zero exit status: 18
+t/default-markup.t      (Wstat: 2304 Tests: 60 Failed: 9)
+  Failed tests:  12, 26-33
   Non-zero exit status: 9
-t/localnames.t               (Wstat: 768 Tests: 19 Failed: 3)
+t/links.t               (Wstat: 3328 Tests: 55 Failed: 13)
+  Failed tests:  19-22, 25-27, 32-34, 41-43
+  Non-zero exit status: 13
+t/localnames.t          (Wstat: 768 Tests: 19 Failed: 3)
   Failed tests:  5-6, 12
   Non-zero exit status: 3
-t/namespaces.t               (Wstat: 1792 Tests: 77 Failed: 7)
+t/namespaces.t          (Wstat: 1792 Tests: 77 Failed: 7)
   Failed tests:  23-24, 26-27, 29-31
   Non-zero exit status: 7
-t/near.t                     (Wstat: 512 Tests: 13 Failed: 2)
+t/near-links.t          (Wstat: 512 Tests: 16 Failed: 2)
   Failed tests:  1-2
   Non-zero exit status: 2
-t/static-copy.t              (Wstat: 256 Tests: 36 Failed: 1)
-  Failed test:  33
-  Non-zero exit status: 1
-t/surge-protection.t         (Wstat: 65280 Tests: 24 Failed: 10)
-  Failed tests:  15-24
-  Non-zero exit status: 255
-  Parse errors: Bad plan.  You planned 14 tests but ran 24.
-Files=126, Tests=2803, 435 wallclock secs ( 0.88 usr  0.26 sys + 178.14 cusr 19.59 csys = 198.87 CPU)
+Files=127, Tests=2749, 406 wallclock secs ( 0.96 usr  0.23 sys + 188.32 cusr 20.71 csys = 210.22 CPU)
 Result: FAIL
 make: *** [test] Error 1
