@@ -8,7 +8,7 @@ t/ban-contributors.t ...... ok
 t/ban-quick-editors.t ..... ok
 t/ban.t ................... ok
 t/bbcode.t ................ ok
-# Waiting for 47s
+# Waiting for 48s
 t/big-brother.t ........... ok
 t/cache.t ................. ok
 t/calendar.t .............. ok
@@ -90,36 +90,36 @@ t/password.t .............. ok
 t/permanent-anchors.t ..... ok
 t/portrait.t .............. ok
 t/private-pages.t ......... ok
-Test!94399c3976f3d95b166fde869996a353
-Test!94399c3976f3d95b166fde869996a353
+Test!5d09c341c9dd0fbf8620bcedd1368462
+Test!5d09c341c9dd0fbf8620bcedd1368462
 t/private-wiki.t .......... ok
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\xBA" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\x9B" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\xF2" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\xCB" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\xEE" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\xEE" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\xF0" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\xAE" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\xBF" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\xA6" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\xD0" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\x89" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\xE5" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\xD5" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\x8E" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\x9B" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\xF2" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\xEB" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\xD7" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\x95" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\xD2" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\xFE" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\xA6" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\xEC" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\xB8" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\xDD" does not map to Unicode at wiki.pl line 2839.
-[Sun Aug 16 05:04:14 2015] questionasker.t: utf8 "\xB0" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\xF7" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\xD9" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\xF8" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\xA6" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\x98" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\x90" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\xD8" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\xF7" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\xE8" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\xF6" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\xC7" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\xA0" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\xB9" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\xA8" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\x8A" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\xFC" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\xA1" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\xAB" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\xC1" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\xA8" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\x83" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\xB1" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\xE5" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\x93" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\xC9" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\xB0" does not map to Unicode at wiki.pl line 2839.
+[Sun Aug 16 05:11:42 2015] questionasker.t: utf8 "\x98" does not map to Unicode at wiki.pl line 2839.
 t/questionasker.t ......... ok
 t/questionmark.t .......... ok
 t/raw.t ................... ok
@@ -159,5 +159,5 @@ t/usemod-options.t ........ ok
 t/usemod.t ................ ok
 t/weblog-3.t .............. ok
 All tests successful.
-Files=126, Tests=2808, 447 wallclock secs ( 0.92 usr  0.27 sys + 186.29 cusr 20.22 csys = 207.70 CPU)
+Files=126, Tests=2808, 447 wallclock secs ( 0.94 usr  0.26 sys + 186.31 cusr 20.28 csys = 207.79 CPU)
 Result: PASS
