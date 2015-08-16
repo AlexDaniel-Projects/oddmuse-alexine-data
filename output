@@ -74,7 +74,164 @@ t/logbannedcontent.t ...... ok
 t/macros.t ................ ok
 t/mail.t .................. ok
 t/maintain.t .............. ok
-t/major.t ................. ok
+[Sun Aug 16 16:12:33 2015] wiki.pl: No revision for bar at wiki.pl line 2748.
+
+#   Failed test 'No diff available'
+#   at t/test.pl line 169.
+#                   'Etag: 1439734353
+# Cache-control: max-age=10
+# Content-Type: text/html; charset=utf-8
+# 
+# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: bar</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=bar" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: bar" href="http://localhost/wiki.pl?action=rss;rcidonly=bar" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22bar%22">bar</a></h1></div><div class="wrapper"><h1>Software error:</h1>
+# <pre>No revision for bar at wiki.pl line 2748.
+# </pre>
+# <p>
+# For help, please send mail to this site's webmaster, giving this error message 
+# and the time and date of the error.
+# 
+# </p>
+# '
+#     doesn't match '(?-xism:No diff available)'
+
+#   Failed test 'one'
+#   at t/test.pl line 169.
+#                   'Etag: 1439734353
+# Cache-control: max-age=10
+# Content-Type: text/html; charset=utf-8
+# 
+# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: bar</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=bar" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: bar" href="http://localhost/wiki.pl?action=rss;rcidonly=bar" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22bar%22">bar</a></h1></div><div class="wrapper"><h1>Software error:</h1>
+# <pre>No revision for bar at wiki.pl line 2748.
+# </pre>
+# <p>
+# For help, please send mail to this site's webmaster, giving this error message 
+# and the time and date of the error.
+# 
+# </p>
+# '
+#     doesn't match '(?-xism:one)'
+
+#   Failed test 'Last major edit'
+#   at t/test.pl line 169.
+#                   'Etag: 1439734353
+# Cache-control: max-age=10
+# Content-Type: text/html; charset=utf-8
+# 
+# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: bar</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=bar" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: bar" href="http://localhost/wiki.pl?action=rss;rcidonly=bar" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22bar%22">bar</a></h1></div><div class="wrapper"><h1>Software error:</h1>
+# <pre>No revision for bar at wiki.pl line 2748.
+# </pre>
+# <p>
+# For help, please send mail to this site's webmaster, giving this error message 
+# and the time and date of the error.
+# 
+# </p>
+# '
+#     doesn't match '(?-xism:Last major edit)'
+
+#   Failed test 'diff=1;id=bar;diffrevision=1'
+#   at t/test.pl line 169.
+#                   'Etag: 1439734353
+# Cache-control: max-age=10
+# Content-Type: text/html; charset=utf-8
+# 
+# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: bar</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=bar" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: bar" href="http://localhost/wiki.pl?action=rss;rcidonly=bar" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22bar%22">bar</a></h1></div><div class="wrapper"><h1>Software error:</h1>
+# <pre>No revision for bar at wiki.pl line 2748.
+# </pre>
+# <p>
+# For help, please send mail to this site's webmaster, giving this error message 
+# and the time and date of the error.
+# 
+# </p>
+# '
+#     doesn't match '(?-xism:diff=1;id=bar;diffrevision=1)'
+[Sun Aug 16 16:12:33 2015] wiki.pl: No revision for bar at wiki.pl line 2748.
+
+#   Failed test 'No diff available'
+#   at t/test.pl line 169.
+#                   'Etag: 1439734353
+# Cache-control: max-age=10
+# Content-Type: text/html; charset=utf-8
+# 
+# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: bar</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=bar" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: bar" href="http://localhost/wiki.pl?action=rss;rcidonly=bar" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22bar%22">bar</a></h1></div><div class="wrapper"><h1>Software error:</h1>
+# <pre>No revision for bar at wiki.pl line 2748.
+# </pre>
+# <p>
+# For help, please send mail to this site's webmaster, giving this error message 
+# and the time and date of the error.
+# 
+# </p>
+# '
+#     doesn't match '(?-xism:No diff available)'
+
+#   Failed test 'two'
+#   at t/test.pl line 169.
+#                   'Etag: 1439734353
+# Cache-control: max-age=10
+# Content-Type: text/html; charset=utf-8
+# 
+# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: bar</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=bar" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: bar" href="http://localhost/wiki.pl?action=rss;rcidonly=bar" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22bar%22">bar</a></h1></div><div class="wrapper"><h1>Software error:</h1>
+# <pre>No revision for bar at wiki.pl line 2748.
+# </pre>
+# <p>
+# For help, please send mail to this site's webmaster, giving this error message 
+# and the time and date of the error.
+# 
+# </p>
+# '
+#     doesn't match '(?-xism:two)'
+
+#   Failed test 'Last major edit'
+#   at t/test.pl line 169.
+#                   'Etag: 1439734353
+# Cache-control: max-age=10
+# Content-Type: text/html; charset=utf-8
+# 
+# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: bar</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=bar" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: bar" href="http://localhost/wiki.pl?action=rss;rcidonly=bar" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22bar%22">bar</a></h1></div><div class="wrapper"><h1>Software error:</h1>
+# <pre>No revision for bar at wiki.pl line 2748.
+# </pre>
+# <p>
+# For help, please send mail to this site's webmaster, giving this error message 
+# and the time and date of the error.
+# 
+# </p>
+# '
+#     doesn't match '(?-xism:Last major edit)'
+
+#   Failed test 'diff=1;id=bar;diffrevision=1'
+#   at t/test.pl line 169.
+#                   'Etag: 1439734353
+# Cache-control: max-age=10
+# Content-Type: text/html; charset=utf-8
+# 
+# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: bar</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=bar" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: bar" href="http://localhost/wiki.pl?action=rss;rcidonly=bar" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22bar%22">bar</a></h1></div><div class="wrapper"><h1>Software error:</h1>
+# <pre>No revision for bar at wiki.pl line 2748.
+# </pre>
+# <p>
+# For help, please send mail to this site's webmaster, giving this error message 
+# and the time and date of the error.
+# 
+# </p>
+# '
+#     doesn't match '(?-xism:diff=1;id=bar;diffrevision=1)'
+# Looks like you failed 8 tests of 64.
+t/major.t ................. 
+Dubious, test returned 8 (wstat 2048, 0x800)
+Failed 8/64 subtests 
 t/markdown-rule.t ......... ok
 t/markup-and-creole.t ..... ok
 t/markup.t ................ ok
@@ -130,6 +287,12 @@ t/upload.t ................ ok
 t/usemod-options.t ........ ok
 t/usemod.t ................ ok
 t/weblog-3.t .............. ok
-All tests successful.
-Files=127, Tests=2764, 406 wallclock secs ( 0.92 usr  0.26 sys + 188.55 cusr 20.92 csys = 210.65 CPU)
-Result: PASS
+
+Test Summary Report
+-------------------
+t/major.t               (Wstat: 2048 Tests: 64 Failed: 8)
+  Failed tests:  1-4, 8-11
+  Non-zero exit status: 8
+Files=127, Tests=2776, 408 wallclock secs ( 0.93 usr  0.24 sys + 190.09 cusr 21.06 csys = 212.32 CPU)
+Result: FAIL
+make: *** [test] Error 1
