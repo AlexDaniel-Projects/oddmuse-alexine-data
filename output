@@ -5,21 +5,21 @@ t/ampersand.t ............. ok
 t/anchors.t ............... ok
 t/atom.t .................. ok
 t/ban-contributors.t ...... ok
-[Mon Aug 17 01:34:47 2015] ban-quick-editors.t: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
-[Mon Aug 17 01:34:47 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
-[Mon Aug 17 01:34:48 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
-[Mon Aug 17 01:34:48 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
+[Mon Aug 17 01:41:36 2015] ban-quick-editors.t: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
+[Mon Aug 17 01:41:36 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
+[Mon Aug 17 01:41:36 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
+[Mon Aug 17 01:41:36 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
 
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
-#                   'Etag: 1439768088
+#                   'Etag: 1439768496
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
 # <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 # <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Test</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=Test" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Test" href="http://localhost/wiki.pl?action=rss;rcidonly=Test" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
 # <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>test-data/modules/ban-quick-editors.pl: Global symbol "$q" requires explicit package name at test-data/modules/ban-quick-editors.pl line 32.
-# </p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22Test%22">Test</a></h1></div><div class="wrapper"><div class="content browse"><p>cannot edit</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Test">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=Test">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=Test">Administration</a></div><div class="time">Last edited 2015-08-16 23:34 UTC by 127.0.0.1</div></div>
+# </p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22Test%22">Test</a></h1></div><div class="wrapper"><div class="content browse"><p>cannot edit</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Test">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=Test">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=Test">Administration</a></div><div class="time">Last edited 2015-08-16 23:41 UTC by 127.0.0.1</div></div>
 # </body>
 # </html>
 # '
@@ -28,8 +28,8 @@ t/ban-contributors.t ...... ok
 #   Failed test 'Editing not allowed'
 #   at t/test.pl line 169.
 #                   'Status: 302 Found
-# Set-Cookie: Wiki=pwd%251ewrong; path=/; expires=Tue, 15-Aug-2017 23:34:48 GMT; HttpOnly
-# Date: Sun, 16 Aug 2015 23:34:48 GMT
+# Set-Cookie: Wiki=pwd%251ewrong; path=/; expires=Tue, 15-Aug-2017 23:41:36 GMT; HttpOnly
+# Date: Sun, 16 Aug 2015 23:41:36 GMT
 # Location: http://localhost/wiki.pl/Test
 # 
 # '
@@ -38,21 +38,21 @@ t/ban-contributors.t ...... ok
 #   Failed test 'fast editing spam bot'
 #   at t/test.pl line 169.
 #                   'Status: 302 Found
-# Set-Cookie: Wiki=pwd%251ewrong; path=/; expires=Tue, 15-Aug-2017 23:34:48 GMT; HttpOnly
-# Date: Sun, 16 Aug 2015 23:34:48 GMT
+# Set-Cookie: Wiki=pwd%251ewrong; path=/; expires=Tue, 15-Aug-2017 23:41:36 GMT; HttpOnly
+# Date: Sun, 16 Aug 2015 23:41:36 GMT
 # Location: http://localhost/wiki.pl/Test
 # 
 # '
 #     doesn't match '(?-xism:fast editing spam bot)'
-[Mon Aug 17 01:34:53 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
-[Mon Aug 17 01:34:53 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
+[Mon Aug 17 01:41:41 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
+[Mon Aug 17 01:41:42 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
 # Looks like you failed 3 tests of 4.
 t/ban-quick-editors.t ..... 
 Dubious, test returned 3 (wstat 768, 0x300)
 Failed 3/4 subtests 
 t/ban.t ................... ok
 t/bbcode.t ................ ok
-# Waiting for 22s
+# Waiting for 23s
 t/big-brother.t ........... ok
 t/cache.t ................. ok
 t/calendar.t .............. ok
@@ -64,7 +64,113 @@ sh: diff3: No such file or directory
 sh: diff: No such file or directory
 t/conflict.t .............. ok
 t/contributors.t .......... ok
-t/cookie.t ................ ok
+
+#   Failed test 'username=Alex'
+#   at t/test.pl line 169.
+#                   'Status: 404 NOT FOUND
+# Set-Cookie: Wiki=username%251eAlex; path=/; expires=Tue, 15-Aug-2017 23:42:49 GMT; HttpOnly
+# Date: Sun, 16 Aug 2015 23:42:49 GMT
+# Etag: 1439768569%1eAlex
+# Cache-control: max-age=10
+# Content-Type: text/html; charset=utf-8
+# 
+# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: HomePage</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=HomePage" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: HomePage" href="http://localhost/wiki.pl?action=rss;rcidonly=HomePage" /><link rel="alternate" type="application/rss+xml" title="Follow-ups for Alex" href="http://localhost/wiki.pl?action=rss;followup=Alex" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22HomePage%22">HomePage</a></h1></div><div class="wrapper"><div class="content browse"><p>This page does not exist, but you can <a class="url http outside" href="http://localhost/wiki.pl?action=edit;id=HomePage">create it now</a>.</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=HomePage">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=HomePage">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=HomePage">Administration</a></div></div>
+# </body>
+# </html>
+# '
+#     doesn't match '(?-xism:username=Alex)'
+
+#   Failed test 'username=01234567890123456789012345678901234567890123456789'
+#   at t/test.pl line 169.
+#                   'Status: 404 NOT FOUND
+# Set-Cookie: Wiki=username%251e01234567890123456789012345678901234567890123456789; path=/; expires=Tue, 15-Aug-2017 23:42:49 GMT; HttpOnly
+# Date: Sun, 16 Aug 2015 23:42:49 GMT
+# Etag: 1439768569%1e01234567890123456789012345678901234567890123456789
+# Cache-control: max-age=10
+# Content-Type: text/html; charset=utf-8
+# 
+# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: HomePage</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=HomePage" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: HomePage" href="http://localhost/wiki.pl?action=rss;rcidonly=HomePage" /><link rel="alternate" type="application/rss+xml" title="Follow-ups for 01234567890123456789012345678901234567890123456789" href="http://localhost/wiki.pl?action=rss;followup=01234567890123456789012345678901234567890123456789" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22HomePage%22">HomePage</a></h1></div><div class="wrapper"><div class="content browse"><p>This page does not exist, but you can <a class="url http outside" href="http://localhost/wiki.pl?action=edit;id=HomePage">create it now</a>.</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=HomePage">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=HomePage">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=HomePage">Administration</a></div></div>
+# </body>
+# </html>
+# '
+#     doesn't match '(?-xism:username=01234567890123456789012345678901234567890123456789)'
+
+#   Failed test 'username=AlexSchroeder'
+#   at t/test.pl line 169.
+#                   'Status: 404 NOT FOUND
+# Set-Cookie: Wiki=username%251eAlexSchroeder; path=/; expires=Tue, 15-Aug-2017 23:42:49 GMT; HttpOnly
+# Date: Sun, 16 Aug 2015 23:42:49 GMT
+# Etag: 1439768569%1eAlexSchroeder
+# Cache-control: max-age=10
+# Content-Type: text/html; charset=utf-8
+# 
+# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: HomePage</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=HomePage" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: HomePage" href="http://localhost/wiki.pl?action=rss;rcidonly=HomePage" /><link rel="alternate" type="application/rss+xml" title="Follow-ups for AlexSchroeder" href="http://localhost/wiki.pl?action=rss;followup=AlexSchroeder" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22HomePage%22">HomePage</a></h1></div><div class="wrapper"><div class="content browse"><p>This page does not exist, but you can <a class="url http outside" href="http://localhost/wiki.pl?action=edit;id=HomePage">create it now</a>.</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=HomePage">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=HomePage">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=HomePage">Administration</a></div></div>
+# </body>
+# </html>
+# '
+#     doesn't match '(?-xism:username=AlexSchroeder)'
+
+#   Failed test 'username=Alex Schroeder'
+#   at t/test.pl line 169.
+#                   'Status: 404 NOT FOUND
+# Set-Cookie: Wiki=username%251eAlex%20Schroeder; path=/; expires=Tue, 15-Aug-2017 23:42:49 GMT; HttpOnly
+# Date: Sun, 16 Aug 2015 23:42:49 GMT
+# Etag: 1439768569%1eAlex%20Schroeder
+# Cache-control: max-age=10
+# Content-Type: text/html; charset=utf-8
+# 
+# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: HomePage</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=HomePage" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: HomePage" href="http://localhost/wiki.pl?action=rss;rcidonly=HomePage" /><link rel="alternate" type="application/rss+xml" title="Follow-ups for Alex Schroeder" href="http://localhost/wiki.pl?action=rss;followup=Alex%20Schroeder" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22HomePage%22">HomePage</a></h1></div><div class="wrapper"><div class="content browse"><p>This page does not exist, but you can <a class="url http outside" href="http://localhost/wiki.pl?action=edit;id=HomePage">create it now</a>.</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=HomePage">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=HomePage">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=HomePage">Administration</a></div></div>
+# </body>
+# </html>
+# '
+#     doesn't match '(?-xism:username=Alex Schroeder)'
+
+#   Failed test 'username=AlexSchroeder'
+#   at t/test.pl line 169.
+#                   'Status: 404 NOT FOUND
+# Set-Cookie: Wiki=username%251eAlexSchroeder; path=/; expires=Tue, 15-Aug-2017 23:42:50 GMT; HttpOnly
+# Date: Sun, 16 Aug 2015 23:42:50 GMT
+# Etag: 1439768569%1eAlexSchroeder
+# Cache-control: max-age=10
+# Content-Type: text/html; charset=utf-8
+# 
+# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Home Page</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=HomePage" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: HomePage" href="http://localhost/wiki.pl?action=rss;rcidonly=HomePage" /><link rel="alternate" type="application/rss+xml" title="Follow-ups for AlexSchroeder" href="http://localhost/wiki.pl?action=rss;followup=AlexSchroeder" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22HomePage%22">HomePage</a></h1></div><div class="wrapper"><div class="content browse"><p>This page does not exist, but you can <a class="url http outside" href="http://localhost/wiki.pl?action=edit;id=HomePage">create it now</a>.</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=HomePage">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=HomePage">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=HomePage">Administration</a></div></div>
+# </body>
+# </html>
+# '
+#     doesn't match '(?-xism:username=AlexSchroeder)'
+
+#   Failed test 'username=Alex'
+#   at t/test.pl line 169.
+#                   'Status: 404 NOT FOUND
+# Set-Cookie: Wiki=username%251eAlex; path=/; expires=Tue, 15-Aug-2017 23:42:50 GMT; HttpOnly
+# Date: Sun, 16 Aug 2015 23:42:50 GMT
+# Etag: 1439768570%1eAlex
+# Cache-control: max-age=10
+# Content-Type: text/html; charset=utf-8
+# 
+# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: HomePage</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=HomePage" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: HomePage" href="http://localhost/wiki.pl?action=rss;rcidonly=HomePage" /><link rel="alternate" type="application/rss+xml" title="Follow-ups for Alex" href="http://localhost/wiki.pl?action=rss;followup=Alex" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22HomePage%22">HomePage</a></h1></div><div class="wrapper"><div class="content browse"><p>This page does not exist, but you can <a class="url http outside" href="http://localhost/wiki.pl?action=edit;id=HomePage">create it now</a>.</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=HomePage">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=HomePage">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=HomePage">Administration</a></div></div>
+# </body>
+# </html>
+# '
+#     doesn't match '(?-xism:username=Alex)'
+# Looks like you failed 6 tests of 18.
+t/cookie.t ................ 
+Dubious, test returned 6 (wstat 1536, 0x600)
+Failed 6/18 subtests 
+	(less 7 skipped subtests: 5 okay)
 t/creole.t ................ ok
 t/creoleaddition.t ........ ok
 t/crossbar.t .............. ok
@@ -83,7 +189,27 @@ t/edit-paragraphs.t ....... ok
 t/edit.t .................. ok
 t/emailquote.t ............ ok
 t/enclosure.t ............. ok
-t/encoding.t .............. ok
+
+#   Failed test 'username=Schröder'
+#   at t/test.pl line 169.
+#                   'Status: 404 NOT FOUND
+# Set-Cookie: Wiki=username%251eSchr%C3%B6der; path=/; expires=Tue, 15-Aug-2017 23:43:19 GMT; HttpOnly
+# Date: Sun, 16 Aug 2015 23:43:19 GMT
+# Etag: 1439768598%1eSchr%c3%b6der
+# Cache-control: max-age=10
+# Content-Type: text/html; charset=utf-8
+# 
+# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Möglich</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=M%c3%b6glich" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Möglich" href="http://localhost/wiki.pl?action=rss;rcidonly=M%c3%b6glich" /><link rel="alternate" type="application/rss+xml" title="Follow-ups for Schröder" href="http://localhost/wiki.pl?action=rss;followup=Schr%c3%b6der" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22M%c3%b6glich%22">Möglich</a></h1></div><div class="wrapper"><div class="content browse"><p>This page does not exist, but you can <a class="url http outside" href="http://localhost/wiki.pl?action=edit;id=M%c3%b6glich">create it now</a>.</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=M%c3%b6glich">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=M%c3%b6glich">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=M%c3%b6glich">Administration</a></div></div>
+# </body>
+# </html>
+# '
+#     doesn't match '(?-xism:username=Schröder)'
+# Looks like you failed 1 test of 41.
+t/encoding.t .............. 
+Dubious, test returned 1 (wstat 256, 0x100)
+Failed 1/41 subtests 
 t/fieldlist.t ............. ok
 t/find.t .................. ok
 t/fix-encoding.t .......... ok
@@ -114,8 +240,8 @@ t/localnames.t ............ ok
 t/lock-expiration.t ....... ok
 t/lock-on-creation.t ...... ok
 t/lock.t .................. ok
-[Mon Aug 17 01:39:29 2015] logbannedcontent.t: Variable "$q" is not imported at test-data/modules/logbannedcontent.pl line 50.
-[Mon Aug 17 01:39:29 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/logbannedcontent.pl line 50.
+[Mon Aug 17 01:46:18 2015] logbannedcontent.t: Variable "$q" is not imported at test-data/modules/logbannedcontent.pl line 50.
+[Mon Aug 17 01:46:18 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/logbannedcontent.pl line 50.
 t/logbannedcontent.t ...... ok
 t/macros.t ................ ok
 t/mail.t .................. ok
@@ -126,7 +252,7 @@ t/markup-and-creole.t ..... ok
 t/markup.t ................ ok
 t/merge.t ................. ok
 t/meta-data.t ............. ok
-[Mon Aug 17 01:39:44 2015] meta.t: Cannot decode string with wide characters at /usr/lib64/perl5/Encode.pm line 174.
+[Mon Aug 17 01:46:34 2015] meta.t: Cannot decode string with wide characters at /usr/lib64/perl5/Encode.pm line 174.
 # Looks like you planned 11 tests but ran 3.
 # Looks like your test exited with 255 just after 3.
 t/meta.t .................. 
@@ -160,7 +286,7 @@ t/rollback.t .............. ok
 
 #   Failed test '<description>&lt;mu&gt;</description>'
 #   at t/test.pl line 169.
-#                   'Etag: 1439768437
+#                   'Etag: 1439768847
 # Cache-control: max-age=10
 # Content-Type: application/xml; charset=utf-8
 # 
@@ -175,8 +301,8 @@ t/rollback.t .............. ok
 # <title>Wiki: HomePage</title>
 # <link>http://localhost/wiki.pl/HomePage</link>
 # <atom:link href="http://localhost/wiki.pl?action=rss" rel="self" type="application/rss+xml" />
-# <pubDate>Sun, 16 Aug 2015 23:40:37 GMT</pubDate>
-# <lastBuildDate>Sun, 16 Aug 2015 23:40:37 GMT</lastBuildDate>
+# <pubDate>Sun, 16 Aug 2015 23:47:27 GMT</pubDate>
+# <lastBuildDate>Sun, 16 Aug 2015 23:47:27 GMT</lastBuildDate>
 # <generator>Oddmuse</generator>
 # 
 # <item>
@@ -184,7 +310,7 @@ t/rollback.t .............. ok
 # <link>http://localhost/wiki.pl/big</link>
 # <guid>http://localhost/wiki.pl/big</guid>
 # <description>&amp;lt;mu&amp;gt;</description>
-# <pubDate>Sun, 16 Aug 2015 23:40:37 GMT</pubDate>
+# <pubDate>Sun, 16 Aug 2015 23:47:27 GMT</pubDate>
 # <comments>http://localhost/wiki.pl/Comments_on_big</comments>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>updated</wiki:status>
@@ -199,7 +325,7 @@ t/rollback.t .............. ok
 # <link>http://localhost/wiki.pl/Comments_on_2008-08-07_New_Hope</link>
 # <guid>http://localhost/wiki.pl/Comments_on_2008-08-07_New_Hope</guid>
 # <description>testing</description>
-# <pubDate>Sun, 16 Aug 2015 23:40:37 GMT</pubDate>
+# <pubDate>Sun, 16 Aug 2015 23:47:26 GMT</pubDate>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
 # <wiki:importance>major</wiki:importance>
@@ -213,7 +339,7 @@ t/rollback.t .............. ok
 # <link>http://localhost/wiki.pl/2008-08-07_12h50_Forget_It</link>
 # <guid>http://localhost/wiki.pl/2008-08-07_12h50_Forget_It</guid>
 # <description>testing</description>
-# <pubDate>Sun, 16 Aug 2015 23:40:36 GMT</pubDate>
+# <pubDate>Sun, 16 Aug 2015 23:47:26 GMT</pubDate>
 # <comments>http://localhost/wiki.pl/Comments_on_2008-08-07_12h50_Forget_It</comments>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
@@ -228,7 +354,7 @@ t/rollback.t .............. ok
 # <link>http://localhost/wiki.pl/2008-08-08</link>
 # <guid>http://localhost/wiki.pl/2008-08-08</guid>
 # <description>testing</description>
-# <pubDate>Sun, 16 Aug 2015 23:40:36 GMT</pubDate>
+# <pubDate>Sun, 16 Aug 2015 23:47:26 GMT</pubDate>
 # <comments>http://localhost/wiki.pl/Comments_on_2008-08-08</comments>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
@@ -243,7 +369,7 @@ t/rollback.t .............. ok
 # <link>http://localhost/wiki.pl/2008-08-07_New_Hope</link>
 # <guid>http://localhost/wiki.pl/2008-08-07_New_Hope</guid>
 # <description>testing</description>
-# <pubDate>Sun, 16 Aug 2015 23:40:36 GMT</pubDate>
+# <pubDate>Sun, 16 Aug 2015 23:47:25 GMT</pubDate>
 # <comments>http://localhost/wiki.pl/Comments_on_2008-08-07_New_Hope</comments>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
@@ -275,7 +401,7 @@ t/subscriberc.t ........... ok
 
 #   Failed test 'is &gt;&gt;free&lt;&lt; software'
 #   at t/test.pl line 169.
-#                   'Etag: 1439768458
+#                   'Etag: 1439768868
 # Cache-control: max-age=10
 # Content-Type: application/xml; charset=utf-8
 # 
@@ -290,8 +416,8 @@ t/subscriberc.t ........... ok
 # <title>Wiki: HomePage</title>
 # <link>http://localhost/wiki.pl/HomePage</link>
 # <atom:link href="http://localhost/wiki.pl?action=rss" rel="self" type="application/rss+xml" />
-# <pubDate>Sun, 16 Aug 2015 23:40:58 GMT</pubDate>
-# <lastBuildDate>Sun, 16 Aug 2015 23:40:58 GMT</lastBuildDate>
+# <pubDate>Sun, 16 Aug 2015 23:47:48 GMT</pubDate>
+# <lastBuildDate>Sun, 16 Aug 2015 23:47:48 GMT</lastBuildDate>
 # <generator>Oddmuse</generator>
 # 
 # <item>
@@ -299,7 +425,7 @@ t/subscriberc.t ........... ok
 # <link>http://localhost/wiki.pl/long</link>
 # <guid>http://localhost/wiki.pl/long</guid>
 # <description>This program is &amp;gt;&amp;gt;free&amp;lt;&amp;lt; software; you can redistribute it and/or modify it under the terms of the GNU General Public License as . . .</description>
-# <pubDate>Sun, 16 Aug 2015 23:40:58 GMT</pubDate>
+# <pubDate>Sun, 16 Aug 2015 23:47:48 GMT</pubDate>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
 # <wiki:importance>major</wiki:importance>
@@ -313,7 +439,7 @@ t/subscriberc.t ........... ok
 # <link>http://localhost/wiki.pl/link</link>
 # <guid>http://localhost/wiki.pl/link</guid>
 # <description>some content</description>
-# <pubDate>Sun, 16 Aug 2015 23:40:58 GMT</pubDate>
+# <pubDate>Sun, 16 Aug 2015 23:47:48 GMT</pubDate>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
 # <wiki:importance>major</wiki:importance>
@@ -335,18 +461,18 @@ t/tables.t ................ ok
 
 #   Failed test 'not Brilliant'
 #   at t/test.pl line 189.
-#                   'Etag: 1439768467
+#                   'Etag: 1439768876
 # Cache-control: max-age=10
 # Content-Type: text/plain; charset=utf-8
 # 
 # title: Search for: -tag:mag
-# date: 2015-08-16 23:41 UTC
+# date: 2015-08-16 23:47 UTC
 # link: http://localhost?search=-tag%3Amag;raw=1;action=search
 # 
 # title: Alex
 # description: not a podcast . . .
 # size: 1K
-# last-modified: 2015-08-16 23:41 UTC
+# last-modified: 2015-08-16 23:47 UTC
 # generator: 127.0.0.1
 # host: 127.0.0.1
 # link: http://localhost/wiki.pl?Alex
@@ -354,7 +480,7 @@ t/tables.t ................ ok
 # title: Brilliant
 # description: Gameologists [[tag:podcast]] [[tag:mag]] . . .
 # size: 1K
-# last-modified: 2015-08-16 23:41 UTC
+# last-modified: 2015-08-16 23:47 UTC
 # generator: 127.0.0.1
 # host: 127.0.0.1
 # link: http://localhost/wiki.pl?Brilliant
@@ -362,7 +488,7 @@ t/tables.t ................ ok
 # title: Jeff
 # description: a blog [[tag:Old School]] . . .
 # size: 1K
-# last-modified: 2015-08-16 23:41 UTC
+# last-modified: 2015-08-16 23:47 UTC
 # generator: 127.0.0.1
 # host: 127.0.0.1
 # link: http://localhost/wiki.pl?Jeff
@@ -370,7 +496,7 @@ t/tables.t ................ ok
 # title: Pödgecäst´s
 # description: Another [[tag:podcast]] . . .
 # size: 1K
-# last-modified: 2015-08-16 23:41 UTC
+# last-modified: 2015-08-16 23:47 UTC
 # generator: 127.0.0.1
 # host: 127.0.0.1
 # link: http://localhost/wiki.pl?Pödgecäst´s
@@ -378,7 +504,7 @@ t/tables.t ................ ok
 # title: Sons
 # description: of Kryos [[tag:Podcast]] . . .
 # size: 1K
-# last-modified: 2015-08-16 23:41 UTC
+# last-modified: 2015-08-16 23:47 UTC
 # generator: 127.0.0.1
 # host: 127.0.0.1
 # link: http://localhost/wiki.pl?Sons
@@ -388,18 +514,18 @@ t/tables.t ................ ok
 
 #   Failed test 'not Brilliant'
 #   at t/test.pl line 189.
-#                   'Etag: 1439768467
+#                   'Etag: 1439768876
 # Cache-control: max-age=10
 # Content-Type: text/plain; charset=utf-8
 # 
 # title: Search for: tag:podcast -tag:mag
-# date: 2015-08-16 23:41 UTC
+# date: 2015-08-16 23:47 UTC
 # link: http://localhost?search=tag%3Apodcast%20-tag%3Amag;raw=1;action=search
 # 
 # title: Brilliant
 # description: Gameologists [[tag:podcast]] [[tag:mag]] . . .
 # size: 1K
-# last-modified: 2015-08-16 23:41 UTC
+# last-modified: 2015-08-16 23:47 UTC
 # generator: 127.0.0.1
 # host: 127.0.0.1
 # link: http://localhost/wiki.pl?Brilliant
@@ -407,7 +533,7 @@ t/tables.t ................ ok
 # title: Pödgecäst´s
 # description: Another [[tag:podcast]] . . .
 # size: 1K
-# last-modified: 2015-08-16 23:41 UTC
+# last-modified: 2015-08-16 23:47 UTC
 # generator: 127.0.0.1
 # host: 127.0.0.1
 # link: http://localhost/wiki.pl?Pödgecäst´s
@@ -415,7 +541,7 @@ t/tables.t ................ ok
 # title: Sons
 # description: of Kryos [[tag:Podcast]] . . .
 # size: 1K
-# last-modified: 2015-08-16 23:41 UTC
+# last-modified: 2015-08-16 23:47 UTC
 # generator: 127.0.0.1
 # host: 127.0.0.1
 # link: http://localhost/wiki.pl?Sons
@@ -467,6 +593,12 @@ Test Summary Report
 t/ban-quick-editors.t   (Wstat: 768 Tests: 4 Failed: 3)
   Failed tests:  1-3
   Non-zero exit status: 3
+t/cookie.t              (Wstat: 1536 Tests: 18 Failed: 6)
+  Failed tests:  3-4, 6-7, 9, 11
+  Non-zero exit status: 6
+t/encoding.t            (Wstat: 256 Tests: 41 Failed: 1)
+  Failed test:  32
+  Non-zero exit status: 1
 t/meta.t                (Wstat: 65280 Tests: 3 Failed: 0)
   Non-zero exit status: 255
   Parse errors: Bad plan.  You planned 11 tests but ran 3.
@@ -482,6 +614,6 @@ t/tags.t                (Wstat: 512 Tests: 70 Failed: 2)
 t/upgrade-files.t       (Wstat: 1024 Tests: 11 Failed: 4)
   Failed tests:  5-8
   Non-zero exit status: 4
-Files=130, Tests=2782, 407 wallclock secs ( 0.92 usr  0.25 sys + 190.63 cusr 20.61 csys = 212.41 CPU)
+Files=130, Tests=2782, 409 wallclock secs ( 0.92 usr  0.26 sys + 190.42 cusr 20.67 csys = 212.27 CPU)
 Result: FAIL
 make: *** [test] Error 1
