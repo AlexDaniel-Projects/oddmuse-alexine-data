@@ -8,7 +8,7 @@ t/ban-contributors.t ...... ok
 t/ban-quick-editors.t ..... ok
 t/ban.t ................... ok
 t/bbcode.t ................ ok
-# Waiting for 22s
+# Waiting for 23s
 t/big-brother.t ........... ok
 t/cache.t ................. ok
 t/calendar.t .............. ok
@@ -74,11 +74,11 @@ t/logbannedcontent.t ...... ok
 t/macros.t ................ ok
 t/mail.t .................. ok
 t/maintain.t .............. ok
-[Sun Aug 16 16:19:21 2015] wiki.pl: No revision for bar at wiki.pl line 2748.
+[Sun Aug 16 16:26:11 2015] wiki.pl: No revision for bar at wiki.pl line 2748.
 
 #   Failed test 'No diff available'
 #   at t/test.pl line 169.
-#                   'Etag: 1439734761
+#                   'Etag: 1439735171
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -97,7 +97,7 @@ t/maintain.t .............. ok
 
 #   Failed test 'one'
 #   at t/test.pl line 169.
-#                   'Etag: 1439734761
+#                   'Etag: 1439735171
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -116,7 +116,7 @@ t/maintain.t .............. ok
 
 #   Failed test 'Last major edit'
 #   at t/test.pl line 169.
-#                   'Etag: 1439734761
+#                   'Etag: 1439735171
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -135,7 +135,7 @@ t/maintain.t .............. ok
 
 #   Failed test 'diff=1;id=bar;diffrevision=1'
 #   at t/test.pl line 169.
-#                   'Etag: 1439734761
+#                   'Etag: 1439735171
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -151,11 +151,11 @@ t/maintain.t .............. ok
 # </p>
 # '
 #     doesn't match '(?-xism:diff=1;id=bar;diffrevision=1)'
-[Sun Aug 16 16:19:22 2015] wiki.pl: No revision for bar at wiki.pl line 2748.
+[Sun Aug 16 16:26:12 2015] wiki.pl: No revision for bar at wiki.pl line 2748.
 
 #   Failed test 'No diff available'
 #   at t/test.pl line 169.
-#                   'Etag: 1439734762
+#                   'Etag: 1439735172
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -174,7 +174,7 @@ t/maintain.t .............. ok
 
 #   Failed test 'two'
 #   at t/test.pl line 169.
-#                   'Etag: 1439734762
+#                   'Etag: 1439735172
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -193,7 +193,7 @@ t/maintain.t .............. ok
 
 #   Failed test 'Last major edit'
 #   at t/test.pl line 169.
-#                   'Etag: 1439734762
+#                   'Etag: 1439735172
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -212,7 +212,7 @@ t/maintain.t .............. ok
 
 #   Failed test 'diff=1;id=bar;diffrevision=1'
 #   at t/test.pl line 169.
-#                   'Etag: 1439734762
+#                   'Etag: 1439735172
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -293,6 +293,6 @@ Test Summary Report
 t/major.t               (Wstat: 2048 Tests: 64 Failed: 8)
   Failed tests:  1-4, 8-11
   Non-zero exit status: 8
-Files=127, Tests=2776, 407 wallclock secs ( 0.92 usr  0.26 sys + 190.10 cusr 20.76 csys = 212.04 CPU)
+Files=127, Tests=2776, 409 wallclock secs ( 0.93 usr  0.25 sys + 190.27 cusr 20.87 csys = 212.32 CPU)
 Result: FAIL
 make: *** [test] Error 1
