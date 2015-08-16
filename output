@@ -5,89 +5,8 @@ t/ampersand.t ............. ok
 t/anchors.t ............... ok
 t/atom.t .................. ok
 t/ban-contributors.t ...... ok
-
-#   Failed test 'This page does not exist'
-#   at t/test.pl line 169.
-#                   'Status: 404 NOT FOUND
-# Etag: 1439745529
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Test</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=Test" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Test" href="http://localhost/wiki.pl?action=rss;rcidonly=Test" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22Test%22">Test</a></h1></div><div class="wrapper"><div class="content browse"><p>There are no comments, yet. Be the first to leave a comment!</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Test">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=Test">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=Test">Administration</a></div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:This page does not exist)'
-# Looks like you failed 1 test of 4.
-t/ban-quick-editors.t ..... 
-Dubious, test returned 1 (wstat 256, 0x100)
-Failed 1/4 subtests 
-
-#   Failed test 'This page does not exist'
-#   at t/test.pl line 169.
-#                   'Status: 404 NOT FOUND
-# Etag: 1439745535
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: BannedHosts</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=BannedHosts" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: BannedHosts" href="http://localhost/wiki.pl?action=rss;rcidonly=BannedHosts" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22BannedHosts%22">BannedHosts</a></h1></div><div class="wrapper"><div class="content browse"><pre>There are no comments, yet. Be the first to leave a comment!</pre></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="password" rel="nofollow" href="http://localhost/wiki.pl?action=password">This page is read-only</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=BannedHosts">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=BannedHosts">Administration</a></div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:This page does not exist)'
-
-#   Failed test 'This page does not exist'
-#   at t/test.pl line 169.
-#                   'Status: 404 NOT FOUND
-# Etag: 1439745535
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: BannedUser</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=BannedUser" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: BannedUser" href="http://localhost/wiki.pl?action=rss;rcidonly=BannedUser" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22BannedUser%22">BannedUser</a></h1></div><div class="wrapper"><div class="content browse"><p>There are no comments, yet. Be the first to leave a comment!</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=BannedUser">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=BannedUser">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=BannedUser">Administration</a></div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:This page does not exist)'
-
-#   Failed test 'This page does not exist'
-#   at t/test.pl line 169.
-#                   'Status: 404 NOT FOUND
-# Etag: 1439745536
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: CriminalPage</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=CriminalPage" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: CriminalPage" href="http://localhost/wiki.pl?action=rss;rcidonly=CriminalPage" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22CriminalPage%22">CriminalPage</a></h1></div><div class="wrapper"><div class="content browse"><p>There are no comments, yet. Be the first to leave a comment!</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=CriminalPage">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=CriminalPage">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=CriminalPage">Administration</a></div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:This page does not exist)'
-
-#   Failed test 'This page does not exist'
-#   at t/test.pl line 169.
-#                   'Status: 404 NOT FOUND
-# Etag: 1439745539
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: TanukiPage</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=TanukiPage" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: TanukiPage" href="http://localhost/wiki.pl?action=rss;rcidonly=TanukiPage" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22TanukiPage%22">TanukiPage</a></h1></div><div class="wrapper"><div class="content browse"><p>There are no comments, yet. Be the first to leave a comment!</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=TanukiPage">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=TanukiPage">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=TanukiPage">Administration</a></div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:This page does not exist)'
-# Looks like you failed 4 tests of 27.
-t/ban.t ................... 
-Dubious, test returned 4 (wstat 1024, 0x400)
-Failed 4/27 subtests 
+t/ban-quick-editors.t ..... ok
+t/ban.t ................... ok
 t/bbcode.t ................ ok
 # Waiting for 23s
 t/big-brother.t ........... ok
@@ -104,21 +23,7 @@ t/contributors.t .......... ok
 t/cookie.t ................ ok
 t/creole.t ................ ok
 t/creoleaddition.t ........ ok
-
-#   Failed test 'This page does not exist'
-#   at t/test.pl line 169.
-#                   'Status: 404 NOT FOUND
-# Etag: 1439745605
-# Last-modified: Sun, 16 Aug 2015 17:20:06 GMT
-# Cache-control: max-age=10
-# Content-Type: text/plain; charset=utf-8
-# 
-# There are no comments, yet. Be the first to leave a comment!'
-#     doesn't match '(?-xism:This page does not exist)'
-# Looks like you failed 1 test of 22.
-t/crossbar.t .............. 
-Dubious, test returned 1 (wstat 256, 0x100)
-Failed 1/22 subtests 
+t/crossbar.t .............. ok
 t/crumbs.t ................ ok
 t/css.t ................... ok
 t/default-links.t ......... ok
@@ -126,25 +31,7 @@ t/default-markup.t ........ ok
 t/despam.t ................ ok
 t/diff.t .................. ok
 t/dotfiles.t .............. ok
-
-#   Failed test 'This page does not exist'
-#   at t/test.pl line 169.
-#                   'Status: 404 NOT FOUND
-# Etag: 1439745619
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Trogs</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=Trogs" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Trogs" href="http://localhost/wiki.pl?action=rss;rcidonly=Trogs" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><a class="logo" href="http://localhost/wiki.pl?HomePage"><img class="logo" src="http://localhost/wiki.pl?action=download;id=Logo" alt="[Home]" /></a><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl?HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl?RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22Trogs%22">Trogs</a></h1></div><div class="wrapper"><div class="content browse"><p>There are no comments, yet. Be the first to leave a comment!</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Trogs">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=Trogs">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=Trogs">Administration</a></div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:This page does not exist)'
-# Looks like you failed 1 test of 13.
-t/download.t .............. 
-Dubious, test returned 1 (wstat 256, 0x100)
-Failed 1/13 subtests 
+t/download.t .............. ok
 t/drafts.t ................ ok
 t/duckduckgo-search.t ..... ok
 t/dynamic-comments.t ...... ok
@@ -175,98 +62,14 @@ t/journal.t ............... ok
 t/journal2.t .............. ok
 t/journal3.t .............. ok
 t/languages.t ............. ok
-
-#   Failed test 'This page does not exist'
-#   at t/test.pl line 169.
-#                   'Status: 404 NOT FOUND
-# Etag: 1439745668
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Test</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=Test" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Test" href="http://localhost/wiki.pl?action=rss;rcidonly=Test" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22Test%22">Test</a></h1></div><div class="wrapper"><div class="content browse"><p>There are no comments, yet. Be the first to leave a comment!</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Test">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=Test">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=Test">Administration</a></div></div>0
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:This page does not exist)'
-
-#   Failed test 'This page does not exist'
-#   at t/test.pl line 169.
-#                   'Status: 404 NOT FOUND
-# Etag: 1439745669
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Test</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=Test" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Test" href="http://localhost/wiki.pl?action=rss;rcidonly=Test" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22Test%22">Test</a></h1></div><div class="wrapper"><div class="content browse"><p>There are no comments, yet. Be the first to leave a comment!</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Test">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=Test">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=Test">Administration</a></div></div>0
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:This page does not exist)'
-# Looks like you failed 2 tests of 17.
-t/like.t .................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 2/17 subtests 
+t/like.t .................. ok
 t/link-all.t .............. ok
 t/links.t ................. ok
 t/listlocked.t ............ ok
 t/localnames.t ............ ok
 t/lock-expiration.t ....... ok
-
-#   Failed test 'This page does not exist'
-#   at t/test.pl line 169.
-#                   'Status: 404 NOT FOUND
-# Etag: 1439745749
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: InterMap</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=InterMap" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: InterMap" href="http://localhost/wiki.pl?action=rss;rcidonly=InterMap" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22InterMap%22">InterMap</a></h1></div><div class="wrapper"><div class="content browse"><p>There are no comments, yet. Be the first to leave a comment!</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="password" rel="nofollow" href="http://localhost/wiki.pl?action=password">This page is read-only</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=InterMap">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=InterMap">Administration</a></div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:This page does not exist)'
-# Looks like you failed 1 test of 18.
-t/lock-on-creation.t ...... 
-Dubious, test returned 1 (wstat 256, 0x100)
-Failed 1/18 subtests 
-
-#   Failed test 'This page does not exist'
-#   at t/test.pl line 169.
-#                   'Status: 404 NOT FOUND
-# Etag: 1439745752
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: TestLock</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=TestLock" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: TestLock" href="http://localhost/wiki.pl?action=rss;rcidonly=TestLock" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22TestLock%22">TestLock</a></h1></div><div class="wrapper"><div class="content browse"><p>There are no comments, yet. Be the first to leave a comment!</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=TestLock">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=TestLock">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=TestLock">Administration</a></div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:This page does not exist)'
-
-#   Failed test 'This page does not exist'
-#   at t/test.pl line 169.
-#                   'Status: 404 NOT FOUND
-# Etag: 1439745782
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: TestLock</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=TestLock" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: TestLock" href="http://localhost/wiki.pl?action=rss;rcidonly=TestLock" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22TestLock%22">TestLock</a></h1></div><div class="wrapper"><div class="content browse"><p>There are no comments, yet. Be the first to leave a comment!</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=TestLock">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=TestLock">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=TestLock">Administration</a></div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:This page does not exist)'
-# Looks like you failed 2 tests of 17.
-t/lock.t .................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 2/17 subtests 
+t/lock-on-creation.t ...... ok
+t/lock.t .................. ok
 t/logbannedcontent.t ...... ok
 t/macros.t ................ ok
 t/mail.t .................. ok
@@ -323,25 +126,7 @@ t/sidebar.t ............... ok
 t/simple-rules.t .......... ok
 t/sitemap.t ............... ok
 t/static-copy.t ........... ok
-
-#   Failed test 'This page does not exist'
-#   at t/test.pl line 169.
-#                   'Status: 404 NOT FOUND
-# Etag: 1439745900
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: pr0n</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=pr0n" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: pr0n" href="http://localhost/wiki.pl?action=rss;rcidonly=pr0n" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22pr0n%22">pr0n</a></h1></div><div class="wrapper"><div class="content browse"><p>There are no comments, yet. Be the first to leave a comment!</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=pr0n">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=pr0n">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=pr0n">Administration</a></div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:This page does not exist)'
-# Looks like you failed 1 test of 12.
-t/strange-spam.t .......... 
-Dubious, test returned 1 (wstat 256, 0x100)
-Failed 1/12 subtests 
+t/strange-spam.t .......... ok
 t/subscriberc.t ........... ok
 t/summary.t ............... ok
 t/surge-protection.t ...... ok
@@ -354,105 +139,16 @@ t/translation-links.t ..... ok
 t/translations.t .......... ok
 t/upgrade-files.t ......... ok
 t/upgrade.t ............... ok
-
-#   Failed test 'This page does not exist'
-#   at t/test.pl line 169.
-#                   'Status: 404 NOT FOUND
-# Etag: 1439745923
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Logo</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=Logo" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Logo" href="http://localhost/wiki.pl?action=rss;rcidonly=Logo" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22Logo%22">Logo</a></h1></div><div class="wrapper"><div class="content browse"><p>There are no comments, yet. Be the first to leave a comment!</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Logo">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=Logo">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=Logo">Administration</a></div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:This page does not exist)'
-
-#   Failed test 'This page does not exist'
-#   at t/test.pl line 169.
-#                   'Status: 404 NOT FOUND
-# Etag: 1439745923
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Logo</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=Logo" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Logo" href="http://localhost/wiki.pl?action=rss;rcidonly=Logo" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22Logo%22">Logo</a></h1></div><div class="wrapper"><div class="content browse"><p>There are no comments, yet. Be the first to leave a comment!</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Logo">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=Logo">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=Logo">Administration</a></div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:This page does not exist)'
-
-#   Failed test 'This page does not exist'
-#   at t/test.pl line 169.
-#                   'Status: 404 NOT FOUND
-# Etag: 1439745924
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: MimeTest</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=MimeTest" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: MimeTest" href="http://localhost/wiki.pl?action=rss;rcidonly=MimeTest" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22MimeTest%22">MimeTest</a></h1></div><div class="wrapper"><div class="content browse"><p>There are no comments, yet. Be the first to leave a comment!</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=MimeTest">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=MimeTest">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=MimeTest">Administration</a></div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:This page does not exist)'
-# Looks like you failed 3 tests of 12.
-t/upload.t ................ 
-Dubious, test returned 3 (wstat 768, 0x300)
-Failed 3/12 subtests 
+t/upload.t ................ ok
 t/usemod-options.t ........ ok
 t/usemod.t ................ ok
-
-#   Failed test '//p[contains(text(),"This page does not exist")]'
-#   at t/test.pl line 216.
-# No Matches
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Baz</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=Baz" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Baz" href="http://localhost/wiki.pl?action=rss;rcidonly=Baz" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> <a class="local" href="http://localhost/wiki.pl/First_Item">First Item</a> <a class="local" href="http://localhost/wiki.pl/Second_Item">Second Item</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=new">New</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22Baz%22">Baz</a></h1></div><div class="wrapper"><div class="content browse"><p>There are no comments, yet. Be the first to leave a comment!</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Baz">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=Baz">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=Baz">Administration</a></div></div>
-# </body>
-# </html>
-# Looks like you failed 1 test of 45.
-t/weblog-3.t .............. 
-Dubious, test returned 1 (wstat 256, 0x100)
-Failed 1/45 subtests 
+t/weblog-3.t .............. ok
 
 Test Summary Report
 -------------------
-t/ban-quick-editors.t   (Wstat: 256 Tests: 4 Failed: 1)
-  Failed test:  1
-  Non-zero exit status: 1
-t/ban.t                 (Wstat: 1024 Tests: 27 Failed: 4)
-  Failed tests:  1, 6, 10, 24
-  Non-zero exit status: 4
-t/crossbar.t            (Wstat: 256 Tests: 22 Failed: 1)
-  Failed test:  3
-  Non-zero exit status: 1
-t/download.t            (Wstat: 256 Tests: 13 Failed: 1)
-  Failed test:  7
-  Non-zero exit status: 1
-t/like.t                (Wstat: 512 Tests: 17 Failed: 2)
-  Failed tests:  1, 3
-  Non-zero exit status: 2
-t/lock-on-creation.t    (Wstat: 256 Tests: 18 Failed: 1)
-  Failed test:  10
-  Non-zero exit status: 1
-t/lock.t                (Wstat: 512 Tests: 17 Failed: 2)
-  Failed tests:  8, 13
-  Non-zero exit status: 2
 t/near-links.t          (Wstat: 256 Tests: 16 Failed: 1)
   Failed test:  10
   Non-zero exit status: 1
-t/strange-spam.t        (Wstat: 256 Tests: 12 Failed: 1)
-  Failed test:  1
-  Non-zero exit status: 1
-t/upload.t              (Wstat: 768 Tests: 12 Failed: 3)
-  Failed tests:  1-2, 11
-  Non-zero exit status: 3
-t/weblog-3.t            (Wstat: 256 Tests: 45 Failed: 1)
-  Failed test:  43
-  Non-zero exit status: 1
-Files=128, Tests=2775, 410 wallclock secs ( 0.94 usr  0.24 sys + 190.42 cusr 21.21 csys = 212.81 CPU)
+Files=128, Tests=2775, 409 wallclock secs ( 0.92 usr  0.25 sys + 190.31 cusr 20.85 csys = 212.33 CPU)
 Result: FAIL
 make: *** [test] Error 1
