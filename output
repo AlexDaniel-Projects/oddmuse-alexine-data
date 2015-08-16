@@ -89,39 +89,33 @@ t/password.t .............. ok
 t/permanent-anchors.t ..... ok
 t/portrait.t .............. ok
 t/private-pages.t ......... ok
-Test!0e5c1f41f8de0f5e7eb2213e5e200dae
-Test!0e5c1f41f8de0f5e7eb2213e5e200dae
+Test!dc64ce61e23023fd21b5a9cbec366db4
+Test!dc64ce61e23023fd21b5a9cbec366db4
 t/private-wiki.t .......... ok
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xEA" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xFA" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xF6" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\x96" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xDB" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xDF" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xB2" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xB2" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\x87" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xD7" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xA8" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xA7" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xC6" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xD4" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xB4" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xB5" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xE8" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xEC" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xFD" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xB2" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xB0" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xB6" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xB4" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xCD" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xE5" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xDD" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xBF" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\x93" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\x99" does not map to Unicode at wiki.pl line 2836.
-[Sun Aug 16 07:03:26 2015] questionasker.t: utf8 "\xC9" does not map to Unicode at wiki.pl line 2836.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\xAB" does not map to Unicode at wiki.pl line 2834.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\xF5" does not map to Unicode at wiki.pl line 2834.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\x97" does not map to Unicode at wiki.pl line 2834.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\xB7" does not map to Unicode at wiki.pl line 2834.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\xD7" does not map to Unicode at wiki.pl line 2834.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\xC0" does not map to Unicode at wiki.pl line 2834.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\x8B" does not map to Unicode at wiki.pl line 2834.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\xCF" does not map to Unicode at wiki.pl line 2834.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\xA5" does not map to Unicode at wiki.pl line 2834.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\xBF" does not map to Unicode at wiki.pl line 2834.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\xDC" does not map to Unicode at wiki.pl line 2834.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\xD9" does not map to Unicode at wiki.pl line 2834.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\xE9" does not map to Unicode at wiki.pl line 2834.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\xF8" does not map to Unicode at wiki.pl line 2834.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\xEB" does not map to Unicode at wiki.pl line 2834.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\xBC" does not map to Unicode at wiki.pl line 2834.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\xEE" does not map to Unicode at wiki.pl line 2834.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\xC1" does not map to Unicode at wiki.pl line 2834.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\xD7" does not map to Unicode at wiki.pl line 2834.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\xF4" does not map to Unicode at wiki.pl line 2834.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\xEE" does not map to Unicode at wiki.pl line 2834.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\xAE" does not map to Unicode at wiki.pl line 2834.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\xA6" does not map to Unicode at wiki.pl line 2834.
+[Sun Aug 16 07:10:52 2015] questionasker.t: utf8 "\xC8" does not map to Unicode at wiki.pl line 2834.
 t/questionasker.t ......... ok
 t/questionmark.t .......... ok
 t/raw.t ................... ok
@@ -132,7 +126,23 @@ t/redirection.t ........... ok
 t/referrer-tracking.t ..... ok
 t/revisions.t ............. ok
 t/rollback-extras.t ....... ok
-t/rollback.t .............. ok
+
+#   Failed test '...:strong[text()="testerror"]/following-sibling::em[text()="(minor)"]'
+#   at t/test.pl line 204.
+# No Matches
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Recent Changes</title><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="NOINDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1>RecentChanges</h1></div><div class="wrapper"><div class="rc"><h2>Updates since 1970-01-01 00:00 UTC </h2><p><a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=1;all=1;showedit=1">1 day</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=3;all=1;showedit=1">3 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=7;all=1;showedit=1">7 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=1;showedit=1">30 days</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=90;all=1;showedit=1">90 days</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;showedit=1">List latest change per page only</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=1;showedit=0">List only major changes</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1439701876;all=1;showedit=1">List later changes</a> <a class="rss nopages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=1;showedit=1">RSS</a> <a class="rss pages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=1;showedit=1;full=1">RSS with pages</a> <a class="rss pages diff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=1;showedit=1;full=1;diff=1">RSS with pages and diff</a></p><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="rc">
+# <p><strong>2015-08-16</strong></p><ul><li><span class="time">05:11 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=MinorPage">diff</a>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MinorPage">MinorPage</a>  . . . .   <span class="dash"> &#8211; </span><strong>Rollback to 2015-08-16 05:11 UTC</strong>  <em class="type">(minor)</em></li><li><span class="time">05:11 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=AnotherEvilPage">diff</a>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=AnotherEvilPage">AnotherEvilPage</a>  . . . .   <span class="dash"> &#8211; </span><strong>Rollback to 2015-08-16 05:11 UTC</strong>  <em class="type">(minor)</em></li><li><span class="time">05:11 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=OtherPage">diff</a>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=OtherPage">OtherPage</a>  . . . .   <span class="dash"> &#8211; </span><strong>Rollback to 2015-08-16 05:11 UTC</strong>  </li><li><span class="time">05:11 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=NicePage">diff</a>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=NicePage">NicePage</a>  . . . .   <span class="dash"> &#8211; </span><strong>Rollback to 2015-08-16 05:11 UTC</strong>  </li><li><span class="time">05:11 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=EvilPage">diff</a>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=EvilPage">EvilPage</a>  . . . .   <span class="dash"> &#8211; </span><strong>Rollback to 2015-08-16 05:11 UTC</strong>  </li><li><span class="time">05:11 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=MinorPage;diffrevision=2">diff</a>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MinorPage;revision=2">MinorPage</a>  . . . .   <span class="dash"> &#8211; </span><strong>testerror</strong>  <em class="type">(minor)</em></li><li><span class="time">05:11 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=AnotherEvilPage;diffrevision=2">diff</a>)  <input type="submit" name="rollback-1439701874" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=AnotherEvilPage;revision=2">AnotherEvilPage</a>  . . . .   <span class="dash"> &#8211; </span><strong>vandal five</strong>  <em class="type">(minor)</em></li><li><span class="time">05:11 UTC</span> (<span class="new">new</span>)  <input type="submit" name="rollback-1439701874" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=AnotherEvilPage;revision=1">AnotherEvilPage</a>  . . . .   <span class="dash"> &#8211; </span><strong>vandal four</strong>  <em class="type">(minor)</em></li><li><span class="time">05:11 UTC</span> (<span class="new">new</span>)  <input type="submit" name="rollback-1439701874" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=EvilPage;revision=1">EvilPage</a>  . . . .   <span class="dash"> &#8211; </span><strong>vandal three</strong>  </li><li><span class="time">05:11 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=NicePage;diffrevision=4">diff</a>)  <input type="submit" name="rollback-1439701874" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=NicePage;revision=4">NicePage</a>  . . . .   <span class="dash"> &#8211; </span><strong>vandal two</strong>  </li><li><span class="time">05:11 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=OtherPage;diffrevision=5">diff</a>)  <input type="submit" name="rollback-1439701873" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=OtherPage;revision=5">OtherPage</a>  . . . .   <span class="dash"> &#8211; </span><strong>another vandal</strong>  </li><li><span class="time">05:11 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=NicePage;diffrevision=3">diff</a>)  <input type="submit" name="rollback-1439701873" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=NicePage;revision=3">NicePage</a>  . . . .   <span class="dash"> &#8211; </span><strong>vandal one</strong>  </li><li><span class="time">05:11 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=NicePage;diffrevision=2">diff</a>)  <input type="submit" name="rollback-1439701872" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=NicePage;revision=2">NicePage</a>  . . . .   <span class="dash"> &#8211; </span><strong>good guy two</strong>  </li><li><span class="time">05:11 UTC</span> (<span class="new">new</span>)  <input type="submit" name="rollback-1439701871" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MinorPage;revision=1">MinorPage</a>  . . . .   <span class="dash"> &#8211; </span><strong>tester</strong>  </li><li><span class="time">05:11 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=OtherPage;diffrevision=4">diff</a>)  <input type="submit" name="rollback-1439701871" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=OtherPage;revision=4">OtherPage</a>  . . . .   <span class="dash"> &#8211; </span><strong>another good guy</strong>  </li><li><span class="time">05:11 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=InnocentPage">diff</a>)  <input type="submit" name="rollback-1439701870" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=InnocentPage">InnocentPage</a>  . . . .   <span class="dash"> &#8211; </span><strong>good guy zero</strong>  </li><li><span class="time">05:11 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=OtherPage;diffrevision=3">diff</a>)  <input type="submit" name="rollback-1439701869" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=OtherPage;revision=3">OtherPage</a>  . . . .   <span class="dash"> &#8211; </span><strong>another good guy</strong>  </li><li><span class="time">05:11 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=OtherPage;diffrevision=2">diff</a>)  <input type="submit" name="rollback-1439701869" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=OtherPage;revision=2">OtherPage</a>  . . . .   <span class="dash"> &#8211; </span><strong>another good guy</strong>  </li><li><span class="time">05:11 UTC</span> (<span class="new">new</span>)  <input type="submit" name="rollback-1439701869" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=OtherPage;revision=1">OtherPage</a>  . . . .   <span class="dash"> &#8211; </span><strong>another good guy</strong>  </li><li><span class="time">05:11 UTC</span> (<span class="new">new</span>)  <input type="submit" name="rollback-1439701868" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=NicePage;revision=1">NicePage</a>  . . . .   <span class="dash"> &#8211; </span><strong>good guy one</strong>  </li><li><span class="time">05:11 UTC</span> (<span class="new">new</span>)  <input type="submit" name="rollback-1439701868" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=InnocentPage;revision=1">InnocentPage</a>  . . . .   <span class="dash"> &#8211; </span><strong>good guy zero</strong>  </li></ul><p><strong>1970-01-01</strong></p><ul><li><span class="time">00:00 UTC</span> (<span class="new">new</span>)  <input type="submit" name="rollback-2" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=SecondPage">SecondPage</a>  . . . .     </li><li><span class="time">00:00 UTC</span> (<span class="new">new</span>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=FirstPage">FirstPage</a>  . . . .     </li></ul><p class="more"><a class="more" rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=-2591999;upto=1;all=1;showedit=1">More...</a></p></form><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="filter">
+# <p><strong>Filters</strong><input name="action" type="hidden" value="rc" /><input name="all" type="hidden" value="1" /><input name="showedit" type="hidden" value="1" /></p><table><tr><td><label for="match">Title:</label></td> <td><input type="text" name="match"  size="20" id="match" /></td></tr><tr><td><label for="rcfilteronly">Title and Body:</label></td> <td><input type="text" name="rcfilteronly"  size="20" id="rcfilteronly" /></td></tr><tr><td><label for="rcuseronly">Username:</label></td> <td><input type="text" name="rcuseronly"  size="20" id="rcuseronly" /></td></tr><tr><td><label for="rchostonly">Host:</label></td> <td><input type="text" name="rchostonly"  size="20" id="rchostonly" /></td></tr><tr><td><label for="followup">Follow up to:</label></td> <td><input type="text" name="followup"  size="20" id="followup" /></td></tr></table><p><input type="submit" name="dofilter" value="Go!" /></p></form></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=RecentChanges">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=RecentChanges">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=RecentChanges">Administration</a></div></div>
+# </body>
+# </html>
+
+#   Failed test '...:strong[text()="testerror"]/following-sibling::em[text()="(minor)"]'
+#   at t/test.pl line 204.
+# Looks like you failed 2 tests of 69.
+t/rollback.t .............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 2/69 subtests 
 t/rss.t ................... ok
 t/search-tag.t ............ ok
 t/search.t ................ ok
@@ -160,6 +170,12 @@ t/upload.t ................ ok
 t/usemod-options.t ........ ok
 t/usemod.t ................ ok
 t/weblog-3.t .............. ok
-All tests successful.
-Files=125, Tests=2747, 446 wallclock secs ( 0.92 usr  0.25 sys + 186.76 cusr 20.45 csys = 208.38 CPU)
-Result: PASS
+
+Test Summary Report
+-------------------
+t/rollback.t            (Wstat: 512 Tests: 69 Failed: 2)
+  Failed tests:  30, 32
+  Non-zero exit status: 2
+Files=125, Tests=2747, 446 wallclock secs ( 0.92 usr  0.26 sys + 186.87 cusr 20.07 csys = 208.12 CPU)
+Result: FAIL
+make: *** [test] Error 1
