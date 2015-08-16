@@ -92,6 +92,7 @@ t/permanent-anchors.t ..... ok
 t/portrait-support.t ...... ok
 t/private-pages.t ......... ok
 t/private-wiki.t .......... ok
+t/pygmentize.t ............ ok
 t/questionasker.t ......... ok
 t/questionmark.t .......... ok
 t/raw.t ................... ok
@@ -131,5 +132,5 @@ t/usemod-options.t ........ ok
 t/usemod.t ................ ok
 t/weblog-3.t .............. ok
 All tests successful.
-Files=127, Tests=2772, 409 wallclock secs ( 0.94 usr  0.25 sys + 190.31 cusr 21.35 csys = 212.85 CPU)
+Files=128, Tests=2774, 409 wallclock secs ( 0.92 usr  0.27 sys + 189.91 cusr 21.03 csys = 212.13 CPU)
 Result: PASS
