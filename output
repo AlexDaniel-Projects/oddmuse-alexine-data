@@ -39,7 +39,24 @@ t/edit-paragraphs.t ....... ok
 t/edit.t .................. ok
 t/emailquote.t ............ ok
 t/enclosure.t ............. ok
-t/encoding.t .............. ok
+
+#   Failed test 'Русский'
+#   at t/test.pl line 169.
+#                   'Etag: 1439750143
+# Cache-control: max-age=10
+# Content-Type: text/html; charset=utf-8
+# 
+# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: All</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=All" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: All" href="http://localhost/wiki.pl?action=rss;rcidonly=All" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22All%22">All</a></h1></div><div class="wrapper"><div class="content browse"><div class="include Russian"><p>Ð ÑÑÑÐºÐ¸Ð¹ Hello again</p></div></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=All">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=All">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=All">Administration</a></div><div class="time">Last edited 2015-08-16 18:35 UTC by </div></div>
+# </body>
+# </html>
+# '
+#     doesn't match '(?-xism:Русский)'
+# Looks like you failed 1 test of 41.
+t/encoding.t .............. 
+Dubious, test returned 1 (wstat 256, 0x100)
+Failed 1/41 subtests 
 t/fieldlist.t ............. ok
 t/find.t .................. ok
 t/fix-encoding.t .......... ok
@@ -113,6 +130,7 @@ t/meta-data.t ............. ok
 #   at t/meta.t line 89.
 # modules/atom.pl has syntax errors
 # modules/upload.pl has syntax errors
+# ▶▶▶ Use this command to see the problems: perl -c modules/atom.pl modules/upload.pl
 # Looks like you failed 6 tests of 10.
 t/meta.t .................. 
 Dubious, test returned 6 (wstat 1536, 0x600)
@@ -172,9 +190,12 @@ t/weblog-3.t .............. ok
 
 Test Summary Report
 -------------------
+t/encoding.t            (Wstat: 256 Tests: 41 Failed: 1)
+  Failed test:  37
+  Non-zero exit status: 1
 t/meta.t                (Wstat: 1536 Tests: 10 Failed: 6)
   Failed tests:  1-2, 6-8, 10
   Non-zero exit status: 6
-Files=129, Tests=2785, 411 wallclock secs ( 0.91 usr  0.28 sys + 192.00 cusr 21.40 csys = 214.59 CPU)
+Files=129, Tests=2785, 411 wallclock secs ( 0.93 usr  0.26 sys + 191.49 cusr 21.46 csys = 214.14 CPU)
 Result: FAIL
 make: *** [test] Error 1
