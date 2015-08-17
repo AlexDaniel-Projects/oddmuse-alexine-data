@@ -8,7 +8,7 @@ t/ban-contributors.t ...... ok
 t/ban-quick-editors.t ..... ok
 t/ban.t ................... ok
 t/bbcode.t ................ ok
-# Waiting for 28s
+# Waiting for 27s
 t/big-brother.t ........... ok
 t/cache.t ................. ok
 t/calendar.t .............. ok
@@ -39,27 +39,7 @@ t/edit-paragraphs.t ....... ok
 t/edit.t .................. ok
 t/emailquote.t ............ ok
 t/enclosure.t ............. ok
-
-#   Failed test 'username=Schröder'
-#   at t/test.pl line 169.
-#                   'Status: 404 NOT FOUND
-# Set-Cookie: Wiki=username%251eSchr%C3%B6der; path=/; expires=Wed, 16-Aug-2017 00:38:02 GMT; HttpOnly
-# Date: Mon, 17 Aug 2015 00:38:02 GMT
-# Etag: 1439771881%1eSchr%c3%b6der
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Möglich</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=M%c3%b6glich" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Möglich" href="http://localhost/wiki.pl?action=rss;rcidonly=M%c3%b6glich" /><link rel="alternate" type="application/rss+xml" title="Follow-ups for Schröder" href="http://localhost/wiki.pl?action=rss;followup=Schr%c3%b6der" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22M%c3%b6glich%22">Möglich</a></h1></div><div class="wrapper"><div class="content browse"><p>This page does not exist, but you can <a class="url http outside" href="http://localhost/wiki.pl?action=edit;id=M%c3%b6glich">create it now</a>.</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=M%c3%b6glich">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=M%c3%b6glich">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=M%c3%b6glich">Administration</a></div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:username=Schröder)'
-# Looks like you failed 1 test of 41.
-t/encoding.t .............. 
-Dubious, test returned 1 (wstat 256, 0x100)
-Failed 1/41 subtests 
+t/encoding.t .............. ok
 t/fieldlist.t ............. ok
 t/find.t .................. ok
 t/fix-encoding.t .......... ok
@@ -100,7 +80,7 @@ t/markup-and-creole.t ..... ok
 t/markup.t ................ ok
 t/merge.t ................. ok
 t/meta-data.t ............. ok
-[Mon Aug 17 02:41:17 2015] meta.t: Cannot decode string with wide characters at /usr/lib64/perl5/Encode.pm line 174.
+[Mon Aug 17 02:48:11 2015] meta.t: Cannot decode string with wide characters at /usr/lib64/perl5/Encode.pm line 174.
 # Looks like you planned 11 tests but ran 3.
 # Looks like your test exited with 255 just after 3.
 t/meta.t .................. 
@@ -112,18 +92,18 @@ t/multi-url-spam-block.t .. ok
 
 #   Failed test 'description: Mooo!'
 #   at t/test.pl line 169.
-#                   'Etag: 1439772080
+#                   'Etag: 1439772493
 # Cache-control: max-age=10
 # Content-Type: text/plain; charset=utf-8
 # 
 # title: Search for: Mooo
-# date: 2015-08-17 00:41 UTC
+# date: 2015-08-17 00:48 UTC
 # link: http://localhost/Muu?search=Mooo;raw=1;=1;action=search
 # 
 # title: Test
 # description: <strong>Mooo</strong>! . . .
 # size: 1K
-# last-modified: 2015-08-17 00:41 UTC
+# last-modified: 2015-08-17 00:48 UTC
 # generator: Berta from 127.0.0.1
 # username: Berta
 # host: 127.0.0.1
@@ -134,18 +114,18 @@ t/multi-url-spam-block.t .. ok
 
 #   Failed test 'description: Muuu!'
 #   at t/test.pl line 169.
-#                   'Etag: 1439772079
+#                   'Etag: 1439772493
 # Cache-control: max-age=10
 # Content-Type: text/plain; charset=utf-8
 # 
 # title: Search for: Muuu
-# date: 2015-08-17 00:41 UTC
+# date: 2015-08-17 00:48 UTC
 # link: http://localhost?search=Muuu;raw=1;action=search
 # 
 # title: Test
 # description: <strong>Muuu</strong>! . . .
 # size: 1K
-# last-modified: 2015-08-17 00:41 UTC
+# last-modified: 2015-08-17 00:48 UTC
 # generator: Alex from 127.0.0.1
 # username: Alex
 # host: 127.0.0.1
@@ -181,7 +161,7 @@ t/rollback.t .............. ok
 
 #   Failed test '<description>&lt;mu&gt;</description>'
 #   at t/test.pl line 169.
-#                   'Etag: 1439772130
+#                   'Etag: 1439772543
 # Cache-control: max-age=10
 # Content-Type: application/xml; charset=utf-8
 # 
@@ -196,8 +176,8 @@ t/rollback.t .............. ok
 # <title>Wiki: HomePage</title>
 # <link>http://localhost/wiki.pl/HomePage</link>
 # <atom:link href="http://localhost/wiki.pl?action=rss" rel="self" type="application/rss+xml" />
-# <pubDate>Mon, 17 Aug 2015 00:42:10 GMT</pubDate>
-# <lastBuildDate>Mon, 17 Aug 2015 00:42:10 GMT</lastBuildDate>
+# <pubDate>Mon, 17 Aug 2015 00:49:03 GMT</pubDate>
+# <lastBuildDate>Mon, 17 Aug 2015 00:49:03 GMT</lastBuildDate>
 # <generator>Oddmuse</generator>
 # 
 # <item>
@@ -205,7 +185,7 @@ t/rollback.t .............. ok
 # <link>http://localhost/wiki.pl/big</link>
 # <guid>http://localhost/wiki.pl/big</guid>
 # <description>&amp;lt;mu&amp;gt;</description>
-# <pubDate>Mon, 17 Aug 2015 00:42:10 GMT</pubDate>
+# <pubDate>Mon, 17 Aug 2015 00:49:03 GMT</pubDate>
 # <comments>http://localhost/wiki.pl/Comments_on_big</comments>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>updated</wiki:status>
@@ -220,7 +200,7 @@ t/rollback.t .............. ok
 # <link>http://localhost/wiki.pl/Comments_on_2008-08-07_New_Hope</link>
 # <guid>http://localhost/wiki.pl/Comments_on_2008-08-07_New_Hope</guid>
 # <description>testing</description>
-# <pubDate>Mon, 17 Aug 2015 00:42:09 GMT</pubDate>
+# <pubDate>Mon, 17 Aug 2015 00:49:03 GMT</pubDate>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
 # <wiki:importance>major</wiki:importance>
@@ -234,7 +214,7 @@ t/rollback.t .............. ok
 # <link>http://localhost/wiki.pl/2008-08-07_12h50_Forget_It</link>
 # <guid>http://localhost/wiki.pl/2008-08-07_12h50_Forget_It</guid>
 # <description>testing</description>
-# <pubDate>Mon, 17 Aug 2015 00:42:09 GMT</pubDate>
+# <pubDate>Mon, 17 Aug 2015 00:49:02 GMT</pubDate>
 # <comments>http://localhost/wiki.pl/Comments_on_2008-08-07_12h50_Forget_It</comments>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
@@ -249,7 +229,7 @@ t/rollback.t .............. ok
 # <link>http://localhost/wiki.pl/2008-08-08</link>
 # <guid>http://localhost/wiki.pl/2008-08-08</guid>
 # <description>testing</description>
-# <pubDate>Mon, 17 Aug 2015 00:42:09 GMT</pubDate>
+# <pubDate>Mon, 17 Aug 2015 00:49:02 GMT</pubDate>
 # <comments>http://localhost/wiki.pl/Comments_on_2008-08-08</comments>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
@@ -264,7 +244,7 @@ t/rollback.t .............. ok
 # <link>http://localhost/wiki.pl/2008-08-07_New_Hope</link>
 # <guid>http://localhost/wiki.pl/2008-08-07_New_Hope</guid>
 # <description>testing</description>
-# <pubDate>Mon, 17 Aug 2015 00:42:08 GMT</pubDate>
+# <pubDate>Mon, 17 Aug 2015 00:49:02 GMT</pubDate>
 # <comments>http://localhost/wiki.pl/Comments_on_2008-08-07_New_Hope</comments>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
@@ -296,7 +276,7 @@ t/subscriberc.t ........... ok
 
 #   Failed test 'is &gt;&gt;free&lt;&lt; software'
 #   at t/test.pl line 169.
-#                   'Etag: 1439772151
+#                   'Etag: 1439772564
 # Cache-control: max-age=10
 # Content-Type: application/xml; charset=utf-8
 # 
@@ -311,8 +291,8 @@ t/subscriberc.t ........... ok
 # <title>Wiki: HomePage</title>
 # <link>http://localhost/wiki.pl/HomePage</link>
 # <atom:link href="http://localhost/wiki.pl?action=rss" rel="self" type="application/rss+xml" />
-# <pubDate>Mon, 17 Aug 2015 00:42:31 GMT</pubDate>
-# <lastBuildDate>Mon, 17 Aug 2015 00:42:31 GMT</lastBuildDate>
+# <pubDate>Mon, 17 Aug 2015 00:49:24 GMT</pubDate>
+# <lastBuildDate>Mon, 17 Aug 2015 00:49:24 GMT</lastBuildDate>
 # <generator>Oddmuse</generator>
 # 
 # <item>
@@ -320,7 +300,7 @@ t/subscriberc.t ........... ok
 # <link>http://localhost/wiki.pl/long</link>
 # <guid>http://localhost/wiki.pl/long</guid>
 # <description>This program is &amp;gt;&amp;gt;free&amp;lt;&amp;lt; software; you can redistribute it and/or modify it under the terms of the GNU General Public License as . . .</description>
-# <pubDate>Mon, 17 Aug 2015 00:42:31 GMT</pubDate>
+# <pubDate>Mon, 17 Aug 2015 00:49:24 GMT</pubDate>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
 # <wiki:importance>major</wiki:importance>
@@ -334,7 +314,7 @@ t/subscriberc.t ........... ok
 # <link>http://localhost/wiki.pl/link</link>
 # <guid>http://localhost/wiki.pl/link</guid>
 # <description>some content</description>
-# <pubDate>Mon, 17 Aug 2015 00:42:30 GMT</pubDate>
+# <pubDate>Mon, 17 Aug 2015 00:49:24 GMT</pubDate>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
 # <wiki:importance>major</wiki:importance>
@@ -392,9 +372,6 @@ t/xss.t ................... ok
 
 Test Summary Report
 -------------------
-t/encoding.t            (Wstat: 256 Tests: 41 Failed: 1)
-  Failed test:  32
-  Non-zero exit status: 1
 t/meta.t                (Wstat: 65280 Tests: 3 Failed: 0)
   Non-zero exit status: 255
   Parse errors: Bad plan.  You planned 11 tests but ran 3.
@@ -410,6 +387,6 @@ t/summary.t             (Wstat: 256 Tests: 11 Failed: 1)
 t/upgrade-files.t       (Wstat: 1024 Tests: 11 Failed: 4)
   Failed tests:  5-8
   Non-zero exit status: 4
-Files=130, Tests=2784, 413 wallclock secs ( 0.91 usr  0.27 sys + 190.21 cusr 20.88 csys = 212.27 CPU)
+Files=130, Tests=2784, 413 wallclock secs ( 0.95 usr  0.26 sys + 190.45 cusr 20.71 csys = 212.37 CPU)
 Result: FAIL
 make: *** [test] Error 1
