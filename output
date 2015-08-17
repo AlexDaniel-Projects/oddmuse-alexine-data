@@ -5,21 +5,21 @@ t/ampersand.t ............. ok
 t/anchors.t ............... ok
 t/atom.t .................. ok
 t/ban-contributors.t ...... ok
-[Mon Aug 17 02:08:53 2015] ban-quick-editors.t: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
-[Mon Aug 17 02:08:53 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
-[Mon Aug 17 02:08:53 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
-[Mon Aug 17 02:08:53 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
+[Mon Aug 17 02:15:41 2015] ban-quick-editors.t: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
+[Mon Aug 17 02:15:41 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
+[Mon Aug 17 02:15:41 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
+[Mon Aug 17 02:15:41 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
 
 #   Failed test 'This page does not exist'
 #   at t/test.pl line 169.
-#                   'Etag: 1439770133
+#                   'Etag: 1439770541
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
 # <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 # <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Test</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=Test" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Test" href="http://localhost/wiki.pl?action=rss;rcidonly=Test" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
 # <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>test-data/modules/ban-quick-editors.pl: Global symbol "$q" requires explicit package name at test-data/modules/ban-quick-editors.pl line 32.
-# </p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22Test%22">Test</a></h1></div><div class="wrapper"><div class="content browse"><p>cannot edit</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Test">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=Test">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=Test">Administration</a></div><div class="time">Last edited 2015-08-17 00:08 UTC by 127.0.0.1</div></div>
+# </p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22Test%22">Test</a></h1></div><div class="wrapper"><div class="content browse"><p>cannot edit</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Test">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=Test">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=Test">Administration</a></div><div class="time">Last edited 2015-08-17 00:15 UTC by 127.0.0.1</div></div>
 # </body>
 # </html>
 # '
@@ -28,8 +28,8 @@ t/ban-contributors.t ...... ok
 #   Failed test 'Editing not allowed'
 #   at t/test.pl line 169.
 #                   'Status: 302 Found
-# Set-Cookie: Wiki=pwd%251ewrong; path=/; expires=Wed, 16-Aug-2017 00:08:53 GMT; HttpOnly
-# Date: Mon, 17 Aug 2015 00:08:53 GMT
+# Set-Cookie: Wiki=pwd%251ewrong; path=/; expires=Wed, 16-Aug-2017 00:15:41 GMT; HttpOnly
+# Date: Mon, 17 Aug 2015 00:15:41 GMT
 # Location: http://localhost/wiki.pl/Test
 # 
 # '
@@ -38,21 +38,21 @@ t/ban-contributors.t ...... ok
 #   Failed test 'fast editing spam bot'
 #   at t/test.pl line 169.
 #                   'Status: 302 Found
-# Set-Cookie: Wiki=pwd%251ewrong; path=/; expires=Wed, 16-Aug-2017 00:08:53 GMT; HttpOnly
-# Date: Mon, 17 Aug 2015 00:08:53 GMT
+# Set-Cookie: Wiki=pwd%251ewrong; path=/; expires=Wed, 16-Aug-2017 00:15:41 GMT; HttpOnly
+# Date: Mon, 17 Aug 2015 00:15:41 GMT
 # Location: http://localhost/wiki.pl/Test
 # 
 # '
 #     doesn't match '(?-xism:fast editing spam bot)'
-[Mon Aug 17 02:08:58 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
-[Mon Aug 17 02:08:58 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
+[Mon Aug 17 02:15:47 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
+[Mon Aug 17 02:15:47 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/ban-quick-editors.pl line 32.
 # Looks like you failed 3 tests of 4.
 t/ban-quick-editors.t ..... 
 Dubious, test returned 3 (wstat 768, 0x300)
 Failed 3/4 subtests 
 t/ban.t ................... ok
 t/bbcode.t ................ ok
-# Waiting for 22s
+# Waiting for 23s
 t/big-brother.t ........... ok
 t/cache.t ................. ok
 t/calendar.t .............. ok
@@ -68,9 +68,9 @@ t/contributors.t .......... ok
 #   Failed test 'username=Alex'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Set-Cookie: Wiki=username%251eAlex; path=/; expires=Wed, 16-Aug-2017 00:10:05 GMT; HttpOnly
-# Date: Mon, 17 Aug 2015 00:10:05 GMT
-# Etag: 1439770204%1eAlex
+# Set-Cookie: Wiki=username%251eAlex; path=/; expires=Wed, 16-Aug-2017 00:16:54 GMT; HttpOnly
+# Date: Mon, 17 Aug 2015 00:16:54 GMT
+# Etag: 1439770614%1eAlex
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -85,9 +85,9 @@ t/contributors.t .......... ok
 #   Failed test 'username=01234567890123456789012345678901234567890123456789'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Set-Cookie: Wiki=username%251e01234567890123456789012345678901234567890123456789; path=/; expires=Wed, 16-Aug-2017 00:10:05 GMT; HttpOnly
-# Date: Mon, 17 Aug 2015 00:10:05 GMT
-# Etag: 1439770205%1e01234567890123456789012345678901234567890123456789
+# Set-Cookie: Wiki=username%251e01234567890123456789012345678901234567890123456789; path=/; expires=Wed, 16-Aug-2017 00:16:54 GMT; HttpOnly
+# Date: Mon, 17 Aug 2015 00:16:54 GMT
+# Etag: 1439770614%1e01234567890123456789012345678901234567890123456789
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -102,9 +102,9 @@ t/contributors.t .......... ok
 #   Failed test 'username=AlexSchroeder'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Set-Cookie: Wiki=username%251eAlexSchroeder; path=/; expires=Wed, 16-Aug-2017 00:10:05 GMT; HttpOnly
-# Date: Mon, 17 Aug 2015 00:10:05 GMT
-# Etag: 1439770205%1eAlexSchroeder
+# Set-Cookie: Wiki=username%251eAlexSchroeder; path=/; expires=Wed, 16-Aug-2017 00:16:54 GMT; HttpOnly
+# Date: Mon, 17 Aug 2015 00:16:54 GMT
+# Etag: 1439770614%1eAlexSchroeder
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -119,9 +119,9 @@ t/contributors.t .......... ok
 #   Failed test 'username=Alex Schroeder'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Set-Cookie: Wiki=username%251eAlex%20Schroeder; path=/; expires=Wed, 16-Aug-2017 00:10:05 GMT; HttpOnly
-# Date: Mon, 17 Aug 2015 00:10:05 GMT
-# Etag: 1439770205%1eAlex%20Schroeder
+# Set-Cookie: Wiki=username%251eAlex%20Schroeder; path=/; expires=Wed, 16-Aug-2017 00:16:55 GMT; HttpOnly
+# Date: Mon, 17 Aug 2015 00:16:55 GMT
+# Etag: 1439770614%1eAlex%20Schroeder
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -136,9 +136,9 @@ t/contributors.t .......... ok
 #   Failed test 'username=AlexSchroeder'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Set-Cookie: Wiki=username%251eAlexSchroeder; path=/; expires=Wed, 16-Aug-2017 00:10:05 GMT; HttpOnly
-# Date: Mon, 17 Aug 2015 00:10:05 GMT
-# Etag: 1439770205%1eAlexSchroeder
+# Set-Cookie: Wiki=username%251eAlexSchroeder; path=/; expires=Wed, 16-Aug-2017 00:16:55 GMT; HttpOnly
+# Date: Mon, 17 Aug 2015 00:16:55 GMT
+# Etag: 1439770615%1eAlexSchroeder
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -153,9 +153,9 @@ t/contributors.t .......... ok
 #   Failed test 'username=Alex'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Set-Cookie: Wiki=username%251eAlex; path=/; expires=Wed, 16-Aug-2017 00:10:05 GMT; HttpOnly
-# Date: Mon, 17 Aug 2015 00:10:05 GMT
-# Etag: 1439770205%1eAlex
+# Set-Cookie: Wiki=username%251eAlex; path=/; expires=Wed, 16-Aug-2017 00:16:55 GMT; HttpOnly
+# Date: Mon, 17 Aug 2015 00:16:55 GMT
+# Etag: 1439770615%1eAlex
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -193,9 +193,9 @@ t/enclosure.t ............. ok
 #   Failed test 'username=Schröder'
 #   at t/test.pl line 169.
 #                   'Status: 404 NOT FOUND
-# Set-Cookie: Wiki=username%251eSchr%C3%B6der; path=/; expires=Wed, 16-Aug-2017 00:10:34 GMT; HttpOnly
-# Date: Mon, 17 Aug 2015 00:10:34 GMT
-# Etag: 1439770234%1eSchr%c3%b6der
+# Set-Cookie: Wiki=username%251eSchr%C3%B6der; path=/; expires=Wed, 16-Aug-2017 00:17:24 GMT; HttpOnly
+# Date: Mon, 17 Aug 2015 00:17:24 GMT
+# Etag: 1439770643%1eSchr%c3%b6der
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -240,8 +240,8 @@ t/localnames.t ............ ok
 t/lock-expiration.t ....... ok
 t/lock-on-creation.t ...... ok
 t/lock.t .................. ok
-[Mon Aug 17 02:13:34 2015] logbannedcontent.t: Variable "$q" is not imported at test-data/modules/logbannedcontent.pl line 50.
-[Mon Aug 17 02:13:34 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/logbannedcontent.pl line 50.
+[Mon Aug 17 02:20:23 2015] logbannedcontent.t: Variable "$q" is not imported at test-data/modules/logbannedcontent.pl line 50.
+[Mon Aug 17 02:20:24 2015] wiki.pl: Variable "$q" is not imported at test-data/modules/logbannedcontent.pl line 50.
 t/logbannedcontent.t ...... ok
 t/macros.t ................ ok
 t/mail.t .................. ok
@@ -252,7 +252,7 @@ t/markup-and-creole.t ..... ok
 t/markup.t ................ ok
 t/merge.t ................. ok
 t/meta-data.t ............. ok
-[Mon Aug 17 02:13:49 2015] meta.t: Cannot decode string with wide characters at /usr/lib64/perl5/Encode.pm line 174.
+[Mon Aug 17 02:20:39 2015] meta.t: Cannot decode string with wide characters at /usr/lib64/perl5/Encode.pm line 174.
 # Looks like you planned 11 tests but ran 3.
 # Looks like your test exited with 255 just after 3.
 t/meta.t .................. 
@@ -264,18 +264,18 @@ t/multi-url-spam-block.t .. ok
 
 #   Failed test 'description: Mooo!'
 #   at t/test.pl line 169.
-#                   'Etag: 1439770432
+#                   'Etag: 1439770842
 # Cache-control: max-age=10
 # Content-Type: text/plain; charset=utf-8
 # 
 # title: Search for: Mooo
-# date: 2015-08-17 00:13 UTC
+# date: 2015-08-17 00:20 UTC
 # link: http://localhost/Muu?search=Mooo;raw=1;=1;action=search
 # 
 # title: Test
 # description: <strong>Mooo</strong>! . . .
 # size: 1K
-# last-modified: 2015-08-17 00:13 UTC
+# last-modified: 2015-08-17 00:20 UTC
 # generator: Berta from 127.0.0.1
 # username: Berta
 # host: 127.0.0.1
@@ -286,18 +286,18 @@ t/multi-url-spam-block.t .. ok
 
 #   Failed test 'description: Muuu!'
 #   at t/test.pl line 169.
-#                   'Etag: 1439770432
+#                   'Etag: 1439770841
 # Cache-control: max-age=10
 # Content-Type: text/plain; charset=utf-8
 # 
 # title: Search for: Muuu
-# date: 2015-08-17 00:13 UTC
+# date: 2015-08-17 00:20 UTC
 # link: http://localhost?search=Muuu;raw=1;action=search
 # 
 # title: Test
 # description: <strong>Muuu</strong>! . . .
 # size: 1K
-# last-modified: 2015-08-17 00:13 UTC
+# last-modified: 2015-08-17 00:20 UTC
 # generator: Alex from 127.0.0.1
 # username: Alex
 # host: 127.0.0.1
@@ -329,27 +329,11 @@ t/redirection.t ........... ok
 t/referrer-tracking.t ..... ok
 t/revisions.t ............. ok
 t/rollback-extras.t ....... ok
-
-#   Failed test '...:strong[text()="testerror"]/following-sibling::em[text()="(minor)"]'
-#   at t/test.pl line 216.
-# No Matches
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: RecentChanges</title><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="NOINDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1>RecentChanges</h1></div><div class="wrapper"><div class="rc"><h2>Updates since 1970-01-01 00:00 UTC </h2><p><a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=1;all=1;showedit=1">1</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=3;all=1;showedit=1">3</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=7;all=1;showedit=1">7</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=1;showedit=1">30</a> | <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=90;all=1;showedit=1">90</a> days <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=0;showedit=1">List latest change per page only</a> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;days=30;all=1;showedit=0">List only major changes</a> <br /> <a rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=1439770474;all=1;showedit=1">List later changes</a> <a class="rss nopages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=1;showedit=1">RSS</a> <a class="rss pages nodiff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=1;showedit=1;full=1">RSS with pages</a> <a class="rss pages diff" rel="nofollow" href="http://localhost/wiki.pl?action=rss;days=30;all=1;showedit=1;full=1;diff=1">RSS with pages and diff</a></p><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="rc">
-# <p><strong>2015-08-17</strong></p><ul><li><span class="time">00:14 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=MinorPage">diff</a>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MinorPage">MinorPage</a>  . . . .  127.0.0.1 <span class="dash"> &#8211; </span><strong>Rollback to 2015-08-17 00:14 UTC</strong>  <em class="type">(minor)</em></li><li><span class="time">00:14 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=AnotherEvilPage">diff</a>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=AnotherEvilPage">AnotherEvilPage</a>  . . . .  127.0.0.1 <span class="dash"> &#8211; </span><strong>Rollback to 2015-08-17 00:14 UTC</strong>  <em class="type">(minor)</em></li><li><span class="time">00:14 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=OtherPage">diff</a>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=OtherPage">OtherPage</a>  . . . .  127.0.0.1 <span class="dash"> &#8211; </span><strong>Rollback to 2015-08-17 00:14 UTC</strong>  </li><li><span class="time">00:14 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=NicePage">diff</a>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=NicePage">NicePage</a>  . . . .  127.0.0.1 <span class="dash"> &#8211; </span><strong>Rollback to 2015-08-17 00:14 UTC</strong>  </li><li><span class="time">00:14 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=EvilPage">diff</a>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=EvilPage">EvilPage</a>  . . . .  127.0.0.1 <span class="dash"> &#8211; </span><strong>Rollback to 2015-08-17 00:14 UTC</strong>  </li><li><span class="time">00:14 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=MinorPage;diffrevision=2">diff</a>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MinorPage;revision=2">MinorPage</a>  . . . .  127.0.0.1 <span class="dash"> &#8211; </span><strong>testerror</strong>  <em class="type">(minor)</em></li><li><span class="time">00:14 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=AnotherEvilPage;diffrevision=2">diff</a>)  <input type="submit" name="rollback-1439770472" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=AnotherEvilPage;revision=2">AnotherEvilPage</a>  . . . .  127.0.0.1 <span class="dash"> &#8211; </span><strong>vandal five</strong>  <em class="type">(minor)</em></li><li><span class="time">00:14 UTC</span> (<span class="new">new</span>)  <input type="submit" name="rollback-1439770472" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=AnotherEvilPage;revision=1">AnotherEvilPage</a>  . . . .  127.0.0.1 <span class="dash"> &#8211; </span><strong>vandal four</strong>  <em class="type">(minor)</em></li><li><span class="time">00:14 UTC</span> (<span class="new">new</span>)  <input type="submit" name="rollback-1439770472" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=EvilPage;revision=1">EvilPage</a>  . . . .  127.0.0.1 <span class="dash"> &#8211; </span><strong>vandal three</strong>  </li><li><span class="time">00:14 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=NicePage;diffrevision=4">diff</a>)  <input type="submit" name="rollback-1439770472" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=NicePage;revision=4">NicePage</a>  . . . .  127.0.0.1 <span class="dash"> &#8211; </span><strong>vandal two</strong>  </li><li><span class="time">00:14 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=OtherPage;diffrevision=5">diff</a>)  <input type="submit" name="rollback-1439770471" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=OtherPage;revision=5">OtherPage</a>  . . . .  127.0.0.1 <span class="dash"> &#8211; </span><strong>another vandal</strong>  </li><li><span class="time">00:14 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=NicePage;diffrevision=3">diff</a>)  <input type="submit" name="rollback-1439770471" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=NicePage;revision=3">NicePage</a>  . . . .  127.0.0.1 <span class="dash"> &#8211; </span><strong>vandal one</strong>  </li><li><span class="time">00:14 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=NicePage;diffrevision=2">diff</a>)  <input type="submit" name="rollback-1439770470" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=NicePage;revision=2">NicePage</a>  . . . .  127.0.0.1 <span class="dash"> &#8211; </span><strong>good guy two</strong>  </li><li><span class="time">00:14 UTC</span> (<span class="new">new</span>)  <input type="submit" name="rollback-1439770469" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=MinorPage;revision=1">MinorPage</a>  . . . .  127.0.0.1 <span class="dash"> &#8211; </span><strong>tester</strong>  </li><li><span class="time">00:14 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=OtherPage;diffrevision=4">diff</a>)  <input type="submit" name="rollback-1439770469" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=OtherPage;revision=4">OtherPage</a>  . . . .  127.0.0.1 <span class="dash"> &#8211; </span><strong>another good guy</strong>  </li><li><span class="time">00:14 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=InnocentPage">diff</a>)  <input type="submit" name="rollback-1439770468" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=InnocentPage">InnocentPage</a>  . . . .  127.0.0.1 <span class="dash"> &#8211; </span><strong>good guy zero</strong>  </li><li><span class="time">00:14 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=OtherPage;diffrevision=3">diff</a>)  <input type="submit" name="rollback-1439770467" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=OtherPage;revision=3">OtherPage</a>  . . . .  127.0.0.1 <span class="dash"> &#8211; </span><strong>another good guy</strong>  </li><li><span class="time">00:14 UTC</span> (<a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=OtherPage;diffrevision=2">diff</a>)  <input type="submit" name="rollback-1439770467" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=OtherPage;revision=2">OtherPage</a>  . . . .  127.0.0.1 <span class="dash"> &#8211; </span><strong>another good guy</strong>  </li><li><span class="time">00:14 UTC</span> (<span class="new">new</span>)  <input type="submit" name="rollback-1439770467" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=OtherPage;revision=1">OtherPage</a>  . . . .  127.0.0.1 <span class="dash"> &#8211; </span><strong>another good guy</strong>  </li><li><span class="time">00:14 UTC</span> (<span class="new">new</span>)  <input type="submit" name="rollback-1439770466" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=NicePage;revision=1">NicePage</a>  . . . .  127.0.0.1 <span class="dash"> &#8211; </span><strong>good guy one</strong>  </li><li><span class="time">00:14 UTC</span> (<span class="new">new</span>)  <input type="submit" name="rollback-1439770466" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=InnocentPage;revision=1">InnocentPage</a>  . . . .  127.0.0.1 <span class="dash"> &#8211; </span><strong>good guy zero</strong>  </li></ul><p><strong>1970-01-01</strong></p><ul><li><span class="time">00:00 UTC</span> (<span class="new">new</span>)  <input type="submit" name="rollback-2" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=SecondPage">SecondPage</a>  . . . .     </li><li><span class="time">00:00 UTC</span> (<span class="new">new</span>)   <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=FirstPage">FirstPage</a>  . . . .     </li></ul><p class="more"><a class="more" rel="nofollow" href="http://localhost/wiki.pl?action=rc;from=-2591999;upto=1;all=1;showedit=1">More...</a></p></form><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="filter">
-# <p><strong>Filters</strong><input name="action" type="hidden" value="rc" /><input name="all" type="hidden" value="1" /><input name="showedit" type="hidden" value="1" /></p><table><tr><td><label for="match">Title:</label></td> <td><input type="text" name="match"  size="20" id="match" /></td></tr><tr><td><label for="rcfilteronly">Title and Body:</label></td> <td><input type="text" name="rcfilteronly"  size="20" id="rcfilteronly" /></td></tr><tr><td><label for="rcuseronly">Username:</label></td> <td><input type="text" name="rcuseronly"  size="20" id="rcuseronly" /></td></tr><tr><td><label for="rchostonly">Host:</label></td> <td><input type="text" name="rchostonly"  size="20" id="rchostonly" /></td></tr><tr><td><label for="followup">Follow up to:</label></td> <td><input type="text" name="followup"  size="20" id="followup" /></td></tr></table><p><input type="submit" name="dofilter" value="Go!" /></p></form></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=RecentChanges">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=RecentChanges">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=RecentChanges">Administration</a></div></div>
-# </body>
-# </html>
-
-#   Failed test '...:strong[text()="testerror"]/following-sibling::em[text()="(minor)"]'
-#   at t/test.pl line 216.
-# Looks like you failed 2 tests of 69.
-t/rollback.t .............. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 2/69 subtests 
+t/rollback.t .............. ok
 
 #   Failed test '<description>&lt;mu&gt;</description>'
 #   at t/test.pl line 169.
-#                   'Etag: 1439770482
+#                   'Etag: 1439770892
 # Cache-control: max-age=10
 # Content-Type: application/xml; charset=utf-8
 # 
@@ -364,8 +348,8 @@ Failed 2/69 subtests
 # <title>Wiki: HomePage</title>
 # <link>http://localhost/wiki.pl/HomePage</link>
 # <atom:link href="http://localhost/wiki.pl?action=rss" rel="self" type="application/rss+xml" />
-# <pubDate>Mon, 17 Aug 2015 00:14:42 GMT</pubDate>
-# <lastBuildDate>Mon, 17 Aug 2015 00:14:42 GMT</lastBuildDate>
+# <pubDate>Mon, 17 Aug 2015 00:21:32 GMT</pubDate>
+# <lastBuildDate>Mon, 17 Aug 2015 00:21:32 GMT</lastBuildDate>
 # <generator>Oddmuse</generator>
 # 
 # <item>
@@ -373,7 +357,7 @@ Failed 2/69 subtests
 # <link>http://localhost/wiki.pl/big</link>
 # <guid>http://localhost/wiki.pl/big</guid>
 # <description>&amp;lt;mu&amp;gt;</description>
-# <pubDate>Mon, 17 Aug 2015 00:14:42 GMT</pubDate>
+# <pubDate>Mon, 17 Aug 2015 00:21:32 GMT</pubDate>
 # <comments>http://localhost/wiki.pl/Comments_on_big</comments>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>updated</wiki:status>
@@ -388,7 +372,7 @@ Failed 2/69 subtests
 # <link>http://localhost/wiki.pl/Comments_on_2008-08-07_New_Hope</link>
 # <guid>http://localhost/wiki.pl/Comments_on_2008-08-07_New_Hope</guid>
 # <description>testing</description>
-# <pubDate>Mon, 17 Aug 2015 00:14:41 GMT</pubDate>
+# <pubDate>Mon, 17 Aug 2015 00:21:31 GMT</pubDate>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
 # <wiki:importance>major</wiki:importance>
@@ -402,7 +386,7 @@ Failed 2/69 subtests
 # <link>http://localhost/wiki.pl/2008-08-07_12h50_Forget_It</link>
 # <guid>http://localhost/wiki.pl/2008-08-07_12h50_Forget_It</guid>
 # <description>testing</description>
-# <pubDate>Mon, 17 Aug 2015 00:14:41 GMT</pubDate>
+# <pubDate>Mon, 17 Aug 2015 00:21:31 GMT</pubDate>
 # <comments>http://localhost/wiki.pl/Comments_on_2008-08-07_12h50_Forget_It</comments>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
@@ -417,7 +401,7 @@ Failed 2/69 subtests
 # <link>http://localhost/wiki.pl/2008-08-08</link>
 # <guid>http://localhost/wiki.pl/2008-08-08</guid>
 # <description>testing</description>
-# <pubDate>Mon, 17 Aug 2015 00:14:41 GMT</pubDate>
+# <pubDate>Mon, 17 Aug 2015 00:21:31 GMT</pubDate>
 # <comments>http://localhost/wiki.pl/Comments_on_2008-08-08</comments>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
@@ -432,7 +416,7 @@ Failed 2/69 subtests
 # <link>http://localhost/wiki.pl/2008-08-07_New_Hope</link>
 # <guid>http://localhost/wiki.pl/2008-08-07_New_Hope</guid>
 # <description>testing</description>
-# <pubDate>Mon, 17 Aug 2015 00:14:41 GMT</pubDate>
+# <pubDate>Mon, 17 Aug 2015 00:21:30 GMT</pubDate>
 # <comments>http://localhost/wiki.pl/Comments_on_2008-08-07_New_Hope</comments>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
@@ -464,7 +448,7 @@ t/subscriberc.t ........... ok
 
 #   Failed test 'is &gt;&gt;free&lt;&lt; software'
 #   at t/test.pl line 169.
-#                   'Etag: 1439770503
+#                   'Etag: 1439770913
 # Cache-control: max-age=10
 # Content-Type: application/xml; charset=utf-8
 # 
@@ -479,8 +463,8 @@ t/subscriberc.t ........... ok
 # <title>Wiki: HomePage</title>
 # <link>http://localhost/wiki.pl/HomePage</link>
 # <atom:link href="http://localhost/wiki.pl?action=rss" rel="self" type="application/rss+xml" />
-# <pubDate>Mon, 17 Aug 2015 00:15:03 GMT</pubDate>
-# <lastBuildDate>Mon, 17 Aug 2015 00:15:03 GMT</lastBuildDate>
+# <pubDate>Mon, 17 Aug 2015 00:21:53 GMT</pubDate>
+# <lastBuildDate>Mon, 17 Aug 2015 00:21:53 GMT</lastBuildDate>
 # <generator>Oddmuse</generator>
 # 
 # <item>
@@ -488,7 +472,7 @@ t/subscriberc.t ........... ok
 # <link>http://localhost/wiki.pl/long</link>
 # <guid>http://localhost/wiki.pl/long</guid>
 # <description>This program is &amp;gt;&amp;gt;free&amp;lt;&amp;lt; software; you can redistribute it and/or modify it under the terms of the GNU General Public License as . . .</description>
-# <pubDate>Mon, 17 Aug 2015 00:15:03 GMT</pubDate>
+# <pubDate>Mon, 17 Aug 2015 00:21:53 GMT</pubDate>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
 # <wiki:importance>major</wiki:importance>
@@ -502,7 +486,7 @@ t/subscriberc.t ........... ok
 # <link>http://localhost/wiki.pl/link</link>
 # <guid>http://localhost/wiki.pl/link</guid>
 # <description>some content</description>
-# <pubDate>Mon, 17 Aug 2015 00:15:03 GMT</pubDate>
+# <pubDate>Mon, 17 Aug 2015 00:21:52 GMT</pubDate>
 # <dc:contributor>127.0.0.1</dc:contributor>
 # <wiki:status>new</wiki:status>
 # <wiki:importance>major</wiki:importance>
@@ -521,100 +505,7 @@ Failed 1/11 subtests
 t/surge-protection.t ...... ok
 t/tables-long.t ........... ok
 t/tables.t ................ ok
-
-#   Failed test 'not Brilliant'
-#   at t/test.pl line 189.
-#                   'Etag: 1439770511
-# Cache-control: max-age=10
-# Content-Type: text/plain; charset=utf-8
-# 
-# title: Search for: -tag:mag
-# date: 2015-08-17 00:15 UTC
-# link: http://localhost?search=-tag%3Amag;raw=1;action=search
-# 
-# title: Alex
-# description: not a podcast . . .
-# size: 1K
-# last-modified: 2015-08-17 00:15 UTC
-# generator: 127.0.0.1
-# host: 127.0.0.1
-# link: http://localhost/wiki.pl?Alex
-# 
-# title: Brilliant
-# description: Gameologists [[tag:podcast]] [[tag:mag]] . . .
-# size: 1K
-# last-modified: 2015-08-17 00:15 UTC
-# generator: 127.0.0.1
-# host: 127.0.0.1
-# link: http://localhost/wiki.pl?Brilliant
-# 
-# title: Jeff
-# description: a blog [[tag:Old School]] . . .
-# size: 1K
-# last-modified: 2015-08-17 00:15 UTC
-# generator: 127.0.0.1
-# host: 127.0.0.1
-# link: http://localhost/wiki.pl?Jeff
-# 
-# title: Pödgecäst´s
-# description: Another [[tag:podcast]] . . .
-# size: 1K
-# last-modified: 2015-08-17 00:15 UTC
-# generator: 127.0.0.1
-# host: 127.0.0.1
-# link: http://localhost/wiki.pl?Pödgecäst´s
-# 
-# title: Sons
-# description: of Kryos [[tag:Podcast]] . . .
-# size: 1K
-# last-modified: 2015-08-17 00:15 UTC
-# generator: 127.0.0.1
-# host: 127.0.0.1
-# link: http://localhost/wiki.pl?Sons
-# 
-# '
-#           matches '(?-xism:Brilliant)'
-
-#   Failed test 'not Brilliant'
-#   at t/test.pl line 189.
-#                   'Etag: 1439770511
-# Cache-control: max-age=10
-# Content-Type: text/plain; charset=utf-8
-# 
-# title: Search for: tag:podcast -tag:mag
-# date: 2015-08-17 00:15 UTC
-# link: http://localhost?search=tag%3Apodcast%20-tag%3Amag;raw=1;action=search
-# 
-# title: Brilliant
-# description: Gameologists [[<strong>tag:podcast</strong>]] [[tag:mag]] . . .
-# size: 1K
-# last-modified: 2015-08-17 00:15 UTC
-# generator: 127.0.0.1
-# host: 127.0.0.1
-# link: http://localhost/wiki.pl?Brilliant
-# 
-# title: Pödgecäst´s
-# description: Another [[<strong>tag:podcast</strong>]] . . .
-# size: 1K
-# last-modified: 2015-08-17 00:15 UTC
-# generator: 127.0.0.1
-# host: 127.0.0.1
-# link: http://localhost/wiki.pl?Pödgecäst´s
-# 
-# title: Sons
-# description: of Kryos [[<strong>tag:Podcast</strong>]] . . .
-# size: 1K
-# last-modified: 2015-08-17 00:15 UTC
-# generator: 127.0.0.1
-# host: 127.0.0.1
-# link: http://localhost/wiki.pl?Sons
-# 
-# '
-#           matches '(?-xism:Brilliant)'
-# Looks like you failed 2 tests of 70.
-t/tags.t .................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 2/70 subtests 
+t/tags.t .................. ok
 t/tex.t ................... ok
 t/toc.t ................... ok
 t/translation-links.t ..... ok
@@ -668,21 +559,15 @@ t/meta.t                (Wstat: 65280 Tests: 3 Failed: 0)
 t/namespaces.t          (Wstat: 512 Tests: 77 Failed: 2)
   Failed tests:  15, 18
   Non-zero exit status: 2
-t/rollback.t            (Wstat: 512 Tests: 69 Failed: 2)
-  Failed tests:  30, 32
-  Non-zero exit status: 2
 t/rss.t                 (Wstat: 256 Tests: 126 Failed: 1)
   Failed test:  28
   Non-zero exit status: 1
 t/summary.t             (Wstat: 256 Tests: 11 Failed: 1)
   Failed test:  6
   Non-zero exit status: 1
-t/tags.t                (Wstat: 512 Tests: 70 Failed: 2)
-  Failed tests:  34, 37
-  Non-zero exit status: 2
 t/upgrade-files.t       (Wstat: 1024 Tests: 11 Failed: 4)
   Failed tests:  5-8
   Non-zero exit status: 4
-Files=130, Tests=2784, 408 wallclock secs ( 0.93 usr  0.26 sys + 190.40 cusr 20.68 csys = 212.27 CPU)
+Files=130, Tests=2784, 409 wallclock secs ( 0.96 usr  0.24 sys + 190.84 cusr 20.55 csys = 212.59 CPU)
 Result: FAIL
 make: *** [test] Error 1
