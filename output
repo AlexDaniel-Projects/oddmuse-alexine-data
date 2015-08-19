@@ -81,7 +81,7 @@ t/markup-and-creole.t ..... ok
 t/markup.t ................ ok
 t/merge.t ................. ok
 t/meta-data.t ............. ok
-[Wed Aug 19 10:30:50 2015] meta.t: Cannot decode string with wide characters at /usr/lib64/perl5/Encode.pm line 174.
+[Wed Aug 19 10:37:51 2015] meta.t: Cannot decode string with wide characters at /usr/lib64/perl5/Encode.pm line 174.
 # Looks like you planned 11 tests but ran 3.
 # Looks like your test exited with 255 just after 3.
 t/meta.t .................. 
@@ -145,6 +145,6 @@ Test Summary Report
 t/meta.t                (Wstat: 65280 Tests: 3 Failed: 0)
   Non-zero exit status: 255
   Parse errors: Bad plan.  You planned 11 tests but ran 3.
-Files=131, Tests=2795, 419 wallclock secs ( 0.95 usr  0.26 sys + 194.38 cusr 20.96 csys = 216.55 CPU)
+Files=131, Tests=2795, 419 wallclock secs ( 0.92 usr  0.27 sys + 194.53 cusr 21.11 csys = 216.83 CPU)
 Result: FAIL
 make: *** [test] Error 1
