@@ -9,30 +9,12 @@ t/ban-contributors.t ...... ok
 t/ban-quick-editors.t ..... ok
 t/ban.t ................... ok
 t/bbcode.t ................ ok
-# Waiting for 28s
+# Waiting for 27s
 t/big-brother.t ........... ok
 t/cache.t ................. ok
 t/calendar.t .............. ok
 t/clusters.t .............. ok
-
-#   Failed test 'Can add comments with edit allowed eq 3'
-#   at t/test.pl line 169.
-#                   'Etag: 1439895697
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Comments on Test</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=Comments_on_Test" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Comments_on_Test" href="http://localhost/wiki.pl?action=rss;rcidonly=Comments_on_Test" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22Comments+on+Test%22">Comments on Test</a></h1></div><div class="wrapper"><div class="content browse"><p>Can edit comments with edit allowed eq 2</p></div><div class="comment"><form method="post" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="comment">
-#  <p><input name="title" type="hidden" value="Comments_on_Test" /> <br /> <label accesskey="c" for="aftertext"><textarea name="aftertext"  rows="10" cols="78" id="aftertext"></textarea></label></p>  <p><span class="username"><label for="username">Username:</label>   <input type="text" name="username"  size="20" maxlength="50" id="username" /></span> <span class="homepage"><label for="homepage">Homepage URL:</label>   <input type="text" name="homepage"  size="40" maxlength="100" id="homepage" /></span></p> <p><input type="submit" name="Save" value="Save" accesskey="s" />   <input type="submit" name="Preview" value="Preview" accesskey="p" /></p> </form></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="original local" accesskey="a" href="http://localhost/wiki.pl/Test">Test</a> <a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Comments_on_Test">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=Comments_on_Test">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=Comments_on_Test">Administration</a></div><div class="time">Last edited 2015-08-18 11:01 UTC by 127.0.0.1 <a class="diff" rel="nofollow" href="http://localhost/wiki.pl?action=browse;diff=2;id=Comments_on_Test">(diff)</a></div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:Can add comments with edit allowed eq 3)'
-# Looks like you failed 1 test of 37.
-t/comments.t .............. 
-Dubious, test returned 1 (wstat 256, 0x100)
-Failed 1/37 subtests 
+t/comments.t .............. ok
 t/config-page.t ........... ok
 # Warnings saying that diff and diff3 cannot be found is expected because PATH has been unset.
 sh: diff3: No such file or directory
@@ -99,7 +81,7 @@ t/markup-and-creole.t ..... ok
 t/markup.t ................ ok
 t/merge.t ................. ok
 t/meta-data.t ............. ok
-[Tue Aug 18 13:05:52 2015] meta.t: Cannot decode string with wide characters at /usr/lib64/perl5/Encode.pm line 174.
+[Wed Aug 19 06:00:16 2015] meta.t: Cannot decode string with wide characters at /usr/lib64/perl5/Encode.pm line 174.
 # Looks like you planned 11 tests but ran 3.
 # Looks like your test exited with 255 just after 3.
 t/meta.t .................. 
@@ -160,12 +142,9 @@ t/xss.t ................... ok
 
 Test Summary Report
 -------------------
-t/comments.t            (Wstat: 256 Tests: 37 Failed: 1)
-  Failed test:  26
-  Non-zero exit status: 1
 t/meta.t                (Wstat: 65280 Tests: 3 Failed: 0)
   Non-zero exit status: 255
   Parse errors: Bad plan.  You planned 11 tests but ran 3.
-Files=131, Tests=2794, 419 wallclock secs ( 0.94 usr  0.26 sys + 194.60 cusr 21.74 csys = 217.54 CPU)
+Files=131, Tests=2795, 418 wallclock secs ( 0.93 usr  0.27 sys + 194.77 cusr 20.77 csys = 216.74 CPU)
 Result: FAIL
 make: *** [test] Error 1
