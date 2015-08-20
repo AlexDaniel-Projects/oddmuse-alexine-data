@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !/cgi-bin/run-tests$
+RewriteRule ".*" "https://oddmuse.org/wiki/Test Status" [R]
