@@ -1,3 +1,4 @@
 RewriteEngine on
 RewriteCond %{REQUEST_URI} !/cgi-bin/run-tests$
+RewriteCond %{REQUEST_URI} !/cgi-bin/new-release$
 RewriteRule ".*" "https://oddmuse.org/wiki/Test Status" [R]
