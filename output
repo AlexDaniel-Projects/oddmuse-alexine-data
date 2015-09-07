@@ -3,57 +3,7 @@ t/aggregate.t ............. ok
 t/all.t ................... ok
 t/ampersand.t ............. ok
 t/anchors.t ............... ok
-[Mon Sep  7 02:43:47 2015] askpage.t: Variable "@MyFooters" is not imported at test-data/modules/askpage.pl line 56.
-[Mon Sep  7 02:43:47 2015] askpage.t: Variable "@MyFooters" is not imported at test-data/modules/askpage.pl line 56.
-[Mon Sep  7 02:43:47 2015] askpage.t: Variable "%Translate" is not imported at test-data/modules/askpage.pl line 60.
-[Mon Sep  7 02:43:47 2015] wiki.pl: Variable "@MyFooters" is not imported at test-data/modules/askpage.pl line 56.
-[Mon Sep  7 02:43:47 2015] wiki.pl: Variable "@MyFooters" is not imported at test-data/modules/askpage.pl line 56.
-[Mon Sep  7 02:43:47 2015] wiki.pl: Variable "%Translate" is not imported at test-data/modules/askpage.pl line 60.
-[Mon Sep  7 02:43:47 2015] wiki.pl: Variable "@MyFooters" is not imported at test-data/modules/askpage.pl line 56.
-[Mon Sep  7 02:43:47 2015] wiki.pl: Variable "@MyFooters" is not imported at test-data/modules/askpage.pl line 56.
-[Mon Sep  7 02:43:47 2015] wiki.pl: Variable "%Translate" is not imported at test-data/modules/askpage.pl line 60.
-
-#   Failed test 'How can I make money fast\?'
-#   at t/test.pl line 169.
-#                   'Status: 404 NOT FOUND
-# Etag: 1441586627
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Question 1</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=Question_1" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Question_1" href="http://localhost/wiki.pl?action=rss;rcidonly=Question_1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>test-data/modules/askpage.pl: Global symbol "@MyFooters" requires explicit package name at test-data/modules/askpage.pl line 56.
-# Global symbol "@MyFooters" requires explicit package name at test-data/modules/askpage.pl line 56.
-# Global symbol "%Translate" requires explicit package name at test-data/modules/askpage.pl line 60.
-# </p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22Question+1%22">Question 1</a></h1></div><div class="wrapper"><div class="content browse"><p>This page does not exist, but you can <a class="url http outside" href="http://localhost/wiki.pl?action=edit;id=Question_1">create it now</a>.</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Question_1">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=Question_1">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=Question_1">Administration</a></div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:How can I make money fast\?)'
-[Mon Sep  7 02:43:47 2015] wiki.pl: Variable "@MyFooters" is not imported at test-data/modules/askpage.pl line 56.
-[Mon Sep  7 02:43:47 2015] wiki.pl: Variable "@MyFooters" is not imported at test-data/modules/askpage.pl line 56.
-[Mon Sep  7 02:43:47 2015] wiki.pl: Variable "%Translate" is not imported at test-data/modules/askpage.pl line 60.
-
-#   Failed test 'Write your question here:'
-#   at t/test.pl line 169.
-#                   'Etag: 1441586627
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Ask</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=Ask" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Ask" href="http://localhost/wiki.pl?action=rss;rcidonly=Ask" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><div class="message"><p>test-data/modules/askpage.pl: Global symbol "@MyFooters" requires explicit package name at test-data/modules/askpage.pl line 56.
-# Global symbol "@MyFooters" requires explicit package name at test-data/modules/askpage.pl line 56.
-# Global symbol "%Translate" requires explicit package name at test-data/modules/askpage.pl line 60.
-# </p></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl?search=%22Ask%22">Ask</a></h1></div><div class="wrapper"><div class="content browse"><p>How can I make money fast?</p><p>-- Anonymous 2015-09-07 00:43 UTC</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="comment local" accesskey="c" href="http://localhost/wiki.pl/Ask">Ask</a> <a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl?action=edit;id=Ask">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=Ask">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=Ask">Administration</a></div><div class="time">Last edited 2015-09-07 00:43 UTC by 127.0.0.1</div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:Write your question here:)'
-# Looks like you failed 2 tests of 2.
-t/askpage.t ............... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 2/2 subtests 
+t/askpage.t ............... ok
 t/atom.t .................. ok
 t/ban-contributors.t ...... ok
 t/ban-quick-editors.t ..... ok
@@ -131,16 +81,7 @@ t/markup-and-creole.t ..... ok
 t/markup.t ................ ok
 t/merge.t ................. ok
 t/meta-data.t ............. ok
-
-#   Failed test 'modules are syntatically correct'
-#   at t/meta.t line 114.
-# modules/askpage.pl has syntax errors
-# ▶▶▶ Use this command to see the problems: perl -c modules/askpage.pl
-# Looks like you failed 1 test of 11.
-t/meta.t .................. 
-Dubious, test returned 1 (wstat 256, 0x100)
-Failed 1/11 subtests 
-	(less 1 skipped subtest: 9 okay)
+t/meta.t .................. ok
 t/moin.t .................. ok
 t/multi-url-spam-block.t .. ok
 t/namespaces.t ............ ok
@@ -193,15 +134,6 @@ t/usemod-options.t ........ ok
 t/usemod.t ................ ok
 t/weblog-3.t .............. ok
 t/xss.t ................... ok
-
-Test Summary Report
--------------------
-t/askpage.t             (Wstat: 512 Tests: 2 Failed: 2)
-  Failed tests:  1-2
-  Non-zero exit status: 2
-t/meta.t                (Wstat: 256 Tests: 11 Failed: 1)
-  Failed test:  11
-  Non-zero exit status: 1
-Files=131, Tests=2816, 425 wallclock secs ( 0.98 usr  0.25 sys + 197.37 cusr 21.72 csys = 220.32 CPU)
-Result: FAIL
-make: *** [test] Error 1
+All tests successful.
+Files=131, Tests=2816, 424 wallclock secs ( 0.96 usr  0.24 sys + 197.56 cusr 21.40 csys = 220.16 CPU)
+Result: PASS
