@@ -111,7 +111,7 @@ t/search-tag.t ............ ok
 
 #   Failed test '<h1>Malformed regular expression in \+test</h1>'
 #   at t/test.pl line 169.
-#                   'Etag: 1441973909
+#                   'Etag: 1441977636
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -157,6 +157,6 @@ Test Summary Report
 t/search.t              (Wstat: 256 Tests: 44 Failed: 1)
   Failed test:  1
   Non-zero exit status: 1
-Files=131, Tests=2816, 426 wallclock secs ( 0.96 usr  0.24 sys + 198.12 cusr 22.60 csys = 221.92 CPU)
+Files=131, Tests=2816, 425 wallclock secs ( 0.96 usr  0.24 sys + 198.69 cusr 22.28 csys = 222.17 CPU)
 Result: FAIL
 make: *** [test] Error 1
