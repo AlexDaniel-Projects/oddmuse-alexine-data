@@ -9,7 +9,7 @@ t/ban-contributors.t ...... ok
 t/ban-quick-editors.t ..... ok
 t/ban.t ................... ok
 t/bbcode.t ................ ok
-# Waiting for 27s
+# Waiting for 28s
 t/big-brother.t ........... ok
 t/cache.t ................. ok
 t/calendar.t .............. ok
@@ -108,24 +108,7 @@ t/rollback-extras.t ....... ok
 t/rollback.t .............. ok
 t/rss.t ................... ok
 t/search-tag.t ............ ok
-
-#   Failed test '<h1>Malformed regular expression in \+test</h1>'
-#   at t/test.pl line 169.
-#                   'Etag: 1441977636
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Search for: +test</title><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="NOINDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search" value="+test" size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1>Search for: +test</h1></div><div class="wrapper"><div class="content search"><p class="links"><a rel="nofollow" href="http://localhost/wiki.pl?action=rc;rcfilteronly=%2btest">View changes for these pages</a></p><p class="result">0 pages found.</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin">Administration</a></div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:<h1>Malformed regular expression in \+test</h1>)'
-# Looks like you failed 1 test of 44.
-t/search.t ................ 
-Dubious, test returned 1 (wstat 256, 0x100)
-Failed 1/44 subtests 
+t/search.t ................ ok
 t/searchtags.t ............ ok
 t/security.t .............. ok
 t/setext.t ................ ok
@@ -151,12 +134,6 @@ t/usemod-options.t ........ ok
 t/usemod.t ................ ok
 t/weblog-3.t .............. ok
 t/xss.t ................... ok
-
-Test Summary Report
--------------------
-t/search.t              (Wstat: 256 Tests: 44 Failed: 1)
-  Failed test:  1
-  Non-zero exit status: 1
-Files=131, Tests=2816, 425 wallclock secs ( 0.96 usr  0.24 sys + 198.69 cusr 22.28 csys = 222.17 CPU)
-Result: FAIL
-make: *** [test] Error 1
+All tests successful.
+Files=131, Tests=2816, 426 wallclock secs ( 0.94 usr  0.24 sys + 198.36 cusr 22.91 csys = 222.45 CPU)
+Result: PASS
