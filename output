@@ -4,12 +4,17 @@ t/all.t ................... ok
 t/ampersand.t ............. ok
 t/anchors.t ............... ok
 t/askpage.t ............... ok
-t/atom.t .................. ok
+[Sat Sep 12 19:06:19 2015] atom.t: Label not found for "last SKIP" at /usr/share/perl5/Test/More.pm line 1176.
+# Looks like your test exited with 2 just after 42.
+t/atom.t .................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+All 42 subtests passed 
+	(less 42 skipped subtests: 0 okay)
 t/ban-contributors.t ...... ok
 t/ban-quick-editors.t ..... ok
 t/ban.t ................... ok
 t/bbcode.t ................ ok
-# Waiting for 27s
+# Waiting for 28s
 t/big-brother.t ........... ok
 t/cache.t ................. ok
 t/calendar.t .............. ok
@@ -134,6 +139,11 @@ t/usemod-options.t ........ ok
 t/usemod.t ................ ok
 t/weblog-3.t .............. ok
 t/xss.t ................... ok
-All tests successful.
-Files=131, Tests=2844, 428 wallclock secs ( 0.92 usr  0.25 sys + 199.48 cusr 23.14 csys = 223.79 CPU)
-Result: PASS
+
+Test Summary Report
+-------------------
+t/atom.t                (Wstat: 512 Tests: 42 Failed: 0)
+  Non-zero exit status: 2
+Files=131, Tests=2844, 427 wallclock secs ( 0.95 usr  0.24 sys + 199.01 cusr 22.66 csys = 222.86 CPU)
+Result: FAIL
+make: *** [test] Error 1
