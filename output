@@ -29,7 +29,7 @@ t/askpage.t ............... ok
 #   Failed test 'get created entry'
 #   at t/atom.t line 49.
 # Error on GET : 400 URL missing
-[Sat Sep 12 19:20:40 2015] atom.t: Can't call method "title" on an undefined value at t/atom.t line 51.
+[Sun Sep 13 22:39:39 2015] atom.t: Can't call method "title" on an undefined value at t/atom.t line 51.
 # Looks like you planned 44 tests but ran 9.
 # Looks like you failed 4 tests of 9 run.
 # Looks like your test exited with 255 just after 9.
@@ -172,6 +172,6 @@ t/atom.t                (Wstat: 65280 Tests: 9 Failed: 4)
   Failed tests:  1-2, 8-9
   Non-zero exit status: 255
   Parse errors: Bad plan.  You planned 44 tests but ran 9.
-Files=131, Tests=2811, 428 wallclock secs ( 0.95 usr  0.25 sys + 199.56 cusr 22.63 csys = 223.39 CPU)
+Files=131, Tests=2811, 428 wallclock secs ( 0.96 usr  0.24 sys + 198.90 cusr 22.03 csys = 222.13 CPU)
 Result: FAIL
 make: *** [test] Error 1
