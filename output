@@ -9,7 +9,7 @@ t/ban-contributors.t ...... ok
 t/ban-quick-editors.t ..... ok
 t/ban.t ................... ok
 t/bbcode.t ................ ok
-# Waiting for 27s
+# Waiting for 28s
 t/big-brother.t ........... ok
 t/cache.t ................. ok
 t/calendar.t .............. ok
@@ -67,6 +67,7 @@ t/like.t .................. ok
 t/link-all.t .............. ok
 t/links.t ................. ok
 t/listlocked.t ............ ok
+t/load-lang.t ............. ok
 t/localnames.t ............ ok
 t/lock-expiration.t ....... ok
 t/lock-on-creation.t ...... ok
@@ -135,5 +136,5 @@ t/usemod.t ................ ok
 t/weblog-3.t .............. ok
 t/xss.t ................... ok
 All tests successful.
-Files=131, Tests=2846, 430 wallclock secs ( 0.95 usr  0.25 sys + 199.99 cusr 22.99 csys = 224.18 CPU)
+Files=132, Tests=2847, 429 wallclock secs ( 0.95 usr  0.26 sys + 199.84 cusr 22.99 csys = 224.04 CPU)
 Result: PASS
