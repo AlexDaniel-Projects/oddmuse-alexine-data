@@ -9,7 +9,7 @@ t/ban-contributors.t ...... ok
 t/ban-quick-editors.t ..... ok
 t/ban.t ................... ok
 t/bbcode.t ................ ok
-# Waiting for 28s
+# Waiting for 27s
 t/big-brother.t ........... ok
 t/cache.t ................. ok
 t/calendar.t .............. ok
@@ -135,5 +135,5 @@ t/usemod.t ................ ok
 t/weblog-3.t .............. ok
 t/xss.t ................... ok
 All tests successful.
-Files=131, Tests=2846, 428 wallclock secs ( 1.00 usr  0.24 sys + 199.37 cusr 22.27 csys = 222.88 CPU)
+Files=131, Tests=2846, 430 wallclock secs ( 0.95 usr  0.25 sys + 199.99 cusr 22.99 csys = 224.18 CPU)
 Result: PASS
