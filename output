@@ -24,7 +24,21 @@ t/contributors.t .......... ok
 t/cookie.t ................ ok
 t/creole.t ................ ok
 t/creoleaddition.t ........ ok
-t/crossbar.t .............. ok
+
+#   Failed test 'This page does not exist'
+#   at t/test.pl line 170.
+#                   'Status: 404 NOT FOUND
+# Etag: 1442680300
+# Last-modified: Sat, 19 Sep 2015 16:31:40 GMT
+# Cache-control: max-age=10
+# Content-Type: text/plain; charset=utf-8
+# 
+# Welcome!'
+#     doesn't match '(?-xism:This page does not exist)'
+# Looks like you failed 1 test of 22.
+t/crossbar.t .............. 
+Dubious, test returned 1 (wstat 256, 0x100)
+Failed 1/22 subtests 
 t/crumbs.t ................ ok
 t/css.t ................... ok
 t/default-links.t ......... ok
@@ -87,6 +101,7 @@ t/moin.t .................. ok
 t/multi-url-spam-block.t .. ok
 t/namespaces.t ............ ok
 t/near-links.t ............ ok
+t/new.t ................... ok
 t/org-mode.t .............. ok
 t/page-trail.t ............ ok
 t/pagenames.t ............. ok
@@ -135,6 +150,12 @@ t/usemod-options.t ........ ok
 t/usemod.t ................ ok
 t/weblog-3.t .............. ok
 t/xss.t ................... ok
-All tests successful.
-Files=132, Tests=2847, 429 wallclock secs ( 0.95 usr  0.26 sys + 199.84 cusr 22.99 csys = 224.04 CPU)
-Result: PASS
+
+Test Summary Report
+-------------------
+t/crossbar.t            (Wstat: 256 Tests: 22 Failed: 1)
+  Failed test:  3
+  Non-zero exit status: 1
+Files=133, Tests=2850, 429 wallclock secs ( 0.96 usr  0.30 sys + 199.86 cusr 23.38 csys = 224.50 CPU)
+Result: FAIL
+make: *** [test] Error 1
