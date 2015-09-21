@@ -9,7 +9,7 @@ t/ban-contributors.t ...... ok
 t/ban-quick-editors.t ..... ok
 t/ban.t ................... ok
 t/bbcode.t ................ ok
-# Waiting for 27s
+# Waiting for 28s
 t/big-brother.t ........... ok
 t/cache.t ................. ok
 t/calendar.t .............. ok
@@ -85,164 +85,7 @@ t/meta-data.t ............. ok
 t/meta.t .................. ok
 t/moin.t .................. ok
 t/multi-url-spam-block.t .. ok
-
-#   Failed test 'Rolling back changes'
-#   at t/test.pl line 170.
-#                   'Status: 400 BAD REQUEST
-# Set-Cookie: Wiki=pwd%251efoo%251eusername%251eAlex; path=/; expires=Wed, 20-Sep-2017 10:32:37 GMT; HttpOnly
-# Date: Mon, 21 Sep 2015 10:32:37 GMT
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Error</title><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="NOINDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu" href="http://localhost/wiki.pl/Muu?action=rss" /><link rel="alternate" type="application/rss+xml" title="Follow-ups for Alex" href="http://localhost/wiki.pl/Muu?action=rss;followup=Alex" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="error"><h1>Target for rollback is too far back.</h1></div>
-# </body>
-# </html>
-# 
-# '
-#     doesn't match '(?-xism:Rolling back changes)'
-
-#   Failed test 'Test</a> rolled back'
-#   at t/test.pl line 170.
-#                   'Status: 400 BAD REQUEST
-# Set-Cookie: Wiki=pwd%251efoo%251eusername%251eAlex; path=/; expires=Wed, 20-Sep-2017 10:32:37 GMT; HttpOnly
-# Date: Mon, 21 Sep 2015 10:32:37 GMT
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Error</title><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="NOINDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu" href="http://localhost/wiki.pl/Muu?action=rss" /><link rel="alternate" type="application/rss+xml" title="Follow-ups for Alex" href="http://localhost/wiki.pl/Muu?action=rss;followup=Alex" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="error"><h1>Target for rollback is too far back.</h1></div>
-# </body>
-# </html>
-# 
-# '
-#     doesn't match '(?-xism:Test</a> rolled back)'
-
-#   Failed test 'not spam'
-#   at t/test.pl line 190.
-#                   'Etag: 1442831556
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki Muu: Test</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl/Muu?action=edit;id=Test" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu" href="http://localhost/wiki.pl/Muu?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu: Test" href="http://localhost/wiki.pl/Muu?action=rss;rcidonly=Test" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/Muu/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/Muu/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl/Muu" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?search=%22Test%22">Test</a></h1></div><div class="wrapper"><div class="content browse"><p>spam spam spam</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=edit;id=Test">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=history;id=Test">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=admin;id=Test">Administration</a></div><div class="time">Last edited 2015-09-21 10:32 UTC by 127.0.0.1 <a class="diff" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=browse;diff=2;id=Test">(diff)</a></div></div>
-# </body>
-# </html>
-# '
-#           matches '(?-xism:spam)'
-
-#   Failed test 'Mooo!'
-#   at t/test.pl line 170.
-#                   'Etag: 1442831556
-# Cache-control: max-age=10
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki Muu: Test</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl/Muu?action=edit;id=Test" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu" href="http://localhost/wiki.pl/Muu?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu: Test" href="http://localhost/wiki.pl/Muu?action=rss;rcidonly=Test" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/Muu/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/Muu/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl/Muu" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?search=%22Test%22">Test</a></h1></div><div class="wrapper"><div class="content browse"><p>spam spam spam</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=edit;id=Test">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=history;id=Test">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=admin;id=Test">Administration</a></div><div class="time">Last edited 2015-09-21 10:32 UTC by 127.0.0.1 <a class="diff" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=browse;diff=2;id=Test">(diff)</a></div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?-xism:Mooo!)'
-
-#   Failed test 'not title: BackHome'
-#   at t/test.pl line 190.
-#                   'Etag: 1442831556
-# Cache-control: max-age=10
-# Content-Type: text/plain; charset=utf-8
-# 
-# title: Wiki Muu
-# link: http://localhost/wiki.pl/Muu
-# generator: Oddmuse
-# 
-# title: Test
-# description: spam
-# generator: 127.0.0.1
-# link: http://localhost/wiki.pl/Muu/Test
-# last-modified: 2015-09-21T10:32Z
-# revision: 4
-# 
-# title: BackHome
-# description: #REDIRECT Main:HomePage
-# generator: 127.0.0.1
-# link: http://localhost/wiki.pl/Muu/BackHome
-# last-modified: 2015-09-21T10:32Z
-# revision: 1
-# 
-# title: Mu
-# description: #REDIRECT Ford:Goo
-# generator: 127.0.0.1
-# link: http://localhost/wiki.pl/Muu/Mu
-# last-modified: 2015-09-21T10:32Z
-# revision: 1
-# '
-#           matches '(?-xism:title: BackHome)'
-
-#   Failed test 'not title: Muu:BackHome'
-#   at t/test.pl line 190.
-#                   'Etag: 1442831554
-# Cache-control: max-age=10
-# Content-Type: text/plain; charset=utf-8
-# 
-# title: Wiki
-# link: http://localhost/wiki.pl
-# generator: Oddmuse
-# 
-# title: Muu:Test
-# description: spam
-# generator: Muu: from 127.0.0.1
-# link: http://localhost/wiki.pl/Muu%3aTest
-# last-modified: 2015-09-21T10:32Z
-# revision: 4
-# 
-# title: Zürich:Umlaute
-# description: wo steckt das ü
-# generator: Zürich: from 127.0.0.1
-# link: http://localhost/wiki.pl/Z%c3%bcrich%3aUmlaute
-# last-modified: 2015-09-21T10:32Z
-# revision: 1
-# 
-# title: Zürich♥:Umlaute
-# description: wo steckt das ü
-# generator: Zürich♥: from 127.0.0.1
-# link: http://localhost/wiki.pl/Z%c3%bcrich%e2%99%a5%3aUmlaute
-# last-modified: 2015-09-21T10:32Z
-# revision: 1
-# 
-# title: Test
-# description: main ns
-# generator: 127.0.0.1
-# link: http://localhost/wiki.pl/Test
-# last-modified: 2015-09-21T10:32Z
-# revision: 2
-# 
-# title: Muu:BackHome
-# description: #REDIRECT Main:HomePage
-# generator: Muu: from 127.0.0.1
-# link: http://localhost/wiki.pl/Muu%3aBackHome
-# last-modified: 2015-09-21T10:32Z
-# revision: 1
-# 
-# title: Muu:Mu
-# description: #REDIRECT Ford:Goo
-# generator: Muu: from 127.0.0.1
-# link: http://localhost/wiki.pl/Muu%3aMu
-# last-modified: 2015-09-21T10:32Z
-# revision: 1
-# 
-# title: Mu
-# description: #REDIRECT Muu:Mu
-# generator: 127.0.0.1
-# link: http://localhost/wiki.pl/Mu
-# last-modified: 2015-09-21T10:32Z
-# revision: 1
-# '
-#           matches '(?-xism:title: Muu:BackHome)'
-# Looks like you failed 6 tests of 77.
-t/namespaces.t ............ 
-Dubious, test returned 6 (wstat 1536, 0x600)
-Failed 6/77 subtests 
+t/namespaces.t ............ ok
 t/near-links.t ............ ok
 t/new.t ................... ok
 t/org-mode.t .............. ok
@@ -294,12 +137,6 @@ t/usemod-options.t ........ ok
 t/usemod.t ................ ok
 t/weblog-3.t .............. ok
 t/xss.t ................... ok
-
-Test Summary Report
--------------------
-t/namespaces.t          (Wstat: 1536 Tests: 77 Failed: 6)
-  Failed tests:  64-67, 73, 76
-  Non-zero exit status: 6
-Files=134, Tests=2856, 429 wallclock secs ( 0.96 usr  0.25 sys + 200.10 cusr 22.98 csys = 224.29 CPU)
-Result: FAIL
-make: *** [test] Error 1
+All tests successful.
+Files=134, Tests=2856, 429 wallclock secs ( 0.97 usr  0.25 sys + 200.31 cusr 22.63 csys = 224.16 CPU)
+Result: PASS
