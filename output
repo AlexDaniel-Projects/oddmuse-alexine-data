@@ -9,7 +9,7 @@ t/ban-contributors.t ...... ok
 t/ban-quick-editors.t ..... ok
 t/ban.t ................... ok
 t/bbcode.t ................ ok
-# Waiting for 28s
+# Waiting for 27s
 t/big-brother.t ........... ok
 t/cache.t ................. ok
 t/calendar.t .............. ok
@@ -55,16 +55,16 @@ t/headers.t ............... ok
 
 #   Failed test 'Mark this page for deletion'
 #   at t/test.pl line 170.
-#                   'Set-Cookie: Wiki=username%251eme; path=/; expires=Wed, 20-Sep-2017 09:46:07 GMT; HttpOnly
-# Date: Mon, 21 Sep 2015 09:46:07 GMT
-# Etag: 1442828767%1eme
+#                   'Set-Cookie: Wiki=username%251eme; path=/; expires=Wed, 20-Sep-2017 09:53:20 GMT; HttpOnly
+# Date: Mon, 21 Sep 2015 09:53:20 GMT
+# Etag: 1442829200%1eme
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
 # <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 # <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: History of hist</title><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="NOINDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: hist" href="http://localhost/wiki.pl?action=rss;rcidonly=hist" /><link rel="alternate" type="application/rss+xml" title="Follow-ups for me" href="http://localhost/wiki.pl?action=rss;followup=me" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
 # <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1>History of hist</h1></div><div class="wrapper"><div class="content history"><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="history">
-#  <p><input type="submit" name="Compare" value="Compare" /> <input name="action" type="hidden" value="browse" /> <input name="diff" type="hidden" value="1" /> <input name="id" type="hidden" value="hist" /></p> <table class="history"><tr><td colspan="3"><strong>2015-09-21</strong></td></tr><tr><td><input name="diffrevision" type="radio" value="1" /></td> <td><input name="revision" type="radio" checked="checked" value="" /></td> <td>09:46 UTC (current) <a class="local" href="http://localhost/wiki.pl/hist">Revision 1</a> . . . . 127.0.0.1<span class="dash"> &#8211; </span><strong>test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary</strong></td></tr></table> <p><input type="submit" name="Compare" value="Compare" /></p> </form></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="local" href="http://localhost/wiki.pl/hist">View current revision</a> <a class="rc" rel="nofollow" href="http://localhost/wiki.pl?action=rc;all=1;from=1;showedit=1;rcidonly=hist">View all changes</a> <a class="contrib" rel="nofollow" href="http://localhost/wiki.pl?action=contrib;id=hist">View contributors</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=hist">Administration</a></div></div>
+#  <p><input type="submit" name="Compare" value="Compare" /> <input name="action" type="hidden" value="browse" /> <input name="diff" type="hidden" value="1" /> <input name="id" type="hidden" value="hist" /></p> <table class="history"><tr><td colspan="3"><strong>2015-09-21</strong></td></tr><tr><td><input name="diffrevision" type="radio" value="1" /></td> <td><input name="revision" type="radio" checked="checked" value="" /></td> <td>09:53 UTC (current) <a class="local" href="http://localhost/wiki.pl/hist">Revision 1</a> . . . . 127.0.0.1<span class="dash"> &#8211; </span><strong>test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary</strong></td></tr></table> <p><input type="submit" name="Compare" value="Compare" /></p> </form></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="local" href="http://localhost/wiki.pl/hist">View current revision</a> <a class="rc" rel="nofollow" href="http://localhost/wiki.pl?action=rc;all=1;from=1;showedit=1;rcidonly=hist">View all changes</a> <a class="contrib" rel="nofollow" href="http://localhost/wiki.pl?action=contrib;id=hist">View contributors</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=hist">Administration</a></div></div>
 # </body>
 # </html>
 # '
@@ -72,16 +72,16 @@ t/headers.t ............... ok
 
 #   Failed test 'Mark this page for deletion'
 #   at t/test.pl line 170.
-#                   'Set-Cookie: Wiki=username%251eme; path=/; expires=Wed, 20-Sep-2017 09:46:08 GMT; HttpOnly
-# Date: Mon, 21 Sep 2015 09:46:08 GMT
-# Etag: 1442828767%1eme
+#                   'Set-Cookie: Wiki=username%251eme; path=/; expires=Wed, 20-Sep-2017 09:53:21 GMT; HttpOnly
+# Date: Mon, 21 Sep 2015 09:53:21 GMT
+# Etag: 1442829201%1eme
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
 # <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 # <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: History of hist</title><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="NOINDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: hist" href="http://localhost/wiki.pl?action=rss;rcidonly=hist" /><link rel="alternate" type="application/rss+xml" title="Follow-ups for me" href="http://localhost/wiki.pl?action=rss;followup=me" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search">
 # <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1>History of hist</h1></div><div class="wrapper"><div class="content history"><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="history">
-#  <p><input type="submit" name="Compare" value="Compare" /> <input name="action" type="hidden" value="browse" /> <input name="diff" type="hidden" value="1" /> <input name="id" type="hidden" value="hist" /></p> <table class="history"><tr><td colspan="3"><strong>2015-09-21</strong></td></tr><tr><td><input name="diffrevision" type="radio" value="2" /></td> <td><input name="revision" type="radio" checked="checked" value="" /></td> <td>09:46 UTC (current) <a class="local" href="http://localhost/wiki.pl/hist">Revision 2</a> . . . . 127.0.0.1<span class="dash"> &#8211; </span><strong>Power</strong></td></tr> <tr><td><input name="diffrevision" type="radio" checked="checked" value="1" /></td> <td><input name="revision" type="radio" value="1" /></td> <td>09:46 UTC <input type="submit" name="rollback-1442828767" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=hist;revision=1">Revision 1</a> . . . . 127.0.0.1<span class="dash"> &#8211; </span><strong>test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary</strong></td></tr></table> <p><input type="submit" name="Compare" value="Compare" /></p> </form></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="local" href="http://localhost/wiki.pl/hist">View current revision</a> <a class="rc" rel="nofollow" href="http://localhost/wiki.pl?action=rc;all=1;from=1;showedit=1;rcidonly=hist">View all changes</a> <a class="contrib" rel="nofollow" href="http://localhost/wiki.pl?action=contrib;id=hist">View contributors</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=hist">Administration</a></div></div>
+#  <p><input type="submit" name="Compare" value="Compare" /> <input name="action" type="hidden" value="browse" /> <input name="diff" type="hidden" value="1" /> <input name="id" type="hidden" value="hist" /></p> <table class="history"><tr><td colspan="3"><strong>2015-09-21</strong></td></tr><tr><td><input name="diffrevision" type="radio" value="2" /></td> <td><input name="revision" type="radio" checked="checked" value="" /></td> <td>09:53 UTC (current) <a class="local" href="http://localhost/wiki.pl/hist">Revision 2</a> . . . . 127.0.0.1<span class="dash"> &#8211; </span><strong>Power</strong></td></tr> <tr><td><input name="diffrevision" type="radio" checked="checked" value="1" /></td> <td><input name="revision" type="radio" value="1" /></td> <td>09:53 UTC <input type="submit" name="rollback-1442829200" value="rollback" /> <a class="revision" rel="nofollow" href="http://localhost/wiki.pl?action=browse;id=hist;revision=1">Revision 1</a> . . . . 127.0.0.1<span class="dash"> &#8211; </span><strong>test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary test summary</strong></td></tr></table> <p><input type="submit" name="Compare" value="Compare" /></p> </form></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="local" href="http://localhost/wiki.pl/hist">View current revision</a> <a class="rc" rel="nofollow" href="http://localhost/wiki.pl?action=rc;all=1;from=1;showedit=1;rcidonly=hist">View all changes</a> <a class="contrib" rel="nofollow" href="http://localhost/wiki.pl?action=contrib;id=hist">View contributors</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl?action=admin;id=hist">Administration</a></div></div>
 # </body>
 # </html>
 # '
@@ -151,8 +151,8 @@ t/multi-url-spam-block.t .. ok
 #   Failed test 'Rolling back changes'
 #   at t/test.pl line 170.
 #                   'Status: 400 BAD REQUEST
-# Set-Cookie: Wiki=pwd%251efoo%251eusername%251eAlex; path=/; expires=Wed, 20-Sep-2017 09:49:23 GMT; HttpOnly
-# Date: Mon, 21 Sep 2015 09:49:23 GMT
+# Set-Cookie: Wiki=pwd%251efoo%251eusername%251eAlex; path=/; expires=Wed, 20-Sep-2017 09:56:36 GMT; HttpOnly
+# Date: Mon, 21 Sep 2015 09:56:36 GMT
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -167,8 +167,8 @@ t/multi-url-spam-block.t .. ok
 #   Failed test 'Test</a> rolled back'
 #   at t/test.pl line 170.
 #                   'Status: 400 BAD REQUEST
-# Set-Cookie: Wiki=pwd%251efoo%251eusername%251eAlex; path=/; expires=Wed, 20-Sep-2017 09:49:23 GMT; HttpOnly
-# Date: Mon, 21 Sep 2015 09:49:23 GMT
+# Set-Cookie: Wiki=pwd%251efoo%251eusername%251eAlex; path=/; expires=Wed, 20-Sep-2017 09:56:36 GMT; HttpOnly
+# Date: Mon, 21 Sep 2015 09:56:36 GMT
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
@@ -182,13 +182,13 @@ t/multi-url-spam-block.t .. ok
 
 #   Failed test 'not spam'
 #   at t/test.pl line 190.
-#                   'Etag: 1442828963
+#                   'Etag: 1442829396
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
 # <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 # <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki Muu: Test</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl/Muu?action=edit;id=Test" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu" href="http://localhost/wiki.pl/Muu?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu: Test" href="http://localhost/wiki.pl/Muu?action=rss;rcidonly=Test" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/Muu/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/Muu/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl/Muu" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?search=%22Test%22">Test</a></h1></div><div class="wrapper"><div class="content browse"><p>spam spam spam</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=edit;id=Test">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=history;id=Test">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=admin;id=Test">Administration</a></div><div class="time">Last edited 2015-09-21 09:49 UTC by 127.0.0.1 <a class="diff" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=browse;diff=2;id=Test">(diff)</a></div></div>
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?search=%22Test%22">Test</a></h1></div><div class="wrapper"><div class="content browse"><p>spam spam spam</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=edit;id=Test">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=history;id=Test">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=admin;id=Test">Administration</a></div><div class="time">Last edited 2015-09-21 09:56 UTC by 127.0.0.1 <a class="diff" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=browse;diff=2;id=Test">(diff)</a></div></div>
 # </body>
 # </html>
 # '
@@ -196,13 +196,13 @@ t/multi-url-spam-block.t .. ok
 
 #   Failed test 'Mooo!'
 #   at t/test.pl line 170.
-#                   'Etag: 1442828963
+#                   'Etag: 1442829396
 # Cache-control: max-age=10
 # Content-Type: text/html; charset=utf-8
 # 
 # <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 # <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki Muu: Test</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl/Muu?action=edit;id=Test" /><link type="text/css" rel="stylesheet" href="http://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu" href="http://localhost/wiki.pl/Muu?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki Muu: Test" href="http://localhost/wiki.pl/Muu?action=rss;rcidonly=Test" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/Muu/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/Muu/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl/Muu" enctype="multipart/form-data" accept-charset="utf-8" class="search">
-# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?search=%22Test%22">Test</a></h1></div><div class="wrapper"><div class="content browse"><p>spam spam spam</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=edit;id=Test">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=history;id=Test">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=admin;id=Test">Administration</a></div><div class="time">Last edited 2015-09-21 09:49 UTC by 127.0.0.1 <a class="diff" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=browse;diff=2;id=Test">(diff)</a></div></div>
+# <p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a title="Click to search for references to this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?search=%22Test%22">Test</a></h1></div><div class="wrapper"><div class="content browse"><p>spam spam spam</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a class="edit" accesskey="e" title="Click to edit this page" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=edit;id=Test">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=history;id=Test">View other revisions</a> <a class="admin" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=admin;id=Test">Administration</a></div><div class="time">Last edited 2015-09-21 09:56 UTC by 127.0.0.1 <a class="diff" rel="nofollow" href="http://localhost/wiki.pl/Muu?action=browse;diff=2;id=Test">(diff)</a></div></div>
 # </body>
 # </html>
 # '
@@ -210,7 +210,7 @@ t/multi-url-spam-block.t .. ok
 
 #   Failed test 'not title: BackHome'
 #   at t/test.pl line 190.
-#                   'Etag: 1442828963
+#                   'Etag: 1442829396
 # Cache-control: max-age=10
 # Content-Type: text/plain; charset=utf-8
 # 
@@ -222,28 +222,28 @@ t/multi-url-spam-block.t .. ok
 # description: spam
 # generator: 127.0.0.1
 # link: http://localhost/wiki.pl/Muu/Test
-# last-modified: 2015-09-21T09:49Z
+# last-modified: 2015-09-21T09:56Z
 # revision: 4
 # 
 # title: BackHome
 # description: #REDIRECT Main:HomePage
 # generator: 127.0.0.1
 # link: http://localhost/wiki.pl/Muu/BackHome
-# last-modified: 2015-09-21T09:49Z
+# last-modified: 2015-09-21T09:56Z
 # revision: 1
 # 
 # title: Mu
 # description: #REDIRECT Ford:Goo
 # generator: 127.0.0.1
 # link: http://localhost/wiki.pl/Muu/Mu
-# last-modified: 2015-09-21T09:49Z
+# last-modified: 2015-09-21T09:56Z
 # revision: 1
 # '
 #           matches '(?-xism:title: BackHome)'
 
 #   Failed test 'not title: Muu:BackHome'
 #   at t/test.pl line 190.
-#                   'Etag: 1442828960
+#                   'Etag: 1442829394
 # Cache-control: max-age=10
 # Content-Type: text/plain; charset=utf-8
 # 
@@ -255,49 +255,49 @@ t/multi-url-spam-block.t .. ok
 # description: spam
 # generator: Muu: from 127.0.0.1
 # link: http://localhost/wiki.pl/Muu%3aTest
-# last-modified: 2015-09-21T09:49Z
+# last-modified: 2015-09-21T09:56Z
 # revision: 4
 # 
 # title: Zürich:Umlaute
 # description: wo steckt das ü
 # generator: Zürich: from 127.0.0.1
 # link: http://localhost/wiki.pl/Z%c3%bcrich%3aUmlaute
-# last-modified: 2015-09-21T09:49Z
+# last-modified: 2015-09-21T09:56Z
 # revision: 1
 # 
 # title: Zürich♥:Umlaute
 # description: wo steckt das ü
 # generator: Zürich♥: from 127.0.0.1
 # link: http://localhost/wiki.pl/Z%c3%bcrich%e2%99%a5%3aUmlaute
-# last-modified: 2015-09-21T09:49Z
-# revision: 1
-# 
-# title: Muu:BackHome
-# description: #REDIRECT Main:HomePage
-# generator: Muu: from 127.0.0.1
-# link: http://localhost/wiki.pl/Muu%3aBackHome
-# last-modified: 2015-09-21T09:49Z
+# last-modified: 2015-09-21T09:56Z
 # revision: 1
 # 
 # title: Test
 # description: main ns
 # generator: 127.0.0.1
 # link: http://localhost/wiki.pl/Test
-# last-modified: 2015-09-21T09:49Z
+# last-modified: 2015-09-21T09:56Z
 # revision: 2
+# 
+# title: Muu:BackHome
+# description: #REDIRECT Main:HomePage
+# generator: Muu: from 127.0.0.1
+# link: http://localhost/wiki.pl/Muu%3aBackHome
+# last-modified: 2015-09-21T09:56Z
+# revision: 1
 # 
 # title: Muu:Mu
 # description: #REDIRECT Ford:Goo
 # generator: Muu: from 127.0.0.1
 # link: http://localhost/wiki.pl/Muu%3aMu
-# last-modified: 2015-09-21T09:49Z
+# last-modified: 2015-09-21T09:56Z
 # revision: 1
 # 
 # title: Mu
 # description: #REDIRECT Muu:Mu
 # generator: 127.0.0.1
 # link: http://localhost/wiki.pl/Mu
-# last-modified: 2015-09-21T09:49Z
+# last-modified: 2015-09-21T09:56Z
 # revision: 1
 # '
 #           matches '(?-xism:title: Muu:BackHome)'
@@ -372,6 +372,6 @@ t/meta.t                (Wstat: 256 Tests: 11 Failed: 1)
 t/namespaces.t          (Wstat: 1536 Tests: 77 Failed: 6)
   Failed tests:  64-67, 73, 76
   Non-zero exit status: 6
-Files=134, Tests=2854, 430 wallclock secs ( 0.99 usr  0.24 sys + 200.61 cusr 23.02 csys = 224.86 CPU)
+Files=134, Tests=2855, 428 wallclock secs ( 0.98 usr  0.26 sys + 200.58 cusr 23.10 csys = 224.92 CPU)
 Result: FAIL
 make: *** [test] Error 1
