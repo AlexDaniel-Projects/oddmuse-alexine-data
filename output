@@ -82,16 +82,7 @@ t/markup-and-creole.t ..... ok
 t/markup.t ................ ok
 t/merge.t ................. ok
 t/meta-data.t ............. ok
-
-#   Failed test 'modules are syntatically correct'
-#   at t/meta.t line 115.
-# modules/private-wiki.pl has syntax errors
-# ▶▶▶ Use this command to see the problems: perl -c modules/private-wiki.pl
-# Looks like you failed 1 test of 11.
-t/meta.t .................. 
-Dubious, test returned 1 (wstat 256, 0x100)
-Failed 1/11 subtests 
-	(less 1 skipped subtest: 9 okay)
+t/meta.t .................. ok
 t/moin.t .................. ok
 t/multi-url-spam-block.t .. ok
 t/namespaces.t ............ ok
@@ -105,53 +96,7 @@ t/permanent-anchors.t ..... ok
 t/portrait-support.t ...... ok
 t/preview.t ............... ok
 t/private-pages.t ......... ok
-[Wed Sep 23 20:12:05 2015] private-wiki.t: Variable "%LockCleaners" is not imported at test-data/modules/private-wiki.pl line 219.
-[Wed Sep 23 20:12:05 2015] private-wiki.t: Variable "%LockCleaners" is not imported at test-data/modules/private-wiki.pl line 239.
-[Wed Sep 23 20:12:05 2015] wiki.pl: Variable "%LockCleaners" is not imported at test-data/modules/private-wiki.pl line 219.
-[Wed Sep 23 20:12:05 2015] wiki.pl: Variable "%LockCleaners" is not imported at test-data/modules/private-wiki.pl line 239.
-[Wed Sep 23 20:12:05 2015] wiki.pl: Undefined subroutine &OddMuse::ReadRecentVisitors called at wiki.pl line 3999.
-[Wed Sep 23 20:12:05 2015] wiki.pl: Variable "%LockCleaners" is not imported at test-data/modules/private-wiki.pl line 219.
-[Wed Sep 23 20:12:06 2015] wiki.pl: Variable "%LockCleaners" is not imported at test-data/modules/private-wiki.pl line 239.
-[Wed Sep 23 20:12:06 2015] wiki.pl: Undefined subroutine &OddMuse::ReadRecentVisitors called at wiki.pl line 3999.
-
-#   Failed test 'Test'
-#   at t/test.pl line 171.
-#                   'Status: 500
-# Content-type: text/html
-# 
-# <h1>Software error:</h1>
-# <pre>Undefined subroutine &amp;OddMuse::ReadRecentVisitors called at wiki.pl line 3999.
-# </pre>
-# <p>
-# For help, please send mail to this site's webmaster, giving this error message 
-# and the time and date of the error.
-# 
-# </p>
-# '
-#     doesn't match '(?-xism:Test)'
-[Wed Sep 23 20:12:06 2015] wiki.pl: Variable "%LockCleaners" is not imported at test-data/modules/private-wiki.pl line 219.
-[Wed Sep 23 20:12:06 2015] wiki.pl: Variable "%LockCleaners" is not imported at test-data/modules/private-wiki.pl line 239.
-[Wed Sep 23 20:12:06 2015] wiki.pl: Undefined subroutine &OddMuse::ReadRecentVisitors called at wiki.pl line 3999.
-
-#   Failed test 'HelloPrivateWiki'
-#   at t/test.pl line 171.
-#                   'Status: 500
-# Content-type: text/html
-# 
-# <h1>Software error:</h1>
-# <pre>Undefined subroutine &amp;OddMuse::ReadRecentVisitors called at wiki.pl line 3999.
-# </pre>
-# <p>
-# For help, please send mail to this site's webmaster, giving this error message 
-# and the time and date of the error.
-# 
-# </p>
-# '
-#     doesn't match '(?-xism:HelloPrivateWiki)'
-# Looks like you failed 2 tests of 2.
-t/private-wiki.t .......... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 2/2 subtests 
+t/private-wiki.t .......... ok
 t/pygmentize.t ............ ok
 t/questionasker.t ......... ok
 t/questionmark.t .......... ok
@@ -192,15 +137,6 @@ t/usemod-options.t ........ ok
 t/usemod.t ................ ok
 t/weblog-3.t .............. ok
 t/xss.t ................... ok
-
-Test Summary Report
--------------------
-t/meta.t                (Wstat: 256 Tests: 11 Failed: 1)
-  Failed test:  11
-  Non-zero exit status: 1
-t/private-wiki.t        (Wstat: 512 Tests: 2 Failed: 2)
-  Failed tests:  1-2
-  Non-zero exit status: 2
-Files=134, Tests=2859, 434 wallclock secs ( 1.02 usr  0.23 sys + 202.95 cusr 22.63 csys = 226.83 CPU)
-Result: FAIL
-make: *** [test] Error 1
+All tests successful.
+Files=134, Tests=2859, 433 wallclock secs ( 1.01 usr  0.23 sys + 202.98 cusr 22.54 csys = 226.76 CPU)
+Result: PASS
