@@ -7,9 +7,14 @@ t/askpage.t ............... ok
 t/atom.t .................. ok
 t/ban-contributors.t ...... ok
 t/ban-quick-editors.t ..... ok
-t/ban.t ................... ok
+[Mon Sep 28 10:22:23 2015] ban.t: Cannot symlink strange-spam.pl: No such file or directory at t/test.pl line 305.
+# Looks like you planned 27 tests but ran 23.
+# Looks like your test exited with 2 just after 23.
+t/ban.t ................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 4/27 subtests 
 t/bbcode.t ................ ok
-# Waiting for 28s
+# Waiting for 27s
 t/big-brother.t ........... ok
 t/cache.t ................. ok
 t/calendar.t .............. ok
@@ -119,7 +124,11 @@ t/sidebar.t ............... ok
 t/simple-rules.t .......... ok
 t/sitemap.t ............... ok
 t/static-copy.t ........... ok
-t/strange-spam.t .......... ok
+[Mon Sep 28 10:28:44 2015] strange-spam.t: Cannot symlink strange-spam.pl: No such file or directory at t/test.pl line 305.
+# Looks like your test exited with 2 before it could output anything.
+t/strange-spam.t .......... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 12/12 subtests 
 t/subscriberc.t ........... ok
 t/summary.t ............... ok
 t/surge-protection.t ...... ok
@@ -137,6 +146,15 @@ t/usemod-options.t ........ ok
 t/usemod.t ................ ok
 t/weblog-3.t .............. ok
 t/xss.t ................... ok
-All tests successful.
-Files=134, Tests=2859, 433 wallclock secs ( 1.01 usr  0.23 sys + 202.98 cusr 22.54 csys = 226.76 CPU)
-Result: PASS
+
+Test Summary Report
+-------------------
+t/ban.t                 (Wstat: 512 Tests: 23 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 27 tests but ran 23.
+t/strange-spam.t        (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 12 tests but ran 0.
+Files=134, Tests=2843, 432 wallclock secs ( 0.96 usr  0.26 sys + 200.59 cusr 22.41 csys = 224.22 CPU)
+Result: FAIL
+make: *** [test] Error 1
