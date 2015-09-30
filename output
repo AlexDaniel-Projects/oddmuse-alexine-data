@@ -7,12 +7,9 @@ t/askpage.t ............... ok
 t/atom.t .................. ok
 t/ban-contributors.t ...... ok
 t/ban-quick-editors.t ..... ok
-# Looks like you planned 27 tests but ran 23.
-t/ban.t ................... 
-Dubious, test returned 255 (wstat 65280, 0xff00)
-Failed 4/27 subtests 
+t/ban.t ................... ok
 t/bbcode.t ................ ok
-# Waiting for 28s
+# Waiting for 27s
 t/big-brother.t ........... ok
 t/cache.t ................. ok
 t/calendar.t .............. ok
@@ -139,12 +136,6 @@ t/usemod-options.t ........ ok
 t/usemod.t ................ ok
 t/weblog-3.t .............. ok
 t/xss.t ................... ok
-
-Test Summary Report
--------------------
-t/ban.t                 (Wstat: 65280 Tests: 23 Failed: 0)
-  Non-zero exit status: 255
-  Parse errors: Bad plan.  You planned 27 tests but ran 23.
-Files=133, Tests=2843, 433 wallclock secs ( 0.96 usr  0.25 sys + 202.24 cusr 22.50 csys = 225.95 CPU)
-Result: FAIL
-make: *** [test] Error 1
+All tests successful.
+Files=133, Tests=2843, 430 wallclock secs ( 0.98 usr  0.26 sys + 201.26 cusr 22.26 csys = 224.76 CPU)
+Result: PASS
