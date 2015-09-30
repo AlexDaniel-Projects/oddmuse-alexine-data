@@ -7,11 +7,9 @@ t/askpage.t ............... ok
 t/atom.t .................. ok
 t/ban-contributors.t ...... ok
 t/ban-quick-editors.t ..... ok
-[Mon Sep 28 10:29:39 2015] ban.t: Cannot symlink strange-spam.pl: No such file or directory at t/test.pl line 305.
 # Looks like you planned 27 tests but ran 23.
-# Looks like your test exited with 2 just after 23.
 t/ban.t ................... 
-Dubious, test returned 2 (wstat 512, 0x200)
+Dubious, test returned 255 (wstat 65280, 0xff00)
 Failed 4/27 subtests 
 t/bbcode.t ................ ok
 # Waiting for 28s
@@ -144,9 +142,9 @@ t/xss.t ................... ok
 
 Test Summary Report
 -------------------
-t/ban.t                 (Wstat: 512 Tests: 23 Failed: 0)
-  Non-zero exit status: 2
+t/ban.t                 (Wstat: 65280 Tests: 23 Failed: 0)
+  Non-zero exit status: 255
   Parse errors: Bad plan.  You planned 27 tests but ran 23.
-Files=133, Tests=2843, 433 wallclock secs ( 0.98 usr  0.24 sys + 200.59 cusr 22.31 csys = 224.12 CPU)
+Files=133, Tests=2843, 433 wallclock secs ( 0.96 usr  0.25 sys + 202.24 cusr 22.50 csys = 225.95 CPU)
 Result: FAIL
 make: *** [test] Error 1
