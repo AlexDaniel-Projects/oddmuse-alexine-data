@@ -1,7 +1,7 @@
 prove t/setup.pl
 t/setup.pl .. ok
 All tests successful.
-Files=1, Tests=1,  0 wallclock secs ( 0.02 usr  0.00 sys +  0.03 cusr  0.00 csys =  0.05 CPU)
+Files=1, Tests=1,  0 wallclock secs ( 0.02 usr  0.01 sys +  0.10 cusr  0.05 csys =  0.18 CPU)
 Result: PASS
 prove --jobs=4 t
 t/anchors.t ............... ok
@@ -12,7 +12,7 @@ t/atom.t .................. ok
 t/ampersand.t ............. ok
 t/bbcode.t ................ ok
 t/ban-contributors.t ...... ok
-# Waiting for 28s
+# Waiting for 27s
 t/ban-quick-editors.t ..... ok
 t/cache.t ................. ok
 t/big-brother.t ........... ok
@@ -65,8 +65,8 @@ t/hr.t .................... ok
 t/journal2.t .............. ok
 t/conflict.t .............. ok
 t/languages.t ............. ok
-t/journal3.t .............. ok
 t/journal.t ............... ok
+t/journal3.t .............. ok
 t/link-all.t .............. ok
 t/like.t .................. ok
 t/load-lang.t ............. ok
@@ -125,8 +125,8 @@ t/subscriberc.t ........... ok
 t/summary.t ............... ok
 t/static-copy.t ........... ok
 t/tables-long.t ........... ok
-t/surge-protection.t ...... ok
 t/tables.t ................ ok
+t/surge-protection.t ...... ok
 t/tex.t ................... ok
 t/toc.t ................... ok
 t/tags.t .................. ok
@@ -134,13 +134,13 @@ t/translations.t .......... ok
 t/upgrade-files.t ......... ok
 t/translation-links.t ..... ok
 t/upload.t ................ ok
-t/lock.t .................. ok
 t/usemod-options.t ........ ok
+t/lock.t .................. ok
 t/usemod.t ................ ok
 t/upgrade.t ............... ok
 t/xss.t ................... ok
 t/weblog-3.t .............. ok
 t/lock-expiration.t ....... ok
 All tests successful.
-Files=133, Tests=2843, 133 wallclock secs ( 1.05 usr  0.25 sys + 203.55 cusr 24.34 csys = 229.19 CPU)
+Files=133, Tests=2843, 132 wallclock secs ( 1.04 usr  0.25 sys + 203.43 cusr 24.21 csys = 228.93 CPU)
 Result: PASS
