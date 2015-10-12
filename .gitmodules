@@ -1,3 +1,3 @@
 [submodule "oddmuse"]
-	path = oddmuse
+	path = config/oddmuse
 	url = https://github.com/kensanata/oddmuse.git

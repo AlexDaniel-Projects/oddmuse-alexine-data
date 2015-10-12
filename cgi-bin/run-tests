@@ -3,4 +3,4 @@ echo 'Content-type: text/plain'
 echo
 echo 'OK'
 
-at now <<< 'env -i ../oddmuse/scripts/alexine/run-tests'
+at now <<< 'env -i ../config/oddmuse/scripts/alexine/run-tests'
