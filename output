@@ -137,5 +137,5 @@ t/usemod.t ................ ok
 t/weblog-3.t .............. ok
 t/xss.t ................... ok
 All tests successful.
-Files=133, Tests=2843, 432 wallclock secs ( 0.94 usr  0.26 sys + 201.28 cusr 24.37 csys = 226.85 CPU)
+Files=133, Tests=2843, 434 wallclock secs ( 0.95 usr  0.25 sys + 203.42 cusr 24.30 csys = 228.92 CPU)
 Result: PASS
