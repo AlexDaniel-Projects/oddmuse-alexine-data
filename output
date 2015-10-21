@@ -1,7 +1,7 @@
 prove t/setup.pl
 t/setup.pl .. ok
 All tests successful.
-Files=1, Tests=1,  0 wallclock secs ( 0.02 usr  0.00 sys +  0.08 cusr  0.02 csys =  0.12 CPU)
+Files=1, Tests=1,  0 wallclock secs ( 0.03 usr  0.00 sys +  0.08 cusr  0.03 csys =  0.14 CPU)
 Result: PASS
 prove --jobs=8 t
 t/anchors.t ............... ok
@@ -28,8 +28,8 @@ t/conflict.t .............. ok
 t/clusters.t .............. ok
 t/comments.t .............. ok
 t/creoleaddition.t ........ ok
-t/default-markup.t ........ ok
 t/default-links.t ......... ok
+t/default-markup.t ........ ok
 t/crumbs.t ................ ok
 t/css.t ................... ok
 t/duckduckgo-search.t ..... ok
@@ -40,12 +40,12 @@ t/emailquote.t ............ ok
 t/download.t .............. ok
 t/drafts.t ................ ok
 t/fieldlist.t ............. ok
-t/enclosure.t ............. ok
 t/dynamic-comments.t ...... ok
+t/enclosure.t ............. ok
 t/crossbar.t .............. ok
 t/despam.t ................ ok
-t/diff.t .................. ok
 t/footer.t ................ ok
+t/diff.t .................. ok
 t/google-plus-one.t ....... ok
 t/google-search.t ......... ok
 t/google-custom-search.t .. ok
@@ -64,9 +64,9 @@ t/languages.t ............. ok
 t/edit-paragraphs.t ....... ok
 t/include.t ............... ok
 t/link-all.t .............. ok
-t/journal2.t .............. ok
 t/hr.t .................... ok
 t/load-lang.t ............. ok
+t/journal2.t .............. ok
 t/listlocked.t ............ ok
 t/links.t ................. ok
 t/like.t .................. ok
@@ -75,9 +75,9 @@ t/logbannedcontent.t ...... ok
 t/lock-on-creation.t ...... ok
 t/macros.t ................ ok
 t/maintain.t .............. ok
+t/journal.t ............... ok
 t/markdown-rule.t ......... ok
 t/markup-and-creole.t ..... ok
-t/journal.t ............... ok
 t/markup.t ................ ok
 t/localnames.t ............ ok
 t/meta-data.t ............. ok
@@ -86,25 +86,25 @@ t/journal-rss.t ........... ok
 t/mail.t .................. ok
 t/multi-url-spam-block.t .. ok
 t/meta.t .................. ok
-t/new.t ................... ok
 t/org-mode.t .............. ok
+t/new.t ................... ok
 t/page-trail.t ............ ok
 t/near-links.t ............ ok
-t/pagenames.t ............. ok
 t/major.t ................. ok
+t/pagenames.t ............. ok
 t/password.t .............. ok
 t/preview.t ............... ok
 t/merge.t ................. ok
-t/portrait-support.t ...... ok
 t/pygmentize.t ............ ok
+t/portrait-support.t ...... ok
 t/private-wiki.t .......... ok
-t/raw.t ................... ok
 t/permanent-anchors.t ..... ok
+t/raw.t ................... ok
 t/questionmark.t .......... ok
 t/rc-pagination.t ......... ok
-t/recaptcha.t ............. ok
 t/private-pages.t ......... ok
 t/referrer-tracking.t ..... ok
+t/recaptcha.t ............. ok
 t/rollback-extras.t ....... ok
 t/redirection.t ........... ok
 t/questionasker.t ......... ok
@@ -113,12 +113,12 @@ t/search-tag.t ............ ok
 t/revisions.t ............. ok
 t/searchtags.t ............ ok
 t/setext.t ................ ok
-t/security.t .............. ok
 t/rc.t .................... ok
+t/security.t .............. ok
 t/sitemap.t ............... ok
-t/sidebar.t ............... ok
 t/simple-rules.t .......... ok
 t/subscriberc.t ........... ok
+t/sidebar.t ............... ok
 t/summary.t ............... ok
 t/search.t ................ ok
 t/tables.t ................ ok
@@ -133,8 +133,8 @@ t/upgrade-files.t ......... ok
 t/usemod-options.t ........ ok
 t/usemod.t ................ ok
 t/upload.t ................ ok
-t/translation-links.t ..... ok
 t/tags.t .................. ok
+t/translation-links.t ..... ok
 t/upgrade.t ............... ok
 t/xss.t ................... ok
 t/weblog-3.t .............. ok
@@ -142,5 +142,5 @@ t/rollback.t .............. ok
 t/lock.t .................. ok
 t/lock-expiration.t ....... ok
 All tests successful.
-Files=133, Tests=2843, 112 wallclock secs ( 0.74 usr  0.11 sys + 202.08 cusr 10.21 csys = 213.14 CPU)
+Files=133, Tests=2843, 111 wallclock secs ( 0.74 usr  0.13 sys + 202.98 cusr  9.90 csys = 213.75 CPU)
 Result: PASS
