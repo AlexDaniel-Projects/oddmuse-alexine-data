@@ -1,7 +1,7 @@
 prove t/setup.pl
 t/setup.pl .. ok
 All tests successful.
-Files=1, Tests=1,  0 wallclock secs ( 0.02 usr  0.00 sys +  0.08 cusr  0.02 csys =  0.12 CPU)
+Files=1, Tests=1,  0 wallclock secs ( 0.02 usr  0.00 sys +  0.09 cusr  0.02 csys =  0.13 CPU)
 Result: PASS
 prove --jobs=8 t
 t/anchors.t ............... ok
@@ -11,14 +11,16 @@ t/atom.t .................. ok
 t/aggregate.t ............. ok
 t/all.t ................... ok
 t/cache.t ................. ok
-t/ban-contributors.t ...... ok
 t/ampersand.t ............. ok
-# Waiting for 28s
-t/calendar.t .............. ok
+t/ban-contributors.t ...... ok
 t/config-page.t ........... ok
-t/big-brother.t ........... ok
+t/calendar.t .............. ok
+# Waiting for 28s
 t/ban-quick-editors.t ..... ok
+t/big-brother.t ........... ok
+t/contributors.t .......... ok
 t/ban.t ................... ok
+t/cookie.t ................ ok
 # Warnings saying that diff and diff3 cannot be found are expected because PATH has been unset.
 sh: diff3: No such file or directory
 sh: diff: No such file or directory
@@ -26,47 +28,45 @@ t/conflict.t .............. ok
 t/clusters.t .............. ok
 t/comments.t .............. ok
 t/creoleaddition.t ........ ok
-t/default-links.t ......... ok
 t/default-markup.t ........ ok
+t/default-links.t ......... ok
 t/crumbs.t ................ ok
 t/css.t ................... ok
-t/contributors.t .......... ok
-t/cookie.t ................ ok
-t/creole.t ................ ok
-t/dotfiles.t .............. ok
 t/duckduckgo-search.t ..... ok
+t/dotfiles.t .............. ok
+t/creole.t ................ ok
 t/edit.t .................. ok
 t/emailquote.t ............ ok
 t/download.t .............. ok
 t/drafts.t ................ ok
-t/crossbar.t .............. ok
 t/fieldlist.t ............. ok
 t/dynamic-comments.t ...... ok
 t/enclosure.t ............. ok
-t/footer.t ................ ok
+t/crossbar.t .............. ok
 t/despam.t ................ ok
 t/diff.t .................. ok
-t/google-custom-search.t .. ok
-t/find.t .................. ok
+t/footer.t ................ ok
 t/google-search.t ......... ok
 t/google-plus-one.t ....... ok
-t/git.t ................... ok
+t/google-custom-search.t .. ok
+t/find.t .................. ok
 t/gotobar.t ............... ok
+t/git.t ................... ok
 t/htmlcomment.t ........... ok
 t/gravatar.t .............. ok
 t/history.t ............... ok
 t/irc.t ................... ok
-t/fix-encoding.t .......... ok
 t/headers.t ............... ok
+t/fix-encoding.t .......... ok
 t/image.t ................. ok
 t/encoding.t .............. ok
 t/languages.t ............. ok
 t/edit-paragraphs.t ....... ok
-t/link-all.t .............. ok
 t/include.t ............... ok
-t/journal2.t .............. ok
+t/link-all.t .............. ok
 t/hr.t .................... ok
 t/load-lang.t ............. ok
+t/journal2.t .............. ok
 t/listlocked.t ............ ok
 t/links.t ................. ok
 t/like.t .................. ok
@@ -75,50 +75,50 @@ t/logbannedcontent.t ...... ok
 t/lock-on-creation.t ...... ok
 t/macros.t ................ ok
 t/maintain.t .............. ok
-t/journal.t ............... ok
 t/markdown-rule.t ......... ok
-t/markup.t ................ ok
+t/journal.t ............... ok
 t/markup-and-creole.t ..... ok
+t/markup.t ................ ok
 t/localnames.t ............ ok
 t/meta-data.t ............. ok
 t/moin.t .................. ok
 t/journal-rss.t ........... ok
 t/mail.t .................. ok
 t/multi-url-spam-block.t .. ok
-t/new.t ................... ok
 t/meta.t .................. ok
 t/org-mode.t .............. ok
+t/new.t ................... ok
 t/page-trail.t ............ ok
-t/near-links.t ............ ok
 t/pagenames.t ............. ok
 t/major.t ................. ok
+t/near-links.t ............ ok
 t/password.t .............. ok
-t/merge.t ................. ok
 t/preview.t ............... ok
-t/portrait-support.t ...... ok
-t/pygmentize.t ............ ok
 t/private-wiki.t .......... ok
+t/portrait-support.t ...... ok
+t/merge.t ................. ok
+t/pygmentize.t ............ ok
 t/raw.t ................... ok
-t/permanent-anchors.t ..... ok
 t/questionmark.t .......... ok
+t/permanent-anchors.t ..... ok
 t/rc-pagination.t ......... ok
 t/private-pages.t ......... ok
-t/referrer-tracking.t ..... ok
 t/recaptcha.t ............. ok
+t/referrer-tracking.t ..... ok
 t/rollback-extras.t ....... ok
-t/namespaces.t ............ ok
 t/redirection.t ........... ok
 t/questionasker.t ......... ok
+t/namespaces.t ............ ok
 t/search-tag.t ............ ok
 t/searchtags.t ............ ok
 t/revisions.t ............. ok
-t/rc.t .................... ok
 t/setext.t ................ ok
+t/rc.t .................... ok
 t/security.t .............. ok
 t/sitemap.t ............... ok
 t/simple-rules.t .......... ok
-t/subscriberc.t ........... ok
 t/sidebar.t ............... ok
+t/subscriberc.t ........... ok
 t/summary.t ............... ok
 t/search.t ................ ok
 t/tables.t ................ ok
@@ -128,19 +128,19 @@ t/rss.t ................... ok
 t/surge-protection.t ...... ok
 t/static-copy.t ........... ok
 t/translations.t .......... ok
-t/toc.t ................... ok
 t/upgrade-files.t ......... ok
+t/toc.t ................... ok
 t/usemod-options.t ........ ok
 t/usemod.t ................ ok
 t/upload.t ................ ok
 t/tags.t .................. ok
 t/translation-links.t ..... ok
-t/xss.t ................... ok
 t/upgrade.t ............... ok
+t/xss.t ................... ok
 t/weblog-3.t .............. ok
 t/rollback.t .............. ok
 t/lock.t .................. ok
 t/lock-expiration.t ....... ok
 All tests successful.
-Files=133, Tests=2843, 112 wallclock secs ( 0.76 usr  0.11 sys + 202.98 cusr 10.00 csys = 213.85 CPU)
+Files=133, Tests=2843, 112 wallclock secs ( 0.71 usr  0.14 sys + 203.33 cusr  9.77 csys = 213.95 CPU)
 Result: PASS
