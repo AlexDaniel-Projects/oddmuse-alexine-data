@@ -1,7 +1,7 @@
 prove t/setup.pl
 t/setup.pl .. ok
 All tests successful.
-Files=1, Tests=1,  0 wallclock secs ( 0.02 usr  0.00 sys +  0.06 cusr  0.05 csys =  0.13 CPU)
+Files=1, Tests=1,  0 wallclock secs ( 0.02 usr  0.00 sys +  0.07 cusr  0.04 csys =  0.13 CPU)
 Result: PASS
 prove --jobs=8 t
 t/anchors.t ............... ok
@@ -11,14 +11,14 @@ t/atom.t .................. ok
 t/aggregate.t ............. ok
 t/all.t ................... ok
 t/cache.t ................. ok
-t/ampersand.t ............. ok
 t/ban-contributors.t ...... ok
+t/ampersand.t ............. ok
 t/calendar.t .............. ok
 t/config-page.t ........... ok
 # Waiting for 28s
 t/ban-quick-editors.t ..... ok
-t/big-brother.t ........... ok
 t/contributors.t .......... ok
+t/big-brother.t ........... ok
 t/ban.t ................... ok
 t/cookie.t ................ ok
 # Warnings saying that diff and diff3 cannot be found are expected because PATH has been unset.
@@ -40,8 +40,8 @@ t/emailquote.t ............ ok
 t/download.t .............. ok
 t/drafts.t ................ ok
 t/fieldlist.t ............. ok
-t/enclosure.t ............. ok
 t/dynamic-comments.t ...... ok
+t/enclosure.t ............. ok
 t/crossbar.t .............. ok
 t/despam.t ................ ok
 t/footer.t ................ ok
@@ -65,19 +65,19 @@ t/edit-paragraphs.t ....... ok
 t/include.t ............... ok
 t/link-all.t .............. ok
 t/hr.t .................... ok
-t/load-lang.t ............. ok
 t/journal2.t .............. ok
+t/load-lang.t ............. ok
 t/listlocked.t ............ ok
 t/links.t ................. ok
-t/journal3.t .............. ok
 t/like.t .................. ok
+t/journal3.t .............. ok
 t/logbannedcontent.t ...... ok
 t/lock-on-creation.t ...... ok
 t/macros.t ................ ok
 t/maintain.t .............. ok
+t/journal.t ............... ok
 t/markdown-rule.t ......... ok
 t/markup-and-creole.t ..... ok
-t/journal.t ............... ok
 t/markup.t ................ ok
 t/localnames.t ............ ok
 t/meta-data.t ............. ok
@@ -85,34 +85,34 @@ t/moin.t .................. ok
 t/journal-rss.t ........... ok
 t/mail.t .................. ok
 t/multi-url-spam-block.t .. ok
-t/meta.t .................. ok
-t/org-mode.t .............. ok
 t/new.t ................... ok
+t/org-mode.t .............. ok
+t/meta.t .................. ok
 t/page-trail.t ............ ok
 t/near-links.t ............ ok
 t/major.t ................. ok
 t/pagenames.t ............. ok
-t/password.t .............. ok
 t/preview.t ............... ok
+t/password.t .............. ok
+t/merge.t ................. ok
 t/portrait-support.t ...... ok
 t/private-wiki.t .......... ok
-t/merge.t ................. ok
 t/pygmentize.t ............ ok
 t/raw.t ................... ok
-t/permanent-anchors.t ..... ok
 t/questionmark.t .......... ok
+t/permanent-anchors.t ..... ok
 t/rc-pagination.t ......... ok
 t/recaptcha.t ............. ok
-t/private-pages.t ......... ok
 t/referrer-tracking.t ..... ok
+t/private-pages.t ......... ok
 t/rollback-extras.t ....... ok
 t/redirection.t ........... ok
 t/questionasker.t ......... ok
 t/namespaces.t ............ ok
 t/search-tag.t ............ ok
 t/searchtags.t ............ ok
-t/revisions.t ............. ok
 t/rc.t .................... ok
+t/revisions.t ............. ok
 t/setext.t ................ ok
 t/security.t .............. ok
 t/sitemap.t ............... ok
@@ -121,8 +121,8 @@ t/sidebar.t ............... ok
 t/subscriberc.t ........... ok
 t/summary.t ............... ok
 t/search.t ................ ok
-t/tables-long.t ........... ok
 t/tables.t ................ ok
+t/tables-long.t ........... ok
 t/tex.t ................... ok
 t/rss.t ................... ok
 t/surge-protection.t ...... ok
@@ -133,14 +133,14 @@ t/upgrade-files.t ......... ok
 t/usemod-options.t ........ ok
 t/usemod.t ................ ok
 t/upload.t ................ ok
-t/translation-links.t ..... ok
 t/tags.t .................. ok
-t/xss.t ................... ok
+t/translation-links.t ..... ok
 t/upgrade.t ............... ok
+t/xss.t ................... ok
 t/weblog-3.t .............. ok
 t/rollback.t .............. ok
 t/lock.t .................. ok
 t/lock-expiration.t ....... ok
 All tests successful.
-Files=133, Tests=2843, 111 wallclock secs ( 0.73 usr  0.12 sys + 201.70 cusr 10.30 csys = 212.85 CPU)
+Files=133, Tests=2843, 112 wallclock secs ( 0.73 usr  0.13 sys + 202.89 cusr 10.16 csys = 213.91 CPU)
 Result: PASS
