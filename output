@@ -1,7 +1,7 @@
 prove t/setup.pl
 t/setup.pl .. ok
 All tests successful.
-Files=1, Tests=1,  0 wallclock secs ( 0.03 usr  0.00 sys +  0.08 cusr  0.02 csys =  0.13 CPU)
+Files=1, Tests=1,  0 wallclock secs ( 0.03 usr  0.00 sys +  0.10 cusr  0.02 csys =  0.15 CPU)
 Result: PASS
 prove --jobs=8 t
 t/anchors.t ............... ok
@@ -14,7 +14,7 @@ t/cache.t ................. ok
 t/ban-contributors.t ...... ok
 t/ampersand.t ............. ok
 t/calendar.t .............. ok
-# Waiting for 28s
+# Waiting for 27s
 t/config-page.t ........... ok
 t/contributors.t .......... ok
 t/big-brother.t ........... ok
@@ -69,23 +69,23 @@ t/journal2.t .............. ok
 t/load-lang.t ............. ok
 t/listlocked.t ............ ok
 t/links.t ................. ok
-t/like.t .................. ok
 t/journal3.t .............. ok
+t/like.t .................. ok
 t/logbannedcontent.t ...... ok
 t/lock-on-creation.t ...... ok
 t/macros.t ................ ok
 t/maintain.t .............. ok
 t/markdown-rule.t ......... ok
-t/markup-and-creole.t ..... ok
 t/journal.t ............... ok
+t/markup-and-creole.t ..... ok
 t/markup.t ................ ok
 t/localnames.t ............ ok
 t/meta-data.t ............. ok
 t/moin.t .................. ok
 t/journal-rss.t ........... ok
 t/mail.t .................. ok
-t/multi-url-spam-block.t .. ok
 t/meta.t .................. ok
+t/multi-url-spam-block.t .. ok
 t/org-mode.t .............. ok
 t/new.t ................... ok
 t/page-trail.t ............ ok
@@ -94,10 +94,10 @@ t/major.t ................. ok
 t/pagenames.t ............. ok
 t/password.t .............. ok
 t/preview.t ............... ok
-t/portrait-support.t ...... ok
 t/private-wiki.t .......... ok
-t/pygmentize.t ............ ok
 t/merge.t ................. ok
+t/pygmentize.t ............ ok
+t/portrait-support.t ...... ok
 t/raw.t ................... ok
 t/permanent-anchors.t ..... ok
 t/questionmark.t .......... ok
@@ -106,23 +106,23 @@ t/private-pages.t ......... ok
 t/recaptcha.t ............. ok
 t/referrer-tracking.t ..... ok
 t/rollback-extras.t ....... ok
+t/namespaces.t ............ ok
 t/redirection.t ........... ok
 t/questionasker.t ......... ok
-t/namespaces.t ............ ok
 t/search-tag.t ............ ok
 t/searchtags.t ............ ok
 t/revisions.t ............. ok
-t/rc.t .................... ok
 t/setext.t ................ ok
 t/security.t .............. ok
-t/sitemap.t ............... ok
+t/rc.t .................... ok
 t/simple-rules.t .......... ok
-t/sidebar.t ............... ok
+t/sitemap.t ............... ok
 t/subscriberc.t ........... ok
+t/sidebar.t ............... ok
 t/summary.t ............... ok
 t/search.t ................ ok
-t/tables-long.t ........... ok
 t/tables.t ................ ok
+t/tables-long.t ........... ok
 t/tex.t ................... ok
 t/rss.t ................... ok
 t/surge-protection.t ...... ok
@@ -133,14 +133,14 @@ t/upgrade-files.t ......... ok
 t/usemod-options.t ........ ok
 t/usemod.t ................ ok
 t/upload.t ................ ok
-t/tags.t .................. ok
 t/translation-links.t ..... ok
-t/upgrade.t ............... ok
+t/tags.t .................. ok
 t/xss.t ................... ok
+t/upgrade.t ............... ok
 t/weblog-3.t .............. ok
 t/rollback.t .............. ok
 t/lock.t .................. ok
 t/lock-expiration.t ....... ok
 All tests successful.
-Files=133, Tests=2843, 112 wallclock secs ( 0.73 usr  0.12 sys + 203.34 cusr 10.10 csys = 214.29 CPU)
+Files=133, Tests=2843, 111 wallclock secs ( 0.75 usr  0.11 sys + 203.08 cusr  9.84 csys = 213.78 CPU)
 Result: PASS
