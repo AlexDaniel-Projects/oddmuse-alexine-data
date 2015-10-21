@@ -1,7 +1,7 @@
 prove t/setup.pl
 t/setup.pl .. ok
 All tests successful.
-Files=1, Tests=1,  0 wallclock secs ( 0.03 usr  0.00 sys +  0.08 cusr  0.03 csys =  0.14 CPU)
+Files=1, Tests=1,  0 wallclock secs ( 0.02 usr  0.00 sys +  0.06 cusr  0.01 csys =  0.09 CPU)
 Result: PASS
 prove --jobs=8 t
 t/anchors.t ............... ok
@@ -11,11 +11,11 @@ t/atom.t .................. ok
 t/aggregate.t ............. ok
 t/all.t ................... ok
 t/cache.t ................. ok
-t/ban-contributors.t ...... ok
 t/ampersand.t ............. ok
+t/ban-contributors.t ...... ok
 t/calendar.t .............. ok
 t/config-page.t ........... ok
-# Waiting for 28s
+# Waiting for 27s
 t/contributors.t .......... ok
 t/big-brother.t ........... ok
 t/ban-quick-editors.t ..... ok
@@ -44,8 +44,8 @@ t/dynamic-comments.t ...... ok
 t/enclosure.t ............. ok
 t/crossbar.t .............. ok
 t/despam.t ................ ok
-t/footer.t ................ ok
 t/diff.t .................. ok
+t/footer.t ................ ok
 t/google-plus-one.t ....... ok
 t/google-search.t ......... ok
 t/google-custom-search.t .. ok
@@ -69,14 +69,14 @@ t/load-lang.t ............. ok
 t/journal2.t .............. ok
 t/listlocked.t ............ ok
 t/links.t ................. ok
-t/like.t .................. ok
 t/journal3.t .............. ok
+t/like.t .................. ok
 t/logbannedcontent.t ...... ok
 t/lock-on-creation.t ...... ok
 t/macros.t ................ ok
 t/maintain.t .............. ok
-t/journal.t ............... ok
 t/markdown-rule.t ......... ok
+t/journal.t ............... ok
 t/markup-and-creole.t ..... ok
 t/markup.t ................ ok
 t/localnames.t ............ ok
@@ -85,40 +85,92 @@ t/moin.t .................. ok
 t/journal-rss.t ........... ok
 t/mail.t .................. ok
 t/multi-url-spam-block.t .. ok
-t/meta.t .................. ok
+
+#   Failed test 'modules are syntatically correct'
+#   at t/meta.t line 115.
+# modules/edit-cluster.pl has syntax errors
+# modules/private-wiki.pl has syntax errors
+# ▶▶▶ Use this command to see the problems: for f in modules/edit-cluster.pl modules/private-wiki.pl; do perl -c $f; done
+# Looks like you failed 1 test of 11.
+t/meta.t .................. 
+Dubious, test returned 1 (wstat 256, 0x100)
+Failed 1/11 subtests 
+	(less 1 skipped subtest: 9 okay)
 t/org-mode.t .............. ok
 t/new.t ................... ok
 t/page-trail.t ............ ok
 t/near-links.t ............ ok
 t/major.t ................. ok
 t/pagenames.t ............. ok
-t/password.t .............. ok
 t/preview.t ............... ok
+t/password.t .............. ok
+[Wed Oct 21 06:17:30 2015] private-wiki.t: Variable "$ShowAll" is not imported at test-data-393/modules/private-wiki.pl line 346.
+[Wed Oct 21 06:17:30 2015] wiki.pl: Variable "$ShowAll" is not imported at test-data-393/modules/private-wiki.pl line 346.
+[Wed Oct 21 06:17:30 2015] wiki.pl: Undefined subroutine &OddMuse::OldPrivateWikiReadFile called at test-data-393/modules/private-wiki.pl line 261.
+[Wed Oct 21 06:17:30 2015] wiki.pl: Variable "$ShowAll" is not imported at test-data-393/modules/private-wiki.pl line 346.
+[Wed Oct 21 06:17:30 2015] wiki.pl: Undefined subroutine &OddMuse::OldPrivateWikiReadFile called at test-data-393/modules/private-wiki.pl line 261.
+
+#   Failed test 'Test'
+#   at t/test.pl line 174.
+#                   'Status: 500
+# Content-type: text/html
+# 
+# <h1>Software error:</h1>
+# <pre>Undefined subroutine &amp;OddMuse::OldPrivateWikiReadFile called at test-data-393/modules/private-wiki.pl line 261.
+# </pre>
+# <p>
+# For help, please send mail to this site's webmaster, giving this error message 
+# and the time and date of the error.
+# 
+# </p>
+# '
+#     doesn't match '(?^:Test)'
+[Wed Oct 21 06:17:30 2015] wiki.pl: Variable "$ShowAll" is not imported at test-data-393/modules/private-wiki.pl line 346.
+[Wed Oct 21 06:17:30 2015] wiki.pl: Undefined subroutine &OddMuse::OldPrivateWikiReadFile called at test-data-393/modules/private-wiki.pl line 261.
+
+#   Failed test 'HelloPrivateWiki'
+#   at t/test.pl line 174.
+#                   'Status: 500
+# Content-type: text/html
+# 
+# <h1>Software error:</h1>
+# <pre>Undefined subroutine &amp;OddMuse::OldPrivateWikiReadFile called at test-data-393/modules/private-wiki.pl line 261.
+# </pre>
+# <p>
+# For help, please send mail to this site's webmaster, giving this error message 
+# and the time and date of the error.
+# 
+# </p>
+# '
+#     doesn't match '(?^:HelloPrivateWiki)'
+# Looks like you failed 2 tests of 2.
+t/private-wiki.t .......... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 2/2 subtests 
 t/merge.t ................. ok
-t/pygmentize.t ............ ok
 t/portrait-support.t ...... ok
-t/private-wiki.t .......... ok
-t/permanent-anchors.t ..... ok
+t/pygmentize.t ............ ok
 t/raw.t ................... ok
 t/questionmark.t .......... ok
+t/permanent-anchors.t ..... ok
 t/rc-pagination.t ......... ok
 t/private-pages.t ......... ok
-t/referrer-tracking.t ..... ok
 t/recaptcha.t ............. ok
+t/referrer-tracking.t ..... ok
 t/rollback-extras.t ....... ok
 t/redirection.t ........... ok
 t/questionasker.t ......... ok
 t/namespaces.t ............ ok
 t/search-tag.t ............ ok
-t/revisions.t ............. ok
 t/searchtags.t ............ ok
+t/revisions.t ............. ok
+t/security.t .............. ok
 t/setext.t ................ ok
 t/rc.t .................... ok
-t/security.t .............. ok
 t/sitemap.t ............... ok
+t/sidebar.t ............... ok
 t/simple-rules.t .......... ok
 t/subscriberc.t ........... ok
-t/sidebar.t ............... ok
 t/summary.t ............... ok
 t/search.t ................ ok
 t/tables.t ................ ok
@@ -133,14 +185,24 @@ t/upgrade-files.t ......... ok
 t/usemod-options.t ........ ok
 t/usemod.t ................ ok
 t/upload.t ................ ok
-t/tags.t .................. ok
 t/translation-links.t ..... ok
+t/tags.t .................. ok
 t/upgrade.t ............... ok
 t/xss.t ................... ok
 t/weblog-3.t .............. ok
 t/rollback.t .............. ok
 t/lock.t .................. ok
 t/lock-expiration.t ....... ok
-All tests successful.
-Files=133, Tests=2843, 111 wallclock secs ( 0.74 usr  0.13 sys + 202.98 cusr  9.90 csys = 213.75 CPU)
-Result: PASS
+
+Test Summary Report
+-------------------
+t/meta.t                (Wstat: 256 Tests: 11 Failed: 1)
+  Failed test:  11
+  Non-zero exit status: 1
+t/private-wiki.t        (Wstat: 512 Tests: 2 Failed: 2)
+  Failed tests:  1-2
+  Non-zero exit status: 2
+Files=133, Tests=2843, 111 wallclock secs ( 0.72 usr  0.13 sys + 203.06 cusr  9.94 csys = 213.85 CPU)
+Result: FAIL
+Makefile:57: recipe for target 'test' failed
+make: *** [test] Error 1
