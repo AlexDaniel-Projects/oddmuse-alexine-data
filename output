@@ -1,7 +1,7 @@
 prove t/setup.pl
 t/setup.pl .. ok
 All tests successful.
-Files=1, Tests=1,  1 wallclock secs ( 0.02 usr  0.00 sys +  0.09 cusr  0.02 csys =  0.13 CPU)
+Files=1, Tests=1,  1 wallclock secs ( 0.02 usr  0.01 sys +  0.08 cusr  0.02 csys =  0.13 CPU)
 Result: PASS
 prove --jobs=8 --state=slow,save t
 # Waiting for 28s
@@ -14,150 +14,133 @@ sh: diff3: No such file or directory
 sh: diff: No such file or directory
 t/conflict.t .............. ok
 t/clusters.t .............. ok
-t/static-copy.t ........... ok
+t/search.t ................ ok
 t/merge.t ................. ok
-t/namespaces.t ............ ok
 t/journal-rss.t ........... ok
+t/namespaces.t ............ ok
 t/rss.t ................... ok
+t/journal.t ............... ok
+t/major.t ................. ok
+t/static-copy.t ........... ok
 t/edit-paragraphs.t ....... ok
 t/tags.t .................. ok
-t/search.t ................ ok
-t/major.t ................. ok
-t/journal.t ............... ok
-t/rc.t .................... ok
-t/surge-protection.t ...... ok
-t/encoding.t .............. ok
-t/localnames.t ............ ok
-t/ban-contributors.t ...... ok
-t/like.t .................. ok
-t/crossbar.t .............. ok
-t/hr.t .................... ok
-t/weblog-3.t .............. ok
-t/translation-links.t ..... ok
-t/rollback.t .............. ok
-t/upgrade.t ............... ok
-t/meta.t .................. ok
-t/diff.t .................. ok
-t/revisions.t ............. ok
-t/ampersand.t ............. ok
-t/private-pages.t ......... ok
-t/questionasker.t ......... ok
-t/mail.t .................. ok
-t/summary.t ............... ok
 t/despam.t ................ ok
+t/mail.t .................. ok
+t/translation-links.t ..... ok
+t/surge-protection.t ...... ok
+t/ampersand.t ............. ok
 t/journal3.t .............. ok
-t/toc.t ................... ok
-t/fix-encoding.t .......... ok
-t/links.t ................. ok
-t/all.t ................... ok
-t/near-links.t ............ ok
+t/diff.t .................. ok
+t/weblog-3.t .............. ok
+t/localnames.t ............ ok
+t/rc.t .................... ok
+t/ban-contributors.t ...... ok
+t/rollback.t .............. ok
+t/crossbar.t .............. ok
+t/like.t .................. ok
+t/encoding.t .............. ok
+t/hr.t .................... ok
+t/revisions.t ............. ok
+t/upgrade.t ............... ok
 t/permanent-anchors.t ..... ok
-t/multi-url-spam-block.t .. ok
+t/fix-encoding.t .......... ok
+t/questionasker.t ......... ok
+t/private-pages.t ......... ok
+t/all.t ................... ok
+t/links.t ................. ok
+t/meta.t .................. ok
+t/summary.t ............... ok
+t/toc.t ................... ok
 t/lock-on-creation.t ...... ok
+t/multi-url-spam-block.t .. ok
+t/near-links.t ............ ok
 t/dynamic-comments.t ...... ok
+t/calendar.t .............. ok
 t/include.t ............... ok
 t/drafts.t ................ ok
-t/calendar.t .............. ok
 t/download.t .............. ok
-t/journal2.t .............. ok
-t/upload.t ................ ok
-t/portrait-support.t ...... ok
 t/aggregate.t ............. ok
 t/creole.t ................ ok
 t/headers.t ............... ok
-t/contributors.t .......... ok
-t/git.t ................... ok
+t/portrait-support.t ...... ok
+t/journal2.t .............. ok
 t/atom.t .................. ok
-t/cookie.t ................ ok
-t/image.t ................. ok
-t/cache.t ................. ok
-t/password.t .............. ok
-t/redirection.t ........... ok
-t/search-tag.t ............ ok
-t/xss.t ................... ok
-t/find.t .................. ok
-t/enclosure.t ............. ok
-t/pagenames.t ............. ok
-t/sidebar.t ............... ok
-t/gravatar.t .............. ok
-t/preview.t ............... ok
-
-#   Failed test '...ss"][@rel="stylesheet"][@href="http://www.oddmuse.org/default.css"]'
-#   at t/test.pl line 221.
-# No Matches
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: HomePage</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=HomePage" /><link type="text/css" rel="stylesheet" href="https://www.oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: HomePage" href="http://localhost/wiki.pl?action=rss;rcidonly=HomePage" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a href="http://localhost/wiki.pl/HomePage" class="local">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search"><p><label for="search">Search:</label> <input type="text" name="search"  size="20" id="search" accesskey="f" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a rel="nofollow" title="Click to search for references to this page" href="http://localhost/wiki.pl?search=%22HomePage%22">HomePage</a></h1></div><div class="wrapper"><div class="content browse"><p>Welcome!</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a accesskey="e" href="http://localhost/wiki.pl?action=edit;id=HomePage" title="Click to edit this page" rel="nofollow" class="edit">Edit this page</a> <a class="history" rel="nofollow" href="http://localhost/wiki.pl?action=history;id=HomePage">View other revisions</a> <a rel="nofollow" class="admin" href="http://localhost/wiki.pl?action=admin;id=HomePage">Administration</a></div></div>
-# </body>
-# </html>
-t/crumbs.t ................ ok
 t/history.t ............... ok
-t/simple-rules.t .......... ok
+t/upload.t ................ ok
+t/find.t .................. ok
+t/cache.t ................. ok
+t/cookie.t ................ ok
+t/crumbs.t ................ ok
+t/xss.t ................... ok
+t/css.t ................... ok
+t/password.t .............. ok
+t/search-tag.t ............ ok
+t/image.t ................. ok
+t/preview.t ............... ok
+t/sidebar.t ............... ok
 t/questionmark.t .......... ok
+t/redirection.t ........... ok
+t/git.t ................... ok
+t/contributors.t .......... ok
+t/enclosure.t ............. ok
+t/simple-rules.t .......... ok
 t/macros.t ................ ok
-# Looks like you failed 1 test of 16.
-t/css.t ................... 
-Dubious, test returned 1 (wstat 256, 0x100)
-Failed 1/16 subtests 
-t/listlocked.t ............ ok
-t/tables-long.t ........... ok
-t/recaptcha.t ............. ok
-t/gotobar.t ............... ok
-t/rc-pagination.t ......... ok
 t/searchtags.t ............ ok
-t/page-trail.t ............ ok
+t/gravatar.t .............. ok
+t/tables-long.t ........... ok
+t/default-markup.t ........ ok
+t/pagenames.t ............. ok
+t/listlocked.t ............ ok
+t/google-custom-search.t .. ok
+t/gotobar.t ............... ok
+t/recaptcha.t ............. ok
 t/default-links.t ......... ok
+t/dotfiles.t .............. ok
+t/rc-pagination.t ......... ok
+t/translations.t .......... ok
+t/page-trail.t ............ ok
+t/sitemap.t ............... ok
+t/private-wiki.t .......... ok
+t/askpage.t ............... ok
+t/meta-data.t ............. ok
+t/link-all.t .............. ok
+t/new.t ................... ok
+t/upgrade-files.t ......... ok
 t/maintain.t .............. ok
 t/lock.t .................. ok
-t/meta-data.t ............. ok
-t/dotfiles.t .............. ok
-t/google-custom-search.t .. ok
-t/new.t ................... ok
-t/raw.t ................... ok
-t/bbcode.t ................ ok
-t/default-markup.t ........ ok
-t/translations.t .......... ok
-t/private-wiki.t .......... ok
-t/tex.t ................... ok
-t/askpage.t ............... ok
-t/anchors.t ............... ok
 t/security.t .............. ok
-t/link-all.t .............. ok
-t/upgrade-files.t ......... ok
-t/google-plus-one.t ....... ok
-t/sitemap.t ............... ok
+t/anchors.t ............... ok
 t/google-search.t ......... ok
-t/duckduckgo-search.t ..... ok
-t/edit.t .................. ok
-t/referrer-tracking.t ..... ok
-t/markup.t ................ ok
-t/footer.t ................ ok
+t/bbcode.t ................ ok
+t/google-plus-one.t ....... ok
 t/config-page.t ........... ok
+t/tex.t ................... ok
 t/logbannedcontent.t ...... ok
-t/usemod.t ................ ok
-t/creoleaddition.t ........ ok
-t/markdown-rule.t ......... ok
-t/moin.t .................. ok
-t/markup-and-creole.t ..... ok
+t/footer.t ................ ok
+t/markup.t ................ ok
+t/duckduckgo-search.t ..... ok
+t/referrer-tracking.t ..... ok
+t/edit.t .................. ok
+t/raw.t ................... ok
 t/subscriberc.t ........... ok
-t/usemod-options.t ........ ok
-t/emailquote.t ............ ok
-t/irc.t ................... ok
-t/rollback-extras.t ....... ok
-t/load-lang.t ............. ok
-t/languages.t ............. ok
+t/creoleaddition.t ........ ok
+t/moin.t .................. ok
 t/htmlcomment.t ........... ok
+t/load-lang.t ............. ok
+t/markup-and-creole.t ..... ok
+t/languages.t ............. ok
+t/rollback-extras.t ....... ok
+t/markdown-rule.t ......... ok
 t/pygmentize.t ............ ok
+t/emailquote.t ............ ok
+t/usemod.t ................ ok
+t/usemod-options.t ........ ok
+t/irc.t ................... ok
 t/tables.t ................ ok
-t/setext.t ................ ok
 t/org-mode.t .............. ok
+t/setext.t ................ ok
 t/fieldlist.t ............. ok
 t/lock-expiration.t ....... ok
-
-Test Summary Report
--------------------
-t/css.t                 (Wstat: 256 Tests: 16 Failed: 1)
-  Failed test:  1
-  Non-zero exit status: 1
-Files=133, Tests=2847, 71 wallclock secs ( 0.71 usr  0.14 sys + 192.17 cusr  9.32 csys = 202.34 CPU)
-Result: FAIL
-Makefile:57: recipe for target 'test' failed
-make: *** [test] Error 1
+All tests successful.
+Files=133, Tests=2847, 71 wallclock secs ( 0.74 usr  0.11 sys + 188.28 cusr  9.25 csys = 198.38 CPU)
+Result: PASS
