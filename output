@@ -1,152 +1,222 @@
 prove t/setup.pl
 t/setup.pl .. ok
 All tests successful.
-Files=1, Tests=1,  0 wallclock secs ( 0.01 usr  0.00 sys +  0.03 cusr  0.00 csys =  0.04 CPU)
+Files=1, Tests=1,  0 wallclock secs ( 0.01 usr  0.00 sys +  0.01 cusr  0.00 csys =  0.02 CPU)
 Result: PASS
 prove --jobs=8 --state=slow,save t
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/links.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/links.t ................... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 60/60 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/xss.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/xss.t ..................... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 7/7 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/recaptcha.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/recaptcha.t ............... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 7/7 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/server.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/server.t .................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 4/4 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/meta.t line 22.
-# Looks like your test exited with 2 before it could output anything.
-t/meta.t .................... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 27/27 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/lock-expiration.t line 19.
-# Looks like your test exited with 2 before it could output anything.
-t/lock-expiration.t ......... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 17/17 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/creole.t line 17.
-# Looks like your test exited with 2 before it could output anything.
-t/creole.t .................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 111/111 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/rc.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/rc.t ...................... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 93/93 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/password.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/password.t ................ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 6/6 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/markdown-rule.t line 17.
-# Looks like your test exited with 2 before it could output anything.
-t/markdown-rule.t ........... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 34/34 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/gravatar.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/gravatar.t ................ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 16/16 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/ban-contributors.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/ban-contributors.t ........ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 21/21 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/questionasker.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/questionasker.t ........... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 16/16 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/footer.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/footer.t .................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 3/3 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/revisions.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/revisions.t ............... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 23/23 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/page-trail.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/page-trail.t .............. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 9/9 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/toc.t line 17.
-# Looks like your test exited with 2 before it could output anything.
-t/toc.t ..................... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 30/30 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/translations.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/translations.t ............ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 6/6 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/cookie.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/cookie.t .................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 18/18 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/duckduckgo-search.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/duckduckgo-search.t ....... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 9/9 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/meta-data.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/meta-data.t ............... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 5/5 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/anchors.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/anchors.t ................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 11/11 subtests 
 Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/like.t line 16.
 # Looks like your test exited with 2 before it could output anything.
 t/like.t .................... 
 Dubious, test returned 2 (wstat 512, 0x200)
 Failed 17/17 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/usemod.t line 15.
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/footer.t line 16.
 # Looks like your test exited with 2 before it could output anything.
-t/usemod.t .................. 
+t/footer.t .................. 
 Dubious, test returned 2 (wstat 512, 0x200)
-Failed 47/47 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/pagenames.t line 19.
+Failed 3/3 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/lock-on-creation.t line 19.
 # Looks like your test exited with 2 before it could output anything.
-t/pagenames.t ............... 
+t/lock-on-creation.t ........ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 18/18 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/meta.t line 22.
+# Looks like your test exited with 2 before it could output anything.
+t/meta.t .................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 27/27 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/journal-rss.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/journal-rss.t ............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 48/48 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/aggregate.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/aggregate.t ............... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 24/24 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/merge.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/merge.t ................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 3/3 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/server.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/server.t .................. 
 Dubious, test returned 2 (wstat 512, 0x200)
 Failed 4/4 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/htmlcomment.t line 12.
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/diff.t line 15.
 # Looks like your test exited with 2 before it could output anything.
-t/htmlcomment.t ............. 
+t/diff.t .................... 
 Dubious, test returned 2 (wstat 512, 0x200)
-Failed 6/6 subtests 
+Failed 25/25 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/history.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/history.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 37/37 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/languages.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/languages.t ............... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 5/5 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/irc.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/irc.t ..................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 5/5 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/rc.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/rc.t ...................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 93/93 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/recaptcha.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/recaptcha.t ............... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 7/7 subtests 
 Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/tags.t line 16.
 # Looks like your test exited with 2 before it could output anything.
 t/tags.t .................... 
 Dubious, test returned 2 (wstat 512, 0x200)
 Failed 70/70 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/google-search.t line 19.
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/mail.t line 16.
 # Looks like your test exited with 2 before it could output anything.
-t/google-search.t ........... 
+t/mail.t .................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 52/52 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/fix-encoding.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/fix-encoding.t ............ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 22/22 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/sidebar.t line 17.
+# Looks like your test exited with 2 before it could output anything.
+t/sidebar.t ................. 
 Dubious, test returned 2 (wstat 512, 0x200)
 Failed 9/9 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/contributors.t line 16.
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/searchtags.t line 16.
 # Looks like your test exited with 2 before it could output anything.
-t/contributors.t ............ 
+t/searchtags.t .............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 6/6 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/private-pages.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/private-pages.t ........... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 29/29 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/clusters.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/clusters.t ................ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 33/33 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/bbcode.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/bbcode.t .................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 39/39 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/meta-data.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/meta-data.t ............... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 5/5 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/rss.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/rss.t ..................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 126/126 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/markup-and-creole.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/markup-and-creole.t ....... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 5/5 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/upgrade.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/upgrade.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 47/47 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/ban.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/ban.t ..................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 23/23 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/preview.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/preview.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 6/6 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/htmlcomment.t line 12.
+# Looks like your test exited with 2 before it could output anything.
+t/htmlcomment.t ............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 6/6 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/weblog-3.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/weblog-3.t ................ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 45/45 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/default-links.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/default-links.t ........... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 63/63 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/localnames.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/localnames.t .............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 19/19 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/calendar.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/calendar.t ................ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 12/12 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/include.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/include.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 6/6 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/upload.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/upload.t .................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 12/12 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/translation-links.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/translation-links.t ....... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 33/33 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/crossbar.t line 5.
+# Looks like your test exited with 2 before it could output anything.
+t/crossbar.t ................ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 22/22 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/redirection.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/redirection.t ............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 9/9 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/sitemap.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/sitemap.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 1/1 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/page-trail.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/page-trail.t .............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 9/9 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/tables-long.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/tables-long.t ............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 23/23 subtests 
+Can't locate t/usemod-1.0.4.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/upgrade-files.t line 18.
+# Looks like your test exited with 2 before it could output anything.
+t/upgrade-files.t ........... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 11/11 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/rollback-extras.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/rollback-extras.t ......... 
 Dubious, test returned 2 (wstat 512, 0x200)
 Failed 3/3 subtests 
 Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/ampersand.t line 15.
@@ -154,479 +224,159 @@ Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-l
 t/ampersand.t ............... 
 Dubious, test returned 2 (wstat 512, 0x200)
 Failed 40/40 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/ban.t line 15.
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/pagenames.t line 19.
 # Looks like your test exited with 2 before it could output anything.
-t/ban.t ..................... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 23/23 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/merge.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/merge.t ................... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 3/3 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/search-tag.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/search-tag.t .............. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 8/8 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/tables-long.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/tables-long.t ............. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 23/23 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/irc.t line 19.
-# Looks like your test exited with 2 before it could output anything.
-t/irc.t ..................... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 5/5 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/edit.t line 19.
-# Looks like your test exited with 2 before it could output anything.
-t/edit.t .................... 
+t/pagenames.t ............... 
 Dubious, test returned 2 (wstat 512, 0x200)
 Failed 4/4 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/calendar.t line 19.
-# Looks like your test exited with 2 before it could output anything.
-t/calendar.t ................ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 12/12 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/default-links.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/default-links.t ........... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 63/63 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/moin.t line 19.
-# Looks like your test exited with 2 before it could output anything.
-t/moin.t .................... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 15/15 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/dotfiles.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/dotfiles.t ................ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 4/4 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/redirection.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/redirection.t ............. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 9/9 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/private-pages.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/private-pages.t ........... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 29/29 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/multi-url-spam-block.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/multi-url-spam-block.t .... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 10/10 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/aggregate.t line 19.
-# Looks like your test exited with 2 before it could output anything.
-t/aggregate.t ............... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 24/24 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/translation-links.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/translation-links.t ....... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 33/33 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/rc-pagination.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/rc-pagination.t ........... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 42/42 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/searchtags.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/searchtags.t .............. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 6/6 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/encoding.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/encoding.t ................ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 41/41 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/headers.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/headers.t ................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 13/13 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/cache.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/cache.t ................... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 8/8 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/localnames.t line 19.
-# Looks like your test exited with 2 before it could output anything.
-t/localnames.t .............. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 19/19 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/permanent-anchors.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/permanent-anchors.t ....... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 25/25 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/git.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/git.t ..................... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 16/16 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/atom.t line 16, <DATA> line 1.
-# Looks like your test exited with 2 before it could output anything.
-t/atom.t .................... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 44/44 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/near-links.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/near-links.t .............. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 16/16 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/hr.t line 19.
-# Looks like your test exited with 2 before it could output anything.
-t/hr.t ...................... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 8/8 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/comments.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/comments.t ................ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 43/43 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/weblog-3.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/weblog-3.t ................ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 45/45 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/clusters.t line 19.
-# Looks like your test exited with 2 before it could output anything.
-t/clusters.t ................ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 33/33 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/fix-encoding.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/fix-encoding.t ............ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 22/22 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/markup.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/markup.t .................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 59/59 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/gotobar.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/gotobar.t ................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 7/7 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/simple-rules.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/simple-rules.t ............ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 20/20 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/search.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/search.t .................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 89/89 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/usemod-options.t line 19.
-# Looks like your test exited with 2 before it could output anything.
-t/usemod-options.t .......... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 7/7 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/questionmark.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/questionmark.t ............ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 5/5 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/find.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/find.t .................... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 18/18 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/upload.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/upload.t .................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 12/12 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/markup-and-creole.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/markup-and-creole.t ....... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 5/5 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/journal2.t line 19.
-# Looks like your test exited with 2 before it could output anything.
-t/journal2.t ................ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 8/8 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/rollback.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/rollback.t ................ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 69/69 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/major.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/major.t ................... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 60/60 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/download.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/download.t ................ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 13/13 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/lock.t line 20.
-# Looks like your test exited with 2 before it could output anything.
-t/lock.t .................... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 20/20 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/journal3.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/journal3.t ................ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 35/35 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/summary.t line 19.
-# Looks like your test exited with 2 before it could output anything.
-t/summary.t ................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 11/11 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/big-brother.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/big-brother.t ............. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 28/28 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/crossbar.t line 5.
-# Looks like your test exited with 2 before it could output anything.
-t/crossbar.t ................ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 22/22 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/creoleaddition.t line 14.
-# Looks like your test exited with 2 before it could output anything.
-t/creoleaddition.t .......... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 29/29 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/css.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/css.t ..................... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 16/16 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/link-all.t line 19.
-# Looks like your test exited with 2 before it could output anything.
-t/link-all.t ................ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 2/2 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/languages.t line 19.
-# Looks like your test exited with 2 before it could output anything.
-t/languages.t ............... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 5/5 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/emailquote.t line 12.
-# Looks like your test exited with 2 before it could output anything.
-t/emailquote.t .............. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 4/4 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/edit-paragraphs.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/edit-paragraphs.t ......... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 56/56 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/private-wiki.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/private-wiki.t ............ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 2/2 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/load-lang.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/load-lang.t ............... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 6/6 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/history.t line 19.
-# Looks like your test exited with 2 before it could output anything.
-t/history.t ................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 37/37 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/conflict.t line 19.
-# Looks like your test exited with 2 before it could output anything.
-t/conflict.t ................ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 26/26 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/crumbs.t line 19.
-# Looks like your test exited with 2 before it could output anything.
-t/crumbs.t .................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 1/1 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/ban-quick-editors.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/ban-quick-editors.t ....... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 4/4 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/logbannedcontent.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/logbannedcontent.t ........ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 1/1 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/rss.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/rss.t ..................... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 126/126 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/journal.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/journal.t ................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 51/51 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/pygmentize.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/pygmentize.t .............. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 2/2 subtests 
 Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/org-mode.t line 16.
 # Looks like your test exited with 2 before it could output anything.
 t/org-mode.t ................ 
 Dubious, test returned 2 (wstat 512, 0x200)
 Failed 3/3 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/maintain.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/maintain.t ................ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 10/10 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/raw.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/raw.t ..................... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 2/2 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/referrer-tracking.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/referrer-tracking.t ....... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 12/12 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/default-markup.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/default-markup.t .......... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 60/60 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/preview.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/preview.t ................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 6/6 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/image.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/image.t ................... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 33/33 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/lock-on-creation.t line 19.
-# Looks like your test exited with 2 before it could output anything.
-t/lock-on-creation.t ........ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 18/18 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/tex.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/tex.t ..................... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 4/4 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/subscriberc.t line 19.
-# Looks like your test exited with 2 before it could output anything.
-t/subscriberc.t ............. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 4/4 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/sitemap.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/sitemap.t ................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 1/1 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/bbcode.t line 19.
-# Looks like your test exited with 2 before it could output anything.
-t/bbcode.t .................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 39/39 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/setext.t line 19.
-# Looks like your test exited with 2 before it could output anything.
-t/setext.t .................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 12/12 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/namespaces.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/namespaces.t .............. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 77/77 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/enclosure.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/enclosure.t ............... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 11/11 subtests 
 Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/config-page.t line 19.
 # Looks like your test exited with 2 before it could output anything.
 t/config-page.t ............. 
 Dubious, test returned 2 (wstat 512, 0x200)
 Failed 1/1 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/include.t line 19.
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/download.t line 15.
 # Looks like your test exited with 2 before it could output anything.
-t/include.t ................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 6/6 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/sidebar.t line 17.
-# Looks like your test exited with 2 before it could output anything.
-t/sidebar.t ................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 9/9 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/upgrade.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/upgrade.t ................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 47/47 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/askpage.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/askpage.t ................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 2/2 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/all.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/all.t ..................... 
+t/download.t ................ 
 Dubious, test returned 2 (wstat 512, 0x200)
 Failed 13/13 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/comments.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/comments.t ................ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 43/43 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/xss.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/xss.t ..................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 7/7 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/css.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/css.t ..................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 16/16 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/cache.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/cache.t ................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 8/8 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/subscriberc.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/subscriberc.t ............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 4/4 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/contributors.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/contributors.t ............ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 3/3 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/cookie.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/cookie.t .................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 18/18 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/questionmark.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/questionmark.t ............ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 5/5 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/atom.t line 16, <DATA> line 1.
+# Looks like your test exited with 2 before it could output anything.
+t/atom.t .................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 44/44 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/dotfiles.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/dotfiles.t ................ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 4/4 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/edit.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/edit.t .................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 4/4 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/big-brother.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/big-brother.t ............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 28/28 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/referrer-tracking.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/referrer-tracking.t ....... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 12/12 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/hr.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/hr.t ...................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 8/8 subtests 
 Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/drafts.t line 15.
 # Looks like your test exited with 2 before it could output anything.
 t/drafts.t .................. 
 Dubious, test returned 2 (wstat 512, 0x200)
 Failed 26/26 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/portrait-support.t line 17.
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/load-lang.t line 16.
 # Looks like your test exited with 2 before it could output anything.
-t/portrait-support.t ........ 
+t/load-lang.t ............... 
 Dubious, test returned 2 (wstat 512, 0x200)
-Failed 18/18 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/diff.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/diff.t .................... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 25/25 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/security.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/security.t ................ 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 2/2 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/listlocked.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/listlocked.t .............. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 3/3 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/tables.t line 19.
-# Looks like your test exited with 2 before it could output anything.
-t/tables.t .................. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 10/10 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/rollback-extras.t line 15.
-# Looks like your test exited with 2 before it could output anything.
-t/rollback-extras.t ......... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 3/3 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/journal-rss.t line 16.
-# Looks like your test exited with 2 before it could output anything.
-t/journal-rss.t ............. 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 48/48 subtests 
+Failed 6/6 subtests 
 Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/google-custom-search.t line 16.
 # Looks like your test exited with 2 before it could output anything.
 t/google-custom-search.t .... 
 Dubious, test returned 2 (wstat 512, 0x200)
 Failed 3/3 subtests 
-Can't locate t/usemod-1.0.4.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/upgrade-files.t line 18.
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/usemod.t line 15.
 # Looks like your test exited with 2 before it could output anything.
-t/upgrade-files.t ........... 
+t/usemod.t .................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 47/47 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/search-tag.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/search-tag.t .............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 8/8 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/ban-quick-editors.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/ban-quick-editors.t ....... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 4/4 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/tables.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/tables.t .................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 10/10 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/lock.t line 20.
+# Looks like your test exited with 2 before it could output anything.
+t/lock.t .................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 20/20 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/conflict.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/conflict.t ................ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 26/26 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/askpage.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/askpage.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 2/2 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/portrait-support.t line 17.
+# Looks like your test exited with 2 before it could output anything.
+t/portrait-support.t ........ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 18/18 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/headers.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/headers.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 13/13 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/enclosure.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/enclosure.t ............... 
 Dubious, test returned 2 (wstat 512, 0x200)
 Failed 11/11 subtests 
 Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/surge-protection.t line 16.
@@ -634,36 +384,116 @@ Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-l
 t/surge-protection.t ........ 
 Dubious, test returned 2 (wstat 512, 0x200)
 Failed 7/7 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/mail.t line 16.
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/maintain.t line 16.
 # Looks like your test exited with 2 before it could output anything.
-t/mail.t .................... 
+t/maintain.t ................ 
 Dubious, test returned 2 (wstat 512, 0x200)
-Failed 52/52 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/google-plus-one.t line 16.
+Failed 10/10 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/logbannedcontent.t line 16.
 # Looks like your test exited with 2 before it could output anything.
-t/google-plus-one.t ......... 
+t/logbannedcontent.t ........ 
 Dubious, test returned 2 (wstat 512, 0x200)
-Failed 2/2 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/despam.t line 19.
+Failed 1/1 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/revisions.t line 15.
 # Looks like your test exited with 2 before it could output anything.
-t/despam.t .................. 
+t/revisions.t ............... 
 Dubious, test returned 2 (wstat 512, 0x200)
-Failed 13/13 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/new.t line 16.
+Failed 23/23 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/rc-pagination.t line 16.
 # Looks like your test exited with 2 before it could output anything.
-t/new.t ..................... 
+t/rc-pagination.t ........... 
 Dubious, test returned 2 (wstat 512, 0x200)
-Failed 3/3 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/macros.t line 16.
+Failed 42/42 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/multi-url-spam-block.t line 16.
 # Looks like your test exited with 2 before it could output anything.
-t/macros.t .................. 
+t/multi-url-spam-block.t .... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 10/10 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/image.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/image.t ................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 33/33 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/journal3.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/journal3.t ................ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 35/35 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/major.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/major.t ................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 60/60 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/creoleaddition.t line 14.
+# Looks like your test exited with 2 before it could output anything.
+t/creoleaddition.t .......... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 29/29 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/journal2.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/journal2.t ................ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 8/8 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/tex.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/tex.t ..................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 4/4 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/duckduckgo-search.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/duckduckgo-search.t ....... 
 Dubious, test returned 2 (wstat 512, 0x200)
 Failed 9/9 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/dynamic-comments.t line 15.
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/anchors.t line 15.
 # Looks like your test exited with 2 before it could output anything.
-t/dynamic-comments.t ........ 
+t/anchors.t ................. 
 Dubious, test returned 2 (wstat 512, 0x200)
 Failed 11/11 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/toc.t line 17.
+# Looks like your test exited with 2 before it could output anything.
+t/toc.t ..................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 30/30 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/pygmentize.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/pygmentize.t .............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 2/2 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/password.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/password.t ................ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 6/6 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/link-all.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/link-all.t ................ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 2/2 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/questionasker.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/questionasker.t ........... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 16/16 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/security.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/security.t ................ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 2/2 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/permanent-anchors.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/permanent-anchors.t ....... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 25/25 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/default-markup.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/default-markup.t .......... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 60/60 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/usemod-options.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/usemod-options.t .......... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 7/7 subtests 
 Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/static-copy.t line 16.
 # Looks like your test exited with 2 before it could output anything.
 t/static-copy.t ............. 
@@ -674,426 +504,596 @@ Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-l
 t/fieldlist.t ............... 
 Dubious, test returned 2 (wstat 512, 0x200)
 Failed 9/9 subtests 
-Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/mojolicious.t line 20.
-t/mojolicious.t ............. 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/simple-rules.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/simple-rules.t ............ 
 Dubious, test returned 2 (wstat 512, 0x200)
-No subtests run 
+Failed 20/20 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/markup.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/markup.t .................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 59/59 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/dynamic-comments.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/dynamic-comments.t ........ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 11/11 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/despam.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/despam.t .................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 13/13 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/macros.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/macros.t .................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 9/9 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/new.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/new.t ..................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 3/3 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/namespaces.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/namespaces.t .............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 77/77 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/listlocked.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/listlocked.t .............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 3/3 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/raw.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/raw.t ..................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 2/2 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/translations.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/translations.t ............ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 6/6 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/moin.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/moin.t .................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 15/15 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/near-links.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/near-links.t .............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 16/16 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/private-wiki.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/private-wiki.t ............ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 2/2 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/rollback.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/rollback.t ................ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 69/69 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/crumbs.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/crumbs.t .................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 1/1 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/edit-paragraphs.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/edit-paragraphs.t ......... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 56/56 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/summary.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/summary.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 11/11 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/all.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/all.t ..................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 13/13 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/lock-expiration.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/lock-expiration.t ......... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 17/17 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/ban-contributors.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/ban-contributors.t ........ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 21/21 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/links.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/links.t ................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 60/60 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/search.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/search.t .................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 89/89 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/google-search.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/google-search.t ........... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 9/9 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/emailquote.t line 12.
+# Looks like your test exited with 2 before it could output anything.
+t/emailquote.t .............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 4/4 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/setext.t line 19.
+# Looks like your test exited with 2 before it could output anything.
+t/setext.t .................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 12/12 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/gotobar.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/gotobar.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 7/7 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/google-plus-one.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/google-plus-one.t ......... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 2/2 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/creole.t line 17.
+# Looks like your test exited with 2 before it could output anything.
+t/creole.t .................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 111/111 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/gravatar.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/gravatar.t ................ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 16/16 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/markdown-rule.t line 17.
+# Looks like your test exited with 2 before it could output anything.
+t/markdown-rule.t ........... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 34/34 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/journal.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/journal.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 51/51 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/git.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/git.t ..................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 16/16 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/encoding.t line 15.
+# Looks like your test exited with 2 before it could output anything.
+t/encoding.t ................ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 41/41 subtests 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/find.t line 16.
+# Looks like your test exited with 2 before it could output anything.
+t/find.t .................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 18/18 subtests 
 Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/mojolicious-namespaces.t line 20.
 t/mojolicious-namespaces.t .. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+Can't locate t/test.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/mojolicious.t line 20.
+t/mojolicious.t ............. 
 Dubious, test returned 2 (wstat 512, 0x200)
 No subtests run 
 
 Test Summary Report
 -------------------
-t/links.t                 (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 60 tests but ran 0.
-t/xss.t                   (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 7 tests but ran 0.
-t/recaptcha.t             (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 7 tests but ran 0.
-t/server.t                (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 4 tests but ran 0.
-t/meta.t                  (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 27 tests but ran 0.
-t/lock-expiration.t       (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 17 tests but ran 0.
-t/creole.t                (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 111 tests but ran 0.
-t/rc.t                    (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 93 tests but ran 0.
-t/password.t              (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 6 tests but ran 0.
-t/markdown-rule.t         (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 34 tests but ran 0.
-t/gravatar.t              (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 16 tests but ran 0.
-t/ban-contributors.t      (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 21 tests but ran 0.
-t/questionasker.t         (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 16 tests but ran 0.
-t/footer.t                (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 3 tests but ran 0.
-t/revisions.t             (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 23 tests but ran 0.
-t/page-trail.t            (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 9 tests but ran 0.
-t/toc.t                   (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 30 tests but ran 0.
-t/translations.t          (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 6 tests but ran 0.
-t/cookie.t                (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 18 tests but ran 0.
-t/duckduckgo-search.t     (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 9 tests but ran 0.
-t/meta-data.t             (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 5 tests but ran 0.
-t/anchors.t               (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 11 tests but ran 0.
 t/like.t                  (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
   Parse errors: Bad plan.  You planned 17 tests but ran 0.
-t/usemod.t                (Wstat: 512 Tests: 0 Failed: 0)
+t/footer.t                (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 47 tests but ran 0.
-t/pagenames.t             (Wstat: 512 Tests: 0 Failed: 0)
+  Parse errors: Bad plan.  You planned 3 tests but ran 0.
+t/lock-on-creation.t      (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 18 tests but ran 0.
+t/meta.t                  (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 27 tests but ran 0.
+t/journal-rss.t           (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 48 tests but ran 0.
+t/aggregate.t             (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 24 tests but ran 0.
+t/merge.t                 (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 3 tests but ran 0.
+t/server.t                (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
   Parse errors: Bad plan.  You planned 4 tests but ran 0.
-t/htmlcomment.t           (Wstat: 512 Tests: 0 Failed: 0)
+t/diff.t                  (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 6 tests but ran 0.
+  Parse errors: Bad plan.  You planned 25 tests but ran 0.
+t/history.t               (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 37 tests but ran 0.
+t/languages.t             (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 5 tests but ran 0.
+t/irc.t                   (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 5 tests but ran 0.
+t/rc.t                    (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 93 tests but ran 0.
+t/recaptcha.t             (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 7 tests but ran 0.
 t/tags.t                  (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
   Parse errors: Bad plan.  You planned 70 tests but ran 0.
-t/google-search.t         (Wstat: 512 Tests: 0 Failed: 0)
+t/mail.t                  (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 52 tests but ran 0.
+t/fix-encoding.t          (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 22 tests but ran 0.
+t/sidebar.t               (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
   Parse errors: Bad plan.  You planned 9 tests but ran 0.
-t/contributors.t          (Wstat: 512 Tests: 0 Failed: 0)
+t/searchtags.t            (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 6 tests but ran 0.
+t/private-pages.t         (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 29 tests but ran 0.
+t/clusters.t              (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 33 tests but ran 0.
+t/bbcode.t                (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 39 tests but ran 0.
+t/meta-data.t             (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 5 tests but ran 0.
+t/rss.t                   (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 126 tests but ran 0.
+t/markup-and-creole.t     (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 5 tests but ran 0.
+t/upgrade.t               (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 47 tests but ran 0.
+t/ban.t                   (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 23 tests but ran 0.
+t/preview.t               (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 6 tests but ran 0.
+t/htmlcomment.t           (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 6 tests but ran 0.
+t/weblog-3.t              (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 45 tests but ran 0.
+t/default-links.t         (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 63 tests but ran 0.
+t/localnames.t            (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 19 tests but ran 0.
+t/calendar.t              (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 12 tests but ran 0.
+t/include.t               (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 6 tests but ran 0.
+t/upload.t                (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 12 tests but ran 0.
+t/translation-links.t     (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 33 tests but ran 0.
+t/crossbar.t              (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 22 tests but ran 0.
+t/redirection.t           (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 9 tests but ran 0.
+t/sitemap.t               (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 1 tests but ran 0.
+t/page-trail.t            (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 9 tests but ran 0.
+t/tables-long.t           (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 23 tests but ran 0.
+t/upgrade-files.t         (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 11 tests but ran 0.
+t/rollback-extras.t       (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
   Parse errors: Bad plan.  You planned 3 tests but ran 0.
 t/ampersand.t             (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
   Parse errors: Bad plan.  You planned 40 tests but ran 0.
-t/ban.t                   (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 23 tests but ran 0.
-t/merge.t                 (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 3 tests but ran 0.
-t/search-tag.t            (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 8 tests but ran 0.
-t/tables-long.t           (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 23 tests but ran 0.
-t/irc.t                   (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 5 tests but ran 0.
-t/edit.t                  (Wstat: 512 Tests: 0 Failed: 0)
+t/pagenames.t             (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
   Parse errors: Bad plan.  You planned 4 tests but ran 0.
-t/calendar.t              (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 12 tests but ran 0.
-t/default-links.t         (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 63 tests but ran 0.
-t/moin.t                  (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 15 tests but ran 0.
-t/dotfiles.t              (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 4 tests but ran 0.
-t/redirection.t           (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 9 tests but ran 0.
-t/private-pages.t         (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 29 tests but ran 0.
-t/multi-url-spam-block.t  (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 10 tests but ran 0.
-t/aggregate.t             (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 24 tests but ran 0.
-t/translation-links.t     (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 33 tests but ran 0.
-t/rc-pagination.t         (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 42 tests but ran 0.
-t/searchtags.t            (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 6 tests but ran 0.
-t/encoding.t              (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 41 tests but ran 0.
-t/headers.t               (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 13 tests but ran 0.
-t/cache.t                 (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 8 tests but ran 0.
-t/localnames.t            (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 19 tests but ran 0.
-t/permanent-anchors.t     (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 25 tests but ran 0.
-t/git.t                   (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 16 tests but ran 0.
-t/atom.t                  (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 44 tests but ran 0.
-t/near-links.t            (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 16 tests but ran 0.
-t/hr.t                    (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 8 tests but ran 0.
-t/comments.t              (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 43 tests but ran 0.
-t/weblog-3.t              (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 45 tests but ran 0.
-t/clusters.t              (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 33 tests but ran 0.
-t/fix-encoding.t          (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 22 tests but ran 0.
-t/markup.t                (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 59 tests but ran 0.
-t/gotobar.t               (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 7 tests but ran 0.
-t/simple-rules.t          (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 20 tests but ran 0.
-t/search.t                (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 89 tests but ran 0.
-t/usemod-options.t        (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 7 tests but ran 0.
-t/questionmark.t          (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 5 tests but ran 0.
-t/find.t                  (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 18 tests but ran 0.
-t/upload.t                (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 12 tests but ran 0.
-t/markup-and-creole.t     (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 5 tests but ran 0.
-t/journal2.t              (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 8 tests but ran 0.
-t/rollback.t              (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 69 tests but ran 0.
-t/major.t                 (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 60 tests but ran 0.
-t/download.t              (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 13 tests but ran 0.
-t/lock.t                  (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 20 tests but ran 0.
-t/journal3.t              (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 35 tests but ran 0.
-t/summary.t               (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 11 tests but ran 0.
-t/big-brother.t           (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 28 tests but ran 0.
-t/crossbar.t              (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 22 tests but ran 0.
-t/creoleaddition.t        (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 29 tests but ran 0.
-t/css.t                   (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 16 tests but ran 0.
-t/link-all.t              (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 2 tests but ran 0.
-t/languages.t             (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 5 tests but ran 0.
-t/emailquote.t            (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 4 tests but ran 0.
-t/edit-paragraphs.t       (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 56 tests but ran 0.
-t/private-wiki.t          (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 2 tests but ran 0.
-t/load-lang.t             (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 6 tests but ran 0.
-t/history.t               (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 37 tests but ran 0.
-t/conflict.t              (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 26 tests but ran 0.
-t/crumbs.t                (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 1 tests but ran 0.
-t/ban-quick-editors.t     (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 4 tests but ran 0.
-t/logbannedcontent.t      (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 1 tests but ran 0.
-t/rss.t                   (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 126 tests but ran 0.
-t/journal.t               (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 51 tests but ran 0.
-t/pygmentize.t            (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 2 tests but ran 0.
 t/org-mode.t              (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
   Parse errors: Bad plan.  You planned 3 tests but ran 0.
-t/maintain.t              (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 10 tests but ran 0.
-t/raw.t                   (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 2 tests but ran 0.
-t/referrer-tracking.t     (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 12 tests but ran 0.
-t/default-markup.t        (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 60 tests but ran 0.
-t/preview.t               (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 6 tests but ran 0.
-t/image.t                 (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 33 tests but ran 0.
-t/lock-on-creation.t      (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 18 tests but ran 0.
-t/tex.t                   (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 4 tests but ran 0.
-t/subscriberc.t           (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 4 tests but ran 0.
-t/sitemap.t               (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 1 tests but ran 0.
-t/bbcode.t                (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 39 tests but ran 0.
-t/setext.t                (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 12 tests but ran 0.
-t/namespaces.t            (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 77 tests but ran 0.
-t/enclosure.t             (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 11 tests but ran 0.
 t/config-page.t           (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
   Parse errors: Bad plan.  You planned 1 tests but ran 0.
-t/include.t               (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 6 tests but ran 0.
-t/sidebar.t               (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 9 tests but ran 0.
-t/upgrade.t               (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 47 tests but ran 0.
-t/askpage.t               (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 2 tests but ran 0.
-t/all.t                   (Wstat: 512 Tests: 0 Failed: 0)
+t/download.t              (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
   Parse errors: Bad plan.  You planned 13 tests but ran 0.
+t/comments.t              (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 43 tests but ran 0.
+t/xss.t                   (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 7 tests but ran 0.
+t/css.t                   (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 16 tests but ran 0.
+t/cache.t                 (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 8 tests but ran 0.
+t/subscriberc.t           (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 4 tests but ran 0.
+t/contributors.t          (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 3 tests but ran 0.
+t/cookie.t                (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 18 tests but ran 0.
+t/questionmark.t          (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 5 tests but ran 0.
+t/atom.t                  (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 44 tests but ran 0.
+t/dotfiles.t              (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 4 tests but ran 0.
+t/edit.t                  (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 4 tests but ran 0.
+t/big-brother.t           (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 28 tests but ran 0.
+t/referrer-tracking.t     (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 12 tests but ran 0.
+t/hr.t                    (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 8 tests but ran 0.
 t/drafts.t                (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
   Parse errors: Bad plan.  You planned 26 tests but ran 0.
-t/portrait-support.t      (Wstat: 512 Tests: 0 Failed: 0)
+t/load-lang.t             (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 18 tests but ran 0.
-t/diff.t                  (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 25 tests but ran 0.
-t/security.t              (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 2 tests but ran 0.
-t/listlocked.t            (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 3 tests but ran 0.
-t/tables.t                (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 10 tests but ran 0.
-t/rollback-extras.t       (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 3 tests but ran 0.
-t/journal-rss.t           (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 48 tests but ran 0.
+  Parse errors: Bad plan.  You planned 6 tests but ran 0.
 t/google-custom-search.t  (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
   Parse errors: Bad plan.  You planned 3 tests but ran 0.
-t/upgrade-files.t         (Wstat: 512 Tests: 0 Failed: 0)
+t/usemod.t                (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 47 tests but ran 0.
+t/search-tag.t            (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 8 tests but ran 0.
+t/ban-quick-editors.t     (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 4 tests but ran 0.
+t/tables.t                (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 10 tests but ran 0.
+t/lock.t                  (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 20 tests but ran 0.
+t/conflict.t              (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 26 tests but ran 0.
+t/askpage.t               (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 2 tests but ran 0.
+t/portrait-support.t      (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 18 tests but ran 0.
+t/headers.t               (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 13 tests but ran 0.
+t/enclosure.t             (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
   Parse errors: Bad plan.  You planned 11 tests but ran 0.
 t/surge-protection.t      (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
   Parse errors: Bad plan.  You planned 7 tests but ran 0.
-t/mail.t                  (Wstat: 512 Tests: 0 Failed: 0)
+t/maintain.t              (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 52 tests but ran 0.
-t/google-plus-one.t       (Wstat: 512 Tests: 0 Failed: 0)
+  Parse errors: Bad plan.  You planned 10 tests but ran 0.
+t/logbannedcontent.t      (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 2 tests but ran 0.
-t/despam.t                (Wstat: 512 Tests: 0 Failed: 0)
+  Parse errors: Bad plan.  You planned 1 tests but ran 0.
+t/revisions.t             (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 13 tests but ran 0.
-t/new.t                   (Wstat: 512 Tests: 0 Failed: 0)
+  Parse errors: Bad plan.  You planned 23 tests but ran 0.
+t/rc-pagination.t         (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 3 tests but ran 0.
-t/macros.t                (Wstat: 512 Tests: 0 Failed: 0)
+  Parse errors: Bad plan.  You planned 42 tests but ran 0.
+t/multi-url-spam-block.t  (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 10 tests but ran 0.
+t/image.t                 (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 33 tests but ran 0.
+t/journal3.t              (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 35 tests but ran 0.
+t/major.t                 (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 60 tests but ran 0.
+t/creoleaddition.t        (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 29 tests but ran 0.
+t/journal2.t              (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 8 tests but ran 0.
+t/tex.t                   (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 4 tests but ran 0.
+t/duckduckgo-search.t     (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
   Parse errors: Bad plan.  You planned 9 tests but ran 0.
-t/dynamic-comments.t      (Wstat: 512 Tests: 0 Failed: 0)
+t/anchors.t               (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
   Parse errors: Bad plan.  You planned 11 tests but ran 0.
+t/toc.t                   (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 30 tests but ran 0.
+t/pygmentize.t            (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 2 tests but ran 0.
+t/password.t              (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 6 tests but ran 0.
+t/link-all.t              (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 2 tests but ran 0.
+t/questionasker.t         (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 16 tests but ran 0.
+t/security.t              (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 2 tests but ran 0.
+t/permanent-anchors.t     (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 25 tests but ran 0.
+t/default-markup.t        (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 60 tests but ran 0.
+t/usemod-options.t        (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 7 tests but ran 0.
 t/static-copy.t           (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
   Parse errors: Bad plan.  You planned 38 tests but ran 0.
 t/fieldlist.t             (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
   Parse errors: Bad plan.  You planned 9 tests but ran 0.
-t/mojolicious.t           (Wstat: 512 Tests: 0 Failed: 0)
+t/simple-rules.t          (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
-  Parse errors: No plan found in TAP output
+  Parse errors: Bad plan.  You planned 20 tests but ran 0.
+t/markup.t                (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 59 tests but ran 0.
+t/dynamic-comments.t      (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 11 tests but ran 0.
+t/despam.t                (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 13 tests but ran 0.
+t/macros.t                (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 9 tests but ran 0.
+t/new.t                   (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 3 tests but ran 0.
+t/namespaces.t            (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 77 tests but ran 0.
+t/listlocked.t            (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 3 tests but ran 0.
+t/raw.t                   (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 2 tests but ran 0.
+t/translations.t          (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 6 tests but ran 0.
+t/moin.t                  (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 15 tests but ran 0.
+t/near-links.t            (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 16 tests but ran 0.
+t/private-wiki.t          (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 2 tests but ran 0.
+t/rollback.t              (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 69 tests but ran 0.
+t/crumbs.t                (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 1 tests but ran 0.
+t/edit-paragraphs.t       (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 56 tests but ran 0.
+t/summary.t               (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 11 tests but ran 0.
+t/all.t                   (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 13 tests but ran 0.
+t/lock-expiration.t       (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 17 tests but ran 0.
+t/ban-contributors.t      (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 21 tests but ran 0.
+t/links.t                 (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 60 tests but ran 0.
+t/search.t                (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 89 tests but ran 0.
+t/google-search.t         (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 9 tests but ran 0.
+t/emailquote.t            (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 4 tests but ran 0.
+t/setext.t                (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 12 tests but ran 0.
+t/gotobar.t               (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 7 tests but ran 0.
+t/google-plus-one.t       (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 2 tests but ran 0.
+t/creole.t                (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 111 tests but ran 0.
+t/gravatar.t              (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 16 tests but ran 0.
+t/markdown-rule.t         (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 34 tests but ran 0.
+t/journal.t               (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 51 tests but ran 0.
+t/git.t                   (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 16 tests but ran 0.
+t/encoding.t              (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 41 tests but ran 0.
+t/find.t                  (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 18 tests but ran 0.
 t/mojolicious-namespaces.t (Wstat: 512 Tests: 0 Failed: 0)
   Non-zero exit status: 2
   Parse errors: No plan found in TAP output
-Files=136, Tests=0,  0 wallclock secs ( 0.24 usr  0.11 sys +  3.20 cusr  0.24 csys =  3.79 CPU)
+t/mojolicious.t           (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+Files=136, Tests=0,  1 wallclock secs ( 0.28 usr  0.09 sys +  3.31 cusr  0.19 csys =  3.87 CPU)
 Result: FAIL
 Makefile:61: recipe for target 'test' failed
 make: *** [test] Error 1
