@@ -1,7 +1,7 @@
 prove t/setup.pl
 t/setup.pl .. ok
 All tests successful.
-Files=1, Tests=1,  0 wallclock secs ( 0.02 usr  0.00 sys +  0.08 cusr  0.02 csys =  0.12 CPU)
+Files=1, Tests=1,  1 wallclock secs ( 0.02 usr  0.00 sys +  0.04 cusr  0.02 csys =  0.08 CPU)
 Result: PASS
 prove --jobs=8 --state=slow,save t
 # Waiting for 28s
@@ -14,163 +14,225 @@ sh: diff: No such file or directory
 t/conflict.t ................ ok
 t/namespaces.t .............. ok
 t/rss.t ..................... ok
-t/meta.t .................... ok
+t/static-copy.t ............. ok
 t/journal-rss.t ............. ok
 t/merge.t ................... ok
-t/localnames.t .............. ok
 t/ban-quick-editors.t ....... ok
-t/ampersand.t ............... ok
-t/search.t .................. ok
-t/translation-links.t ....... ok
-t/sort.t .................... ok
-t/static-copy.t ............. ok
-t/tags.t .................... ok
-t/journal3.t ................ ok
-t/edit-paragraphs.t ......... ok
-t/ban-contributors.t ........ ok
 t/clusters.t ................ ok
+t/ban-contributors.t ........ ok
+t/search.t .................. ok
 t/journal.t ................. ok
+t/sort.t .................... ok
+t/edit-paragraphs.t ......... ok
+t/tags.t .................... ok
+t/translation-links.t ....... ok
 t/major.t ................... ok
-t/rollback.t ................ ok
-t/rc.t ...................... ok
-t/server.t .................. ok
 t/surge-protection.t ........ ok
-t/despam.t .................. ok
-t/ban.t ..................... ok
-t/include.t ................. ok
-[Fri Jul 13 01:25:39 2018] [info] Listening at "http://127.0.0.1:39060"
-[Fri Jul 13 01:25:40 2018] [debug] GET "/wiki"
-[Fri Jul 13 01:25:40 2018] [debug] Routing to a callback
-t/hr.t ...................... ok
-[Fri Jul 13 01:25:40 2018] [debug] [CGI:CODE(0x557f31b9e3c0):25571] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
-[Fri Jul 13 01:25:40 2018] [debug] 200 OK (0.076868s, 13.009/s)
-[Fri Jul 13 01:25:41 2018] [debug] OPTIONS "/wiki/dav/"
-[Fri Jul 13 01:25:41 2018] [debug] Routing to a callback
-[Fri Jul 13 01:25:41 2018] [debug] [CGI:CODE(0x557f31b9e3c0):25581] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
-[Fri Jul 13 01:25:41 2018] [debug] 200 OK (0.029043s, 34.432/s)
-t/crossbar.t ................ ok
-t/like.t .................... ok
-t/webdav.t .................. ok
-t/fix-encoding.t ............ ok
+t/summary.t ................. ok
 t/mail.t .................... ok
-t/revisions.t ............... ok
-t/questionasker.t ........... ok
-t/private-pages.t ........... ok
-t/exclamation-mark.t ........ ok
-t/permanent-anchors.t ....... ok
 t/weblog-3.t ................ ok
-t/dynamic-comments.t ........ ok
-t/cookie.t .................. ok
-t/headers.t ................. ok
-t/sidebar.t ................. ok
-t/upgrade.t ................. ok
 t/diff.t .................... ok
+t/ban.t ..................... ok
+t/rollback.t ................ ok
+t/crossbar.t ................ ok
+t/permanent-anchors.t ....... ok
+t/rc.t ...................... ok
+t/hr.t ...................... ok
+t/exclamation-mark.t ........ ok
+[Fri Jul 13 01:26:57 2018] [info] Listening at "http://127.0.0.1:20645"
+[Fri Jul 13 01:26:59 2018] [debug] GET "/wiki"
+[Fri Jul 13 01:26:59 2018] [debug] Routing to a callback
+[Fri Jul 13 01:26:59 2018] [debug] [CGI:CODE(0x5596042663c0):29301] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
+[Fri Jul 13 01:26:59 2018] [debug] 200 OK (0.122413s, 8.169/s)
+t/toc.t ..................... ok
+[Fri Jul 13 01:26:59 2018] [debug] OPTIONS "/wiki/dav/"
+[Fri Jul 13 01:26:59 2018] [debug] Routing to a callback
+[Fri Jul 13 01:26:59 2018] [debug] [CGI:CODE(0x5596042663c0):29304] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
+[Fri Jul 13 01:26:59 2018] [debug] 200 OK (0.029596s, 33.788/s)
+t/private-pages.t ........... ok
+t/webdav.t .................. ok
+t/meta.t .................... ok
+t/image.t ................... ok
+t/upgrade.t ................. ok
+t/questionasker.t ........... ok
+t/revisions.t ............... ok
+t/like.t .................... ok
+t/despam.t .................. ok
+t/journal3.t ................ ok
+t/localnames.t .............. ok
+t/sidebar.t ................. ok
 t/all.t ..................... ok
 t/links.t ................... ok
+t/fix-encoding.t ............ ok
+t/ampersand.t ............... ok
 t/near-links.t .............. ok
-Unknown option: address
-Error in command line arguments
-t/summary.t ................. ok
-[Fri Jul 13 01:25:48 2018] gopher-server.t: Cannot construct client socket: Connection refused at t/gopher-server.t line 79.
-t/gopher-server.t ........... 
-Dubious, test returned 111 (wstat 28416, 0x6f00)
-No subtests run 
-t/banned-regexps.t .......... ok
-t/toc.t ..................... ok
-t/image.t ................... ok
-t/atom.t .................... ok
-t/aggregate.t ............... ok
-t/calendar.t ................ ok
-t/journal2.t ................ ok
-t/multi-url-spam-block.t .... ok
-t/portrait-support.t ........ ok
 t/lock-on-creation.t ........ ok
+t/multi-url-spam-block.t .... ok
+t/drafts.t .................. ok
+t/atom.t .................... ok
+t/portrait-support.t ........ ok
+t/dynamic-comments.t ........ ok
+t/include.t ................. ok
+t/download.t ................ ok
+t/journal2.t ................ ok
+t/banned-regexps.t .......... ok
+t/calendar.t ................ ok
+t/aggregate.t ............... ok
+[Fri Jul 13 01:27:08 2018] [info] Wiki data dir is ./test-data-426
+[Fri Jul 13 01:27:08 2018] [info] Running ./wiki.pl
+[Fri Jul 13 01:27:08 2018] [info] PID 30076
+[Fri Jul 13 01:27:08 2018] [info] Linking to localhost
+[Fri Jul 13 01:27:08 2018] [info] Listening on port 46206
+[Fri Jul 13 01:27:10 2018] [debug] Selector: 
+[Fri Jul 13 01:27:10 2018] [info] Serving main menu
+[Fri Jul 13 01:27:10 2018] [debug] Done
+t/server.t .................. ok
+t/headers.t ................. ok
+t/cookie.t .................. ok
+t/git.t ..................... ok
+t/creole.t .................. ok
+[Fri Jul 13 01:27:10 2018] [debug] Selector: Alex/menu
+[Fri Jul 13 01:27:10 2018] [info] Serving text page menu for Alex
+[Fri Jul 13 01:27:10 2018] [debug] Done
+[Fri Jul 13 01:27:10 2018] [debug] Selector: Alex
+[Fri Jul 13 01:27:10 2018] [info] Serving Alex as text
+[Fri Jul 13 01:27:10 2018] [debug] Done
+[Fri Jul 13 01:27:10 2018] [debug] Selector: Alex/html
+[Fri Jul 13 01:27:10 2018] [info] Serving Alex as HTML
+[Fri Jul 13 01:27:10 2018] [debug] Done
+[Fri Jul 13 01:27:10 2018] [debug] Selector: Friends/tag
+[Fri Jul 13 01:27:10 2018] [info] Serving tag Friends
+[Fri Jul 13 01:27:10 2018] [debug] Done
+[Fri Jul 13 01:27:10 2018] [debug] Selector: Day/tag
+[Fri Jul 13 01:27:10 2018] [info] Serving tag Day
+[Fri Jul 13 01:27:10 2018] [debug] Done
+[Fri Jul 13 01:27:10 2018] [debug] Selector: do/match	2017
+[Fri Jul 13 01:27:10 2018] [info] Serving pages matching 2017
+[Fri Jul 13 01:27:10 2018] [debug] Done
+[Fri Jul 13 01:27:10 2018] [debug] Selector: do/search	tag:day
+[Fri Jul 13 01:27:10 2018] [info] Serving search result for tag:day
+[Fri Jul 13 01:27:10 2018] [debug] Done
+[Fri Jul 13 01:27:10 2018] [debug] Selector: do/rc
+[Fri Jul 13 01:27:10 2018] [info] Serving recent changes
+[Fri Jul 13 01:27:10 2018] [debug] Done
+[Fri Jul 13 01:27:10 2018] [debug] Selector: do/rc/showedits
+[Fri Jul 13 01:27:10 2018] [info] Serving recent changes including minor changes
+[Fri Jul 13 01:27:10 2018] [debug] Done
+[Fri Jul 13 01:27:10 2018] [debug] Selector: Friends/history
+[Fri Jul 13 01:27:10 2018] [info] Serving history of Friends
+[Fri Jul 13 01:27:10 2018] [debug] Done
+[Fri Jul 13 01:27:10 2018] [debug] Selector: Friends/1/menu
+[Fri Jul 13 01:27:10 2018] [info] Serving text page menu for Friends/1
+[Fri Jul 13 01:27:10 2018] [debug] Done
+[Fri Jul 13 01:27:10 2018] [debug] Selector: Friends/1
+[Fri Jul 13 01:27:10 2018] [info] Serving Friends as text
+[Fri Jul 13 01:27:10 2018] [debug] Done
+[Fri Jul 13 01:27:10 2018] [debug] Selector: Friends/1/html
+[Fri Jul 13 01:27:10 2018] [info] Serving Friends as HTML
+[Fri Jul 13 01:27:10 2018] [debug] Done
+[Fri Jul 13 01:27:10 2018] [debug] Selector: Haiku/write/text
+[Fri Jul 13 01:27:10 2018] [info] Posting 76 characters to page Haiku
+[Fri Jul 13 01:27:10 2018] [debug] Done
+[Fri Jul 13 01:27:10 2018] [debug] Selector: Haiku
+[Fri Jul 13 01:27:10 2018] [info] Serving Haiku as text
+[Fri Jul 13 01:27:10 2018] [debug] Done
+[Fri Jul 13 01:27:10 2018] [debug] Selector: Haiku/write/text
+[Fri Jul 13 01:27:10 2018] [info] Posting 125 characters to page Haiku
+[Fri Jul 13 01:27:10 2018] [debug] Done
+[Fri Jul 13 01:27:10 2018] [debug] Selector: Haiku
+[Fri Jul 13 01:27:10 2018] [info] Serving Haiku as text
+[Fri Jul 13 01:27:10 2018] [debug] Done
+[Fri Jul 13 01:27:10 2018] [debug] Selector: Haiku/history
+[Fri Jul 13 01:27:10 2018] [info] Serving history of Haiku
+[Fri Jul 13 01:27:10 2018] [debug] Done
+[Fri Jul 13 01:27:10 2018] [debug] Selector: Picture
+[Fri Jul 13 01:27:10 2018] [info] Serving Picture as file
+[Fri Jul 13 01:27:10 2018] [debug] Done
+[Fri Jul 13 01:27:10 2018] [debug] Selector: PictureCopy/write/file
+[Fri Jul 13 01:27:10 2018] [info] Posting 67 bytes of application/octet-stream to page PictureCopy
+[Fri Jul 13 01:27:10 2018] [debug] Done
+[Fri Jul 13 01:27:10 2018] [debug] Selector: PictureCopy/image/png/write/file
+[Fri Jul 13 01:27:10 2018] [info] Posting 67 bytes of image/png to page PictureCopy
+[Fri Jul 13 01:27:10 2018] [debug] Done
+[Fri Jul 13 01:27:10 2018] [debug] Selector: PictureCopy
+[Fri Jul 13 01:27:10 2018] [info] Serving PictureCopy as file
+[Fri Jul 13 01:27:10 2018] [debug] Done
+t/gopher-server.t ........... ok
+t/search-tag.t .............. ok
+t/find.t .................... ok
+t/lock.t .................... ok
+t/xss.t ..................... ok
+t/upload.t .................. ok
 t/password.t ................ ok
 t/cache.t ................... ok
-t/creole.t .................. ok
-t/download.t ................ ok
-t/git.t ..................... ok
-t/drafts.t .................. ok
-t/gravatar.t ................ ok
-t/xss.t ..................... ok
 t/css.t ..................... ok
-t/search-tag.t .............. ok
-t/upload.t .................. ok
-t/preview.t ................. ok
-t/find.t .................... ok
-t/history.t ................. ok
-t/lock.t .................... ok
-t/contributors.t ............ ok
 t/redirection.t ............. ok
+t/history.t ................. ok
+t/crumbs.t .................. ok
+t/preview.t ................. ok
+t/enclosure.t ............... ok
+t/contributors.t ............ ok
+t/searchtags.t .............. ok
+t/recaptcha.t ............... ok
+t/listlocked.t .............. ok
+t/macros.t .................. ok
 t/pagenames.t ............... ok
 t/questionmark.t ............ ok
-t/macros.t .................. ok
-t/tables-long.t ............. ok
-t/enclosure.t ............... ok
-t/crumbs.t .................. ok
-t/searchtags.t .............. ok
-t/listlocked.t .............. ok
-t/recaptcha.t ............... ok
-t/meta-data.t ............... ok
+t/gravatar.t ................ ok
 t/simple-rules.t ............ ok
+t/meta-data.t ............... ok
+t/dotfiles.t ................ ok
+t/tables-long.t ............. ok
 t/load-lang.t ............... ok
 t/default-links.t ........... ok
-t/default-markup.t .......... ok
 t/gotobar.t ................. ok
-t/dotfiles.t ................ ok
-t/rc-pagination.t ........... ok
-t/link-all.t ................ ok
-t/sitemap.t ................. ok
+t/creationdate.t ............ ok
+t/private-wiki.t ............ ok
+t/page-trail.t .............. ok
 t/google-custom-search.t .... ok
 t/maintain.t ................ ok
-t/askpage.t ................. ok
-t/page-trail.t .............. ok
-t/translations.t ............ ok
-t/creationdate.t ............ ok
-t/tex.t ..................... ok
-t/private-wiki.t ............ ok
-t/new.t ..................... ok
-t/bbcode.t .................. ok
+t/rc-pagination.t ........... ok
+t/default-markup.t .......... ok
 t/upgrade-files.t ........... ok
-t/raw.t ..................... ok
-t/config-page.t ............. ok
-t/google-search.t ........... ok
-t/duckduckgo-search.t ....... ok
-t/google-plus-one.t ......... ok
+t/askpage.t ................. ok
+t/link-all.t ................ ok
+t/new.t ..................... ok
+t/sitemap.t ................. ok
+t/translations.t ............ ok
 t/anchors.t ................. ok
-t/footer.t .................. ok
-t/referrer-tracking.t ....... ok
-t/logbannedcontent.t ........ ok
+t/bbcode.t .................. ok
+t/tex.t ..................... ok
+t/raw.t ..................... ok
+t/google-plus-one.t ......... ok
+t/config-page.t ............. ok
 t/edit.t .................... ok
+t/logbannedcontent.t ........ ok
 t/security.t ................ ok
+t/referrer-tracking.t ....... ok
+t/duckduckgo-search.t ....... ok
+t/google-search.t ........... ok
 t/markup.t .................. ok
-t/markdown-rule.t ........... ok
-t/pygmentize.t .............. ok
 t/usemod.t .................. ok
 t/subscriberc.t ............. ok
-t/creoleaddition.t .......... ok
-t/rollback-extras.t ......... ok
-t/usemod-options.t .......... ok
 t/markup-and-creole.t ....... ok
-t/org-mode.t ................ ok
-t/tables.t .................. ok
+t/markdown-rule.t ........... ok
+t/footer.t .................. ok
+t/rollback-extras.t ......... ok
 t/moin.t .................... ok
-t/fieldlist.t ............... ok
+t/pygmentize.t .............. ok
+t/creoleaddition.t .......... ok
+t/tables.t .................. ok
 t/setext.t .................. ok
+t/irc.t ..................... ok
+t/fieldlist.t ............... ok
+t/usemod-options.t .......... ok
+t/emailquote.t .............. ok
+t/org-mode.t ................ ok
 t/htmlcomment.t ............. ok
 t/languages.t ............... ok
-t/irc.t ..................... ok
-t/emailquote.t .............. ok
 t/mojolicious-namespaces.t .. ok
 t/mojolicious.t ............. ok
 t/lock-expiration.t ......... ok
-
-Test Summary Report
--------------------
-t/gopher-server.t         (Wstat: 28416 Tests: 0 Failed: 0)
-  Non-zero exit status: 111
-  Parse errors: No plan found in TAP output
-Files=142, Tests=3022, 71 wallclock secs ( 0.70 usr  0.16 sys + 186.93 cusr 14.74 csys = 202.53 CPU)
-Result: FAIL
-Makefile:61: recipe for target 'test' failed
-make: *** [test] Error 1
+All tests successful.
+Files=142, Tests=3073, 71 wallclock secs ( 0.71 usr  0.14 sys + 187.68 cusr 15.23 csys = 203.76 CPU)
+Result: PASS
