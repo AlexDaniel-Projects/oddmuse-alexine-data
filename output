@@ -1,7 +1,7 @@
 prove t/setup.pl
 t/setup.pl .. ok
 All tests successful.
-Files=1, Tests=1,  0 wallclock secs ( 0.02 usr  0.00 sys +  0.04 cusr  0.02 csys =  0.08 CPU)
+Files=1, Tests=1,  1 wallclock secs ( 0.02 usr  0.00 sys +  0.08 cusr  0.03 csys =  0.13 CPU)
 Result: PASS
 prove --jobs=8 --state=slow,save t
 # Waiting for 28s
@@ -15,231 +15,146 @@ t/conflict.t ................ ok
 t/namespaces.t .............. ok
 t/rss.t ..................... ok
 t/static-copy.t ............. ok
-t/journal-rss.t ............. ok
 t/merge.t ................... ok
+t/journal-rss.t ............. ok
 t/ban-quick-editors.t ....... ok
-t/weblog-3.t ................ ok
-t/crossbar.t ................ ok
+t/mail.t .................... ok
+t/fix-encoding.t ............ ok
+t/ban-contributors.t ........ ok
 t/search.t .................. ok
-t/edit-paragraphs.t ......... ok
 t/sort.t .................... ok
 t/journal.t ................. ok
-t/ban-contributors.t ........ ok
-t/rc.t ...................... ok
-t/ban.t ..................... ok
-t/surge-protection.t ........ ok
+t/edit-paragraphs.t ......... ok
+t/clusters.t ................ ok
+t/tags.t .................... ok
 t/translation-links.t ....... ok
 t/major.t ................... ok
-t/clusters.t ................ ok
-t/meta.t .................... ok
-t/rollback.t ................ ok
-t/tags.t .................... ok
+t/surge-protection.t ........ ok
 t/localnames.t .............. ok
-t/ampersand.t ............... ok
-t/like.t .................... ok
-t/revisions.t ............... ok
-t/journal3.t ................ ok
-t/despam.t .................. ok
-[Fri Jul 13 00:34:02 2018] [info] Listening at "http://127.0.0.1:42958"
-[Fri Jul 13 00:34:04 2018] [debug] GET "/wiki"
-[Fri Jul 13 00:34:04 2018] [debug] Routing to a callback
-[Fri Jul 13 00:34:04 2018] [debug] [CGI:CODE(0x563bc2ddc3c0):5624] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
-[Fri Jul 13 00:34:04 2018] [debug] 200 OK (0.097032s, 10.306/s)
-t/fix-encoding.t ............ ok
-[Fri Jul 13 00:34:04 2018] [debug] OPTIONS "/wiki/dav/"
-[Fri Jul 13 00:34:04 2018] [debug] Routing to a callback
-[Fri Jul 13 00:34:04 2018] [debug] [CGI:CODE(0x563bc2ddc3c0):5628] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
-[Fri Jul 13 00:34:04 2018] [debug] 200 OK (0.030148s, 33.170/s)
-t/questionasker.t ........... ok
-t/mail.t .................... ok
-t/webdav.t .................. ok
-t/private-pages.t ........... ok
 t/diff.t .................... ok
-t/near-links.t .............. ok
-t/all.t ..................... ok
-t/sidebar.t ................. ok
-t/upgrade.t ................. ok
-t/permanent-anchors.t ....... ok
+t/rollback.t ................ ok
+t/ban.t ..................... ok
+t/private-pages.t ........... ok
+t/despam.t .................. ok
+t/journal3.t ................ ok
 t/hr.t ...................... ok
-t/summary.t ................. ok
+t/ampersand.t ............... ok
+t/permanent-anchors.t ....... ok
+t/meta.t .................... ok
+[Fri Jul 13 00:35:18 2018] [info] Listening at "http://127.0.0.1:44236"
+[Fri Jul 13 00:35:19 2018] [debug] GET "/wiki"
+[Fri Jul 13 00:35:19 2018] [debug] Routing to a callback
+[Fri Jul 13 00:35:19 2018] [debug] [CGI:CODE(0x557c25d893c0):9238] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
+[Fri Jul 13 00:35:19 2018] [debug] 200 OK (0.072521s, 13.789/s)
+t/like.t .................... ok
+t/upgrade.t ................. ok
+[Fri Jul 13 00:35:20 2018] [debug] OPTIONS "/wiki/dav/"
+[Fri Jul 13 00:35:20 2018] [debug] Routing to a callback
+[Fri Jul 13 00:35:20 2018] [debug] [CGI:CODE(0x557c25d893c0):9241] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
+[Fri Jul 13 00:35:20 2018] [debug] 200 OK (0.030407s, 32.887/s)
+t/questionasker.t ........... ok
+t/webdav.t .................. ok
+t/revisions.t ............... ok
+t/rc.t ...................... ok
 t/toc.t ..................... ok
+t/summary.t ................. ok
 t/links.t ................... ok
-t/calendar.t ................ ok
+t/sidebar.t ................. ok
+t/exclamation-mark.t ........ ok
+t/crossbar.t ................ ok
+t/all.t ..................... ok
 t/lock-on-creation.t ........ ok
 t/include.t ................. ok
-t/dynamic-comments.t ........ ok
-t/multi-url-spam-block.t .... ok
+t/calendar.t ................ ok
+t/near-links.t .............. ok
+t/weblog-3.t ................ ok
 t/banned-regexps.t .......... ok
-t/aggregate.t ............... ok
-t/journal2.t ................ ok
+t/multi-url-spam-block.t .... ok
 t/drafts.t .................. ok
+t/journal2.t ................ ok
 t/download.t ................ ok
+t/atom.t .................... ok
+t/aggregate.t ............... ok
 t/portrait-support.t ........ ok
+t/dynamic-comments.t ........ ok
 t/creole.t .................. ok
-t/cookie.t .................. ok
-Undefined subroutine &OddMuse::DoWikiRequest called at stuff/server.pl line 40, <DATA> line 16.
-
-#   Failed test 'There is a wiki running at http://localhost:57579'
-#   at t/atom.t line 35.
-
-#   Failed test 'The server has the atom extension installed'
-#   at t/atom.t line 36.
-#                   'Server closed connection without sending any data back at /usr/share/perl5/Net/HTTP/Methods.pm line 396.
-# '
-#     doesn't match '(?^:\batom\.pl)'
-Undefined subroutine &OddMuse::DoWikiRequest called at stuff/server.pl line 40, <DATA> line 16.
-
-#   Failed test 'posting entry returns member URI '
-#   at t/atom.t line 53.
-# Error on POST http://localhost:57579/atom: 500 Server closed connection without sending any data back
-
-#   Failed test 'get created entry'
-#   at t/atom.t line 57.
-# Error on GET : 400 URL missing
-[Fri Jul 13 00:34:12 2018] atom.t: Can't call method "title" on an undefined value at t/atom.t line 59, <DATA> chunk 1.
-# Looks like you planned 44 tests but ran 9.
-# Looks like you failed 4 tests of 9 run.
-# Looks like your test exited with 255 just after 9.
-t/atom.t .................... 
-Dubious, test returned 255 (wstat 65280, 0xff00)
-Failed 39/44 subtests 
 t/headers.t ................. ok
-t/git.t ..................... ok
-t/search-tag.t .............. ok
-Undefined subroutine &OddMuse::DoWikiRequest called at stuff/server.pl line 40, <DATA> line 16.
-
-#   Failed test 'There is a wiki running at http://localhost:3549'
-#   at t/server.t line 30.
-
-#   Failed test 'It self-identifies as Oddmuse'
-#   at t/server.t line 31.
-#                   'Server closed connection without sending any data back at /usr/share/perl5/Net/HTTP/Methods.pm line 396.
-# '
-#     doesn't match '(?^:Oddmuse)'
-Undefined subroutine &OddMuse::DoWikiRequest called at stuff/server.pl line 40, <DATA> line 16.
-
-#   Failed test 'Page saved'
-#   at t/server.t line 32.
-Undefined subroutine &OddMuse::DoWikiRequest called at stuff/server.pl line 40, <DATA> line 16.
-
-#   Failed test 'Content verified'
-#   at t/server.t line 33.
-#                   'Server closed connection without sending any data back at /usr/share/perl5/Net/HTTP/Methods.pm line 396.
-# '
-#     doesn't match '(?^:Testing)'
-# Looks like you failed 4 tests of 4.
-t/server.t .................. 
-Dubious, test returned 4 (wstat 1024, 0x400)
-Failed 4/4 subtests 
 t/cache.t ................... ok
-t/upload.t .................. ok
-t/password.t ................ ok
-t/xss.t ..................... ok
-t/contributors.t ............ ok
-t/redirection.t ............. ok
-t/find.t .................... ok
-t/enclosure.t ............... ok
 t/image.t ................... ok
-t/preview.t ................. ok
-t/questionmark.t ............ ok
+t/cookie.t .................. ok
+t/git.t ..................... ok
+t/xss.t ..................... ok
+t/server.t .................. ok
+t/upload.t .................. ok
+t/contributors.t ............ ok
+t/password.t ................ ok
+t/find.t .................... ok
+t/search-tag.t .............. ok
 t/css.t ..................... ok
-t/crumbs.t .................. ok
+t/redirection.t ............. ok
+t/enclosure.t ............... ok
 t/history.t ................. ok
-t/pagenames.t ............... ok
-t/lock.t .................... ok
-t/recaptcha.t ............... ok
-t/macros.t .................. ok
-t/listlocked.t .............. ok
-t/tables-long.t ............. ok
-t/gravatar.t ................ ok
-t/searchtags.t .............. ok
+t/crumbs.t .................. ok
 t/simple-rules.t ............ ok
+t/gravatar.t ................ ok
+t/pagenames.t ............... ok
+t/questionmark.t ............ ok
+t/searchtags.t .............. ok
+t/listlocked.t .............. ok
+t/preview.t ................. ok
+t/lock.t .................... ok
+t/macros.t .................. ok
 t/meta-data.t ............... ok
-t/dotfiles.t ................ ok
-t/default-markup.t .......... ok
-t/gotobar.t ................. ok
+t/tables-long.t ............. ok
+t/recaptcha.t ............... ok
 t/default-links.t ........... ok
-
-#   Failed test 'Diese Seite bearbeiten'
-#   at ./t/test.pl line 174.
-#                   'Status: 404 NOT FOUND
-# Cache-control: max-age=10
-# Etag: 1531434856
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Test</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=Test" /><link type="text/css" rel="stylesheet" href="https://oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Test" href="http://localhost/wiki.pl?action=rss;rcidonly=Test" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search"><p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a href="http://localhost/wiki.pl?search=%22Test%22" rel="nofollow" title="Click to search for references to this page">Test</a></h1></div><div class="wrapper"><div class="content browse"><p>This page does not exist, but you can <a class="url http outside" href="http://localhost/wiki.pl?action=edit;id=Test">create it now</a>.</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a accesskey="e" class="edit" href="http://localhost/wiki.pl?action=edit;id=Test" rel="nofollow" title="Click to edit this page">Edit this page</a> <a class="history" href="http://localhost/wiki.pl?action=history;id=Test" rel="nofollow">View other revisions</a> <a class="admin" href="http://localhost/wiki.pl?action=admin;id=Test" rel="nofollow">Administration</a></div></div>
-# </body>
-# </html>
-# '
-#     doesn't match '(?^:Diese Seite bearbeiten)'
-
-#   Failed test 'not Edit this page'
-#   at ./t/test.pl line 194.
-#                   'Status: 404 NOT FOUND
-# Cache-control: max-age=10
-# Etag: 1531434856
-# Content-Type: text/html; charset=utf-8
-# 
-# <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Test</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://localhost/wiki.pl?action=edit;id=Test" /><link type="text/css" rel="stylesheet" href="https://oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki: Test" href="http://localhost/wiki.pl?action=rss;rcidonly=Test" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search"><p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a href="http://localhost/wiki.pl?search=%22Test%22" rel="nofollow" title="Click to search for references to this page">Test</a></h1></div><div class="wrapper"><div class="content browse"><p>This page does not exist, but you can <a class="url http outside" href="http://localhost/wiki.pl?action=edit;id=Test">create it now</a>.</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a accesskey="e" class="edit" href="http://localhost/wiki.pl?action=edit;id=Test" rel="nofollow" title="Click to edit this page">Edit this page</a> <a class="history" href="http://localhost/wiki.pl?action=history;id=Test" rel="nofollow">View other revisions</a> <a class="admin" href="http://localhost/wiki.pl?action=admin;id=Test" rel="nofollow">Administration</a></div></div>
-# </body>
-# </html>
-# '
-#           matches '(?^:Edit this page)'
-# Looks like you failed 2 tests of 6.
-t/load-lang.t ............... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 2/6 subtests 
-t/page-trail.t .............. ok
-t/google-custom-search.t .... ok
-t/askpage.t ................. ok
-t/maintain.t ................ ok
-t/link-all.t ................ ok
+t/load-lang.t ............... ok
+t/dotfiles.t ................ ok
+t/gotobar.t ................. ok
 t/rc-pagination.t ........... ok
-t/private-wiki.t ............ ok
-t/sitemap.t ................. ok
-t/new.t ..................... ok
-t/bbcode.t .................. ok
-t/translations.t ............ ok
+t/google-custom-search.t .... ok
+t/maintain.t ................ ok
+t/page-trail.t .............. ok
+t/default-markup.t .......... ok
 t/creationdate.t ............ ok
+t/new.t ..................... ok
+t/askpage.t ................. ok
+t/private-wiki.t ............ ok
+t/link-all.t ................ ok
+t/translations.t ............ ok
+t/sitemap.t ................. ok
+t/bbcode.t .................. ok
 t/raw.t ..................... ok
-t/tex.t ..................... ok
 t/duckduckgo-search.t ....... ok
+t/tex.t ..................... ok
 t/anchors.t ................. ok
-t/google-plus-one.t ......... ok
-t/config-page.t ............. ok
-t/google-search.t ........... ok
 t/security.t ................ ok
-t/edit.t .................... ok
-t/logbannedcontent.t ........ ok
-t/creoleaddition.t .......... ok
-t/markdown-rule.t ........... ok
-t/usemod-options.t .......... ok
+t/config-page.t ............. ok
+t/google-plus-one.t ......... ok
 t/footer.t .................. ok
+t/edit.t .................... ok
+t/referrer-tracking.t ....... ok
+t/logbannedcontent.t ........ ok
+t/google-search.t ........... ok
 t/markup.t .................. ok
 t/tables.t .................. ok
-t/usemod.t .................. ok
+t/creoleaddition.t .......... ok
+t/pygmentize.t .............. ok
+t/markdown-rule.t ........... ok
+t/subscriberc.t ............. ok
+t/setext.t .................. ok
+t/markup-and-creole.t ....... ok
 t/htmlcomment.t ............. ok
 t/moin.t .................... ok
-t/fieldlist.t ............... ok
-t/referrer-tracking.t ....... ok
-t/pygmentize.t .............. ok
-t/subscriberc.t ............. ok
-t/irc.t ..................... ok
-t/org-mode.t ................ ok
 t/languages.t ............... ok
-t/setext.t .................. ok
-Can't locate t/usemod-1.0.4.pl in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at t/upgrade-files.t line 18.
-# Looks like your test exited with 2 before it could output anything.
-t/upgrade-files.t ........... 
-Dubious, test returned 2 (wstat 512, 0x200)
-Failed 11/11 subtests 
-t/markup-and-creole.t ....... ok
+t/usemod.t .................. ok
 t/emailquote.t .............. ok
+t/fieldlist.t ............... ok
+t/usemod-options.t .......... ok
+t/irc.t ..................... ok
 t/rollback-extras.t ......... ok
-t/exclamation-mark.t ........ ok
-t/mojolicious.t ............. ok
+t/org-mode.t ................ ok
+t/upgrade-files.t ........... ok
 
 #   Failed test '$DataDir FünfWinde exists'
 #   at t/mojolicious-namespaces.t line 107.
@@ -252,7 +167,7 @@ t/mojolicious.t ............. ok
 #   Failed test 'content is similar'
 #   at t/mojolicious-namespaces.t line 114.
 #                   '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki FÃ¼nfWinde: ZÃ¼rich</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://127.0.0.1:36075/wiki/F%c3%83%c2%bcnfWinde?action=edit;id=Z%c3%83%c2%bcrich" /><link type="text/css" rel="stylesheet" href="https://oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki FÃ¼nfWinde" href="http://127.0.0.1:36075/wiki/F%c3%83%c2%bcnfWinde?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki FÃ¼nfWinde: ZÃ¼rich" href="http://127.0.0.1:36075/wiki/F%c3%83%c2%bcnfWinde?action=rss;rcidonly=Z%c3%83%c2%bcrich" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://127.0.0.1:36075/wiki/F%c3%83%c2%bcnfWinde/HomePage">HomePage</a> <a class="local" href="http://127.0.0.1:36075/wiki/F%c3%83%c2%bcnfWinde/RecentChanges">RecentChanges</a> </span><form method="get" action="http://127.0.0.1:36075/wiki/F%c3%83%c2%bcnfWinde" enctype="multipart/form-data" accept-charset="utf-8" class="search"><p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a href="http://127.0.0.1:36075/wiki/F%c3%83%c2%bcnfWinde?search=%22Z%c3%83%c2%bcrich%22" rel="nofollow" title="Click to search for references to this page">ZÃ¼rich</a></h1></div><div class="wrapper"><div class="content browse"><p>This page does not exist, but you can <a class="url http outside" href="http://127.0.0.1:36075/wiki/F%c3%83%c2%bcnfWinde?action=edit;id=Z%c3%83%c2%bcrich">create it now</a>.</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a accesskey="e" class="edit" href="http://127.0.0.1:36075/wiki/F%c3%83%c2%bcnfWinde?action=edit;id=Z%c3%83%c2%bcrich" rel="nofollow" title="Click to edit this page">Edit this page</a> <a class="history" href="http://127.0.0.1:36075/wiki/F%c3%83%c2%bcnfWinde?action=history;id=Z%c3%83%c2%bcrich" rel="nofollow">View other revisions</a> <a class="admin" href="http://127.0.0.1:36075/wiki/F%c3%83%c2%bcnfWinde?action=admin;id=Z%c3%83%c2%bcrich" rel="nofollow">Administration</a></div></div>
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki FÃ¼nfWinde: ZÃ¼rich</title><link rel="alternate" type="application/wiki" title="Edit this page" href="http://127.0.0.1:10878/wiki/F%c3%83%c2%bcnfWinde?action=edit;id=Z%c3%83%c2%bcrich" /><link type="text/css" rel="stylesheet" href="https://oddmuse.org/default.css" /><meta name="robots" content="INDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki FÃ¼nfWinde" href="http://127.0.0.1:10878/wiki/F%c3%83%c2%bcnfWinde?action=rss" /><link rel="alternate" type="application/rss+xml" title="Wiki FÃ¼nfWinde: ZÃ¼rich" href="http://127.0.0.1:10878/wiki/F%c3%83%c2%bcnfWinde?action=rss;rcidonly=Z%c3%83%c2%bcrich" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://127.0.0.1:10878/wiki/F%c3%83%c2%bcnfWinde/HomePage">HomePage</a> <a class="local" href="http://127.0.0.1:10878/wiki/F%c3%83%c2%bcnfWinde/RecentChanges">RecentChanges</a> </span><form method="get" action="http://127.0.0.1:10878/wiki/F%c3%83%c2%bcnfWinde" enctype="multipart/form-data" accept-charset="utf-8" class="search"><p><label for="search">Search:</label> <input type="text" name="search"  size="20" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1><a href="http://127.0.0.1:10878/wiki/F%c3%83%c2%bcnfWinde?search=%22Z%c3%83%c2%bcrich%22" rel="nofollow" title="Click to search for references to this page">ZÃ¼rich</a></h1></div><div class="wrapper"><div class="content browse"><p>This page does not exist, but you can <a class="url http outside" href="http://127.0.0.1:10878/wiki/F%c3%83%c2%bcnfWinde?action=edit;id=Z%c3%83%c2%bcrich">create it now</a>.</p></div><div class="wrapper close"></div></div><div class="footer"><hr /><div class="edit bar"><a accesskey="e" class="edit" href="http://127.0.0.1:10878/wiki/F%c3%83%c2%bcnfWinde?action=edit;id=Z%c3%83%c2%bcrich" rel="nofollow" title="Click to edit this page">Edit this page</a> <a class="history" href="http://127.0.0.1:10878/wiki/F%c3%83%c2%bcnfWinde?action=history;id=Z%c3%83%c2%bcrich" rel="nofollow">View other revisions</a> <a class="admin" href="http://127.0.0.1:10878/wiki/F%c3%83%c2%bcnfWinde?action=admin;id=Z%c3%83%c2%bcrich" rel="nofollow">Administration</a></div></div>
 # </body>
 # </html>
 # '
@@ -261,27 +176,15 @@ t/mojolicious.t ............. ok
 t/mojolicious-namespaces.t .. 
 Dubious, test returned 3 (wstat 768, 0x300)
 Failed 3/25 subtests 
+t/mojolicious.t ............. ok
 t/lock-expiration.t ......... ok
 
 Test Summary Report
 -------------------
-t/atom.t                  (Wstat: 65280 Tests: 9 Failed: 4)
-  Failed tests:  1-2, 8-9
-  Non-zero exit status: 255
-  Parse errors: Bad plan.  You planned 44 tests but ran 9.
-t/server.t                (Wstat: 1024 Tests: 4 Failed: 4)
-  Failed tests:  1-4
-  Non-zero exit status: 4
-t/load-lang.t             (Wstat: 512 Tests: 6 Failed: 2)
-  Failed tests:  5-6
-  Non-zero exit status: 2
-t/upgrade-files.t         (Wstat: 512 Tests: 0 Failed: 0)
-  Non-zero exit status: 2
-  Parse errors: Bad plan.  You planned 11 tests but ran 0.
 t/mojolicious-namespaces.t (Wstat: 768 Tests: 25 Failed: 3)
   Failed tests:  20, 24-25
   Non-zero exit status: 3
-Files=141, Tests=2974, 71 wallclock secs ( 0.69 usr  0.16 sys + 184.54 cusr 15.01 csys = 200.40 CPU)
+Files=141, Tests=3020, 71 wallclock secs ( 0.67 usr  0.18 sys + 182.56 cusr 15.19 csys = 198.60 CPU)
 Result: FAIL
 Makefile:61: recipe for target 'test' failed
 make: *** [test] Error 1
