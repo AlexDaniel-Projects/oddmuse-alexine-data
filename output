@@ -1,7 +1,7 @@
 prove t/setup.pl
 t/setup.pl .. ok
 All tests successful.
-Files=1, Tests=1,  1 wallclock secs ( 0.01 usr  0.00 sys +  0.07 cusr  0.03 csys =  0.11 CPU)
+Files=1, Tests=1,  0 wallclock secs ( 0.02 usr  0.00 sys +  0.08 cusr  0.04 csys =  0.14 CPU)
 Result: PASS
 prove --jobs=8 --state=slow,save t
 # Waiting for 28s
@@ -14,156 +14,156 @@ sh: diff: No such file or directory
 t/conflict.t ................ ok
 t/namespaces.t .............. ok
 t/rss.t ..................... ok
-t/static-copy.t ............. ok
-t/journal-rss.t ............. ok
-t/merge.t ................... ok
-t/ban-quick-editors.t ....... ok
-t/translation-links.t ....... ok
-t/ban-contributors.t ........ ok
-t/search.t .................. ok
-t/journal.t ................. ok
-t/sort.t .................... ok
-t/summary.t ................. ok
-t/atom.t .................... ok
-t/clusters.t ................ ok
-t/edit-paragraphs.t ......... ok
-t/surge-protection.t ........ ok
-t/banned-regexps.t .......... ok
-t/tags.t .................... ok
-t/ban.t ..................... ok
-t/journal3.t ................ ok
-t/major.t ................... ok
-t/rollback.t ................ ok
-t/include.t ................. ok
-t/meta.t .................... ok
-t/rc.t ...................... ok
-t/localnames.t .............. ok
-t/near-links.t .............. ok
-[Fri Jul 13 02:15:02 2018] [info] Listening at "http://127.0.0.1:33832"
-[Fri Jul 13 02:15:04 2018] [debug] GET "/wiki"
-[Fri Jul 13 02:15:04 2018] [debug] Routing to a callback
-[Fri Jul 13 02:15:04 2018] [debug] [CGI:CODE(0x564e00b573c0):10243] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
-[Fri Jul 13 02:15:04 2018] [debug] 200 OK (0.086601s, 11.547/s)
-t/like.t .................... ok
-[Fri Jul 13 02:15:04 2018] [debug] OPTIONS "/wiki/dav/"
-[Fri Jul 13 02:15:04 2018] [debug] Routing to a callback
-[Fri Jul 13 02:15:04 2018] [debug] [CGI:CODE(0x564e00b573c0):10246] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
-[Fri Jul 13 02:15:04 2018] [debug] 200 OK (0.038596s, 25.909/s)
 t/ampersand.t ............... ok
-t/diff.t .................... ok
-t/revisions.t ............... ok
-t/webdav.t .................. ok
+t/merge.t ................... ok
+t/journal-rss.t ............. ok
+t/ban-quick-editors.t ....... ok
+t/upgrade.t ................. ok
+t/static-copy.t ............. ok
+t/sort.t .................... ok
+t/ban-contributors.t ........ ok
+t/fix-encoding.t ............ ok
+t/search.t .................. ok
+t/private-pages.t ........... ok
+t/journal.t ................. ok
+t/rc.t ...................... ok
+t/major.t ................... ok
+t/edit-paragraphs.t ......... ok
 t/mail.t .................... ok
-t/permanent-anchors.t ....... ok
-t/exclamation-mark.t ........ ok
-t/weblog-3.t ................ ok
-t/crossbar.t ................ ok
-t/hr.t ...................... ok
+t/tags.t .................... ok
+t/meta.t .................... ok
+t/rollback.t ................ ok
+t/localnames.t .............. ok
+t/clusters.t ................ ok
+t/surge-protection.t ........ ok
+t/diff.t .................... ok
+t/ban.t ..................... ok
+t/revisions.t ............... ok
 t/despam.t .................. ok
-t/questionasker.t ........... ok
+t/translation-links.t ....... ok
+[Fri Jul 13 02:16:19 2018] [info] Listening at "http://127.0.0.1:16578"
+[Fri Jul 13 02:16:21 2018] [debug] GET "/wiki"
+[Fri Jul 13 02:16:21 2018] [debug] Routing to a callback
+t/like.t .................... ok
+[Fri Jul 13 02:16:21 2018] [debug] [CGI:CODE(0x5588f44533c0):14232] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
+[Fri Jul 13 02:16:21 2018] [debug] 200 OK (0.076247s, 13.115/s)
+t/hr.t ...................... ok
+[Fri Jul 13 02:16:21 2018] [debug] OPTIONS "/wiki/dav/"
+[Fri Jul 13 02:16:21 2018] [debug] Routing to a callback
+[Fri Jul 13 02:16:21 2018] [debug] [CGI:CODE(0x5588f44533c0):14241] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
+[Fri Jul 13 02:16:21 2018] [debug] 200 OK (0.030947s, 32.313/s)
+t/crossbar.t ................ ok
+t/journal3.t ................ ok
+t/webdav.t .................. ok
+t/weblog-3.t ................ ok
 t/toc.t ..................... ok
+t/all.t ..................... ok
 t/sidebar.t ................. ok
+t/exclamation-mark.t ........ ok
+t/questionasker.t ........... ok
 Base class package "Net::Server::Fork" is empty.
     (Perhaps you need to 'use' the module which defines that package first,
     or make that module available in @INC (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base).
  at stuff/gopher-server.pl line 19.
 BEGIN failed--compilation aborted at stuff/gopher-server.pl line 19.
-t/upgrade.t ................. ok
-t/fix-encoding.t ............ ok
-t/private-pages.t ........... ok
-[Fri Jul 13 02:15:11 2018] gopher-server.t: Cannot construct client socket: Connection refused at t/gopher-server.t line 80.
+t/permanent-anchors.t ....... ok
+t/include.t ................. ok
+[Fri Jul 13 02:16:25 2018] gopher-server.t: Cannot construct client socket: Connection refused at t/gopher-server.t line 80.
 t/gopher-server.t ........... 
 Dubious, test returned 111 (wstat 28416, 0x6f00)
 No subtests run 
-t/all.t ..................... ok
 t/lock-on-creation.t ........ ok
-t/calendar.t ................ ok
-t/server.t .................. ok
-t/download.t ................ ok
-t/drafts.t .................. ok
-t/multi-url-spam-block.t .... ok
+t/near-links.t .............. ok
 t/links.t ................... ok
-t/headers.t ................. ok
-t/dynamic-comments.t ........ ok
-t/git.t ..................... ok
-t/journal2.t ................ ok
-t/creole.t .................. ok
 t/portrait-support.t ........ ok
-t/image.t ................... ok
-t/password.t ................ ok
-t/cache.t ................... ok
+t/journal2.t ................ ok
+t/multi-url-spam-block.t .... ok
+t/drafts.t .................. ok
+t/atom.t .................... ok
+t/summary.t ................. ok
 t/cookie.t .................. ok
 t/aggregate.t ............... ok
-t/xss.t ..................... ok
-t/lock.t .................... ok
-t/find.t .................... ok
-t/contributors.t ............ ok
-t/enclosure.t ............... ok
-t/redirection.t ............. ok
+t/download.t ................ ok
+t/server.t .................. ok
+t/creole.t .................. ok
+t/dynamic-comments.t ........ ok
+t/git.t ..................... ok
+t/cache.t ................... ok
+t/banned-regexps.t .......... ok
+t/calendar.t ................ ok
+t/headers.t ................. ok
+t/image.t ................... ok
 t/upload.t .................. ok
-t/search-tag.t .............. ok
-t/macros.t .................. ok
-t/recaptcha.t ............... ok
-t/tables-long.t ............. ok
-t/searchtags.t .............. ok
+t/password.t ................ ok
 t/history.t ................. ok
-t/crumbs.t .................. ok
-t/gravatar.t ................ ok
-t/listlocked.t .............. ok
-t/css.t ..................... ok
-t/questionmark.t ............ ok
-t/simple-rules.t ............ ok
-t/pagenames.t ............... ok
-t/load-lang.t ............... ok
+t/contributors.t ............ ok
+t/lock.t .................... ok
+t/search-tag.t .............. ok
+t/xss.t ..................... ok
 t/preview.t ................. ok
-t/meta-data.t ............... ok
-t/gotobar.t ................. ok
-t/dotfiles.t ................ ok
-t/default-links.t ........... ok
-t/rc-pagination.t ........... ok
-t/page-trail.t .............. ok
+t/gravatar.t ................ ok
+t/redirection.t ............. ok
+t/find.t .................... ok
+t/css.t ..................... ok
+t/crumbs.t .................. ok
+t/enclosure.t ............... ok
+t/questionmark.t ............ ok
+t/searchtags.t .............. ok
+t/macros.t .................. ok
+t/pagenames.t ............... ok
+t/tables-long.t ............. ok
+t/recaptcha.t ............... ok
+t/simple-rules.t ............ ok
 t/default-markup.t .......... ok
+t/listlocked.t .............. ok
+t/meta-data.t ............... ok
+t/load-lang.t ............... ok
+t/default-links.t ........... ok
 t/google-custom-search.t .... ok
-t/private-wiki.t ............ ok
+t/dotfiles.t ................ ok
+t/gotobar.t ................. ok
 t/new.t ..................... ok
-t/link-all.t ................ ok
-t/askpage.t ................. ok
-t/creationdate.t ............ ok
+t/private-wiki.t ............ ok
+t/page-trail.t .............. ok
 t/maintain.t ................ ok
+t/rc-pagination.t ........... ok
+t/askpage.t ................. ok
+t/link-all.t ................ ok
 t/sitemap.t ................. ok
-t/raw.t ..................... ok
-t/anchors.t ................. ok
-t/tex.t ..................... ok
+t/creationdate.t ............ ok
 t/bbcode.t .................. ok
-t/translations.t ............ ok
-t/security.t ................ ok
-t/config-page.t ............. ok
-t/google-plus-one.t ......... ok
-t/duckduckgo-search.t ....... ok
-t/google-search.t ........... ok
 t/upgrade-files.t ........... ok
+t/translations.t ............ ok
+t/google-search.t ........... ok
+t/tex.t ..................... ok
+t/duckduckgo-search.t ....... ok
+t/anchors.t ................. ok
+t/security.t ................ ok
+t/raw.t ..................... ok
+t/google-plus-one.t ......... ok
 t/footer.t .................. ok
-t/referrer-tracking.t ....... ok
-t/edit.t .................... ok
-t/usemod.t .................. ok
+t/config-page.t ............. ok
 t/logbannedcontent.t ........ ok
+t/edit.t .................... ok
+t/referrer-tracking.t ....... ok
 t/markdown-rule.t ........... ok
-t/pygmentize.t .............. ok
 t/subscriberc.t ............. ok
-t/moin.t .................... ok
-t/fieldlist.t ............... ok
-t/markup.t .................. ok
 t/creoleaddition.t .......... ok
+t/markup.t .................. ok
+t/usemod-options.t .......... ok
+t/usemod.t .................. ok
 t/tables.t .................. ok
 t/org-mode.t ................ ok
-t/rollback-extras.t ......... ok
-t/emailquote.t .............. ok
-t/usemod-options.t .......... ok
 t/markup-and-creole.t ....... ok
-t/irc.t ..................... ok
-t/languages.t ............... ok
-t/htmlcomment.t ............. ok
 t/setext.t .................. ok
+t/moin.t .................... ok
+t/pygmentize.t .............. ok
+t/emailquote.t .............. ok
+t/irc.t ..................... ok
+t/htmlcomment.t ............. ok
+t/fieldlist.t ............... ok
+t/languages.t ............... ok
+t/rollback-extras.t ......... ok
 t/mojolicious-namespaces.t .. ok
 t/mojolicious.t ............. ok
 t/lock-expiration.t ......... ok
@@ -173,7 +173,7 @@ Test Summary Report
 t/gopher-server.t         (Wstat: 28416 Tests: 0 Failed: 0)
   Non-zero exit status: 111
   Parse errors: No plan found in TAP output
-Files=142, Tests=3022, 71 wallclock secs ( 0.72 usr  0.12 sys + 188.09 cusr 15.18 csys = 204.11 CPU)
+Files=142, Tests=3022, 71 wallclock secs ( 0.66 usr  0.18 sys + 192.91 cusr 15.79 csys = 209.54 CPU)
 Result: FAIL
 Makefile:61: recipe for target 'test' failed
 make: *** [test] Error 1
