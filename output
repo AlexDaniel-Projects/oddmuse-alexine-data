@@ -1,7 +1,7 @@
 prove t/setup.pl
 t/setup.pl .. ok
 All tests successful.
-Files=1, Tests=1,  0 wallclock secs ( 0.02 usr  0.00 sys +  0.07 cusr  0.03 csys =  0.12 CPU)
+Files=1, Tests=1,  0 wallclock secs ( 0.01 usr  0.01 sys +  0.08 cusr  0.04 csys =  0.14 CPU)
 Result: PASS
 prove --jobs=8 --state=slow,save t
 # Waiting for 27s
@@ -18,166 +18,151 @@ t/static-copy.t ............. ok
 t/journal-rss.t ............. ok
 t/merge.t ................... ok
 t/ban-quick-editors.t ....... ok
-t/edit-paragraphs.t ......... ok
-t/search.t .................. ok
-t/tags.t .................... ok
-t/sort.t .................... ok
-t/ban-contributors.t ........ ok
-t/translation-links.t ....... ok
-t/major.t ................... ok
-# modules/markdown-converter.pl has no "use utf8;" but contains non-ASCII characters in Perl code, eg. "–"
-
-#   Failed test 'utf8 in modules'
-#   at t/meta.t line 71.
-t/ban.t ..................... ok
-t/clusters.t ................ ok
 t/journal.t ................. ok
-# Looks like you failed 1 test of 29.
-t/meta.t .................... 
-Dubious, test returned 1 (wstat 256, 0x100)
-Failed 1/29 subtests 
-	(less 1 skipped subtest: 27 okay)
-t/diff.t .................... ok
-t/ampersand.t ............... ok
-t/despam.t .................. ok
-t/surge-protection.t ........ ok
+t/tags.t .................... ok
+t/search.t .................. ok
+t/translation-links.t ....... ok
+t/sort.t .................... ok
+t/clusters.t ................ ok
+t/major.t ................... ok
+t/ban.t ..................... ok
+t/ban-contributors.t ........ ok
+t/edit-paragraphs.t ......... ok
+t/crossbar.t ................ ok
+t/localnames.t .............. ok
+t/rc.t ...................... ok
 t/rollback.t ................ ok
-t/weblog-3.t ................ ok
+t/meta.t .................... ok
+t/surge-protection.t ........ ok
+t/journal3.t ................ ok
+t/exclamation-mark.t ........ ok
 t/hr.t ...................... ok
 t/like.t .................... ok
-t/journal3.t ................ ok
-t/rc.t ...................... ok
-t/localnames.t .............. ok
-[Fri Nov 16 13:42:40 2018] [info] Listening at "http://127.0.0.1:17161"
-[Fri Nov 16 13:42:42 2018] [debug] GET "/wiki"
-[Fri Nov 16 13:42:42 2018] [debug] Routing to a callback
-[Fri Nov 16 13:42:42 2018] [debug] [CGI:CODE(0x55e4b403e3c0):18241] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
-[Fri Nov 16 13:42:42 2018] [debug] 200 OK (0.083184s, 12.022/s)
-t/exclamation-mark.t ........ ok
-[Fri Nov 16 13:42:42 2018] [debug] OPTIONS "/wiki/dav/"
-[Fri Nov 16 13:42:42 2018] [debug] Routing to a callback
-[Fri Nov 16 13:42:42 2018] [debug] [CGI:CODE(0x55e4b403e3c0):18250] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
-[Fri Nov 16 13:42:42 2018] [debug] 200 OK (0.029884s, 33.463/s)
-t/crossbar.t ................ ok
-t/webdav.t .................. ok
-t/permanent-anchors.t ....... ok
+t/weblog-3.t ................ ok
 t/mail.t .................... ok
-t/upgrade.t ................. ok
-t/links.t ................... ok
-t/sidebar.t ................. ok
+[Fri Nov 16 13:43:57 2018] [info] Listening at "http://127.0.0.1:58392"
+[Fri Nov 16 13:43:59 2018] [debug] GET "/wiki"
+[Fri Nov 16 13:43:59 2018] [debug] Routing to a callback
+[Fri Nov 16 13:43:59 2018] [debug] [CGI:CODE(0x55ee5ecd23c0):21928] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
+[Fri Nov 16 13:43:59 2018] [debug] 200 OK (0.073751s, 13.559/s)
+t/despam.t .................. ok
+t/permanent-anchors.t ....... ok
+[Fri Nov 16 13:43:59 2018] [debug] OPTIONS "/wiki/dav/"
+[Fri Nov 16 13:43:59 2018] [debug] Routing to a callback
+[Fri Nov 16 13:43:59 2018] [debug] [CGI:CODE(0x55ee5ecd23c0):21937] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
+[Fri Nov 16 13:43:59 2018] [debug] 200 OK (0.030486s, 32.802/s)
+t/fix-encoding.t ............ ok
+t/webdav.t .................. ok
+t/ampersand.t ............... ok
+t/diff.t .................... ok
+t/banned-regexps.t .......... ok
 t/questionasker.t ........... ok
 t/private-pages.t ........... ok
+t/sidebar.t ................. ok
 t/revisions.t ............... ok
-t/fix-encoding.t ............ ok
-t/toc.t ..................... ok
-t/banned-regexps.t .......... ok
+t/upgrade.t ................. ok
 t/summary.t ................. ok
 t/include.t ................. ok
+t/links.t ................... ok
+t/toc.t ..................... ok
 t/near-links.t .............. ok
 t/all.t ..................... ok
-t/multi-url-spam-block.t .... ok
-t/dynamic-comments.t ........ ok
-t/lock-on-creation.t ........ ok
-t/drafts.t .................. ok
 t/atom.t .................... ok
-t/calendar.t ................ ok
-t/download.t ................ ok
-t/ban-mixed-scripts.t ....... ok
+t/portrait-support.t ........ ok
 t/journal2.t ................ ok
-t/aggregate.t ............... ok
+t/drafts.t .................. ok
+t/download.t ................ ok
+t/lock-on-creation.t ........ ok
 t/server.t .................. ok
 t/creole.t .................. ok
-t/upload.t .................. ok
-t/cookie.t .................. ok
-t/portrait-support.t ........ ok
 t/git.t ..................... ok
-t/gopher-server.t ........... ok
-t/cache.t ................... ok
-t/markdown-converter.t ...... ok
-t/headers.t ................. ok
-t/gotobar.t ................. ok
+t/calendar.t ................ ok
+t/dynamic-comments.t ........ ok
+t/multi-url-spam-block.t .... ok
 t/image.t ................... ok
-t/xss.t ..................... ok
-t/history.t ................. ok
-t/password.t ................ ok
+t/headers.t ................. ok
+t/aggregate.t ............... ok
+t/cache.t ................... ok
+t/cookie.t .................. ok
 t/search-tag.t .............. ok
-t/find.t .................... ok
-t/redirection.t ............. ok
-t/contributors.t ............ ok
-t/gravatar.t ................ ok
+t/upload.t .................. ok
+t/password.t ................ ok
+t/markdown-converter.t ...... ok
+t/ban-mixed-scripts.t ....... ok
 t/lock.t .................... ok
-t/preview.t ................. ok
-t/enclosure.t ............... ok
-t/pagenames.t ............... ok
-t/questionmark.t ............ ok
+t/xss.t ..................... ok
+t/gopher-server.t ........... ok
+t/contributors.t ............ ok
+t/gotobar.t ................. ok
+t/redirection.t ............. ok
+t/find.t .................... ok
 t/css.t ..................... ok
+t/preview.t ................. ok
+t/history.t ................. ok
 t/crumbs.t .................. ok
-t/simple-rules.t ............ ok
 t/tables-long.t ............. ok
-t/searchtags.t .............. ok
-t/macros.t .................. ok
+t/questionmark.t ............ ok
+t/enclosure.t ............... ok
 t/recaptcha.t ............... ok
-t/search-inclusion.t ........ ok
-t/meta-data.t ............... ok
-t/default-markup.t .......... ok
-t/dotfiles.t ................ ok
-t/load-lang.t ............... ok
+t/gravatar.t ................ ok
+t/simple-rules.t ............ ok
 t/listlocked.t .............. ok
+t/pagenames.t ............... ok
+t/macros.t .................. ok
+t/searchtags.t .............. ok
+t/meta-data.t ............... ok
+t/dotfiles.t ................ ok
+t/default-links.t ........... ok
+t/search-inclusion.t ........ ok
+t/load-lang.t ............... ok
+t/default-markup.t .......... ok
 t/maintain.t ................ ok
+t/sitemap.t ................. ok
+t/page-trail.t .............. ok
+t/link-all.t ................ ok
 t/private-wiki.t ............ ok
 t/translations.t ............ ok
-t/google-custom-search.t .... ok
-t/creationdate.t ............ ok
 t/rc-pagination.t ........... ok
-t/page-trail.t .............. ok
-t/default-links.t ........... ok
-t/askpage.t ................. ok
-t/upgrade-files.t ........... ok
-t/tex.t ..................... ok
-t/sitemap.t ................. ok
-t/new.t ..................... ok
-t/bbcode.t .................. ok
-t/link-all.t ................ ok
-t/google-search.t ........... ok
-t/duckduckgo-search.t ....... ok
-t/config-page.t ............. ok
-t/google-plus-one.t ......... ok
-t/security.t ................ ok
-t/raw.t ..................... ok
-t/footer.t .................. ok
-t/edit.t .................... ok
-t/logbannedcontent.t ........ ok
-t/markdown-rule.t ........... ok
-t/anchors.t ................. ok
+t/google-custom-search.t .... ok
 t/checkbox.t ................ ok
-t/creoleaddition.t .......... ok
+t/creationdate.t ............ ok
+t/upgrade-files.t ........... ok
+t/askpage.t ................. ok
+t/raw.t ..................... ok
+t/new.t ..................... ok
+t/tex.t ..................... ok
+t/config-page.t ............. ok
+t/anchors.t ................. ok
+t/security.t ................ ok
+t/google-plus-one.t ......... ok
+t/duckduckgo-search.t ....... ok
+t/bbcode.t .................. ok
 t/referrer-tracking.t ....... ok
-t/usemod-options.t .......... ok
+t/edit.t .................... ok
+t/markdown-rule.t ........... ok
+t/footer.t .................. ok
+t/logbannedcontent.t ........ ok
+t/google-search.t ........... ok
+t/org-mode.t ................ ok
 t/subscriberc.t ............. ok
+t/usemod.t .................. ok
+t/rollback-extras.t ......... ok
+t/moin.t .................... ok
 t/pygmentize.t .............. ok
-t/fieldlist.t ............... ok
-t/emailquote.t .............. ok
+t/creoleaddition.t .......... ok
+t/usemod-options.t .......... ok
 t/markup.t .................. ok
 t/markup-and-creole.t ....... ok
+t/fieldlist.t ............... ok
 t/htmlcomment.t ............. ok
-t/usemod.t .................. ok
+t/emailquote.t .............. ok
 t/languages.t ............... ok
-t/tables.t .................. ok
 t/setext.t .................. ok
-t/org-mode.t ................ ok
 t/irc.t ..................... ok
-t/moin.t .................... ok
-t/rollback-extras.t ......... ok
+t/tables.t .................. ok
 t/mojolicious-namespaces.t .. ok
 t/mojolicious.t ............. ok
 t/lock-expiration.t ......... ok
-
-Test Summary Report
--------------------
-t/meta.t                  (Wstat: 256 Tests: 29 Failed: 1)
-  Failed test:  4
-  Non-zero exit status: 1
-Files=146, Tests=3173, 71 wallclock secs ( 0.69 usr  0.20 sys + 198.65 cusr 15.46 csys = 215.00 CPU)
-Result: FAIL
-Makefile:61: recipe for target 'test' failed
-make: *** [test] Error 1
+All tests successful.
+Files=146, Tests=3173, 71 wallclock secs ( 0.71 usr  0.18 sys + 202.33 cusr 16.21 csys = 219.43 CPU)
+Result: PASS
