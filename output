@@ -1,10 +1,10 @@
 prove t/setup.pl
 t/setup.pl .. ok
 All tests successful.
-Files=1, Tests=1,  0 wallclock secs ( 0.01 usr  0.00 sys +  0.08 cusr  0.03 csys =  0.12 CPU)
+Files=1, Tests=1,  0 wallclock secs ( 0.01 usr  0.00 sys +  0.05 cusr  0.01 csys =  0.07 CPU)
 Result: PASS
 prove --jobs=8 --state=slow,save t
-# Waiting for 28s
+# Waiting for 27s
 t/encoding.t ................ ok
 t/big-brother.t ............. ok
 t/comments.t ................ ok
@@ -18,151 +18,151 @@ t/static-copy.t ............. ok
 t/journal-rss.t ............. ok
 t/merge.t ................... ok
 t/ban-quick-editors.t ....... ok
-t/revisions.t ............... ok
-t/ban-contributors.t ........ ok
+t/journal.t ................. ok
 t/tags.t .................... ok
 t/search.t .................. ok
 t/sort.t .................... ok
-t/journal.t ................. ok
 t/edit-paragraphs.t ......... ok
+t/translation-links.t ....... ok
+t/major.t ................... ok
 t/ban.t ..................... ok
 t/clusters.t ................ ok
-t/translation-links.t ....... ok
-t/fix-encoding.t ............ ok
-t/exclamation-mark.t ........ ok
-t/weblog-3.t ................ ok
-t/rollback.t ................ ok
-t/despam.t .................. ok
-t/major.t ................... ok
-t/surge-protection.t ........ ok
-t/rc.t ...................... ok
+t/ban-contributors.t ........ ok
 t/meta.t .................... ok
-t/mail.t .................... ok
-t/crossbar.t ................ ok
-t/journal3.t ................ ok
-t/localnames.t .............. ok
-[Sun Dec  9 18:04:04 2018] [info] Listening at "http://127.0.0.1:9182"
-[Sun Dec  9 18:04:05 2018] [debug] GET "/wiki"
-[Sun Dec  9 18:04:05 2018] [debug] Routing to a callback
-t/hr.t ...................... ok
-[Sun Dec  9 18:04:05 2018] [debug] [CGI:CODE(0x557b603933c0):12878] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
-[Sun Dec  9 18:04:05 2018] [debug] 200 OK (0.093121s, 10.739/s)
-t/like.t .................... ok
-[Sun Dec  9 18:04:06 2018] [debug] OPTIONS "/wiki/dav/"
-[Sun Dec  9 18:04:06 2018] [debug] Routing to a callback
-[Sun Dec  9 18:04:06 2018] [debug] [CGI:CODE(0x557b603933c0):12890] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
-[Sun Dec  9 18:04:06 2018] [debug] 200 OK (0.043366s, 23.060/s)
+t/surge-protection.t ........ ok
+t/rollback.t ................ ok
 t/permanent-anchors.t ....... ok
+t/rc.t ...................... ok
+t/localnames.t .............. ok
+t/like.t .................... ok
 t/diff.t .................... ok
-t/webdav.t .................. ok
+t/mail.t .................... ok
 t/ampersand.t ............... ok
+t/journal3.t ................ ok
+t/crossbar.t ................ ok
+[Mon Dec 10 13:42:02 2018] [info] Listening at "http://127.0.0.1:31673"
+[Mon Dec 10 13:42:03 2018] [debug] GET "/wiki"
+[Mon Dec 10 13:42:03 2018] [debug] Routing to a callback
+[Mon Dec 10 13:42:04 2018] [debug] [CGI:CODE(0x55a9324023c0):22679] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
+[Mon Dec 10 13:42:04 2018] [debug] 200 OK (0.125673s, 7.957/s)
+t/questionasker.t ........... ok
+[Mon Dec 10 13:42:04 2018] [debug] OPTIONS "/wiki/dav/"
+[Mon Dec 10 13:42:04 2018] [debug] Routing to a callback
+[Mon Dec 10 13:42:04 2018] [debug] [CGI:CODE(0x55a9324023c0):22698] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
+[Mon Dec 10 13:42:04 2018] [debug] 200 OK (0.035349s, 28.289/s)
+t/private-pages.t ........... ok
+t/webdav.t .................. ok
+t/upgrade.t ................. ok
+t/hr.t ...................... ok
+t/despam.t .................. ok
+t/summary.t ................. ok
 t/toc.t ..................... ok
 t/sidebar.t ................. ok
-t/private-pages.t ........... ok
-t/summary.t ................. ok
-t/questionasker.t ........... ok
-t/upgrade.t ................. ok
-t/lock-on-creation.t ........ ok
-t/include.t ................. ok
-t/near-links.t .............. ok
+t/exclamation-mark.t ........ ok
+t/weblog-3.t ................ ok
+t/fix-encoding.t ............ ok
 t/links.t ................... ok
 t/all.t ..................... ok
 t/banned-regexps.t .......... ok
-t/headers.t ................. ok
-t/drafts.t .................. ok
-t/journal2.t ................ ok
 t/atom.t .................... ok
 t/multi-url-spam-block.t .... ok
+t/revisions.t ............... ok
+t/include.t ................. ok
+t/lock-on-creation.t ........ ok
+t/near-links.t .............. ok
 t/calendar.t ................ ok
 t/aggregate.t ............... ok
-t/markdown-converter.t ...... ok
+t/drafts.t .................. ok
 t/download.t ................ ok
-t/git.t ..................... ok
-t/portrait-support.t ........ ok
-t/cookie.t .................. ok
+t/journal2.t ................ ok
 t/dynamic-comments.t ........ ok
+t/portrait-support.t ........ ok
 t/server.t .................. ok
-t/cache.t ................... ok
+t/git.t ..................... ok
+t/ban-mixed-scripts.t ....... ok
+t/markdown-converter.t ...... ok
 t/creole.t .................. ok
-t/gopher-server.t ........... ok
-t/lock.t .................... ok
-t/password.t ................ ok
+t/upload.t .................. ok
+t/cache.t ................... ok
+t/cookie.t .................. ok
 t/xss.t ..................... ok
 t/image.t ................... ok
-t/ban-mixed-scripts.t ....... ok
-t/upload.t .................. ok
+t/headers.t ................. ok
 t/gotobar.t ................. ok
-t/search-tag.t .............. ok
-t/find.t .................... ok
-t/enclosure.t ............... ok
+t/lock.t .................... ok
+t/password.t ................ ok
 t/contributors.t ............ ok
+t/search-tag.t .............. ok
 t/redirection.t ............. ok
+t/find.t .................... ok
+t/preview.t ................. ok
 t/history.t ................. ok
-t/css.t ..................... ok
+t/enclosure.t ............... ok
 t/gravatar.t ................ ok
+t/css.t ..................... ok
 t/questionmark.t ............ ok
 t/crumbs.t .................. ok
-t/tables-long.t ............. ok
 t/pagenames.t ............... ok
-t/preview.t ................. ok
-t/simple-rules.t ............ ok
-t/macros.t .................. ok
 t/recaptcha.t ............... ok
-t/load-lang.t ............... ok
-t/meta-data.t ............... ok
-t/listlocked.t .............. ok
+t/gopher-server.t ........... ok
+t/simple-rules.t ............ ok
+t/tables-long.t ............. ok
 t/searchtags.t .............. ok
-t/search-inclusion.t ........ ok
-t/default-links.t ........... ok
+t/listlocked.t .............. ok
+t/macros.t .................. ok
+t/meta-data.t ............... ok
 t/dotfiles.t ................ ok
-t/rc-pagination.t ........... ok
-t/page-trail.t .............. ok
-t/google-custom-search.t .... ok
+t/default-links.t ........... ok
 t/maintain.t ................ ok
-t/askpage.t ................. ok
-t/new.t ..................... ok
+t/search-inclusion.t ........ ok
+t/page-trail.t .............. ok
+t/load-lang.t ............... ok
 t/default-markup.t .......... ok
-t/translations.t ............ ok
-t/link-all.t ................ ok
-t/creationdate.t ............ ok
 t/private-wiki.t ............ ok
-t/tex.t ..................... ok
-t/upgrade-files.t ........... ok
+t/creationdate.t ............ ok
+t/google-custom-search.t .... ok
+t/rc-pagination.t ........... ok
+t/link-all.t ................ ok
+t/translations.t ............ ok
+t/askpage.t ................. ok
 t/sitemap.t ................. ok
+t/bbcode.t .................. ok
+t/upgrade-files.t ........... ok
+t/new.t ..................... ok
+t/tex.t ..................... ok
+t/duckduckgo-search.t ....... ok
 t/anchors.t ................. ok
 t/security.t ................ ok
-t/bbcode.t .................. ok
-t/checkbox.t ................ ok
-t/raw.t ..................... ok
-t/duckduckgo-search.t ....... ok
-t/google-search.t ........... ok
 t/config-page.t ............. ok
 t/google-plus-one.t ......... ok
-t/logbannedcontent.t ........ ok
-t/pygmentize.t .............. ok
+t/raw.t ..................... ok
 t/edit.t .................... ok
+t/google-search.t ........... ok
+t/checkbox.t ................ ok
 t/markdown-rule.t ........... ok
-t/usemod.t .................. ok
 t/footer.t .................. ok
-t/subscriberc.t ............. ok
-t/creoleaddition.t .......... ok
-t/referrer-tracking.t ....... ok
-t/setext.t .................. ok
+t/logbannedcontent.t ........ ok
+t/usemod.t .................. ok
 t/markup.t .................. ok
-t/fieldlist.t ............... ok
-t/htmlcomment.t ............. ok
-t/markup-and-creole.t ....... ok
+t/referrer-tracking.t ....... ok
 t/irc.t ..................... ok
-t/moin.t .................... ok
-t/languages.t ............... ok
+t/setext.t .................. ok
+t/creoleaddition.t .......... ok
 t/usemod-options.t .......... ok
+t/fieldlist.t ............... ok
+t/subscriberc.t ............. ok
 t/emailquote.t .............. ok
 t/org-mode.t ................ ok
-t/rollback-extras.t ......... ok
+t/pygmentize.t .............. ok
+t/languages.t ............... ok
 t/tables.t .................. ok
+t/htmlcomment.t ............. ok
+t/markup-and-creole.t ....... ok
+t/moin.t .................... ok
+t/rollback-extras.t ......... ok
 t/mojolicious-namespaces.t .. ok
 t/lock-expiration.t ......... ok
 t/mojolicious.t ............. ok
 All tests successful.
-Files=146, Tests=3186, 72 wallclock secs ( 0.72 usr  0.18 sys + 203.76 cusr 16.10 csys = 220.76 CPU)
+Files=146, Tests=3186, 71 wallclock secs ( 0.72 usr  0.17 sys + 205.56 cusr 16.82 csys = 223.27 CPU)
 Result: PASS
