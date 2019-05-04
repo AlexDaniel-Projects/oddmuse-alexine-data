@@ -1,171 +1,200 @@
 prove t/setup.pl
 t/setup.pl .. ok
 All tests successful.
-Files=1, Tests=1,  0 wallclock secs ( 0.01 usr  0.01 sys +  0.04 cusr  0.04 csys =  0.10 CPU)
+Files=1, Tests=1,  0 wallclock secs ( 0.01 usr  0.01 sys +  0.05 cusr  0.02 csys =  0.09 CPU)
 Result: PASS
 prove --jobs=8 --state=slow,save t
 # Waiting for 28s
 t/big-brother.t ............. ok
-t/comments.t ................ ok
+t/ban-contributors.t ........ ok
 # Warnings saying that diff and diff3 cannot be found are expected because PATH has been unset.
 sh: diff3: No such file or directory
 sh: diff: No such file or directory
 t/conflict.t ................ ok
-t/ban-contributors.t ........ ok
+t/comments.t ................ ok
 t/namespaces.t .............. ok
 t/rss.t ..................... ok
-t/merge.t ................... ok
+t/search.t .................. ok
+t/static-copy.t ............. ok
 t/journal-rss.t ............. ok
 t/ban-quick-editors.t ....... ok
-t/static-copy.t ............. ok
-t/sort.t .................... ok
+[Sat May  4 18:37:24 2019] wiki.pl: Can't locate HTML/TagCloud.pm in @INC (you may need to install the HTML::TagCloud module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at ./test-data-207/modules/tags.pl line 309.
+
+#   Failed test '...ef="http://localhost/wiki.pl?search=tag:podcast"][text()="podcast"]'
+#   at ./t/test.pl line 214.
+# No Matches
+# <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Wiki: Tag Cloud</title><link type="text/css" rel="stylesheet" href="https://oddmuse.org/default.css" /><meta name="robots" content="NOINDEX,FOLLOW" /><link rel="alternate" type="application/rss+xml" title="Wiki" href="http://localhost/wiki.pl?action=rss" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body class="default"><div class="header"><div class="menu"><span class="gotobar bar"><a class="local" href="http://localhost/wiki.pl/HomePage">HomePage</a> <a class="local" href="http://localhost/wiki.pl/RecentChanges">RecentChanges</a> </span><form method="get" action="http://localhost/wiki.pl" enctype="multipart/form-data" accept-charset="utf-8" class="search"><p><label for="search">Search:</label> <input type="text" name="search"  size="15" accesskey="f" id="search" /> <input type="submit" name="dosearch" value="Go!" /></p></form></div><h1>Tag Cloud</h1></div><div class="wrapper"><div class="content cloud"><h1>Software error:</h1>
+# <pre>Can't locate HTML/TagCloud.pm in @INC (you may need to install the HTML::TagCloud module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at ./test-data-207/modules/tags.pl line 309.
+# </pre>
+# <p>
+# For help, please send mail to this site's webmaster, giving this error message 
+# and the time and date of the error.
+# 
+# </p>
+
+#   Failed test '...tp://localhost/wiki.pl?search=tag:old_school"][text()="old school"]'
+#   at ./t/test.pl line 214.
+
+#   Failed test '//a[@href="http://localhost/wiki.pl?search=tag:mag"][text()="mag"]'
+#   at ./t/test.pl line 214.
+# Looks like you failed 3 tests of 94.
+t/tags.t .................... 
+Dubious, test returned 3 (wstat 768, 0x300)
+Failed 3/94 subtests 
 t/journal.t ................. ok
-t/search.t .................. ok
 t/pingback-server.t ......... ok
-t/tags.t .................... ok
-t/edit-paragraphs.t ......... ok
-t/clusters.t ................ ok
-t/ban.t ..................... ok
-t/translation-links.t ....... ok
-t/surge-protection.t ........ ok
-t/diff.t .................... ok
-t/rollback.t ................ ok
-t/meta.t .................... ok
-t/rc.t ...................... ok
+t/sort.t .................... ok
+t/merge.t ................... ok
 t/major.t ................... ok
+t/edit-paragraphs.t ......... ok
+t/translation-links.t ....... ok
+t/ban.t ..................... ok
+t/surge-protection.t ........ ok
+t/clusters.t ................ ok
 t/encoding.t ................ ok
-t/ampersand.t ............... ok
-t/journal3.t ................ ok
-t/despam.t .................. ok
+t/rollback.t ................ ok
 t/localnames.t .............. ok
-t/mail.t .................... ok
-t/permanent-anchors.t ....... ok
-t/like.t .................... ok
-t/upgrade.t ................. ok
-t/weblog-3.t ................ ok
+t/rc.t ...................... ok
+t/meta.t .................... ok
+t/despam.t .................. ok
+t/diff.t .................... ok
 t/crossbar.t ................ ok
+t/journal3.t ................ ok
+t/ampersand.t ............... ok
+t/mail.t .................... ok
 t/hr.t ...................... ok
-t/revisions.t ............... ok
-t/banned-regexps.t .......... ok
-t/questionasker.t ........... ok
-t/private-pages.t ........... ok
-t/server.t .................. ok
-t/fix-encoding.t ............ ok
+t/permanent-anchors.t ....... ok
+t/weblog-3.t ................ ok
 t/exclamation-mark.t ........ ok
-t/index.t ................... ok
-t/toc.t ..................... ok
-t/summary.t ................. ok
+t/like.t .................... ok
+t/server.t .................. ok
 t/sidebar.t ................. ok
+t/private-pages.t ........... ok
+t/fix-encoding.t ............ ok
+t/upgrade.t ................. ok
+t/revisions.t ............... ok
+t/questionasker.t ........... ok
 t/all.t ..................... ok
+t/toc.t ..................... ok
+t/banned-regexps.t .......... ok
+t/summary.t ................. ok
+t/index.t ................... ok
 t/links.t ................... ok
-t/atom.t .................... ok
-t/journal2.t ................ ok
-t/lock-on-creation.t ........ ok
-t/include.t ................. ok
 t/near-links.t .............. ok
-t/multi-url-spam-block.t .... ok
-[Sat May  4 18:36:28 2019] [info] Listening at "http://127.0.0.1:64319"
-[Sat May  4 18:36:29 2019] [debug] GET "/wiki"
-[Sat May  4 18:36:29 2019] [debug] Routing to a callback
-[Sat May  4 18:36:29 2019] [debug] [CGI:CODE(0x56219704d3c0):2576] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
-[Sat May  4 18:36:29 2019] [debug] 200 OK (0.100095s, 9.991/s)
-[Sat May  4 18:36:29 2019] [debug] OPTIONS "/wiki/dav/"
-[Sat May  4 18:36:29 2019] [debug] Routing to a callback
-[Sat May  4 18:36:29 2019] [debug] [CGI:CODE(0x56219704d3c0):2619] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
-[Sat May  4 18:36:29 2019] [debug] 200 OK (0.036164s, 27.652/s)
-t/drafts.t .................. ok
-t/webdav.t .................. ok
-t/ban-mixed-scripts.t ....... ok
-t/portrait-support.t ........ ok
-t/aggregate.t ............... ok
-t/calendar.t ................ ok
-t/markdown-converter.t ...... ok
-t/headers.t ................. ok
-t/creole.t .................. ok
-t/download.t ................ ok
 t/dynamic-comments.t ........ ok
-t/lock.t .................... ok
+t/include.t ................. ok
+t/lock-on-creation.t ........ ok
+t/multi-url-spam-block.t .... ok
+t/atom.t .................... ok
+t/download.t ................ ok
 t/cache.t ................... ok
-t/image.t ................... ok
-t/cookie.t .................. ok
-t/xss.t ..................... ok
 t/git.t ..................... ok
-t/search-tag.t .............. ok
+t/drafts.t .................. ok
+t/portrait-support.t ........ ok
+[Sat May  4 18:37:45 2019] [info] Listening at "http://127.0.0.1:2701"
+[Sat May  4 18:37:46 2019] [debug] GET "/wiki"
+[Sat May  4 18:37:46 2019] [debug] Routing to a callback
+[Sat May  4 18:37:46 2019] [debug] [CGI:CODE(0x563cf29ba3c0):6533] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
+[Sat May  4 18:37:46 2019] [debug] 200 OK (0.111157s, 8.996/s)
+[Sat May  4 18:37:47 2019] [debug] OPTIONS "/wiki/dav/"
+[Sat May  4 18:37:47 2019] [debug] Routing to a callback
+[Sat May  4 18:37:47 2019] [debug] [CGI:CODE(0x563cf29ba3c0):6552] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
+[Sat May  4 18:37:47 2019] [debug] 200 OK (0.047057s, 21.251/s)
+t/cookie.t .................. ok
+t/webdav.t .................. ok
+t/calendar.t ................ ok
+t/creole.t .................. ok
+t/journal2.t ................ ok
 t/gopher-server.t ........... ok
-t/gotobar.t ................. ok
-t/find.t .................... ok
-t/upload.t .................. ok
-t/contributors.t ............ ok
+t/image.t ................... ok
 t/password.t ................ ok
+t/upload.t .................. ok
+t/gotobar.t ................. ok
+t/headers.t ................. ok
+t/lock.t .................... ok
+t/markdown-converter.t ...... ok
+t/contributors.t ............ ok
+t/search-tag.t .............. ok
+t/xss.t ..................... ok
+t/ban-mixed-scripts.t ....... ok
 t/history.t ................. ok
-t/preview.t ................. ok
+t/aggregate.t ............... ok
+t/find.t .................... ok
+t/css.t ..................... ok
 t/redirection.t ............. ok
 t/rename-pages.t ............ ok
-t/gravatar.t ................ ok
-t/enclosure.t ............... ok
-t/css.t ..................... ok
-t/crumbs.t .................. ok
-t/macros.t .................. ok
-t/questionmark.t ............ ok
 t/pagenames.t ............... ok
+t/enclosure.t ............... ok
+t/preview.t ................. ok
+t/questionmark.t ............ ok
 t/recaptcha.t ............... ok
-t/simple-rules.t ............ ok
-t/listlocked.t .............. ok
-t/tables-long.t ............. ok
-t/searchtags.t .............. ok
-t/dotfiles.t ................ ok
-t/default-links.t ........... ok
+t/gravatar.t ................ ok
+t/crumbs.t .................. ok
 t/load-lang.t ............... ok
-t/search-inclusion.t ........ ok
-t/maintain.t ................ ok
+t/simple-rules.t ............ ok
+t/macros.t .................. ok
+t/tables-long.t ............. ok
 t/meta-data.t ............... ok
-t/link-all.t ................ ok
-t/page-trail.t .............. ok
-t/private-wiki.t ............ ok
-t/creationdate.t ............ ok
-t/google-custom-search.t .... ok
+t/dotfiles.t ................ ok
+t/listlocked.t .............. ok
+t/maintain.t ................ ok
 t/rc-pagination.t ........... ok
+t/searchtags.t .............. ok
+t/search-inclusion.t ........ ok
+t/new.t ..................... ok
 t/default-markup.t .......... ok
 t/upgrade-files.t ........... ok
-t/google-plus-one.t ......... ok
-t/askpage.t ................. ok
-t/sitemap.t ................. ok
-t/bbcode.t .................. ok
+t/default-links.t ........... ok
+t/private-wiki.t ............ ok
+t/google-custom-search.t .... ok
+t/page-trail.t .............. ok
 t/translations.t ............ ok
-t/new.t ..................... ok
-t/google-search.t ........... ok
-t/anchors.t ................. ok
-t/checkbox.t ................ ok
+t/duckduckgo-search.t ....... ok
+t/creationdate.t ............ ok
 t/tex.t ..................... ok
+t/sitemap.t ................. ok
+t/askpage.t ................. ok
+t/link-all.t ................ ok
 t/raw.t ..................... ok
-t/config-page.t ............. ok
-t/footer.t .................. ok
+t/bbcode.t .................. ok
+t/checkbox.t ................ ok
+t/anchors.t ................. ok
 t/security.t ................ ok
+t/google-plus-one.t ......... ok
+t/footer.t .................. ok
 t/referrer-tracking.t ....... ok
 t/logbannedcontent.t ........ ok
 t/edit.t .................... ok
-t/duckduckgo-search.t ....... ok
-t/markdown-rule.t ........... ok
-t/setext.t .................. ok
+t/google-search.t ........... ok
+t/config-page.t ............. ok
 t/pygmentize.t .............. ok
-t/markup.t .................. ok
 t/usemod.t .................. ok
+t/markdown-rule.t ........... ok
 t/creoleaddition.t .......... ok
-t/emailquote.t .............. ok
-t/fieldlist.t ............... ok
-t/org-mode.t ................ ok
+t/moin.t .................... ok
+t/markup.t .................. ok
 t/irc.t ..................... ok
+t/markup-and-creole.t ....... ok
+t/usemod-options.t .......... ok
 t/subscriberc.t ............. ok
 t/languages.t ............... ok
-t/htmlcomment.t ............. ok
-t/markup-and-creole.t ....... ok
-t/moin.t .................... ok
-t/tables.t .................. ok
 t/rollback-extras.t ......... ok
-t/usemod-options.t .......... ok
-t/lock-expiration.t ......... ok
+t/emailquote.t .............. ok
+t/fieldlist.t ............... ok
+t/htmlcomment.t ............. ok
+t/org-mode.t ................ ok
+t/tables.t .................. ok
+t/setext.t .................. ok
 t/mojolicious-namespaces.t .. ok
 t/mojolicious.t ............. ok
-All tests successful.
-Files=149, Tests=3236, 72 wallclock secs ( 0.75 usr  0.18 sys + 211.48 cusr 16.96 csys = 229.37 CPU)
-Result: PASS
+t/lock-expiration.t ......... ok
+
+Test Summary Report
+-------------------
+t/tags.t                  (Wstat: 768 Tests: 94 Failed: 3)
+  Failed tests:  88-90
+  Non-zero exit status: 3
+Files=149, Tests=3236, 71 wallclock secs ( 0.74 usr  0.18 sys + 205.75 cusr 16.25 csys = 222.92 CPU)
+Result: FAIL
+Makefile:61: recipe for target 'test' failed
+make: *** [test] Error 1
