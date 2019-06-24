@@ -1,252 +1,252 @@
 prove t/setup.pl
 t/setup.pl .. ok
 All tests successful.
-Files=1, Tests=1,  0 wallclock secs ( 0.02 usr  0.00 sys +  0.06 cusr  0.05 csys =  0.13 CPU)
+Files=1, Tests=1,  0 wallclock secs ( 0.01 usr  0.01 sys +  0.05 cusr  0.02 csys =  0.09 CPU)
 Result: PASS
 prove --jobs=8 --state=slow,save t
 # Waiting for 28s
 t/big-brother.t ............. ok
 t/comments.t ................ ok
-t/ban-contributors.t ........ ok
 # Warnings saying that diff and diff3 cannot be found are expected because PATH has been unset.
 sh: diff3: No such file or directory
 sh: diff: No such file or directory
 t/conflict.t ................ ok
+t/ban-contributors.t ........ ok
 t/namespaces.t .............. ok
 t/rss.t ..................... ok
 t/static-copy.t ............. ok
 t/journal-rss.t ............. ok
 t/merge.t ................... ok
 t/ban-quick-editors.t ....... ok
-t/search.t .................. ok
 t/tags.t .................... ok
 t/pingback-server.t ......... ok
-t/edit-paragraphs.t ......... ok
+t/journal.t ................. ok
+t/search.t .................. ok
 t/sort.t .................... ok
 t/ban.t ..................... ok
-t/translation-links.t ....... ok
-t/clusters.t ................ ok
 t/major.t ................... ok
-t/journal.t ................. ok
-t/encoding.t ................ ok
-t/diff.t .................... ok
-t/despam.t .................. ok
+t/clusters.t ................ ok
+t/translation-links.t ....... ok
+t/edit-paragraphs.t ......... ok
+t/rc.t ...................... ok
+t/meta.t .................... ok
+t/localnames.t .............. ok
 t/rollback.t ................ ok
-t/webmention.t .............. ok
 t/surge-protection.t ........ ok
-t/ampersand.t ............... ok
+t/webmention.t .............. ok
+t/journal3.t ................ ok
 t/mail.t .................... ok
 t/permanent-anchors.t ....... ok
 t/crossbar.t ................ ok
-t/rc.t ...................... ok
-t/meta.t .................... ok
-t/hr.t ...................... ok
-t/journal3.t ................ ok
+t/ampersand.t ............... ok
+t/encoding.t ................ ok
 t/like.t .................... ok
-t/localnames.t .............. ok
 t/weblog-3.t ................ ok
+t/server.t .................. ok
+t/hr.t ...................... ok
+t/diff.t .................... ok
 t/upgrade.t ................. ok
-t/questionasker.t ........... ok
+t/private-pages.t ........... ok
 t/fix-encoding.t ............ ok
 t/exclamation-mark.t ........ ok
-t/server.t .................. ok
+t/despam.t .................. ok
 t/revisions.t ............... ok
-t/sidebar.t ................. ok
-t/portrait-support.t ........ ok
-t/toc.t ..................... ok
-t/index.t ................... ok
-t/all.t ..................... ok
-t/near-links.t .............. ok
-t/private-pages.t ........... ok
-t/include.t ................. ok
-t/git.t ..................... ok
-t/lock-on-creation.t ........ ok
-t/links.t ................... ok
-t/summary.t ................. ok
-t/headers.t ................. ok
-t/atom.t .................... ok
-t/calendar.t ................ ok
-t/multi-url-spam-block.t .... ok
-t/drafts.t .................. ok
-t/dynamic-comments.t ........ ok
 t/banned-regexps.t .......... ok
-[Mon Jun 24 10:33:01 2019] [info] Listening at "http://127.0.0.1:46851"
-[Mon Jun 24 10:33:02 2019] [debug] GET "/wiki"
-[Mon Jun 24 10:33:02 2019] [debug] Routing to a callback
-t/ban-mixed-scripts.t ....... ok
-[Mon Jun 24 10:33:02 2019] [debug] [CGI:CODE(0x55b9c19173c0):27542] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
-[Mon Jun 24 10:33:02 2019] [debug] 200 OK (0.087571s, 11.419/s)
-t/journal2.t ................ ok
-t/cache.t ................... ok
-[Mon Jun 24 10:33:02 2019] [debug] OPTIONS "/wiki/dav/"
-[Mon Jun 24 10:33:02 2019] [debug] Routing to a callback
-[Mon Jun 24 10:33:02 2019] [debug] [CGI:CODE(0x55b9c19173c0):27551] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
-[Mon Jun 24 10:33:02 2019] [debug] 200 OK (0.042004s, 23.807/s)
-t/download.t ................ ok
 t/aggregate.t ............... ok
-t/webdav.t .................. ok
+t/summary.t ................. ok
+t/sidebar.t ................. ok
+t/toc.t ..................... ok
+t/links.t ................... ok
+t/questionasker.t ........... ok
+t/all.t ..................... ok
+t/journal2.t ................ ok
+t/index.t ................... ok
+t/lock-on-creation.t ........ ok
+t/include.t ................. ok
+t/multi-url-spam-block.t .... ok
+t/near-links.t .............. ok
+t/download.t ................ ok
+t/atom.t .................... ok
+t/cache.t ................... ok
+t/cookie.t .................. ok
+t/drafts.t .................. ok
+[Mon Jun 24 10:34:19 2019] [info] Listening at "http://127.0.0.1:57358"
+[Mon Jun 24 10:34:19 2019] [debug] GET "/wiki"
+[Mon Jun 24 10:34:19 2019] [debug] Routing to a callback
+t/calendar.t ................ ok
+[Mon Jun 24 10:34:19 2019] [debug] [CGI:CODE(0x55cc5e3223c0):31446] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
+[Mon Jun 24 10:34:19 2019] [debug] 200 OK (0.105708s, 9.460/s)
 t/lock.t .................... ok
-t/creole.t .................. ok
-t/gotobar.t ................. ok
-t/password.t ................ ok
+[Mon Jun 24 10:34:20 2019] [debug] OPTIONS "/wiki/dav/"
+[Mon Jun 24 10:34:20 2019] [debug] Routing to a callback
+[Mon Jun 24 10:34:20 2019] [debug] [CGI:CODE(0x55cc5e3223c0):31472] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
+[Mon Jun 24 10:34:20 2019] [debug] 200 OK (0.048514s, 20.613/s)
+t/ban-mixed-scripts.t ....... ok
+t/portrait-support.t ........ ok
+t/webdav.t .................. ok
+t/git.t ..................... ok
+t/dynamic-comments.t ........ ok
 t/upload.t .................. ok
 t/image.t ................... ok
 t/markdown-converter.t ...... ok
-t/xss.t ..................... ok
-t/find.t .................... ok
-t/redirection.t ............. ok
+t/password.t ................ ok
+t/headers.t ................. ok
 t/search-tag.t .............. ok
-t/cookie.t .................. ok
-t/contributors.t ............ ok
-t/history.t ................. ok
-t/preview.t ................. ok
-t/enclosure.t ............... ok
-t/css.t ..................... ok
+t/redirection.t ............. ok
+t/find.t .................... ok
+t/gotobar.t ................. ok
+t/xss.t ..................... ok
 
 #   Failed test 'Internal link'
 #   at t/gopher-server.t line 372.
-#                   'iThe text of this page:		::ffff:127.0.0.1	38177
-# 0Gopher	Gopher	::ffff:127.0.0.1	38177
-# hGopher	Gopher/html	::ffff:127.0.0.1	38177
-# wReplace Gopher	Gopher/write/text	::ffff:127.0.0.1	38177
-# 1Page History	Gopher/history	::ffff:127.0.0.1	38177
-# i		::ffff:127.0.0.1	38177
-# iLinks leaving Gopher:		::ffff:127.0.0.1	38177
-# hVF-1	URL:http://gopher.floodgap.com/gopher/gw?a=gopher%3A%2F%2Fsdf.org%3A70%2F0%2Fusers%2Fsolderpunk%2Fphlog%2Fintroducing-vf1.txt	::ffff:127.0.0.1	38177
+#                   'iThe text of this page:		::ffff:127.0.0.1	46875
+# 0Gopher	Gopher	::ffff:127.0.0.1	46875
+# hGopher	Gopher/html	::ffff:127.0.0.1	46875
+# wReplace Gopher	Gopher/write/text	::ffff:127.0.0.1	46875
+# 1Page History	Gopher/history	::ffff:127.0.0.1	46875
+# i		::ffff:127.0.0.1	46875
+# iLinks leaving Gopher:		::ffff:127.0.0.1	46875
+# hVF-1	URL:http://gopher.floodgap.com/gopher/gw?a=gopher%3A%2F%2Fsdf.org%3A70%2F0%2Fusers%2Fsolderpunk%2Fphlog%2Fintroducing-vf1.txt	::ffff:127.0.0.1	46875
 # 1Phlogs	/phlogs/	sdf.org	70
 # 0zaibatsu.circumlunar.space:70/0/~solderpunk/phlog/protocol-pondering-intensifies.txt	/~solderpunk/phlog/protocol-pondering-intensifies.txt	zaibatsu.circumlunar.space	70
 # 0zaibatsu.circumlunar.space:70/0/~solderpunk/phlog/protocol-pondering-intensifies-ii.txt	/~solderpunk/phlog/protocol-pondering-intensifies-ii.txt	zaibatsu.circumlunar.space	70
 # 0zaibatsu.circumlunar.space:70/0/~solderpunk/phlog/protocol-pondering-intensifies-iii.txt	/~solderpunk/phlog/protocol-pondering-intensifies-iii.txt	zaibatsu.circumlunar.space	70
-# 1finger is gopher	2019-01-09_Finger_is_Gopher/menu	::ffff:127.0.0.1	38177
-# hhttps://alexschroeder.ch/cgit/nimi-mute/about/	URL:https://alexschroeder.ch/cgit/nimi-mute/about/	::ffff:127.0.0.1	38177
-# hNimi Mute	URL:https://github.com/kensanata/nimi-mute	::ffff:127.0.0.1	38177
-# 1Gopher	Gopher/tag	::ffff:127.0.0.1	38177
-# 1Finger	Finger/tag	::ffff:127.0.0.1	38177
-# 1Perl 5	Perl_5/tag	::ffff:127.0.0.1	38177
-# i		::ffff:127.0.0.1	38177
-# iGopher links (via Floodgap):		::ffff:127.0.0.1	38177
+# 1finger is gopher	2019-01-09_Finger_is_Gopher/menu	::ffff:127.0.0.1	46875
+# hhttps://alexschroeder.ch/cgit/nimi-mute/about/	URL:https://alexschroeder.ch/cgit/nimi-mute/about/	::ffff:127.0.0.1	46875
+# hNimi Mute	URL:https://github.com/kensanata/nimi-mute	::ffff:127.0.0.1	46875
+# 1Gopher	Gopher/tag	::ffff:127.0.0.1	46875
+# 1Finger	Finger/tag	::ffff:127.0.0.1	46875
+# 1Perl 5	Perl_5/tag	::ffff:127.0.0.1	46875
+# i		::ffff:127.0.0.1	46875
+# iGopher links (via Floodgap):		::ffff:127.0.0.1	46875
 # 0VF-1	/users/solderpunk/phlog/introducing-vf1.txt	sdf.org	70
 # '
-#     doesn't match '(?^m:^1finger\ is\ gopher	2019\-01\-09_Finger_is_Gopher\/menu	(::1|localhost)	38177)'
+#     doesn't match '(?^m:^1finger\ is\ gopher	2019\-01\-09_Finger_is_Gopher\/menu	(::1|localhost)	46875)'
 
 #   Failed test 'HTML Link'
 #   at t/gopher-server.t line 380.
-#                   'iThe text of this page:		::ffff:127.0.0.1	38177
-# 0Gopher	Gopher	::ffff:127.0.0.1	38177
-# hGopher	Gopher/html	::ffff:127.0.0.1	38177
-# wReplace Gopher	Gopher/write/text	::ffff:127.0.0.1	38177
-# 1Page History	Gopher/history	::ffff:127.0.0.1	38177
-# i		::ffff:127.0.0.1	38177
-# iLinks leaving Gopher:		::ffff:127.0.0.1	38177
-# hVF-1	URL:http://gopher.floodgap.com/gopher/gw?a=gopher%3A%2F%2Fsdf.org%3A70%2F0%2Fusers%2Fsolderpunk%2Fphlog%2Fintroducing-vf1.txt	::ffff:127.0.0.1	38177
+#                   'iThe text of this page:		::ffff:127.0.0.1	46875
+# 0Gopher	Gopher	::ffff:127.0.0.1	46875
+# hGopher	Gopher/html	::ffff:127.0.0.1	46875
+# wReplace Gopher	Gopher/write/text	::ffff:127.0.0.1	46875
+# 1Page History	Gopher/history	::ffff:127.0.0.1	46875
+# i		::ffff:127.0.0.1	46875
+# iLinks leaving Gopher:		::ffff:127.0.0.1	46875
+# hVF-1	URL:http://gopher.floodgap.com/gopher/gw?a=gopher%3A%2F%2Fsdf.org%3A70%2F0%2Fusers%2Fsolderpunk%2Fphlog%2Fintroducing-vf1.txt	::ffff:127.0.0.1	46875
 # 1Phlogs	/phlogs/	sdf.org	70
 # 0zaibatsu.circumlunar.space:70/0/~solderpunk/phlog/protocol-pondering-intensifies.txt	/~solderpunk/phlog/protocol-pondering-intensifies.txt	zaibatsu.circumlunar.space	70
 # 0zaibatsu.circumlunar.space:70/0/~solderpunk/phlog/protocol-pondering-intensifies-ii.txt	/~solderpunk/phlog/protocol-pondering-intensifies-ii.txt	zaibatsu.circumlunar.space	70
 # 0zaibatsu.circumlunar.space:70/0/~solderpunk/phlog/protocol-pondering-intensifies-iii.txt	/~solderpunk/phlog/protocol-pondering-intensifies-iii.txt	zaibatsu.circumlunar.space	70
-# 1finger is gopher	2019-01-09_Finger_is_Gopher/menu	::ffff:127.0.0.1	38177
-# hhttps://alexschroeder.ch/cgit/nimi-mute/about/	URL:https://alexschroeder.ch/cgit/nimi-mute/about/	::ffff:127.0.0.1	38177
-# hNimi Mute	URL:https://github.com/kensanata/nimi-mute	::ffff:127.0.0.1	38177
-# 1Gopher	Gopher/tag	::ffff:127.0.0.1	38177
-# 1Finger	Finger/tag	::ffff:127.0.0.1	38177
-# 1Perl 5	Perl_5/tag	::ffff:127.0.0.1	38177
-# i		::ffff:127.0.0.1	38177
-# iGopher links (via Floodgap):		::ffff:127.0.0.1	38177
+# 1finger is gopher	2019-01-09_Finger_is_Gopher/menu	::ffff:127.0.0.1	46875
+# hhttps://alexschroeder.ch/cgit/nimi-mute/about/	URL:https://alexschroeder.ch/cgit/nimi-mute/about/	::ffff:127.0.0.1	46875
+# hNimi Mute	URL:https://github.com/kensanata/nimi-mute	::ffff:127.0.0.1	46875
+# 1Gopher	Gopher/tag	::ffff:127.0.0.1	46875
+# 1Finger	Finger/tag	::ffff:127.0.0.1	46875
+# 1Perl 5	Perl_5/tag	::ffff:127.0.0.1	46875
+# i		::ffff:127.0.0.1	46875
+# iGopher links (via Floodgap):		::ffff:127.0.0.1	46875
 # 0VF-1	/users/solderpunk/phlog/introducing-vf1.txt	sdf.org	70
 # '
-#     doesn't match '(?^m:^hNimi\ Mute	URL\:https\:\/\/github\.com\/kensanata\/nimi\-mute	(::1|localhost)	38177)'
+#     doesn't match '(?^m:^hNimi\ Mute	URL\:https\:\/\/github\.com\/kensanata\/nimi\-mute	(::1|localhost)	46875)'
 
 #   Failed test 'Bare HTML Link'
 #   at t/gopher-server.t line 388.
-#                   'iThe text of this page:		::ffff:127.0.0.1	38177
-# 0Gopher	Gopher	::ffff:127.0.0.1	38177
-# hGopher	Gopher/html	::ffff:127.0.0.1	38177
-# wReplace Gopher	Gopher/write/text	::ffff:127.0.0.1	38177
-# 1Page History	Gopher/history	::ffff:127.0.0.1	38177
-# i		::ffff:127.0.0.1	38177
-# iLinks leaving Gopher:		::ffff:127.0.0.1	38177
-# hVF-1	URL:http://gopher.floodgap.com/gopher/gw?a=gopher%3A%2F%2Fsdf.org%3A70%2F0%2Fusers%2Fsolderpunk%2Fphlog%2Fintroducing-vf1.txt	::ffff:127.0.0.1	38177
+#                   'iThe text of this page:		::ffff:127.0.0.1	46875
+# 0Gopher	Gopher	::ffff:127.0.0.1	46875
+# hGopher	Gopher/html	::ffff:127.0.0.1	46875
+# wReplace Gopher	Gopher/write/text	::ffff:127.0.0.1	46875
+# 1Page History	Gopher/history	::ffff:127.0.0.1	46875
+# i		::ffff:127.0.0.1	46875
+# iLinks leaving Gopher:		::ffff:127.0.0.1	46875
+# hVF-1	URL:http://gopher.floodgap.com/gopher/gw?a=gopher%3A%2F%2Fsdf.org%3A70%2F0%2Fusers%2Fsolderpunk%2Fphlog%2Fintroducing-vf1.txt	::ffff:127.0.0.1	46875
 # 1Phlogs	/phlogs/	sdf.org	70
 # 0zaibatsu.circumlunar.space:70/0/~solderpunk/phlog/protocol-pondering-intensifies.txt	/~solderpunk/phlog/protocol-pondering-intensifies.txt	zaibatsu.circumlunar.space	70
 # 0zaibatsu.circumlunar.space:70/0/~solderpunk/phlog/protocol-pondering-intensifies-ii.txt	/~solderpunk/phlog/protocol-pondering-intensifies-ii.txt	zaibatsu.circumlunar.space	70
 # 0zaibatsu.circumlunar.space:70/0/~solderpunk/phlog/protocol-pondering-intensifies-iii.txt	/~solderpunk/phlog/protocol-pondering-intensifies-iii.txt	zaibatsu.circumlunar.space	70
-# 1finger is gopher	2019-01-09_Finger_is_Gopher/menu	::ffff:127.0.0.1	38177
-# hhttps://alexschroeder.ch/cgit/nimi-mute/about/	URL:https://alexschroeder.ch/cgit/nimi-mute/about/	::ffff:127.0.0.1	38177
-# hNimi Mute	URL:https://github.com/kensanata/nimi-mute	::ffff:127.0.0.1	38177
-# 1Gopher	Gopher/tag	::ffff:127.0.0.1	38177
-# 1Finger	Finger/tag	::ffff:127.0.0.1	38177
-# 1Perl 5	Perl_5/tag	::ffff:127.0.0.1	38177
-# i		::ffff:127.0.0.1	38177
-# iGopher links (via Floodgap):		::ffff:127.0.0.1	38177
+# 1finger is gopher	2019-01-09_Finger_is_Gopher/menu	::ffff:127.0.0.1	46875
+# hhttps://alexschroeder.ch/cgit/nimi-mute/about/	URL:https://alexschroeder.ch/cgit/nimi-mute/about/	::ffff:127.0.0.1	46875
+# hNimi Mute	URL:https://github.com/kensanata/nimi-mute	::ffff:127.0.0.1	46875
+# 1Gopher	Gopher/tag	::ffff:127.0.0.1	46875
+# 1Finger	Finger/tag	::ffff:127.0.0.1	46875
+# 1Perl 5	Perl_5/tag	::ffff:127.0.0.1	46875
+# i		::ffff:127.0.0.1	46875
+# iGopher links (via Floodgap):		::ffff:127.0.0.1	46875
 # 0VF-1	/users/solderpunk/phlog/introducing-vf1.txt	sdf.org	70
 # '
-#     doesn't match '(?^m:^hhttps\:\/\/alexschroeder\.ch\/cgit\/nimi\-mute\/about\/	URL\:https\:\/\/alexschroeder\.ch\/cgit\/nimi\-mute\/about\/	(::1|localhost)	38177)'
+#     doesn't match '(?^m:^hhttps\:\/\/alexschroeder\.ch\/cgit\/nimi\-mute\/about\/	URL\:https\:\/\/alexschroeder\.ch\/cgit\/nimi\-mute\/about\/	(::1|localhost)	46875)'
 # Looks like you failed 3 tests of 79.
 t/gopher-server.t ........... 
 Dubious, test returned 3 (wstat 768, 0x300)
 Failed 3/79 subtests 
+t/creole.t .................. ok
+t/css.t ..................... ok
+t/enclosure.t ............... ok
+t/history.t ................. ok
 t/rename-pages.t ............ ok
+t/contributors.t ............ ok
+t/preview.t ................. ok
 t/questionmark.t ............ ok
-t/crumbs.t .................. ok
-t/pagenames.t ............... ok
-t/recaptcha.t ............... ok
-t/gravatar.t ................ ok
 t/tables-long.t ............. ok
-t/listlocked.t .............. ok
-t/searchtags.t .............. ok
-t/macros.t .................. ok
+t/pagenames.t ............... ok
+t/crumbs.t .................. ok
+t/gravatar.t ................ ok
 t/load-lang.t ............... ok
-t/simple-rules.t ............ ok
+t/recaptcha.t ............... ok
+t/macros.t .................. ok
 t/meta-data.t ............... ok
-t/maintain.t ................ ok
 t/search-inclusion.t ........ ok
-t/default-links.t ........... ok
-t/rc-pagination.t ........... ok
-t/default-markup.t .......... ok
 t/dotfiles.t ................ ok
+t/searchtags.t .............. ok
+t/listlocked.t .............. ok
+t/simple-rules.t ............ ok
+t/maintain.t ................ ok
+t/default-markup.t .......... ok
+t/rc-pagination.t ........... ok
 t/google-custom-search.t .... ok
+t/default-links.t ........... ok
 t/page-trail.t .............. ok
-t/private-wiki.t ............ ok
-t/askpage.t ................. ok
-t/link-all.t ................ ok
-t/sitemap.t ................. ok
-t/new.t ..................... ok
 t/translations.t ............ ok
-t/security.t ................ ok
-t/creationdate.t ............ ok
-t/google-plus-one.t ......... ok
+t/askpage.t ................. ok
+t/private-wiki.t ............ ok
+t/link-all.t ................ ok
 t/upgrade-files.t ........... ok
-t/config-page.t ............. ok
+t/new.t ..................... ok
 t/bbcode.t .................. ok
-t/google-search.t ........... ok
-t/raw.t ..................... ok
 t/checkbox.t ................ ok
+t/tex.t ..................... ok
+t/sitemap.t ................. ok
+t/raw.t ..................... ok
+t/creationdate.t ............ ok
 t/anchors.t ................. ok
 t/duckduckgo-search.t ....... ok
-t/tex.t ..................... ok
-t/mojolicious-namespaces.t .. ok
-t/logbannedcontent.t ........ ok
+t/google-search.t ........... ok
 t/footer.t .................. ok
-t/markup.t .................. ok
-t/edit.t .................... ok
+t/google-plus-one.t ......... ok
+t/security.t ................ ok
+t/config-page.t ............. ok
+t/mojolicious-namespaces.t .. ok
+t/lock-expiration.t ......... ok
 t/referrer-tracking.t ....... ok
-t/pygmentize.t .............. ok
-t/creoleaddition.t .......... ok
-t/htmlcomment.t ............. ok
-t/markdown-rule.t ........... ok
 t/usemod.t .................. ok
-t/usemod-options.t .......... ok
+t/edit.t .................... ok
+t/logbannedcontent.t ........ ok
+t/markdown-rule.t ........... ok
+t/pygmentize.t .............. ok
 t/subscriberc.t ............. ok
-t/moin.t .................... ok
-t/org-mode.t ................ ok
-t/emailquote.t .............. ok
+t/markup.t .................. ok
 t/fieldlist.t ............... ok
 t/markup-and-creole.t ....... ok
 t/rollback-extras.t ......... ok
+t/htmlcomment.t ............. ok
+t/org-mode.t ................ ok
+t/creoleaddition.t .......... ok
+t/tables.t .................. ok
+t/emailquote.t .............. ok
+t/usemod-options.t .......... ok
 t/irc.t ..................... ok
 t/setext.t .................. ok
+t/moin.t .................... ok
 t/languages.t ............... ok
-t/tables.t .................. ok
-t/lock-expiration.t ......... ok
 t/mojolicious.t ............. ok
 
 Test Summary Report
@@ -254,7 +254,7 @@ Test Summary Report
 t/gopher-server.t         (Wstat: 768 Tests: 79 Failed: 3)
   Failed tests:  75-77
   Non-zero exit status: 3
-Files=150, Tests=3259, 72 wallclock secs ( 0.74 usr  0.19 sys + 208.22 cusr 16.52 csys = 225.67 CPU)
+Files=150, Tests=3262, 73 wallclock secs ( 0.78 usr  0.15 sys + 211.60 cusr 16.48 csys = 229.01 CPU)
 Result: FAIL
 Makefile:61: recipe for target 'test' failed
 make: *** [test] Error 1
