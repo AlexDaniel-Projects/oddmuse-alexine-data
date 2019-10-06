@@ -1,116 +1,117 @@
 prove t/setup.pl
 t/setup.pl .. ok
 All tests successful.
-Files=1, Tests=1,  0 wallclock secs ( 0.02 usr  0.01 sys +  0.04 cusr  0.02 csys =  0.09 CPU)
+Files=1, Tests=1,  0 wallclock secs ( 0.02 usr  0.00 sys +  0.04 cusr  0.02 csys =  0.08 CPU)
 Result: PASS
 prove --jobs=8 --state=slow,save t
-# Waiting for 27s
+# Waiting for 28s
 t/big-brother.t ............. ok
 t/comments.t ................ ok
-t/ban-contributors.t ........ ok
 # Warnings saying that diff and diff3 cannot be found are expected because PATH has been unset.
 sh: diff3: No such file or directory
 sh: diff: No such file or directory
 t/conflict.t ................ ok
+t/ban-contributors.t ........ ok
 t/namespaces.t .............. ok
 t/rss.t ..................... ok
-t/tags.t .................... ok
+t/merge.t ................... ok
 t/journal-rss.t ............. ok
-t/static-copy.t ............. ok
 t/ban-quick-editors.t ....... ok
+t/static-copy.t ............. ok
+t/sort.t .................... ok
+t/pingback-server.t ......... ok
+t/tags.t .................... ok
+t/translation-links.t ....... ok
+t/search.t .................. ok
+t/rc.t ...................... ok
+t/major.t ................... ok
+t/ban.t ..................... ok
 t/journal.t ................. ok
 t/edit-paragraphs.t ......... ok
-t/merge.t ................... ok
-t/sort.t .................... ok
-t/search.t .................. ok
-t/meta.t .................... ok
-t/clusters.t ................ ok
-t/surge-protection.t ........ ok
-t/ban.t ..................... ok
-t/pingback-server.t ......... ok
-t/localnames.t .............. ok
-t/diff.t .................... ok
 t/rollback.t ................ ok
+t/clusters.t ................ ok
+t/encoding.t ................ ok
+t/surge-protection.t ........ ok
 t/webmention.t .............. ok
-t/translation-links.t ....... ok
-t/major.t ................... ok
-t/despam.t .................. ok
+t/localnames.t .............. ok
 t/journal3.t ................ ok
+t/despam.t .................. ok
+t/ampersand.t ............... ok
+t/diff.t .................... ok
 t/mail.t .................... ok
-t/rc.t ...................... ok
-t/crossbar.t ................ ok
 t/weblog-3.t ................ ok
+t/crossbar.t ................ ok
 t/permanent-anchors.t ....... ok
 t/hr.t ...................... ok
-t/encoding.t ................ ok
 t/like.t .................... ok
-t/revisions.t ............... ok
 t/exclamation-mark.t ........ ok
-t/upgrade.t ................. ok
-t/private-pages.t ........... ok
+t/meta.t .................... ok
+t/revisions.t ............... ok
 t/server.t .................. ok
+t/upgrade.t ................. ok
 t/fix-encoding.t ............ ok
-t/questionasker.t ........... ok
-t/ampersand.t ............... ok
-t/calendar.t ................ ok
-t/toc.t ..................... ok
 t/banned-regexps.t .......... ok
-t/sidebar.t ................. ok
-t/all.t ..................... ok
-t/summary.t ................. ok
-t/creole.t .................. ok
-t/download.t ................ ok
-t/links.t ................... ok
-t/headers.t ................. ok
-t/index.t ................... ok
-t/near-links.t .............. ok
-t/atom.t .................... ok
-t/lock-on-creation.t ........ ok
-t/drafts.t .................. ok
-t/multi-url-spam-block.t .... ok
-t/cache.t ................... ok
-t/include.t ................. ok
-t/journal2.t ................ ok
-t/dynamic-comments.t ........ ok
-t/portrait-support.t ........ ok
-t/markdown-converter.t ...... ok
-[Sun Oct  6 09:01:09 2019] [info] Listening at "http://127.0.0.1:16344"
-[Sun Oct  6 09:01:09 2019] [debug] GET "/wiki"
-[Sun Oct  6 09:01:09 2019] [debug] Routing to a callback
-t/lock.t .................... ok
-[Sun Oct  6 09:01:09 2019] [debug] [CGI:CODE(0x5647058153c0):30944] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
-[Sun Oct  6 09:01:09 2019] [debug] 200 OK (0.113053s, 8.845/s)
-t/password.t ................ ok
-[Sun Oct  6 09:01:10 2019] [debug] OPTIONS "/wiki/dav/"
-[Sun Oct  6 09:01:10 2019] [debug] Routing to a callback
-[Sun Oct  6 09:01:10 2019] [debug] [CGI:CODE(0x5647058153c0):30966] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
-[Sun Oct  6 09:01:10 2019] [debug] 200 OK (0.047788s, 20.926/s)
-t/cookie.t .................. ok
-t/webdav.t .................. ok
-t/aggregate.t ............... ok
+t/questionasker.t ........... ok
+t/private-pages.t ........... ok
 t/image.t ................... ok
-t/git.t ..................... ok
-t/xss.t ..................... ok
-t/find.t .................... ok
-t/search-tag.t .............. ok
-t/upload.t .................. ok
-t/gopher-server.t ........... ok
+t/links.t ................... ok
+t/sidebar.t ................. ok
+t/summary.t ................. ok
+t/all.t ..................... ok
+t/include.t ................. ok
+t/toc.t ..................... ok
+t/near-links.t .............. ok
+t/dynamic-comments.t ........ ok
+t/index.t ................... ok
+t/journal2.t ................ ok
+t/cache.t ................... ok
+t/lock-on-creation.t ........ ok
+t/atom.t .................... ok
+t/multi-url-spam-block.t .... ok
+t/portrait-support.t ........ ok
+[Sun Oct  6 09:02:27 2019] [info] Listening at "http://127.0.0.1:26329"
+[Sun Oct  6 09:02:28 2019] [debug] GET "/wiki"
+[Sun Oct  6 09:02:28 2019] [debug] Routing to a callback
+t/lock.t .................... ok
+[Sun Oct  6 09:02:28 2019] [debug] [CGI:CODE(0x55a1ac5de3c0):3009] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
+[Sun Oct  6 09:02:28 2019] [debug] 200 OK (0.12838s, 7.789/s)
+t/download.t ................ ok
+[Sun Oct  6 09:02:28 2019] [debug] OPTIONS "/wiki/dav/"
+[Sun Oct  6 09:02:28 2019] [debug] Routing to a callback
+[Sun Oct  6 09:02:28 2019] [debug] [CGI:CODE(0x55a1ac5de3c0):3025] START /var/www/alexine/data/oddmuse-for-tests/wiki.pl
+[Sun Oct  6 09:02:28 2019] [debug] 200 OK (0.049558s, 20.178/s)
+t/aggregate.t ............... ok
+t/webdav.t .................. ok
 t/ban-mixed-scripts.t ....... ok
-t/history.t ................. ok
-t/markdown-rule.t ........... ok
-t/contributors.t ............ ok
-t/gravatar.t ................ ok
+t/creole.t .................. ok
+t/calendar.t ................ ok
+t/cookie.t .................. ok
+t/markdown-converter.t ...... ok
+t/drafts.t .................. ok
 t/gotobar.t ................. ok
-t/redirection.t ............. ok
-t/preview.t ................. ok
-t/enclosure.t ............... ok
-t/questionmark.t ............ ok
-t/searchtags.t .............. ok
+t/headers.t ................. ok
+t/upload.t .................. ok
 t/css.t ..................... ok
-t/crumbs.t .................. ok
+t/password.t ................ ok
+t/search-tag.t .............. ok
+t/redirection.t ............. ok
+t/xss.t ..................... ok
+t/git.t ..................... ok
+t/find.t .................... ok
+t/enclosure.t ............... ok
+t/gravatar.t ................ ok
+t/gopher-server.t ........... ok
+t/contributors.t ............ ok
+t/questionmark.t ............ ok
+t/history.t ................. ok
 t/rename-pages.t ............ ok
+t/markdown-rule.t ........... ok
 t/pagenames.t ............... ok
-[Sun Oct  6 09:01:14 2019] wiki.pl: To check answer, the user response token must be provided at ./test-data-287/modules/recaptcha.pl line 242.
+t/searchtags.t .............. ok
+t/preview.t ................. ok
+t/crumbs.t .................. ok
+t/tables-long.t ............. ok
+[Sun Oct  6 09:02:34 2019] wiki.pl: To check answer, the user response token must be provided at ./test-data-813/modules/recaptcha.pl line 242.
 
 #   Failed test 'Status: 403'
 #   at ./t/test.pl line 174.
@@ -118,7 +119,7 @@ t/pagenames.t ............... ok
 # Content-type: text/html
 # 
 # <h1>Software error:</h1>
-# <pre>To check answer, the user response token must be provided at ./test-data-287/modules/recaptcha.pl line 242.
+# <pre>To check answer, the user response token must be provided at ./test-data-813/modules/recaptcha.pl line 242.
 # </pre>
 # <p>
 # For help, please send mail to this site's webmaster, giving this error message 
@@ -134,7 +135,7 @@ t/pagenames.t ............... ok
 # Content-type: text/html
 # 
 # <h1>Software error:</h1>
-# <pre>To check answer, the user response token must be provided at ./test-data-287/modules/recaptcha.pl line 242.
+# <pre>To check answer, the user response token must be provided at ./test-data-813/modules/recaptcha.pl line 242.
 # </pre>
 # <p>
 # For help, please send mail to this site's webmaster, giving this error message 
@@ -143,8 +144,7 @@ t/pagenames.t ............... ok
 # </p>
 # '
 #     doesn't match '(?^u:&lt;b&gt;Kühlschrank&lt;/b&gt;)'
-t/dotfiles.t ................ ok
-[Sun Oct  6 09:01:14 2019] wiki.pl: To check answer, the user response token must be provided at ./test-data-287/modules/recaptcha.pl line 242.
+[Sun Oct  6 09:02:34 2019] wiki.pl: To check answer, the user response token must be provided at ./test-data-813/modules/recaptcha.pl line 242.
 
 #   Failed test 'Status: 403'
 #   at ./t/test.pl line 174.
@@ -152,7 +152,7 @@ t/dotfiles.t ................ ok
 # Content-type: text/html
 # 
 # <h1>Software error:</h1>
-# <pre>To check answer, the user response token must be provided at ./test-data-287/modules/recaptcha.pl line 242.
+# <pre>To check answer, the user response token must be provided at ./test-data-813/modules/recaptcha.pl line 242.
 # </pre>
 # <p>
 # For help, please send mail to this site's webmaster, giving this error message 
@@ -168,7 +168,7 @@ t/dotfiles.t ................ ok
 # Content-type: text/html
 # 
 # <h1>Software error:</h1>
-# <pre>To check answer, the user response token must be provided at ./test-data-287/modules/recaptcha.pl line 242.
+# <pre>To check answer, the user response token must be provided at ./test-data-813/modules/recaptcha.pl line 242.
 # </pre>
 # <p>
 # For help, please send mail to this site's webmaster, giving this error message 
@@ -184,7 +184,7 @@ t/dotfiles.t ................ ok
 # Content-type: text/html
 # 
 # <h1>Software error:</h1>
-# <pre>To check answer, the user response token must be provided at ./test-data-287/modules/recaptcha.pl line 242.
+# <pre>To check answer, the user response token must be provided at ./test-data-813/modules/recaptcha.pl line 242.
 # </pre>
 # <p>
 # For help, please send mail to this site's webmaster, giving this error message 
@@ -199,58 +199,58 @@ Dubious, test returned 5 (wstat 1280, 0x500)
 Failed 5/7 subtests 
 t/search-inclusion.t ........ ok
 t/macros.t .................. ok
-t/meta-data.t ............... ok
-t/listlocked.t .............. ok
 t/load-lang.t ............... ok
-t/translations.t ............ ok
+t/meta-data.t ............... ok
 t/simple-rules.t ............ ok
-t/maintain.t ................ ok
+t/listlocked.t .............. ok
+t/google-custom-search.t .... ok
+t/lock-expiration.t ......... ok
 t/default-links.t ........... ok
 t/default-markup.t .......... ok
-t/page-trail.t .............. ok
-t/tables-long.t ............. ok
+t/dotfiles.t ................ ok
+t/maintain.t ................ ok
 t/rc-pagination.t ........... ok
-t/new.t ..................... ok
+t/page-trail.t .............. ok
 t/private-wiki.t ............ ok
-t/askpage.t ................. ok
-t/google-custom-search.t .... ok
-t/creationdate.t ............ ok
 t/sitemap.t ................. ok
+t/creationdate.t ............ ok
+t/askpage.t ................. ok
 t/link-all.t ................ ok
-t/upgrade-files.t ........... ok
+t/new.t ..................... ok
 t/anchors.t ................. ok
-t/duckduckgo-search.t ....... ok
-t/languages.t ............... ok
-t/security.t ................ ok
-t/bbcode.t .................. ok
-t/google-search.t ........... ok
-t/tex.t ..................... ok
 t/raw.t ..................... ok
+t/upgrade-files.t ........... ok
+t/bbcode.t .................. ok
+t/duckduckgo-search.t ....... ok
+t/translations.t ............ ok
 t/checkbox.t ................ ok
-t/logbannedcontent.t ........ ok
-t/creoleaddition.t .......... ok
-t/edit.t .................... ok
-t/footer.t .................. ok
-t/google-plus-one.t ......... ok
-t/lock-expiration.t ......... ok
 t/config-page.t ............. ok
-t/markup-and-creole.t ....... ok
+t/security.t ................ ok
+t/google-search.t ........... ok
+t/google-plus-one.t ......... ok
+t/tex.t ..................... ok
+t/edit.t .................... ok
 t/mojolicious-namespaces.t .. ok
-t/usemod.t .................. ok
-t/pygmentize.t .............. ok
-t/markup.t .................. ok
-t/referrer-tracking.t ....... ok
-t/emailquote.t .............. ok
+t/languages.t ............... ok
 t/subscriberc.t ............. ok
+t/referrer-tracking.t ....... ok
 t/tables.t .................. ok
-t/setext.t .................. ok
-t/htmlcomment.t ............. ok
-t/irc.t ..................... ok
+t/footer.t .................. ok
+t/creoleaddition.t .......... ok
+t/markup.t .................. ok
+t/logbannedcontent.t ........ ok
 t/fieldlist.t ............... ok
+t/irc.t ..................... ok
+t/htmlcomment.t ............. ok
+t/emailquote.t .............. ok
+t/setext.t .................. ok
+t/pygmentize.t .............. ok
+t/markup-and-creole.t ....... ok
+t/usemod.t .................. ok
 t/org-mode.t ................ ok
-t/moin.t .................... ok
-t/rollback-extras.t ......... ok
 t/usemod-options.t .......... ok
+t/rollback-extras.t ......... ok
+t/moin.t .................... ok
 t/mojolicious.t ............. ok
 
 Test Summary Report
@@ -258,7 +258,7 @@ Test Summary Report
 t/recaptcha.t             (Wstat: 1280 Tests: 7 Failed: 5)
   Failed tests:  1-2, 4-6
   Non-zero exit status: 5
-Files=150, Tests=3281, 73 wallclock secs ( 0.74 usr  0.22 sys + 215.98 cusr 17.96 csys = 234.90 CPU)
+Files=150, Tests=3281, 75 wallclock secs ( 0.76 usr  0.19 sys + 221.24 cusr 18.28 csys = 240.47 CPU)
 Result: FAIL
 Makefile:61: recipe for target 'test' failed
 make: *** [test] Error 1
